@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "microsoft-surface": {
+      "previewOrg": "scherneff",
+      "previewSite": "microsoft-surface",
+      "contentHostUrl": "https://content.da.live/scherneff/microsoft-surface/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

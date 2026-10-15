@@ -1,0 +1,27 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "faq",
+    "imagePattern": "noimg",
+    "structure": "question + answer"
+  },
+  "contentPattern": "One row per Q&A: cell 1 = question, cell 2 = answer. Answers not in scraped DOM - expand at import.",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14T17:24:03.496Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "accordion-faq"
+  ]
+}

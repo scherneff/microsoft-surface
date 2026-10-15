@@ -24,8 +24,12 @@ import {
 function buildHeroBlock(main) {
   const h1 = main.querySelector('h1');
   const picture = main.querySelector('picture');
+  // never auto-block content an author already placed inside a block (e.g. hero-product):
+  // blocks are `main > div > div`, default content sits directly in the section
+  const inBlock = (el) => !!el.closest('main > div > div');
+  if (!h1 || !picture || inBlock(h1) || inBlock(picture)) return;
   // eslint-disable-next-line no-bitwise
-  if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
+  if (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING) {
     const section = document.createElement('div');
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);

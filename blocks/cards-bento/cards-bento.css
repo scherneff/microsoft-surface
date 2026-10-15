@@ -1,0 +1,199 @@
+/* cards-bento: rounded tiles in a 4-column bento grid (values from source computed styles) */
+.cards-bento > ul {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-bento .cards-bento-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 208px;
+  padding: 8px;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: var(--dark-color);
+  color: var(--text-color);
+}
+
+/* hairline keyline drawn above the media */
+.cards-bento .cards-bento-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 24px;
+  pointer-events: none;
+  transition: border-color 0.2s ease;
+}
+
+.cards-bento .cards-bento-card:has(:focus-visible)::after {
+  border-color: var(--light-color);
+}
+
+@media (hover: hover) {
+  .cards-bento .cards-bento-card:hover::after {
+    border-color: var(--light-color);
+  }
+}
+
+.cards-bento .cards-bento-card-body {
+  min-width: 0;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards-bento .cards-bento-card-body > * {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.cards-bento .cards-bento-card-body > * + * {
+  margin-top: 8px;
+}
+
+.cards-bento .cards-bento-card-media {
+  position: relative;
+  flex: none;
+  aspect-ratio: 2 / 1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.cards-bento .cards-bento-card-media picture,
+.cards-bento .cards-bento-card-media img,
+.cards-bento .cards-bento-card-media video {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* last tile of an odd set: text beside media (half width) */
+.cards-bento .cards-bento-card:last-child:nth-child(odd):not(:first-child) {
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cards-bento .cards-bento-card:last-child:nth-child(odd):not(:first-child) .cards-bento-card-body {
+  flex: 1 1 0;
+}
+
+.cards-bento .cards-bento-card:last-child:nth-child(odd):not(:first-child) .cards-bento-card-media {
+  flex: 0 0 auto;
+  width: 50%;
+  aspect-ratio: auto;
+  min-height: 0;
+}
+
+/* video play / pause toggle */
+.cards-bento .cards-bento-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 64px;
+  height: 64px;
+  min-height: 0;
+  margin: 0;
+  padding: 19px;
+  border: 0;
+  border-radius: 9999px;
+  background-color: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(12px);
+  color: var(--light-color);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: opacity 0.2s ease, background-color 0.3s ease;
+}
+
+.cards-bento .cards-bento-toggle:hover,
+.cards-bento .cards-bento-toggle:active {
+  background-color: var(--elevated-color);
+  color: var(--light-color);
+}
+
+.cards-bento .cards-bento-toggle::before {
+  content: '';
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-color: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M9.14 4.54c.17.1.17.34 0 .44L2.75 8.66a.25.25 0 0 1-.37-.21V1.07c0-.2.2-.31.37-.22l6.4 3.7Z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.cards-bento .cards-bento-toggle[data-state='playing']::before {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Crect x='2' y='1' width='2' height='8' rx='.5'/%3E%3Crect x='6' y='1' width='2' height='8' rx='.5'/%3E%3C/svg%3E");
+}
+
+/* while playing the toggle hides until the tile is hovered or the toggle is focused */
+.cards-bento .cards-bento-toggle[data-state='playing'] {
+  opacity: 0;
+}
+
+.cards-bento .cards-bento-toggle:focus-visible {
+  opacity: 1;
+}
+
+.cards-bento .cards-bento-card-media:hover .cards-bento-toggle {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .cards-bento .cards-bento-toggle[data-state='playing'] {
+    opacity: 1;
+  }
+}
+
+@media (width >= 640px) {
+  .cards-bento > ul {
+    gap: 16px;
+  }
+
+  .cards-bento .cards-bento-card-media {
+    flex: 1 1 0;
+    aspect-ratio: auto;
+    min-height: 120px;
+  }
+}
+
+@media (width >= 640px) and (width < 1024px) {
+  .cards-bento .cards-bento-card {
+    height: 320px;
+  }
+}
+
+/* bento: 4 columns, every tile spans 2; a 3-tile set is tall-left + stacked-right */
+@media (width >= 1024px) {
+  .cards-bento > ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: minmax(211px, auto);
+  }
+
+  .cards-bento .cards-bento-card {
+    grid-column: span 2;
+  }
+
+  .cards-bento .cards-bento-card:first-child:nth-last-child(3) {
+    grid-row: span 3;
+  }
+
+  .cards-bento .cards-bento-card:nth-child(2):nth-last-child(2) {
+    grid-row: span 2;
+  }
+}

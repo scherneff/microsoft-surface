@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "devices",
+      "urls": [
+        "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra"
+      ],
+      "representativeUrl": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+      "description": "Surface device product marketing page (dark theme): product hero, chaptered feature storytelling, compare tiles, FAQ, footnotes",
+      "blocks": [
+        {
+          "name": "hero-product",
+          "instances": [
+            "#r-product-hero > section"
+          ]
+        },
+        {
+          "name": "carousel-scroll",
+          "instances": [
+            "[id=\"#performance\"] > section > div.container-fluid"
+          ]
+        },
+        {
+          "name": "cards-bento",
+          "instances": [
+            "[id=\"Feature grid\"] > section > div > ul"
+          ]
+        },
+        {
+          "name": "tabs-media",
+          "instances": [
+            "[id=\"#display\"] > section > div > div:nth-child(2)"
+          ]
+        },
+        {
+          "name": "cards-specs",
+          "instances": [
+            "[id=\"PARA WITH COLUMNS\"] > section > div > ul"
+          ]
+        },
+        {
+          "name": "accordion-media",
+          "instances": [
+            "[id=\"PANEL 6: RUN LOCAL. RUN FREE\"] > section"
+          ]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [
+            ".ms-gc-section.ms-gc-container"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "[id=\"#compare\"] > section > div.container-wide > div.grid"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "[id=\"Surface Laptop Pro FAQs\"] [id$=\"-accordion\"]"
+          ]
+        }
+      ],
+      "urlPattern": "/en-us/surface/devices/*",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Product hero",
+          "selector": [
+            "#r-product-hero"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Performance - Inner craft",
+          "selector": [
+            "[id=\"#performance\"]"
+          ],
+          "style": "dark",
+          "blocks": [
+            "carousel-scroll"
+          ],
+          "defaultContent": [
+            "[id=\"#performance\"] > section > div.container"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Feature grid",
+          "selector": [
+            "[id=\"Feature grid\"]"
+          ],
+          "style": "dark",
+          "blocks": [
+            "cards-bento"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Display",
+          "selector": [
+            "[id=\"#display\"]"
+          ],
+          "style": "dark",
+          "blocks": [
+            "tabs-media",
+            "cards-specs"
+          ],
+          "defaultContent": [
+            "[id=\"#display\"] > section > div > div.container"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Local AI",
+          "selector": [
+            "[id=\"ultra-group-panel-7\"]"
+          ],
+          "style": "dark",
+          "blocks": [
+            "accordion-media"
+          ],
+          "defaultContent": [
+            "[id=\"ultra-group-panel-7\"]"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Yours for the long haul",
+          "selector": [
+            "[id=\"ultra-group-panel-7-accordion-2\"]"
+          ],
+          "style": "dark, centered",
+          "blocks": [],
+          "defaultContent": [
+            "[id=\"ultra-group-panel-7-accordion-2\"]"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Security",
+          "selector": [
+            "[id=\"#security\"]"
+          ],
+          "style": "dark",
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "[id=\"#security\"]",
+            "[id=\"ultra-security-business\"]"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "Explore every level of Surface",
+          "selector": [
+            "[id=\"#compare\"]"
+          ],
+          "style": "dark",
+          "blocks": [
+            "cards-product"
+          ],
+          "defaultContent": [
+            "[id=\"#compare\"] > section > div.container-wide > div.text-center"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Tech specs CTA",
+          "selector": [
+            "[id=\"techspecs\"]"
+          ],
+          "style": "dark, cta",
+          "blocks": [],
+          "defaultContent": [
+            "[id=\"techspecs\"]"
+          ]
+        },
+        {
+          "id": "section-10",
+          "name": "FAQ",
+          "selector": [
+            "[id=\"Surface Laptop Pro FAQs\"]"
+          ],
+          "style": "light",
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "[id=\"Surface Laptop Pro FAQs\"] [id$=\"-heading\"]"
+          ]
+        },
+        {
+          "id": "section-11",
+          "name": "Footnotes",
+          "selector": [
+            "#r-page-footnotes"
+          ],
+          "style": "dark, footnotes",
+          "blocks": [],
+          "defaultContent": [
+            "#r-page-footnotes"
+          ]
+        }
+      ]
+    }
+  ]
+}

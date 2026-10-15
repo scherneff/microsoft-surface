@@ -1,0 +1,27 @@
+{
+  "variantName": "hero-product",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "product-launch-hero",
+    "imagePattern": "background-video",
+    "structure": "promo link + h1 + display headline + paragraph + price + cta"
+  },
+  "contentPattern": "Row 1: background video link (desktop mp4) + poster image. Row 2: promo link paragraph, H1 'Surface Laptop Ultra', H2/paragraph display headline 'THE NEW SHAPE OF POWER.', lead paragraph, buy bar as paragraph 'Surface Laptop Ultra' + paragraph '$2,599.99' + primary link 'Pre-order'.",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14T17:15:04.757Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-product"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "variantName": "accordion-media",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "use-case-showcase",
+    "imagePattern": "background-video",
+    "structure": "title + paragraph + video"
+  },
+  "contentPattern": "One row per item: cell 1 = title (BUILD.), cell 2 = paragraph + video link for that item. CREATE/ANALYZE body copy must be captured by expanding items at import time.",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14T17:21:39.973Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "accordion-media"
+  ]
+}

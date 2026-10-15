@@ -1,0 +1,50 @@
+/* Brand tokens extracted from https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra */
+:root {
+  /* fonts */
+  --body-font-family: 'Segoe Sans', segoe-sans-fallback, -apple-system, blinkmacsystemfont, 'Segoe UI', helvetica, arial, sans-serif;
+  --heading-font-family: var(--body-font-family);
+  --display-font-family: 'Aux Mono', aux-mono-fallback, 'Courier New', courier, monospace;
+
+  /* colors */
+  --background-color: #000;
+  --text-color: #fff;
+  --link-color: #fff;
+  --link-hover-color: #fff;
+  --light-color: #fff;
+  --light-text-color: #000;
+  --dark-color: #000;
+  --elevated-color: #1a1a1a;
+  --footnote-color: #141414;
+  --keyline-color: #e2e2e2;
+  --brand-color: #0078d4;
+  --brand-hover-color: #0585e7;
+  --brand-active-color: #0061ac;
+
+  /* type weights / tracking */
+  --font-weight-regular: 350;
+  --body-letter-spacing: 0.02em;
+  --display-letter-spacing: 0.01em;
+
+  /* display (uppercase mono) headline sizes */
+  --display-size: 24px;
+  --display-size-l: 48px;
+
+  /* layout */
+  --content-max-width: 1146px;
+  --content-gutter: 20px;
+  --section-padding: 64px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --display-size: 40px;
+    --content-gutter: 28px;
+  }
+}
+
+@media (width >= 1200px) {
+  :root {
+    --display-size: 48px;
+    --section-padding: 120px;
+  }
+}

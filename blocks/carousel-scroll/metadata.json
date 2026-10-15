@@ -1,0 +1,27 @@
+{
+  "variantName": "carousel-scroll",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "scroll-story",
+    "imagePattern": "background-video",
+    "structure": "video + heading + paragraph"
+  },
+  "contentPattern": "One row per slide: cell 1 = video link (+ mobile poster image), cell 2 = H3 heading + paragraph.",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14T17:16:49.191Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "carousel-scroll"
+  ]
+}
