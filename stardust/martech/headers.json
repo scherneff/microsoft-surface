@@ -1,0 +1,9 @@
+{
+ "cache-control": "max-age=600,s-maxage=86400",
+ "strict-transport-security": "max-age=31536000; includeSubDomains",
+ "x-azure-ref": "20261104T014558Z-r1d4bcfd98b72729hC1LAXwp2w0000000a6g00000000y6pf",
+ "x-cascade-version": "vNext",
+ "x-edgescape-location": "country_code=US",
+ "x-rtag": "Homepage_Echo",
+ "x-trace-id": "928c2e8f830343ee0b87e443988cd290"
+}

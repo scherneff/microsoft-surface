@@ -1,0 +1,592 @@
+{
+  "url": "https://support.microsoft.com/en-us/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1072,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1072,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "c-uhfh context-uhf c-sgl-stck c-category-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#c-shellmenu_2",
+      "frames": [
+        {
+          "t": 17802.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18011.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18214.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18420.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".homePage-featureGrid a.landingPage-card",
+      "changed": [
+        "self.transform",
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "box-shadow 0.15s, transform 0.15s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(97, 97, 97)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(36, 36, 36)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 4px 8px 0px",
+          "opacity": "1",
+          "transition": "box-shadow 0.15s, transform 0.15s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(97, 97, 97)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(36, 36, 36)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".homePage-productGrid a.landingPage-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(97, 97, 97)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(36, 36, 36)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(97, 97, 97)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(36, 36, 36)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".homePage-sectionGrid a.landingPage-card",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(97, 97, 97)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.",
+            "transform": "none",
+            "color": "rgb(0, 109, 172)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgb(243, 243, 243)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(97, 97, 97)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.",
+            "transform": "none",
+            "color": "rgb(0, 109, 172)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".homePage-moreProducts a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(5, 98, 151)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(5, 98, 151)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#c-shellmenu_0",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#uhfCatLogo",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#search",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.1s, background-color 0.1s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(0, 0, 0, 0.8)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.1s, background-color 0.1s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".c-uhff-nav-group .c-uhff-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(97, 97, 97)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "fadeIn",
+        "el": "nav.c-uhfh-gnav > ul.js-paddle-items > li.nested-menu.uhf-menu-item > div.c-uhf-menu.js-nav-menu > ul",
+        "txt": "Microsoft 365\n            \n        \n        \n     ",
+        "y": 0
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "main.col.col-md-9.mx-auto > div.learnArticleContent > div.row.row-cols-1.row-cols-md-2 > div.col > a.landingPage-card",
+        "y": 189,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "main.col.col-md-9.mx-auto > div.learnArticleContent > div.row.row-cols-1.row-cols-md-2 > div.col > a.landingPage-card",
+        "y": 189,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.col.col-md-9.mx-auto > div.learnArticleContent > div.row.row-cols-1.row-cols-md-2 > div.col > a.landingPage-card",
+        "y": 189,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "main.col.col-md-9.mx-auto > div.learnArticleContent > div.row.row-cols-1.row-cols-md-2 > div.col > a.landingPage-card",
+        "y": 189,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.theme-light.js-global-head.f-closed > div.c-uhfh-gcontainer-st > div.c-uhfh-actions > form.c-search > button.c-glyph",
+        "y": 0,
+        "dur": "0.1s, 0.1s"
+      },
+      {
+        "prop": "color",
+        "el": "div.theme-light.js-global-head.f-closed > div.c-uhfh-gcontainer-st > div.c-uhfh-actions > form.c-search > button.c-glyph",
+        "y": 0,
+        "dur": "0.1s, 0.1s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "js"
+        ],
+        "el": "div > div.uhf > div > div > header.c-uhfh.context-uhf.c-sgl-stck",
+        "y": 0
+      }
+    ]
+  }
+}

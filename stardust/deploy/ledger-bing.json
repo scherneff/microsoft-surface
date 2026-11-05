@@ -1,0 +1,11 @@
+{
+  "/bing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T04:07:23.971Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

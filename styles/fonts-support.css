@@ -1,0 +1,42 @@
+/* support (support.microsoft.com): live site-fonts.css families on Microsoft's font CDN,
+   plus the UHF MWF-MDL2 icon font (chevrons, hamburger, search, globe, cancel). */
+
+@font-face {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Segoe UI Semibold';
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Segoe UI Light';
+  font-weight: 100;
+  font-display: swap;
+  src: url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Segoe UI Semilight';
+  font-weight: 200;
+  font-display: swap;
+  src: url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "MWF-MDL2";
+  src: url('https://www.microsoft.com/mwf/_h/v3.54/mwf.app/fonts/mwfmdl2-v3.54.woff') format('woff');
+}

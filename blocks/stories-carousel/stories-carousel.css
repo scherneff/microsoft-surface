@@ -1,0 +1,280 @@
+/* stories-carousel — values from stardust/prototypes/index.css (.hp-stories, .hp-story-carousel,
+   .hp-banner--story, .hp-carousel controls; live carousel-cardgrid + store-card-banner) */
+.stories-carousel {
+  --hp-text-font: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  --hp-display-font: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  --hp-ink: #0e1726;
+  --hp-ink-2: #17253d;
+  --hp-navy: #2a446f;
+  --hp-gutter: 72px;
+
+  padding: 48px var(--hp-gutter);
+  font-family: var(--hp-text-font);
+  color: var(--hp-ink);
+}
+
+.stories-carousel img {
+  max-width: none;
+}
+
+.stories-carousel .stories-carousel-viewport {
+  overflow: visible;
+}
+
+.stories-carousel .stories-carousel-track {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 6px 4px 0;
+  transition: transform 0.5s ease;
+}
+
+.stories-carousel .stories-carousel-item {
+  flex: 0 0 1288px;
+  list-style: none;
+}
+
+.stories-carousel .stories-carousel-banner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  min-height: 479px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 0 1px #dfe4e7, 0 2px 8px rgb(0 0 0 / 4%);
+  overflow: hidden;
+}
+
+.stories-carousel .stories-carousel-media {
+  flex: 0 0 auto;
+  padding: 9px 9px 9px 0;
+}
+
+.stories-carousel .stories-carousel-media img {
+  display: block;
+  width: 615px;
+  height: 461px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.stories-carousel .stories-carousel-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 167px 48px 25px 25px;
+}
+
+.stories-carousel .stories-carousel-text h2 {
+  margin: 0;
+  font: 500 32px/40px var(--hp-display-font);
+  letter-spacing: -0.025em;
+  color: var(--hp-ink);
+}
+
+.stories-carousel .stories-carousel-text p {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--hp-ink-2);
+}
+
+.stories-carousel .stories-carousel-cta {
+  display: flex;
+  margin: auto 0 0;
+}
+
+.stories-carousel .stories-carousel-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: #0078d4;
+  color: #fff;
+  font: 600 15px/22px var(--hp-text-font);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.stories-carousel .stories-carousel-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 45px;
+}
+
+.stories-carousel .stories-carousel-arrow,
+.stories-carousel .stories-carousel-playpause {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--hp-navy);
+  border-radius: 50%;
+  background: #fff;
+  padding: 0;
+  cursor: pointer;
+  color: var(--hp-navy);
+}
+
+.stories-carousel .stories-carousel-arrow:disabled {
+  border-color: #c5ccd6;
+  color: #c5ccd6;
+  cursor: default;
+  background: transparent;
+}
+
+.stories-carousel .stories-carousel-arrow::before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 20px;
+  width: 16px;
+  height: 1.5px;
+  background: currentcolor;
+}
+
+.stories-carousel .stories-carousel-arrow::after {
+  content: "";
+  position: absolute;
+  left: 21px;
+  top: 16px;
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+.stories-carousel .stories-carousel-prev::after {
+  left: 15px;
+  transform: rotate(-135deg);
+}
+
+.stories-carousel .stories-carousel-playpause {
+  margin-left: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.stories-carousel .stories-carousel-playpause::before,
+.stories-carousel .stories-carousel-playpause::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  width: 3px;
+  height: 10px;
+  background: var(--hp-navy);
+  left: 10px;
+}
+
+.stories-carousel .stories-carousel-playpause::after {
+  left: 16px;
+}
+
+.stories-carousel .stories-carousel-playpause[aria-label="Play"]::before {
+  left: 11px;
+  top: 8px;
+  width: 0;
+  height: 0;
+  background: none;
+  border-left: 9px solid var(--hp-navy);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+
+.stories-carousel .stories-carousel-playpause[aria-label="Play"]::after {
+  display: none;
+}
+
+@media (width >= 860px) {
+  .stories-carousel {
+    padding-left: max(var(--hp-gutter), calc((100% - 1328px) / 2));
+    padding-right: max(var(--hp-gutter), calc((100% - 1328px) / 2));
+  }
+
+  .stories-carousel .stories-carousel-item {
+    flex-basis: 100%;
+  }
+}
+
+@media (width < 860px) {
+  .stories-carousel {
+    padding: 32px 16px;
+  }
+
+  .stories-carousel .stories-carousel-track {
+    gap: 12px;
+    padding: 6px 2px 0;
+  }
+
+  .stories-carousel .stories-carousel-item {
+    flex-basis: 212px;
+  }
+
+  .stories-carousel .stories-carousel-banner {
+    flex-direction: column;
+    min-height: 567px;
+  }
+
+  .stories-carousel .stories-carousel-media {
+    padding: 9px 9px 0;
+  }
+
+  .stories-carousel .stories-carousel-media img {
+    width: 194px;
+    height: 145px;
+  }
+
+  .stories-carousel .stories-carousel-body {
+    padding: 24px 17px 17px;
+  }
+
+  .stories-carousel .stories-carousel-text h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .stories-carousel .stories-carousel-text p {
+    margin-top: 12px;
+  }
+
+  .stories-carousel .stories-carousel-cta {
+    align-self: stretch;
+  }
+
+  .stories-carousel .stories-carousel-btn {
+    width: 100%;
+  }
+
+  .stories-carousel .stories-carousel-controls {
+    margin-top: 35px;
+  }
+
+  .stories-carousel .stories-carousel-arrow {
+    width: 32px;
+    height: 32px;
+  }
+
+  .stories-carousel .stories-carousel-arrow::before {
+    left: 8px;
+    top: 14px;
+    width: 13px;
+  }
+
+  .stories-carousel .stories-carousel-arrow::after {
+    left: 14px;
+    top: 11px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .stories-carousel .stories-carousel-prev::after {
+    left: 10px;
+  }
+}

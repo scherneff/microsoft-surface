@@ -1,0 +1,1704 @@
+/* stylelint-disable no-descending-specificity -- variant sections follow the shared base rules */
+
+/* ds-section — Microsoft "reimagine" section-master bands of /ai. Values measured on the live
+   page (measure.mjs at 1440 and 360): tokens --ds-*, band heights, heading ramp. */
+.ds-section {
+  --ds-display: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  --ds-text-font: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  --ds-ink: #0e1726;
+  --ds-text: #17253d;
+  --ds-eyebrow: #4d4844;
+  --ds-accent: #702573;
+  --ds-page: #fcfbf9;
+  --ds-gutter: 16px;
+
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  background: var(--ds-page);
+  color: var(--ds-text);
+  font-family: var(--ds-text-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+
+.ds-section .ds-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.ds-section .ds-bg picture,
+.ds-section .ds-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ds-section .ds-inner {
+  position: relative;
+  padding: 0 var(--ds-gutter);
+}
+
+.ds-section p {
+  margin: 0;
+}
+
+/* heading (block-heading) */
+.ds-section .ds-head {
+  max-width: 946px;
+}
+
+.ds-section .ds-eyebrow p,
+.ds-section .ds-head .ds-eyebrow p {
+  margin-bottom: 12px;
+  color: var(--ds-eyebrow);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.ds-section :is(h1, h2) {
+  margin: 0;
+  color: var(--ds-ink);
+  font-family: var(--ds-display);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+}
+
+.ds-section :is(h3, h4) {
+  margin: 0 0 8px;
+  color: var(--ds-ink);
+  font-family: var(--ds-display);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+}
+
+.ds-section .ds-head .ds-text {
+  margin-top: 16px;
+}
+
+.ds-section .ds-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.ds-section .ds-ctas a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ds-accent);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  text-decoration: underline;
+}
+
+.ds-section .ds-ctas a.button {
+  padding: 12px 16px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: var(--ds-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.ds-section .ds-ctas a.button.secondary {
+  border-color: var(--ds-accent);
+  background: #fff;
+  color: var(--ds-ink);
+}
+
+.ds-section .ds-ctas .button-wrapper {
+  margin: 0;
+}
+
+/* items */
+.ds-section .ds-items {
+  display: grid;
+  gap: 24px;
+}
+
+.ds-section .ds-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.ds-section .ds-item-media picture,
+.ds-section .ds-item-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ds-section .ds-item-body {
+  padding: 24px;
+}
+
+.ds-section .ds-icon img {
+  display: block;
+  width: 48px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.ds-section .ds-item-body ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+/* carousel: a horizontal scroll track with prev / next */
+.ds-section .ds-carousel {
+  position: relative;
+}
+
+.ds-section .ds-carousel .ds-items {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.ds-section .ds-carousel .ds-items::-webkit-scrollbar {
+  display: none;
+}
+
+.ds-section .ds-carousel .ds-item {
+  flex: 0 0 85%;
+  scroll-snap-align: start;
+}
+
+.ds-section .ds-controls {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.ds-section .ds-controls button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--ds-ink);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ds-section .ds-controls button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.ds-section .ds-controls button::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -6px;
+  border-top: 1.5px solid var(--ds-ink);
+  border-right: 1.5px solid var(--ds-ink);
+  transform: rotate(45deg);
+}
+
+.ds-section .ds-controls .ds-prev::before {
+  margin-left: -2px;
+  transform: rotate(-135deg);
+}
+
+/* live parity: reimagine `animation` blocks fade in on scroll (opacity 1.2s ease-in-out .05s) */
+.ds-section .ds-reveal {
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out 0.05s;
+}
+
+.ds-section .ds-reveal.is-in {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-section .ds-reveal {
+    opacity: 1;
+    transition: none;
+  }
+}
+
+/* ---------- banner (announcement strip) ---------- */
+.ds-section.banner {
+  min-height: 88px;
+  background: #04033b;
+  color: #f4fafd;
+}
+
+.ds-section.banner .ds-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  padding: 8px;
+  text-align: center;
+}
+
+.ds-section.banner .ds-items {
+  display: block;
+}
+
+.ds-section.banner .ds-item {
+  display: block;
+  border-radius: 0;
+  background: none;
+}
+
+.ds-section.banner .ds-item-body {
+  padding: 0;
+}
+
+.ds-section.banner .ds-text p {
+  color: #f4fafd;
+}
+
+.ds-section.banner .ds-ctas {
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.ds-section.banner .ds-ctas a {
+  color: #f4fafd;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.48px;
+}
+
+/* ---------- hero ---------- */
+.ds-section.hero {
+  min-height: 508px;
+  background: #f6f5f3;
+}
+
+.ds-section.hero .ds-bg img {
+  object-position: 75% center;
+}
+
+.ds-section.hero .ds-inner {
+  padding-top: 24px;
+}
+
+.ds-section.hero .ds-head {
+  max-width: 640px;
+}
+
+.ds-section.hero h1 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+}
+
+.ds-section.hero .ds-head .ds-text {
+  padding-right: 16px;
+}
+
+.ds-section.hero .ds-ctas a {
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  text-decoration: none;
+}
+
+/* ---------- ask (Ask Microsoft prompt band) ---------- */
+.ds-section.ask {
+  min-height: 316px;
+  background: #662269;
+  color: #dceef8;
+}
+
+.ds-section.ask .ds-bg {
+  position: static;
+  z-index: auto;
+  padding: 26px 20px 0;
+}
+
+.ds-section.ask .ds-bg img {
+  width: 40px;
+  height: 33px;
+  object-fit: contain;
+}
+
+.ds-section.ask .ds-inner {
+  padding: 11px 20px 24px;
+}
+
+.ds-section.ask h2 {
+  color: #f4fafd;
+}
+
+.ds-section.ask .ds-head .ds-text {
+  margin-top: 4px;
+}
+
+.ds-section.ask .ds-head .ds-text p {
+  color: #dceef8;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.36px;
+}
+
+.ds-section.ask .ds-prompt {
+  margin-top: 8px;
+}
+
+.ds-section.ask .ds-prompt-field {
+  position: relative;
+}
+
+.ds-section.ask .ds-prompt-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.ds-section.ask input {
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 20px 60px 20px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+  font: inherit;
+}
+
+.ds-section.ask .ds-prompt-submit {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  margin-top: -16px;
+  border: 0;
+  border-radius: 8px;
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+.ds-section.ask .ds-prompt-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ds-section.ask .ds-prompt-suggestions li {
+  padding: 8px 10px;
+  border: 1px solid rgb(213 158 215);
+  border-radius: 8px;
+  color: #f2e1f3;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+  cursor: pointer;
+}
+
+/* ---------- promo (Frontier Transformation slides) ---------- */
+.ds-section.promo {
+  min-height: 609px;
+}
+
+.ds-section.promo .ds-inner {
+  padding-top: 48px;
+}
+
+.ds-section.promo .ds-carousel .ds-item {
+  flex-basis: 100%;
+}
+
+.ds-section.promo .ds-item-body {
+  padding: 24px 20px;
+}
+
+.ds-section.promo .ds-item-body .ds-text {
+  margin-top: 16px;
+}
+
+/* ---------- cards / products / industries / news (card carousels on the page fade) ---------- */
+.ds-section:is(.cards, .products, .industries, .news, .features) .ds-inner {
+  padding-top: 56px;
+}
+
+.ds-section:is(.cards, .products, .industries, .news, .features) .ds-head {
+  margin-bottom: 40px;
+}
+
+.ds-section.cards {
+  min-height: 879px;
+}
+
+.ds-section.products {
+  min-height: 951px;
+}
+
+.ds-section.features {
+  min-height: 1245px;
+}
+
+.ds-section.industries {
+  min-height: 954px;
+}
+
+.ds-section.news {
+  min-height: 879px;
+}
+
+.ds-section .ds-item-body .ds-ctas {
+  margin-top: 16px;
+}
+
+/* news tabs (pill bar) */
+.ds-section.news .ds-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 40px 11px;
+}
+
+.ds-section.news .ds-tab {
+  padding: 8px 16px;
+  border-radius: 200px;
+  background: rgb(242 225 243);
+  color: #501a52;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ds-section.news .ds-tab.active {
+  background: #501a52;
+  color: #fff;
+}
+
+.ds-section.news .ds-tab p {
+  margin: 0;
+}
+
+/* ---------- people (See you in the work) + leader logos — dark band ---------- */
+.ds-section.people {
+  min-height: 1273px;
+  background: #000;
+  color: #fff;
+}
+
+.ds-section.people .ds-inner {
+  padding: 40px 24px 0;
+}
+
+.ds-section.people .ds-items:first-of-type .ds-item {
+  border-radius: 0;
+  background: none;
+  color: #fff;
+}
+
+.ds-section.people .ds-item-media img {
+  border-radius: 12px;
+}
+
+.ds-section.people .ds-item-body {
+  padding: 24px 8px;
+}
+
+.ds-section.people :is(h2, h3) {
+  color: #fff;
+}
+
+.ds-section.people .ds-eyebrow p {
+  color: #fff;
+}
+
+.ds-section.people .ds-text p {
+  color: #fff;
+}
+
+.ds-section.people .ds-ctas a.button {
+  background: #fff;
+  color: #000;
+}
+
+.ds-section.people .ds-head {
+  margin-top: 40px;
+}
+
+.ds-section.people .ds-head ~ .ds-items {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.ds-section.people .ds-head ~ .ds-items .ds-item {
+  align-items: center;
+  justify-content: center;
+  height: 126px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.ds-section.people .ds-head ~ .ds-items .ds-item-body {
+  padding: 0;
+}
+
+.ds-section.people .ds-head ~ .ds-items img {
+  display: block;
+  width: 134px;
+  height: auto;
+}
+
+/* ---------- closing (Begin your AI journey) ---------- */
+.ds-section.closing {
+  min-height: 1798px;
+}
+
+.ds-section.closing .ds-inner {
+  padding: 56px 20px 0;
+}
+
+.ds-section.closing .ds-head {
+  margin-bottom: 32px;
+}
+
+.ds-section.closing .ds-item {
+  border-radius: 24px;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child .ds-item-media img {
+  height: 544px;
+  object-fit: cover;
+}
+
+/* ---------- follow ---------- */
+.ds-section.follow {
+  min-height: 72px;
+  background: #fff;
+}
+
+.ds-section.follow .ds-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 72px;
+}
+
+.ds-section.follow h2 {
+  font-family: var(--ds-text-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+
+.ds-section.follow .ds-items {
+  display: flex;
+  gap: 16px;
+}
+
+.ds-section.follow .ds-item {
+  border-radius: 0;
+  background: none;
+}
+
+.ds-section.follow .ds-item-body {
+  padding: 0;
+}
+
+.ds-section.follow img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* ---------- desktop ---------- */
+@media (width >= 860px) {
+  .ds-section {
+    --ds-gutter: 5%;
+  }
+
+  .ds-section :is(h1, h2) {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.2px;
+  }
+
+  .ds-section .ds-head .ds-text {
+    margin-top: 24px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features, .closing) .ds-head {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features, .closing) .ds-head .ds-text {
+    padding: 0 48px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features, .closing) .ds-head .ds-ctas {
+    justify-content: center;
+  }
+
+  .ds-section .ds-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ds-section .ds-carousel .ds-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .ds-section.banner,
+  .ds-section.banner .ds-inner {
+    min-height: 40px;
+  }
+
+  .ds-section.banner {
+    margin-bottom: 4px;
+  }
+
+  .ds-section.banner .ds-inner {
+    padding: 0;
+  }
+
+  .ds-section.banner .ds-item-body {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ds-section.banner .ds-ctas {
+    margin: 0;
+  }
+
+  .ds-section.hero {
+    min-height: 612px;
+  }
+
+  .ds-section.hero .ds-inner {
+    padding-top: 116px;
+  }
+
+  .ds-section.hero .ds-eyebrow p {
+    margin-bottom: 8px;
+  }
+
+  .ds-section.hero h1 {
+    font-size: 62px;
+    line-height: 72px;
+    letter-spacing: -1.55px;
+  }
+
+  .ds-section.hero .ds-head .ds-text {
+    padding-right: 48px;
+  }
+
+  .ds-section.hero .ds-ctas {
+    margin-top: 32px;
+  }
+
+  .ds-section.hero .ds-ctas a {
+    width: auto;
+    padding: 12px 16px;
+  }
+
+  .ds-section.ask {
+    display: grid;
+    grid-template-columns: 656px 1fr;
+    min-height: 176px;
+  }
+
+  .ds-section.ask .ds-bg {
+    grid-area: 1 / 1;
+    padding: 35px 0 0 72px;
+  }
+
+  .ds-section.ask .ds-inner {
+    display: contents;
+  }
+
+  .ds-section.ask .ds-head {
+    grid-area: 1 / 1;
+    align-self: start;
+    margin-top: 83px;
+    padding-left: 72px;
+  }
+
+  .ds-section.ask h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .ds-section.ask .ds-prompt {
+    grid-area: 1 / 2;
+    margin: 32px 72px 0 0;
+  }
+
+  .ds-section.ask input {
+    padding-left: 16px;
+  }
+
+  .ds-section.promo {
+    min-height: 534px;
+  }
+
+  .ds-section.promo .ds-carousel .ds-item {
+    flex-basis: 100%;
+    flex-direction: row-reverse;
+    min-height: 396px;
+  }
+
+  .ds-section.promo .ds-item-media {
+    flex: 0 0 50%;
+  }
+
+  .ds-section.promo .ds-item-media img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ds-section.promo .ds-item-body {
+    flex: 1 1 0;
+    align-self: center;
+    padding: 20px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features) .ds-inner {
+    padding-top: 96px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features) .ds-head {
+    margin-bottom: 48px;
+  }
+
+  .ds-section.cards {
+    min-height: 900px;
+  }
+
+  .ds-section.products {
+    min-height: 934px;
+  }
+
+  .ds-section.features {
+    min-height: 763px;
+  }
+
+  .ds-section.industries {
+    min-height: 1138px;
+  }
+
+  .ds-section.news {
+    min-height: 1096px;
+  }
+
+  .ds-section.news .ds-tabs {
+    justify-content: center;
+    margin: 0 0 48px;
+  }
+
+  .ds-section.news .ds-tab {
+    padding: 8px 24px;
+  }
+
+  .ds-section.people {
+    min-height: 1039px;
+  }
+
+  .ds-section.people .ds-inner {
+    padding: 104px 5% 0;
+  }
+
+  .ds-section.people .ds-items:first-of-type {
+    display: block;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-item {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-item-media {
+    flex: 0 0 620px;
+    margin-right: 8px;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-item-body {
+    flex: 0 1 540px;
+    padding: 0 0 0 24px;
+  }
+
+  .ds-section.people .ds-items:first-of-type h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .ds-section.people .ds-head {
+    max-width: none;
+    margin-top: 136px;
+  }
+
+  .ds-section.people .ds-head ~ .ds-items {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    margin-top: 48px;
+  }
+
+  .ds-section.people .ds-head ~ .ds-items .ds-item {
+    height: 168px;
+  }
+
+  .ds-section.people .ds-head ~ .ds-items img {
+    width: 175px;
+  }
+
+  .ds-section.closing {
+    min-height: 1095px;
+  }
+
+  .ds-section.closing .ds-inner {
+    padding: 96px 5% 0;
+  }
+
+  .ds-section.closing .ds-head {
+    margin-bottom: 48px;
+  }
+
+  .ds-section.closing .ds-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child {
+    grid-column: 1 / -1;
+    min-height: 320px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-item-media {
+    position: absolute;
+    inset: 0;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-item-media img {
+    height: 320px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-item-body {
+    position: relative;
+    max-width: 50%;
+    padding: 48px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item {
+    flex-direction: row;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media {
+    flex: 0 0 50%;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ds-section.follow {
+    min-height: 80px;
+  }
+
+  .ds-section.follow .ds-inner {
+    justify-content: flex-start;
+    min-height: 80px;
+    padding-left: 72px;
+  }
+}
+
+/* desktop art direction: an item with two media pictures shows the first (wide) one */
+.ds-section .ds-item-media picture + picture {
+  display: none;
+}
+
+@media (width < 860px) {
+  .ds-section .ds-item-media:has(picture + picture) picture:first-child {
+    display: none;
+  }
+
+  .ds-section .ds-item-media picture + picture {
+    display: block;
+  }
+}
+
+/* ---------- round 2 (published-origin gate 1440): reimagine card + CTA anatomy ---------- */
+.ds-section .ds-item-body :is(h3, h4) {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+}
+
+.ds-section .ds-item-body .ds-ctas a:not(.button) {
+  position: relative;
+  padding-left: 32px;
+  color: var(--ds-text);
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.ds-section .ds-item-body .ds-ctas a:not(.button)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: var(--ds-accent);
+}
+
+.ds-section .ds-item-body .ds-ctas a:not(.button)::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  border-top: 1.5px solid #fff;
+  border-right: 1.5px solid #fff;
+  transform: rotate(45deg);
+}
+
+.ds-section:is(.cards, .products, .industries, .news) .ds-item {
+  padding: 11px;
+  background: #fefefe;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+}
+
+.ds-section:is(.cards, .products, .industries, .news) .ds-item-media img {
+  border-radius: 16px;
+}
+
+.ds-section:is(.cards, .products, .industries, .news) .ds-item-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.ds-section:is(.cards, .products, .industries, .news) .ds-item-body .ds-ctas {
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.ds-section .ds-item-body .ds-eyebrow p {
+  margin-bottom: 8px;
+  color: #8c331f;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.ds-section.features .ds-item {
+  padding: 36px 24px 24px;
+  border-radius: 24px;
+  background: #fefefe;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+}
+
+.ds-section.features .ds-item-media img {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+
+.ds-section.features .ds-item-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 28px 0 0;
+}
+
+.ds-section.features .ds-item-body .ds-ctas {
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.ds-section.promo .ds-item {
+  padding: 3px;
+}
+
+.ds-section.promo .ds-item-media img {
+  border-radius: 21px;
+}
+
+.ds-section.promo .ds-item-body .ds-eyebrow p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child .ds-item-body {
+  text-align: center;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child h3 {
+  font-family: var(--ds-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child .ds-ctas {
+  justify-content: center;
+}
+
+@media (width >= 860px) {
+  .ds-section .ds-head .ds-eyebrow p {
+    margin-bottom: 8px;
+  }
+
+  .ds-section:is(.products, .features) .ds-head {
+    max-width: 1296px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news) .ds-carousel .ds-items {
+    gap: 16px;
+    margin-right: -72px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news) .ds-carousel .ds-item {
+    flex: 0 0 421px;
+  }
+
+  .ds-section.products .ds-carousel .ds-item {
+    min-height: 420px;
+  }
+
+  .ds-section.features .ds-head {
+    margin-bottom: 72px;
+  }
+
+  .ds-section.features .ds-items {
+    gap: 19px;
+  }
+
+  .ds-section.features .ds-item {
+    min-height: 287px;
+  }
+
+  .ds-section.promo .ds-carousel .ds-item {
+    min-height: 396px;
+  }
+
+  .ds-section.promo .ds-item-media {
+    flex: 0 0 50%;
+  }
+
+  .ds-section.promo .ds-item-body {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 25px 20px 26px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-heading {
+    margin-top: 72px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-ctas {
+    margin-top: auto;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-item-body {
+    max-width: none;
+    padding: 72px 20% 0;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item {
+    flex-direction: row-reverse;
+    min-height: 444px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media {
+    flex: 0 0 48%;
+    padding: 8px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media img {
+    border-radius: 16px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-body {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-ctas {
+    flex-direction: column;
+    margin-top: auto;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item h4 {
+    font-family: var(--ds-display);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+@media (width >= 860px) {
+  /* promo: the next slide peeks at the viewport edge (live 1288px slides, 16px gap) */
+  .ds-section.promo .ds-carousel .ds-items {
+    gap: 16px;
+    margin-right: -72px;
+  }
+
+  .ds-section.promo .ds-carousel .ds-item {
+    flex: 0 0 calc(100vw - 152px);
+  }
+}
+
+/* ---------- round 3 (published-origin gate 1440): band rhythm pinned to the live capture ---------- */
+@media (width >= 860px) {
+  .ds-section.ask {
+    min-height: 132px;
+  }
+
+  .ds-section.ask .ds-head {
+    margin-top: 63px;
+  }
+
+  .ds-section.ask .ds-bg {
+    padding-top: 22px;
+  }
+
+  .ds-section.ask .ds-prompt {
+    margin-top: 16px;
+  }
+
+  .ds-section .ds-head .ds-text,
+  .ds-section:is(.cards, .products, .industries, .news, .features, .closing) .ds-head .ds-text {
+    padding: 0;
+  }
+
+  .ds-section.products .ds-head .ds-text {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ds-section:is(.cards, .industries) .ds-head {
+    margin-bottom: 56px;
+  }
+
+  .ds-section.news .ds-head {
+    margin-bottom: 56px;
+  }
+
+  .ds-section .ds-head .ds-ctas a.button {
+    padding: 9px 16px;
+  }
+
+  .ds-section.promo .ds-inner {
+    padding-top: 40px;
+  }
+
+  .ds-section.promo .ds-carousel .ds-item {
+    height: 386px;
+    min-height: 0;
+    box-sizing: border-box;
+  }
+
+  .ds-section.promo .ds-item-body {
+    padding-bottom: 19px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-heading {
+    margin-top: 0;
+  }
+
+  .ds-section.cards .ds-carousel .ds-item {
+    height: 432px;
+  }
+
+  .ds-section.industries .ds-carousel .ds-item {
+    height: 573px;
+  }
+
+  .ds-section.news .ds-carousel .ds-item {
+    height: 449px;
+  }
+}
+
+/* ---------- round 4: live overlap of the promo band over the ask band, mobile band heights ---------- */
+.ds-section.banner:is(div) {
+  height: 88px;
+  overflow: hidden;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child {
+  min-height: 544px;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child .ds-item-media {
+  position: absolute;
+  inset: 0;
+}
+
+.ds-section.closing .ds-items > .ds-item:first-child > .ds-item-body {
+  position: relative;
+  padding: 48px 20px;
+}
+
+@media (width < 860px) {
+  .ds-section.promo .ds-inner {
+    padding-top: 24px;
+  }
+
+  .ds-section.promo h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .ds-section.promo .ds-controls {
+    margin-top: 16px;
+  }
+}
+
+@media (width >= 860px) {
+  .ds-section.banner:is(div) {
+    height: 40px;
+  }
+
+  .ds-section.ask {
+    grid-template-columns: 728px 1fr;
+    min-height: 176px;
+  }
+
+  .ds-section.ask .ds-bg {
+    padding-top: 35px;
+  }
+
+  .ds-section.ask .ds-head {
+    margin-top: 83px;
+  }
+
+  .ds-section.ask .ds-prompt {
+    margin-top: 32px;
+  }
+
+  /* live: the Frontier Transformation band overlaps the ask band's last 44px */
+  .ds-section.promo {
+    margin-top: -44px;
+  }
+
+  .ds-section.features .ds-head .ds-text {
+    max-width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ds-section.cards .ds-carousel .ds-item {
+    height: 421px;
+  }
+
+  .ds-section.products .ds-carousel .ds-item {
+    height: 411px;
+    min-height: 0;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child {
+    min-height: 320px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-item-body {
+    padding-top: 80px;
+  }
+}
+
+/* ---------- round 5 (published-origin gate 360): mobile anatomy ---------- */
+.ds-section.banner .ds-item-body .ds-ctas a:not(.button) {
+  padding: 0;
+  color: #f4fafd;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.ds-section.banner .ds-item-body .ds-ctas a:not(.button)::before,
+.ds-section.banner .ds-item-body .ds-ctas a:not(.button)::after {
+  content: none;
+}
+
+@media (width < 860px) {
+  .ds-section.banner .ds-inner {
+    padding: 8px 40px;
+  }
+
+  .ds-section.hero .ds-bg img {
+    object-position: 95% center;
+  }
+
+  .ds-section .ds-ctas {
+    display: grid;
+  }
+
+  .ds-section .ds-ctas a.button {
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features) .ds-inner {
+    padding-top: 16px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features, .closing) .ds-head,
+  .ds-section.people .ds-head {
+    padding: 0 4px;
+    text-align: center;
+  }
+
+  .ds-section.promo .ds-item-body h2 {
+    font-family: var(--ds-text-font);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+
+  .ds-section.people .ds-items:first-of-type h2 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+  }
+}
+
+/* ---------- round 6 (gate 360): hero crop, closing promo, inset media ---------- */
+@media (width < 860px) {
+  .ds-section.banner .ds-inner {
+    padding: 4px 40px;
+  }
+
+  .ds-section.hero .ds-bg img {
+    object-position: 50% center;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child > .ds-item-body {
+    padding-top: 150px;
+    text-align: center;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media {
+    padding: 8px 8px 0;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media img {
+    border-radius: 16px;
+  }
+}
+
+/* ---------- final-fix (published-origin gate 1440): promo card, people promo, closing cards
+   (measure.mjs / textpos at 1440 against the live testimonial and card-horizontal modules) ---------- */
+@media (width >= 860px) {
+  /* promo banner-card-lg: the h2 carries an .h4 span (24 / 32 / 500), 88px under the eyebrow
+     (12 / 16 eyebrow + 72px) */
+  .ds-section.promo .ds-item-body h2 {
+    font-family: var(--ds-display);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: normal;
+  }
+
+  .ds-section.promo .ds-item-body .ds-heading {
+    margin-top: 72px;
+  }
+
+  /* promo: media inset 12px from the card edge (live 632 × 362 crop), no next-slide peek,
+     58px arrows 32px under the card; the band closes 6px below them */
+  .ds-section.promo {
+    min-height: 522px;
+  }
+
+  .ds-section.promo .ds-item-media {
+    box-sizing: border-box;
+    padding: 9px 9px 9px 0;
+  }
+
+  .ds-section.promo .ds-item-media picture {
+    display: block;
+    height: 100%;
+  }
+
+  .ds-section.promo .ds-carousel .ds-items {
+    margin-right: 0;
+  }
+
+  .ds-section.promo .ds-controls {
+    gap: 8px;
+    margin-top: 32px;
+  }
+
+  .ds-section.promo .ds-controls button {
+    width: 58px;
+    height: 58px;
+    border: 2px solid var(--ds-accent);
+  }
+
+  .ds-section.promo .ds-controls button:disabled {
+    border-color: #c8c6c4;
+    opacity: 1;
+  }
+
+  /* people: copy column 72 + 24 → 596px wide, top-aligned; h2 16px above the copy,
+     CTA 120px under it (40px button) */
+  .ds-section.people .ds-items:first-of-type .ds-item-body {
+    flex: 1 1 0;
+    align-self: flex-start;
+    margin-top: 128px;
+    padding: 0 24px;
+  }
+
+  .ds-section.people .ds-items:first-of-type h2 {
+    margin-bottom: 16px;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-eyebrow p {
+    color: #fff;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-ctas {
+    margin-top: 120px;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-ctas a.button {
+    padding: 7px 16px;
+  }
+
+  /* closing cards: inset media fills the card height (live 309 × 429), copy 17px / 72px */
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 8px 9px 8px 0;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media picture {
+    display: block;
+    height: 100%;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-body {
+    padding: 24px 72px 24px 17px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item h4 {
+    margin-bottom: 16px;
+  }
+}
+
+/* ---------- final-fix (published-origin gate 360): ask heading, promo card, card carousels
+   (measure.mjs at 360 against the live card-horizontal / card modules) ---------- */
+@media (width < 860px) {
+  .ds-section.ask h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* promo: 320px slide (3px inset), media inset 9px (296 × 127), 16px copy padding, h2 48px
+     under the eyebrow, CTA 48px under the copy (52px button), 50px arrows 24px below */
+  .ds-section.promo .ds-carousel .ds-item {
+    flex-basis: calc(100% - 8px);
+    margin: 0 4px;
+  }
+
+  .ds-section.promo .ds-item-media {
+    padding: 9px 9px 0;
+  }
+
+  .ds-section.promo .ds-item-media img {
+    height: auto;
+  }
+
+  .ds-section.promo .ds-item-body {
+    padding: 16px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-heading {
+    margin-top: 48px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-text {
+    margin-top: 12px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-ctas {
+    margin-top: 48px;
+  }
+
+  .ds-section.promo .ds-item-body .ds-ctas a.button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .ds-section .ds-controls {
+    gap: 8px;
+  }
+
+  .ds-section.promo .ds-controls {
+    margin-top: 24px;
+  }
+
+  .ds-section .ds-controls button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--ds-accent);
+  }
+
+  .ds-section .ds-controls button:disabled {
+    border-color: #c8c6c4;
+    opacity: 1;
+  }
+
+  /* card carousels: 265px slides from x 20 (3px inset), media inset 8px, 16px copy, 18 / 24
+     titles 4px into the copy and 12px above the summary */
+  .ds-section:is(.cards, .products, .industries, .news) .ds-carousel .ds-items {
+    padding-left: 4px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news) .ds-carousel .ds-item {
+    flex: 0 0 265px;
+    padding: 3px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news) .ds-item-media {
+    padding: 8px 8px 0;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news) .ds-item-body :is(h3, h4) {
+    margin: 4px 0 12px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+/* final-fix round 2 (gate 360): banner copy box, people promo rhythm, section heads at the
+   live 16px gutter, closing lead card (measure.mjs / textpos at 360) */
+@media (width < 860px) {
+  /* live banner: copy from x 20 with the dismiss control's 44px on the right */
+  .ds-section.banner .ds-inner {
+    padding: 6px 44px 6px 20px;
+  }
+
+  /* the CTA sits 6px under the copy on a 20px line, inside the 88px band (was clipped) */
+  .ds-section.banner .ds-item-body .ds-ctas {
+    margin-top: 6px;
+  }
+
+  .ds-section.banner .ds-item-body .ds-ctas a {
+    line-height: 20px;
+  }
+
+  /* closing link cards: copy 13px from the card edges, 20 / 28 / 500 titles */
+  .ds-section.closing .ds-items > .ds-item + .ds-item .ds-item-body {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item + .ds-item h4 {
+    font-weight: 500;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-eyebrow p {
+    color: #fff;
+  }
+
+  .ds-section.people .ds-items:first-of-type h2 {
+    margin-bottom: 12px;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-ctas {
+    margin-top: 48px;
+  }
+
+  .ds-section.people .ds-items:first-of-type .ds-ctas a.button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .ds-section:is(.cards, .products, .industries, .news, .features, .closing) .ds-head,
+  .ds-section.people .ds-head {
+    padding: 0;
+  }
+
+  .ds-section.people .ds-head {
+    margin: 80px -8px 0;
+  }
+
+  .ds-section.closing .ds-head {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+
+  /* closing lead card: copy 256px from the card bottom half, full-width 48px CTA */
+  .ds-section.closing .ds-items > .ds-item:first-child > .ds-item-body {
+    padding: 256px 32px 48px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child h3 {
+    margin-bottom: 12px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-ctas {
+    margin-top: 21px;
+  }
+
+  .ds-section.closing .ds-items > .ds-item:first-child .ds-ctas a.button {
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+}

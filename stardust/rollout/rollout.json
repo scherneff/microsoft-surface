@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-04T03:19:17.227Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.microsoft.com",
+    "da": {
+      "org": "aemcoder",
+      "site": "3bab0b60",
+      "ref": "main"
+    },
+    "liveHost": "main--3bab0b60--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 5,
+    "discovered": 1710,
+    "capped": true,
+    "pageCap": 10
+  },
+  "lastRun": {
+    "at": "2026-11-04T09:23:07.573Z",
+    "pages": {
+      "total": 9,
+      "verified": 9,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 20,
+      "converted": 20,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

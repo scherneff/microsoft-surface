@@ -1,0 +1,8 @@
+extract --prep complete
+=======================
+Inventory:    8 pages crawled (10 selected; /earn off-origin redirect, /dashboard 404)
+Provenance:   8/8 live (every page has Playwright evidence)
+Page types:   landing 1 · static 4 · listing 1 · program 1 · unique 1
+Module candidates: 8 (uhf-header, uhf-footer, hero, content-card-grid, feature-band, tabs, product-carousel, product-tile-grid)
+Header contract: about — 1440: 6 controls (5 menu, 1 search), 14 states; 390: 3 controls, 24 states
+Typed slots:  filled per page-type (current/pages/<slug>.json § slots)

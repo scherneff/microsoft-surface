@@ -1,0 +1,377 @@
+/* material-cards — values from stardust/prototypes/about.css (.commitments*, .area-heading*) */
+.material-cards {
+  margin-top: 24px;
+}
+
+.material-cards.peach {
+  background-color: var(--ms-peach);
+}
+
+.material-cards .material-cards-intro {
+  padding-top: 48px;
+  padding-bottom: 16px;
+}
+
+.material-cards .material-cards-cards {
+  padding-bottom: 72px;
+}
+
+/* area heading (section intro) */
+.material-cards .area-heading-title,
+.material-cards .area-heading-body {
+  max-width: 100%;
+}
+
+.material-cards .area-heading-title :is(h2, h3) {
+  margin-bottom: 1rem;
+}
+
+.material-cards .area-heading.title-only :is(h2, h3) {
+  margin-bottom: 0;
+}
+
+.material-cards .area-heading-lede p {
+  margin-bottom: 0;
+}
+
+.material-cards .area-heading-lede p ~ p {
+  margin-top: 1rem;
+}
+
+.material-cards .has-actions .area-heading-lede {
+  padding-bottom: 16px;
+}
+
+.material-cards .area-heading .link-group {
+  margin-bottom: 0;
+}
+
+.material-cards .area-heading .link-group p {
+  display: inline;
+  margin: 0;
+}
+
+/* CTA (MWF .cta: chevron glyph drawn) */
+.material-cards .link-group a {
+  position: relative;
+  display: inline-block;
+  padding-right: 27px;
+  font-weight: 600;
+  color: var(--ms-link);
+  text-decoration: none;
+}
+
+.material-cards .link-group a:hover {
+  text-decoration: underline;
+}
+
+.material-cards .link-group a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+/* cards: Bootstrap row / col model (-12px row, 12px col gutters) */
+.material-cards .material-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.material-cards .material-cards-col {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 48px;
+}
+
+.material-cards .material-cards-col:last-child {
+  margin-bottom: 0;
+}
+
+.material-cards .material-card {
+  width: 100%;
+}
+
+.material-cards .material-cards-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.material-cards .card-body {
+  padding: 24px 24px 0;
+}
+
+.material-cards .card-body :is(h2, h3, h4) {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.material-cards .card-footer {
+  padding: 16px 24px 24px;
+}
+
+@media (width >= 540px) {
+  .material-cards .material-cards-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .material-cards .material-cards-col:nth-child(3) {
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 860px) {
+  .material-cards .area-heading-title,
+  .material-cards .area-heading-body {
+    width: 66.6667%;
+  }
+}
+
+@media (width >= 1084px) {
+  .material-cards .material-cards-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 0;
+  }
+
+  .material-cards .card-body :is(h2, h3, h4) {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .material-cards .area-heading-body {
+    width: 50%;
+  }
+
+  .material-cards .area-heading-title :is(h2, h3) {
+    margin-bottom: 1.25rem;
+  }
+
+  .material-cards .area-heading.title-only :is(h2, h3) {
+    margin-bottom: 0;
+  }
+
+  .material-cards .card-body :is(h2, h3, h4) {
+    font-size: 1.3125rem;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- variant rules appended after the base
+   cascade on purpose (additive to the live about page) */
+
+/* ---------- variants for the static siblings (measure.mjs at 1440 + 360). Additive. */
+
+/* centred area heading (accessibility, corporate-responsibility) */
+.material-cards:is(.dark, .flat) .area-heading {
+  text-align: center;
+}
+
+.material-cards:is(.dark, .flat) .area-heading-title,
+.material-cards:is(.dark, .flat) .area-heading-body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* dark: navy material cards on the dark theme (accessibility "What's new") */
+.material-cards.dark {
+  margin-top: 0;
+}
+
+.material-cards.dark .material-cards-intro {
+  padding-top: 72px;
+  padding-bottom: 48px;
+}
+
+.material-cards.dark .material-cards-cards {
+  padding-bottom: 48px;
+}
+
+.material-cards.dark .material-card {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: rgb(24 29 58);
+  color: #fff;
+}
+
+.material-cards.dark .material-cards-media img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.material-cards.dark .material-cards-col {
+  margin-bottom: 48px;
+}
+
+.material-cards.dark .material-cards-col:last-child {
+  margin-bottom: 0;
+}
+
+.material-cards.dark .link-group a {
+  max-width: calc(100% - 24px);
+  margin: 16px 24px 16px 0;
+  color: var(--ms-link);
+}
+
+.material-cards.dark .area-heading-title h2 {
+  font-size: 1.8125rem;
+  line-height: 1.2;
+}
+
+/* flat: 3-up image cards without a surface (CR "Our programs") */
+.material-cards.flat {
+  margin-top: 0;
+}
+
+.material-cards.flat .material-cards-intro {
+  padding-top: 0;
+  padding-bottom: 48px;
+}
+
+.material-cards.flat .material-cards-cards {
+  padding-bottom: 0;
+}
+
+.material-cards.flat .material-card {
+  background: none;
+  box-shadow: none;
+}
+
+.material-cards.flat .material-cards-media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.material-cards.flat .card-body {
+  padding: 16px 0 0;
+}
+
+/* flat card CTAs: MWF footer pt-3 + link group (-8px) + .cta 16px margins (measure.mjs at
+   360: link at footer + 24, footer 56 / 120 tall for one / two links) */
+.material-cards.flat .card-footer {
+  padding: 8px 0 0;
+}
+
+.material-cards.flat .card-footer p {
+  margin: 0;
+}
+
+.material-cards.flat .card-footer p:last-child {
+  margin-bottom: -8px;
+}
+
+.material-cards.flat .card-footer p + p a {
+  margin-top: 0;
+}
+
+.material-cards.flat .material-cards-col {
+  margin-bottom: 48px;
+}
+
+@media (width >= 1084px) {
+  .material-cards.flat .material-cards-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 48px;
+  }
+
+  .material-cards.dark .material-cards-col {
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1084px) {
+  .material-cards.dark .area-heading-title h2 {
+    font-size: 2.3125rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .material-cards.dark .area-heading-title h2 {
+    font-size: 3.125rem;
+  }
+}
+
+@media (width < 860px) {
+  .material-cards:is(.dark, .flat) .area-heading {
+    text-align: left;
+  }
+}
+
+/* card CTAs (MWF .cta in a link group: 16px block margins, chevron) */
+.material-cards.dark .card-footer p {
+  margin: 0;
+}
+
+.material-cards.dark .card-footer {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+/* live .link-group: -8px block margins; a following .cta has no top margin
+   (measure.mjs at 360: footer 80 / 144 tall for one / two links) */
+.material-cards.dark .card-footer p:first-child {
+  margin-top: -8px;
+}
+
+.material-cards.dark .card-footer p:last-child {
+  margin-bottom: -8px;
+}
+
+.material-cards.dark .card-footer p + p a {
+  margin-top: 0;
+}
+
+.material-cards:is(.dark, .flat) .card-footer a {
+  position: relative;
+  display: inline-block;
+  max-width: calc(100% - 24px);
+  margin: 16px 24px 16px 0;
+  padding-right: 27px;
+  font-weight: 600;
+  color: var(--ms-link);
+}
+
+.material-cards:is(.dark, .flat) .card-footer a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+/* flat card CTAs (live .cta): no max-width; 24px right margin only when another link
+   follows (measure.mjs at 360: 317px single link on one line, 312px first of two) */
+.material-cards.flat .card-footer a {
+  max-width: none;
+  margin-right: 0;
+}
+
+.material-cards.flat .card-footer p:not(:last-child) a {
+  margin-right: 24px;
+}
+
+/* flat area heading below 860: live h2 margin-bottom 12px (measure.mjs at 360) */
+@media (width < 860px) {
+  .material-cards.flat .area-heading-title :is(h2, h3) {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,260 @@
+/* panes — values from stardust/prototypes/about.css (.culture, .panes*) */
+.panes {
+  padding-top: 48px;
+  padding-bottom: 72px;
+}
+
+.panes .area-heading {
+  margin-bottom: 48px;
+}
+
+/* area heading (section intro) */
+.panes .area-heading-title,
+.panes .area-heading-body {
+  max-width: 100%;
+}
+
+.panes .area-heading-title :is(h2, h3) {
+  margin-bottom: 1rem;
+}
+
+.panes .area-heading.title-only :is(h2, h3) {
+  margin-bottom: 0;
+}
+
+.panes .area-heading-lede p {
+  margin-bottom: 0;
+}
+
+.panes .area-heading-lede p ~ p {
+  margin-top: 1rem;
+}
+
+.panes .has-actions .area-heading-lede {
+  padding-bottom: 16px;
+}
+
+.panes .area-heading .link-group {
+  margin-bottom: 0;
+}
+
+.panes .area-heading .link-group p {
+  display: inline;
+  margin: 0;
+}
+
+/* CTA (MWF .cta: chevron glyph drawn) */
+.panes .link-group a {
+  position: relative;
+  display: inline-block;
+  padding-right: 27px;
+  font-weight: 600;
+  color: var(--ms-link);
+  text-decoration: none;
+}
+
+.panes .link-group a:hover {
+  text-decoration: underline;
+}
+
+.panes .link-group a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+.panes .panes-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.panes .panes-col {
+  position: relative;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.panes .panes-col-sep {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.panes .panes-rule-h {
+  border-bottom: 1px solid var(--ms-border);
+}
+
+.panes .panes-rule-v {
+  display: none;
+  border-right: 1px solid var(--ms-border);
+}
+
+.panes .panes-item {
+  padding-bottom: 24px;
+}
+
+.panes .panes-item-ruled {
+  border-bottom: 1px solid var(--ms-border);
+  margin-bottom: 24px;
+}
+
+.panes .panes-text :is(h2, h3, h4) {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.panes .panes-text .panes-cta p {
+  margin: 0;
+}
+
+/* source CTA without glyph: keeps the 27px gutter */
+.panes .panes-cta a:any-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-right: 27px;
+  font-weight: 600;
+  color: var(--ms-link);
+  text-decoration: none;
+}
+
+.panes .panes-cta a:any-link:hover {
+  text-decoration: underline;
+}
+
+.panes .panes-pair {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.panes .panes-text,
+.panes .panes-media {
+  padding: 0 12px;
+}
+
+.panes .panes-text {
+  width: 100%;
+}
+
+.panes .panes-media {
+  width: 83.3333%;
+  margin-left: 8.3333%;
+}
+
+.panes .panes-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* live col-8 offset-2 media in the right pane below 540px (gate 360 geometry: 240px image) */
+@media (width < 540px) {
+  .panes .panes-col-b .panes-media {
+    width: calc(66.6667% + 24px);
+    margin-left: calc(16.6667% - 12px);
+  }
+}
+
+@media (width >= 540px) {
+  .panes .panes-text {
+    width: 83.3333%;
+  }
+
+  .panes .panes-media {
+    width: 66.6667%;
+    margin-left: 16.6667%;
+  }
+}
+
+@media (width >= 860px) {
+  .panes .area-heading-title,
+  .panes .area-heading-body {
+    width: 66.6667%;
+  }
+
+  .panes .panes-row {
+    flex-wrap: nowrap;
+  }
+
+  .panes .panes-col-a {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .panes .panes-col-sep {
+    flex: 0 0 8.3333%;
+    max-width: 8.3333%;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .panes .panes-col-b {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .panes .panes-rule-h {
+    display: none;
+  }
+
+  .panes .panes-rule-v {
+    display: block;
+    height: 100%;
+  }
+
+  .panes .panes-col-a .panes-item {
+    padding-bottom: 0;
+  }
+
+  .panes .panes-col-a .panes-media,
+  .panes .panes-col-a .panes-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .panes .panes-col-b .panes-pair {
+    flex-wrap: nowrap;
+  }
+
+  .panes .panes-col-b .panes-text,
+  .panes .panes-col-b .panes-media {
+    flex: 1 0 0;
+    width: auto;
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+
+@media (width >= 1084px) {
+  .panes .panes-text :is(h2, h3, h4) {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .panes .area-heading-body {
+    width: 50%;
+  }
+
+  .panes .area-heading-title :is(h2, h3) {
+    margin-bottom: 1.25rem;
+  }
+
+  .panes .area-heading.title-only :is(h2, h3) {
+    margin-bottom: 0;
+  }
+
+  .panes .panes-text :is(h2, h3, h4) {
+    font-size: 1.3125rem;
+  }
+}

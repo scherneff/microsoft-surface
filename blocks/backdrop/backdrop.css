@@ -1,0 +1,28 @@
+/* backdrop — live .grid-image-layout-container (background-size cover, centred) */
+main > .section.has-backdrop {
+  position: relative;
+  isolation: isolate;
+}
+
+main > .section.has-backdrop > .backdrop-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.backdrop,
+.backdrop > div,
+.backdrop > div > div,
+.backdrop picture {
+  display: block;
+  height: 100%;
+}
+
+.backdrop img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

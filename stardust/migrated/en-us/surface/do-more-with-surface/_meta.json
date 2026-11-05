@@ -1,0 +1,464 @@
+{
+  "slug": "en-us-surface-do-more-with-surface",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "article-listing",
+    "social-follow"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "dm-articles",
+    "container",
+    "dm-back-to-top"
+  ],
+  "canonShas": {
+    "header": "bacbef670aef",
+    "footer": "b46b0e3592b3",
+    "css": "2d514920911e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Do More with Surface Laptop &amp; Surface Pro | Microsoft Surface",
+    "description": "Explore guides, comparisons, and tips on Surface laptops, touchscreen 2-in-1s, and AI PCs to help you get the most out of your Microsoft Surface.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Do More with Surface Laptop &amp; Surface Pro | Microsoft Surface",
+    "description": "Explore guides, comparisons, and tips on Surface laptops, touchscreen 2-in-1s, and AI PCs to help you get the most out of your Microsoft Surface.",
+    "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+  },
+  "migratedAt": "2026-11-04T03:18:28Z",
+  "designMdSha": "5af6eb9b3fef",
+  "designJsonSha": "11d362c68b95",
+  "sourceCurrentSha": "844d9d732469",
+  "sourceProposedSha": "51b1d89604f2",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 4,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.microsoft.com/en-us/surface",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/compare-devices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/support-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/shop-all-microsoft-surface",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/edge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/dynamics-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/power-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/rewards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/download",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/licensing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sitemap",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/cart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/choose-the-best",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/set-up",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/productive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/secure",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/play",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/learning-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-pro-unlocks-secrets-of-spanish-caves",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-pro-turns-crowds-into-creators-of-public-art",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-sony-wh1000xm6-le-audio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/why-microsoft-surface-is-the-best-windows-device-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/what-is-snapdragon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-pro-a-comprehensive-guide",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/which-surface-laptop-is-best-for-you",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/environmentally-friendly-laptops",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/difference-between-surface-laptop-vs-surface-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/whats-a-2-in-1-laptop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/touchscreen-laptops-top-picks-for-work-and-entertainment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/bringing-shark-science-and-art-together-with-surface-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/rssfeed.xml",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface/devices/surface-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/download",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/returns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/devices/overview",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/products/teams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/education/how-to-buy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/dynamics-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/power-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/investor/default.aspx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/about/locale",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sitemap1.aspx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/legal/compliance/recycling",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en-us/surface/do-more-with-surface/index.html",
+  "outputPathDefault": null,
+  "sidecar": "en-us/surface/do-more-with-surface/_meta.json",
+  "driverVersion": "1"
+}

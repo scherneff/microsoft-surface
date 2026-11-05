@@ -1,0 +1,107 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-04T09:13:06.528Z",
+  "origin": "https://main--3bab0b60--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "UHF header menus, mobile drawer",
+   "id": "chrome-menus",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "58 × header nav a (min 40)",
+   "thirdParty": "c.s-microsoft.com:200×2",
+   "ms": 2160,
+   "environmentLimit": null
+  },
+  {
+   "feature": "UHF header menus, mobile drawer",
+   "id": "chrome-menus",
+   "class": "M",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 5 page(s)",
+   "thirdParty": "",
+   "ms": 28974,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search → results page",
+   "id": "site-search",
+   "class": "S",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "4 results · first: accessibility technology & tools | microsoft accessibility · matches the source",
+   "thirdParty": "c.s-microsoft.com:200×2",
+   "ms": 2630,
+   "environmentLimit": "the source results page (/en-us/search/explore) searches all of microsoft.com, a second corpus not reproduced (patterns.md search-index-backed); count/title parity is therefore over the 8 migrated pages, not the source count. Support and Bing headers keep their own search services (support.microsoft.com, bing.com)."
+  },
+  {
+   "feature": "header search → results page",
+   "id": "site-search",
+   "class": "S",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × form.uhf-search-form[action$='/search'] (min 1)",
+   "thirdParty": "c.s-microsoft.com:200×2",
+   "ms": 2010,
+   "environmentLimit": "the source results page (/en-us/search/explore) searches all of microsoft.com, a second corpus not reproduced (patterns.md search-index-backed); count/title parity is therefore over the 8 migrated pages, not the source count. Support and Bing headers keep their own search services (support.microsoft.com, bing.com)."
+  },
+  {
+   "feature": "Surface story card grid (authored rows)",
+   "id": "surface-listing",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "27 × .article-listing a (min 24)",
+   "thirdParty": "c.s-microsoft.com:200×3",
+   "ms": 1967,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home carousel, accessibility/ai tabs and toggles",
+   "id": "carousels-tabs",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .stories-carousel (min 1)",
+   "thirdParty": "c.s-microsoft.com:200×2",
+   "ms": 2019,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Bing section video (autoplay, muted, loop)",
+   "id": "bing-video",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.81s)",
+   "thirdParty": "c.s-microsoft.com:200×2",
+   "ms": 7305,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6153,
+   "environmentLimit": null
+  }
+ ]
+}

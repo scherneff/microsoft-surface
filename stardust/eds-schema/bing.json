@@ -1,0 +1,417 @@
+{
+ "source": "http://127.0.0.1:8811/bing-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "block-container",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "is your and engine"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bing"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "AI-powered search"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "answer"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Image Search"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Discover high-quality images with Bing Image Search"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Unlock a vast collection of high-quality images with Bing's advanced search capabilities. Whether you're looking for specific themes, colors, or layouts, Bing ensures you find the perfect image to elevate your project."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Try now",
+     "href": "https://www.bing.com/images/feed?form=Z9LH"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Maps"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Navigate your world with Bing Maps"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Discover new places, find the best routes, and explore your surroundings with ease. Customize your maps experience to get real-time traffic updates, personalized recommendations, and detailed directions tailored just for you."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Try now",
+     "href": "https://www.bing.com/maps?form=MA13QZ"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Shopping"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Personalize your shopping experience with Bing Shopping"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Find the best deals, compare prices, and read reviews on millions of products. Customize your shopping experience to get personalized recommendations and exclusive offers tailored just for you."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Try now",
+     "href": "https://www.bing.com/shop?form=MA13QZ"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Stay informed with Bing News"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Get the latest updates on global events, breaking news, and in-depth analysis. Customize your news feed to receive real-time coverage and personalized updates relevant to you."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Try now",
+     "href": "https://www.bing.com/news?form=MA13QZ"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.common-pager__page",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Create images from the address bar"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Generate stunning visuals in a flash with Bing Image Creator. Simply type \"create an image of…\" in the Edge address bar to see your ideas come to life. Images will appear on the results page where you can recreate, share, or save for later."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "1",
+     "href": "#footnote-1"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Try now",
+     "href": "https://www.bing.com/images/create?form=MA13QZ"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Bing as your default search engine is required."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Security"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Control your search experience with Safe Search"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Customize your search experiences with Bing Safe Search. With Safe Search, you can set filters to ensure a safer searching experience."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Try now",
+     "href": "https://www.bing.com/account/general?ru=https%3a%2f%2fwww.bing.com%2f&FORM=O2HV65"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Travel"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Explore the world with Travel in Bing"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Turn your travel dreams into reality with Bing. Discover new places from the comfort of your home and effortlessly book your next adventure with just a few clicks."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Try now",
+     "href": "https://www.bing.com/travel?FORM=TGHPNT&entrypoint=TGHPNT"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Search"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Enhance your search experience"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Bing generates cohesive, dynamic answers for comprehensive snapshot search queries."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Try now",
+     "href": "https://www.bing.com/search?q=albert+einstein&form=MA13QZ"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.common-pager__page",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unlock Bing's Powerful Features"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Unleash the full potential of Bing with innovative tools and features designed to transform your search experience. From smarter searches to powerful insights, Bing is here to help you achieve more. Ready to explore what makes Bing stand out? Click \"Learn More\" and start optimizing the way you search today!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://www.microsoft.com/bing/features?form=MA13QZ"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Edge + Bing"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Microsoft Edge is the best browser for Bing"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Faster, smarter browsing, tailored just for you: Discover a new level of browsing with Bing on Edge. Enjoy lightning-fast search results, enhanced privacy features, and personalized content that adapts to your needs."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://www.microsoft.com/en-us/edge?form=MA13QZ"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "New"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bring your desktop to life with Bing Wallpaper"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Enjoy breathtaking daily backgrounds from around the world, automatically refreshing your desktop with stunning landscapes, iconic landmarks, and captivating scenes. Customize your experience by selecting favorites or letting Bing surprise you each day."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Try now",
+     "href": "https://go.microsoft.com/fwlink/?linkid=2127820&pc=W245&form=MA13QZ"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "block-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Mobile"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Discover more with Bing Mobile"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Unlock a world of information, images, and insights at your fingertips. Whether you’re searching for the latest news, exploring new ideas, or finding the perfect image, Bing is your gateway to a smarter, more connected experience."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Download Bing app",
+     "href": "https://bingapp.microsoft.com/bing?form=MA13QZ"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "common-footnotes",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bing Image Creator uses the latest MAI-Image-2e, GPT-4o, or DALL-E 3 models."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Feature availability and functionality may vary by device type, market, and browser version."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The content on this page may have been translated using AI."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.common-footnotes__disclaimer",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

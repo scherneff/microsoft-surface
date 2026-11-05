@@ -1,0 +1,11 @@
+{
+  "/support": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T04:04:54.863Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

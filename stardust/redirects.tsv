@@ -1,0 +1,16 @@
+Source	Destination
+# source paths with a trailing slash → delivered extensionless URL
+/accessibility/	/accessibility
+/en-us/surface/do-more-with-surface/	/en-us/surface/do-more-with-surface
+# selected source page that redirects off-origin today (301)
+/earn	https://earn.microsoft.com/
+# folder-index sources: the trailing-slash form → the delivered page
+/about/	/about
+/bing/	/bing
+/support/	/support
+# the source's canonical en-us URLs of captured pages (extract finalUrl) → the delivered page
+/en-us	/
+/en-us/about	/about
+/en-us/accessibility	/accessibility
+/en-us/ai	/ai
+/en-us/corporate-responsibility	/corporate-responsibility

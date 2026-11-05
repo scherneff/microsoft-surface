@@ -1,0 +1,1184 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T01:25:04.570Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "about",
+  "url": "https://www.microsoft.com/about",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T01:25:04.570Z",
+  "finalUrl": "https://www.microsoft.com/en-us/about",
+  "title": "Our Mission and Values | About Microsoft",
+  "description": "Our mission is to empower every person and every organization on the planet to achieve more. Learn more about Microsoft, our commitments, and values.",
+  "og": {
+    "title": "Our Mission and Values | About Microsoft",
+    "description": "Our mission is to empower every person and every organization on the planet to achieve more. Learn more about Microsoft, our commitments, and values.",
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-HealthcareTechnology-ResearcherDeveloper",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "We empower the world"
+    },
+    {
+      "tag": "h2",
+      "text": "Our opportunity and responsibility"
+    },
+    {
+      "tag": "h2",
+      "text": "We believe that companies that can do more, should"
+    },
+    {
+      "tag": "h3",
+      "text": "Expand opportunity"
+    },
+    {
+      "tag": "h3",
+      "text": "Earn trust"
+    },
+    {
+      "tag": "h3",
+      "text": "Protect fundamental rights"
+    },
+    {
+      "tag": "h3",
+      "text": "Advance sustainability"
+    },
+    {
+      "tag": "h2",
+      "text": "Microsoft Copilot"
+    },
+    {
+      "tag": "h3",
+      "text": "What will you do with Copilot?"
+    },
+    {
+      "tag": "h4",
+      "text": "AI-powered coding for everyone"
+    },
+    {
+      "tag": "h4",
+      "text": "Pushing the game forward"
+    },
+    {
+      "tag": "h2",
+      "text": "Discover more from Microsoft"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft products built to support you"
+    },
+    {
+      "tag": "h3",
+      "text": "Achieve more with the Microsoft Cloud"
+    },
+    {
+      "tag": "h3",
+      "text": "Any platform. Any language. Our tools."
+    },
+    {
+      "tag": "h2",
+      "text": "Our culture and careers"
+    },
+    {
+      "tag": "h3",
+      "text": "Because impact matters"
+    },
+    {
+      "tag": "h3",
+      "text": "Diversity & Inclusion"
+    },
+    {
+      "tag": "h3",
+      "text": "Inclusion is innovation"
+    },
+    {
+      "tag": "h2",
+      "text": "Our corporate values"
+    },
+    {
+      "tag": "h3",
+      "text": "Respect"
+    },
+    {
+      "tag": "h3",
+      "text": "Integrity"
+    },
+    {
+      "tag": "h3",
+      "text": "Accountability"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Microsoft"
+    },
+    {
+      "tag": "h2",
+      "text": "What's new"
+    },
+    {
+      "tag": "h2",
+      "text": "Microsoft Store"
+    },
+    {
+      "tag": "h2",
+      "text": "Education"
+    },
+    {
+      "tag": "h2",
+      "text": "Business"
+    },
+    {
+      "tag": "h2",
+      "text": "Developer & IT"
+    },
+    {
+      "tag": "h2",
+      "text": "Company"
+    }
+  ],
+  "body": [
+    "We believe that companies that can do more, should",
+    "Your everyday AI companion",
+    "What will you do with Copilot?",
+    "Engineers like Anton Mirhorodchenko are tackling accessibility issues in unprecedented ways.",
+    "The Billie Jean King Cup by Gainbridge is serving up better women's tennis stats with tech.",
+    "Explore what’s new with Copilot",
+    "Discover more from Microsoft",
+    "Our culture and careers",
+    "At Microsoft you can live your purpose every day. With our scale and reach, your personal impact becomes part of a collective force for global progress.",
+    "We believe our continued work to build diverse workforces and strengthen our culture of inclusion helps foster innovation.",
+    "We’re developing solutions to diversity and inclusion challenges by activating the same ingenuity, intention, and experience behind our groundbreaking technological innovations.",
+    "Our corporate values",
+    "Facts about Microsoft",
+    "News and stories",
+    "Microsoft office locations",
+    "Microsoft Support"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "About",
+      "href": "https://www.microsoft.com/en-us/about"
+    },
+    {
+      "label": "Our commitments",
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+    },
+    {
+      "label": "AI & Innovation",
+      "href": null
+    },
+    {
+      "label": "Culture",
+      "href": null
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.microsoft.com/"
+    },
+    {
+      "label": "News & Stories",
+      "href": null
+    },
+    {
+      "label": "Facts & Information",
+      "href": null
+    },
+    {
+      "label": "All Microsoft",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Sign in",
+      "href": null
+    },
+    {
+      "label": "ME",
+      "href": null
+    },
+    {
+      "label": "Watch the video",
+      "href": null
+    },
+    {
+      "label": "Explore our commitments",
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+    },
+    {
+      "label": "Try Copilot",
+      "href": "https://copilot.microsoft.com/onboarding"
+    },
+    {
+      "label": "Copilot for personal use",
+      "href": "https://www.microsoft.com/en-us/microsoft-copilot/learn"
+    },
+    {
+      "label": "Copilot for organizations",
+      "href": "https://www.microsoft.com/en-us/microsoft-copilot/meet-copilot"
+    },
+    {
+      "label": "Discover his story",
+      "href": "https://unlocked.microsoft.com/copilot-voice/"
+    },
+    {
+      "label": "Explore the game-changing tech",
+      "href": "https://unlocked.microsoft.com/billie-jean-king-cup/"
+    },
+    {
+      "label": "Explore what’s new with Copilot",
+      "href": "https://aka.ms/about_copilot"
+    },
+    {
+      "label": "Explore Microsoft products and apps",
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+    },
+    {
+      "label": "Learn about Microsoft Cloud",
+      "href": "https://www.microsoft.com/en-us/microsoft-cloud"
+    },
+    {
+      "label": "Visit Microsoft Developer",
+      "href": "https://developer.microsoft.com/en-us/"
+    },
+    {
+      "label": "Explore careers at Microsoft",
+      "href": "https://careers.microsoft.com/"
+    },
+    {
+      "label": "Learn about diversity at Microsoft",
+      "href": "https://www.microsoft.com/en-us/diversity"
+    },
+    {
+      "label": "Explore the stories",
+      "href": "https://aka.ms/inclusionisinnovation"
+    },
+    {
+      "label": "Facts about Microsoft",
+      "href": "https://news.microsoft.com/facts-about-microsoft/"
+    },
+    {
+      "label": "News and stories",
+      "href": "https://news.microsoft.com/source/"
+    },
+    {
+      "label": "Microsoft office locations",
+      "href": "https://www.microsoft.com/en-us/about/office-locations"
+    },
+    {
+      "label": "Microsoft Support",
+      "href": "https://support.microsoft.com/en-us"
+    },
+    {
+      "label": "Surface Laptop Ultra",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra"
+    },
+    {
+      "label": "Surface Pro",
+      "href": "https://www.microsoft.com/surface/devices/surface-pro"
+    },
+    {
+      "label": "Surface Laptop",
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop"
+    },
+    {
+      "label": "Surface RTX Spark Dev Box",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox"
+    },
+    {
+      "label": "Explore Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot"
+    },
+    {
+      "label": "Explore Microsoft products",
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+    },
+    {
+      "label": "Windows 11 apps",
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps"
+    },
+    {
+      "label": "Account profile",
+      "href": "https://account.microsoft.com/"
+    },
+    {
+      "label": "Download Center",
+      "href": "https://www.microsoft.com/en-us/download"
+    },
+    {
+      "label": "Microsoft Store support",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2139749"
+    },
+    {
+      "label": "Returns",
+      "href": "https://www.microsoft.com/en-us/store/b/returns"
+    },
+    {
+      "label": "Order tracking",
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking"
+    },
+    {
+      "label": "Certified Refurbished",
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+    },
+    {
+      "label": "Why buy from Microsoft Store",
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy"
+    },
+    {
+      "label": "Flexible Payments",
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc"
+    },
+    {
+      "label": "Microsoft in education",
+      "href": "https://www.microsoft.com/en-us/education"
+    },
+    {
+      "label": "Devices for education",
+      "href": "https://www.microsoft.com/en-us/education/devices/overview"
+    },
+    {
+      "label": "Microsoft Teams for Education",
+      "href": "https://www.microsoft.com/en-us/education/products/teams"
+    },
+    {
+      "label": "Microsoft 365 Education",
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365"
+    },
+    {
+      "label": "How to buy for your school",
+      "href": "https://www.microsoft.com/education/how-to-buy"
+    },
+    {
+      "label": "Educator training and development",
+      "href": "https://education.microsoft.com/"
+    },
+    {
+      "label": "Deals for students and parents",
+      "href": "https://www.microsoft.com/en-us/store/b/education"
+    },
+    {
+      "label": "AI for education",
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education"
+    },
+    {
+      "label": "Microsoft AI",
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI"
+    },
+    {
+      "label": "Microsoft Security",
+      "href": "https://www.microsoft.com/en-us/security"
+    },
+    {
+      "label": "Dynamics 365",
+      "href": "https://www.microsoft.com/en-us/dynamics-365"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+    },
+    {
+      "label": "Microsoft Power Platform",
+      "href": "https://www.microsoft.com/en-us/power-platform"
+    },
+    {
+      "label": "Microsoft Teams",
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+    },
+    {
+      "label": "Microsoft Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot"
+    },
+    {
+      "label": "Small Business",
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+    },
+    {
+      "label": "Azure",
+      "href": "https://azure.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Developer",
+      "href": "https://developer.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Learn",
+      "href": "https://learn.microsoft.com/"
+    },
+    {
+      "label": "Support for AI marketplace apps",
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Microsoft Tech Community",
+      "href": "https://techcommunity.microsoft.com/"
+    },
+    {
+      "label": "Microsoft Marketplace",
+      "href": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Software companies",
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Visual Studio",
+      "href": "https://visualstudio.microsoft.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.microsoft.com/"
+    },
+    {
+      "label": "About Microsoft",
+      "href": "https://www.microsoft.com/about"
+    },
+    {
+      "label": "Company news",
+      "href": "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews"
+    },
+    {
+      "label": "Privacy at Microsoft",
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy"
+    },
+    {
+      "label": "Investors",
+      "href": "https://www.microsoft.com/investor/default.aspx"
+    },
+    {
+      "label": "Diversity and inclusion",
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.microsoft.com/en-us/accessibility"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability"
+    },
+    {
+      "label": "English (United States)",
+      "href": "https://www.microsoft.com/en-us/about/locale"
+    },
+    {
+      "label": "Your Privacy Choices Opt-Out Icon Your Privacy Choices",
+      "href": "https://aka.ms/yourcaliforniaprivacychoices"
+    },
+    {
+      "label": "Consumer Health Privacy",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2259814"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://www.microsoft.com/en-us/sitemap1.aspx"
+    },
+    {
+      "label": "Contact Microsoft",
+      "href": "https://support.microsoft.com/contactus"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://go.microsoft.com/fwlink/?LinkId=521839"
+    },
+    {
+      "label": "Terms of use",
+      "href": "https://go.microsoft.com/fwlink/?LinkID=206977"
+    },
+    {
+      "label": "Trademarks",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2196228"
+    },
+    {
+      "label": "Safety & eco",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2196227"
+    },
+    {
+      "label": "Recycling",
+      "href": "https://www.microsoft.com/en-us/legal/compliance/recycling"
+    },
+    {
+      "label": "About our ads",
+      "href": "https://choice.microsoft.com"
+    }
+  ],
+  "links": [
+    "https://www.microsoft.com/en-us/about#primaryArea",
+    "https://www.microsoft.com/",
+    "https://www.microsoft.com/en-us/about",
+    "https://www.microsoft.com/en-us/corporate-responsibility",
+    "https://www.microsoft.com/ai",
+    "https://www.microsoft.com/en-us/microsoft-copilot/learn",
+    "https://www.microsoft.com/microsoft-cloud",
+    "https://www.microsoft.com/en-us/research",
+    "https://www.microsoft.com/microsoft-products-and-apps",
+    "https://news.microsoft.com/source/topics/work-life",
+    "https://www.microsoft.com/en-us/diversity",
+    "https://www.microsoftalumni.com/",
+    "https://careers.microsoft.com/",
+    "https://blogs.microsoft.com/",
+    "https://blogs.microsoft.com/on-the-issues",
+    "https://news.microsoft.com/source",
+    "https://unlocked.microsoft.com/",
+    "https://news.microsoft.com/facts-about-microsoft",
+    "https://news.microsoft.com/leadership",
+    "https://www.microsoft.com/investor",
+    "https://www.microsoft.com/en-us/corporate-responsibility/reports-hub",
+    "https://www.microsoft.com/en-us/about/office-locations",
+    "https://www.microsoft.com/en-us/worldwide.aspx",
+    "https://support.microsoft.com/contactus",
+    "https://www.microsoft.com/microsoft-365",
+    "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp",
+    "https://copilot.com/?fromcode=cmmuaql67jy",
+    "https://www.microsoft.com/en-us/windows/",
+    "https://www.microsoft.com/surface",
+    "https://www.xbox.com/",
+    "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals",
+    "https://www.microsoft.com/en-us/store/b/business",
+    "https://support.microsoft.com/en-us",
+    "https://apps.microsoft.com/home",
+    "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+    "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+    "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app",
+    "https://www.microsoft.com/edge",
+    "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype",
+    "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+    "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox",
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+    "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+    "https://www.microsoft.com/en-us/store/b/microsoft-trade-in",
+    "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate",
+    "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass",
+    "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames",
+    "https://apps.microsoft.com/games",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI",
+    "https://www.microsoft.com/en-us/security",
+    "https://www.microsoft.com/en-us/dynamics-365",
+    "https://www.microsoft.com/en-us/microsoft-365/business",
+    "https://www.microsoft.com/en-us/power-platform",
+    "https://www.microsoft.com/en-us/windows-365",
+    "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+    "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty",
+    "https://azure.microsoft.com/en-us/",
+    "https://developer.microsoft.com/en-us/",
+    "https://learn.microsoft.com/",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://techcommunity.microsoft.com/",
+    "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://visualstudio.microsoft.com/",
+    "https://www.microsoft.com/rewards",
+    "https://www.microsoft.com/en-us/download",
+    "https://www.microsoft.com/en-us/education",
+    "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards",
+    "https://www.microsoft.com/licensing/",
+    "https://www.microsoft.com/en-us/sitemap",
+    "https://copilot.microsoft.com/onboarding",
+    "https://www.microsoft.com/en-us/microsoft-copilot/meet-copilot",
+    "https://unlocked.microsoft.com/copilot-voice/",
+    "https://unlocked.microsoft.com/billie-jean-king-cup/",
+    "https://aka.ms/about_copilot",
+    "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+    "https://www.microsoft.com/en-us/microsoft-cloud",
+    "https://aka.ms/inclusionisinnovation",
+    "https://news.microsoft.com/facts-about-microsoft/",
+    "https://news.microsoft.com/source/",
+    "https://www.linkedin.com/showcase/microsoft-on-the-issues",
+    "https://x.com/msftissues",
+    "https://www.instagram.com/msftissues/",
+    "https://blogs.microsoft.com/on-the-issues/",
+    "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+    "https://www.microsoft.com/surface/devices/surface-pro",
+    "https://www.microsoft.com/surface/devices/surface-laptop",
+    "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+    "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+    "https://account.microsoft.com/",
+    "https://go.microsoft.com/fwlink/?linkid=2139749",
+    "https://www.microsoft.com/en-us/store/b/returns",
+    "https://www.microsoft.com/en-us/store/b/order-tracking",
+    "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+    "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+    "https://www.microsoft.com/en-us/education/devices/overview",
+    "https://www.microsoft.com/en-us/education/products/teams",
+    "https://www.microsoft.com/en-us/education/products/microsoft-365",
+    "https://www.microsoft.com/education/how-to-buy",
+    "https://education.microsoft.com/",
+    "https://www.microsoft.com/en-us/store/b/education",
+    "https://www.microsoft.com/en-us/education/ai-in-education",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://marketplace.microsoft.com/?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/about",
+    "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews",
+    "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+    "https://www.microsoft.com/investor/default.aspx",
+    "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+    "https://www.microsoft.com/en-us/accessibility",
+    "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+    "https://www.microsoft.com/en-us/about/locale",
+    "https://aka.ms/yourcaliforniaprivacychoices",
+    "https://go.microsoft.com/fwlink/?linkid=2259814",
+    "https://www.microsoft.com/en-us/sitemap1.aspx",
+    "https://go.microsoft.com/fwlink/?LinkId=521839",
+    "https://www.microsoft.com/en-us/about#",
+    "https://go.microsoft.com/fwlink/?LinkID=206977",
+    "https://go.microsoft.com/fwlink/?linkid=2196228",
+    "https://go.microsoft.com/fwlink/?linkid=2196227",
+    "https://www.microsoft.com/en-us/legal/compliance/recycling",
+    "https://choice.microsoft.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+        "alt": "Microsoft",
+        "w": 216,
+        "h": 46
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-HealthcareTechnology-ResearcherDeveloper-Highlight1920x720:VP5-1920x600",
+        "alt": "Researcher engaged with Azure developer collaborating outside medical treatment room.",
+        "w": 1920,
+        "h": 600
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-Mission-Video-Teens-Tablet:VP5-800x450",
+        "alt": "Two teen girls working on a tablet",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Impact-Summary-Cross-Expand-Opportunity-834x470?wid=380&hei=213&fit=crop",
+        "alt": "Three people are smiling and talking around a table with a laptop, with the text \"How can we expand opportunity?\" displayed.",
+        "w": 380,
+        "h": 213
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Impact-Summary-Cross-Earn-Trust-834x470?wid=380&hei=213&fit=crop",
+        "alt": "A man points to a digital world map on a screen, with the question \"How can we earn trust?\" displayed.",
+        "w": 380,
+        "h": 213
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Impact-Summary-Cross-Fundamental-Rights-834x470?wid=380&hei=213&fit=crop",
+        "alt": "A woman sitting in a wheelchair, holding a tablet, with the text \"How can we protect fundamental rights?\" displayed.",
+        "w": 380,
+        "h": 213
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Impact-Summary-Cross-Sustainability-834x470?wid=380&hei=213&fit=crop",
+        "alt": "A vast field of solar panels under a sunset sky, with the text \"How can we advance sustainability?\" displayed.",
+        "w": 380,
+        "h": 213
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-Background-Copilot-1920x1907-1x",
+        "alt": "",
+        "w": 400,
+        "h": 398
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-AreaHeading-Copilot-128x128?fmt=png-alpha",
+        "alt": "Copilot logo",
+        "w": 128,
+        "h": 128
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-ContentCard-Anton-150x150?wid=150&hei=150&fit=crop",
+        "alt": "Portrait of a man in a chair, looking towards the camera. He wears a t-shirt with a cat dressed up as a dinosaur.",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-ContentCard-Billie-Jean-King-Cup-150x150?wid=111&hei=111&fit=crop",
+        "alt": "A person is holding a tablet displaying colorful charts and graphs.",
+        "w": 111,
+        "h": 111
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-man-with-illustrated-background-653x653?wid=653&hei=653",
+        "alt": "A smiling man with his arms crossed against a colorfully illustrated background.",
+        "w": 653,
+        "h": 653
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-Diversity-Inclusion-three-coworkers-400x400?wid=382&hei=382",
+        "alt": "Three female coworkers sitting at a table talking and while looking at a Surface computer and tablet",
+        "w": 382,
+        "h": 382
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/About-illustrated-inclusive-group-400x400?wid=382&hei=382",
+        "alt": "Diverse group of six adults, colorfully illustrated",
+        "w": 382,
+        "h": 382
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Linkedin%202x-1?scl=1&fmt=png-alpha",
+        "alt": "Follow Microsoft on the Issues on LinkedIn.",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Twitter-%20XCorp-black@2x-1?scl=1&fmt=png-alpha",
+        "alt": "Follow Microsoft on the Issues on X.",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Instagram%202x-1?scl=1&fmt=png-alpha",
+        "alt": "Follow Microsoft on the Issues on Instagram.",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blog-3?scl=1&fmt=png-alpha",
+        "alt": "Follow the Microsoft on the Issues blog.",
+        "w": 40,
+        "h": 40
+      }
+    ],
+    "allImgCount": 18,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--progress-indicator-spacing": "14.25rem",
+    "--default-play-button-spacing": "$carousel-control-min-size * 2.5",
+    "--sc-card-background-color": "#fff",
+    "--sc-card-color": "#000",
+    "--sc-card-link-color": "#0067b8",
+    "--sc-card-link-hover-color": "#004a7f",
+    "--sc-card-link-active-color": "#004a7f",
+    "--sc-card-link-visited-color": "#0067b8",
+    "--sc-card-link-visited-hover-color": "#004a7f",
+    "--sc-card-box-shadow": "0 .1875rem .4375rem 0 rgba(0,0,0,.13),0 .0625rem .125rem 0 rgba(0,0,0,.11)",
+    "--sc-card-border-radius": "0",
+    "--sc-material-backdrop-color": "#000",
+    "--sc-material-backdrop-background-color": "#fff",
+    "--sc-badge-display": "inline-block",
+    "--sc-badge-padding": ".375em .75em",
+    "--sc-badge-font-size": "1rem",
+    "--sc-badge-font-weight": "600",
+    "--sc-badge-bg-yellow-background-color": "#ffb900",
+    "--sc-badge-bg-yellow-color": "#000",
+    "--sc-card-img-border-radius": "0",
+    "--sc-card-img-icon-width": "32px",
+    "--sc-card-img-icon-height": "32px",
+    "--sc-card-img-icon-font-size": "2rem",
+    "--sc-card-img-icon-color": "#0078d4",
+    "--sc-card-padding": "5px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 30,
+    "mainTextLen": 4738,
+    "realImageCount": 18,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "path": "/api/v1/tas",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 195,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "msftenterprise.sc.omtrdc.net",
+        "path": "/id",
+        "query": [
+          "cl",
+          "d_fieldgroup",
+          "d_visid_ver",
+          "mcorgid",
+          "mid",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://msftenterprise.sc.omtrdc.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "target.microsoft.com",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://target.microsoft.com/rest/v1/delivery",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "c.az.clicktale.net",
+        "path": "/pageview",
+        "query": [
+          "ct",
+          "cvt",
+          "cw",
+          "dh",
+          "dr",
+          "dt",
+          "dw",
+          "ex",
+          "fvt",
+          "fvurl",
+          "happid",
+          "hd",
+          "la",
+          "pid",
+          "pn",
+          "pvt",
+          "sh",
+          "sn",
+          "sw",
+          "t",
+          "uc",
+          "url",
+          "uu",
+          "v",
+          "wh",
+          "ww"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://c.az.clicktale.net/pageview",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.az.clicktale.net",
+        "path": "/pageEvent",
+        "query": [
+          "ct",
+          "cvt",
+          "fvt",
+          "fvurl",
+          "happid",
+          "isCustomHashId",
+          "isETR",
+          "pid",
+          "pn",
+          "r",
+          "sh",
+          "sn",
+          "sw",
+          "t",
+          "url",
+          "uu",
+          "v",
+          "value"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://c.az.clicktale.net/pageEvent",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.az.clicktale.net",
+        "path": "/dvar",
+        "query": [
+          "ct",
+          "cvt",
+          "dv",
+          "fvt",
+          "fvurl",
+          "happid",
+          "pid",
+          "pn",
+          "r",
+          "sh",
+          "sn",
+          "sw",
+          "t",
+          "url",
+          "uu",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://c.az.clicktale.net/dvar",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "browser.events.data.microsoft.com",
+        "path": "/OneCollector/1.0/",
+        "query": [
+          "content-type",
+          "cors",
+          "w"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 153,
+        "hits": 3,
+        "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "k.af.clicktale.net",
+        "path": "/v2/recording",
+        "query": [
+          "ct",
+          "let",
+          "pid",
+          "pn",
+          "ri",
+          "rst",
+          "rt",
+          "sn",
+          "uu",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://k.af.clicktale.net/v2/recording",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "srm.af.contentsquare.net",
+        "path": "/exist",
+        "query": [
+          "pid",
+          "pn",
+          "sn",
+          "uu",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://srm.af.contentsquare.net/exist",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "cdnssl.clicktale.net",
+        "count": 1
+      },
+      {
+        "host": "static.hj.contentsquare.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/about.png",
+  "renderedHtml": "pages/about.html",
+  "slots": {
+    "type": "static",
+    "names": [
+      "hero",
+      "feature-band",
+      "card-grid",
+      "cta-band"
+    ],
+    "headline": "We empower the world",
+    "headings": 30,
+    "ctas": [
+      {
+        "label": "About",
+        "href": "https://www.microsoft.com/en-us/about"
+      },
+      {
+        "label": "Our commitments",
+        "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+      },
+      {
+        "label": "AI & Innovation",
+        "href": null
+      },
+      {
+        "label": "Culture",
+        "href": null
+      },
+      {
+        "label": "Careers",
+        "href": "https://careers.microsoft.com/"
+      },
+      {
+        "label": "News & Stories",
+        "href": null
+      }
+    ],
+    "_provenance": "extract --prep typed slots (inferred from headings/ctas)"
+  }
+}

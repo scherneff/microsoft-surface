@@ -1,0 +1,135 @@
+/* explore — values from stardust/prototypes/about.css (.explore, .link-list, .socialfollow) */
+.explore {
+  padding-top: 72px;
+}
+
+.explore .explore-links :is(h2, h3) {
+  margin-bottom: 16px;
+}
+
+.explore .explore-links ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.explore .explore-links li {
+  display: flex;
+  align-items: center;
+  margin: 16px 24px;
+  font-weight: 600;
+}
+
+.explore .explore-links a {
+  color: var(--ms-link);
+  text-decoration: underline;
+}
+
+.explore .explore-follow {
+  padding: 64px 12px 0;
+}
+
+.explore .explore-follow-label {
+  display: inline;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.explore .explore-follow-label p {
+  display: inline;
+  margin: 0;
+}
+
+.explore .explore-follow ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.explore .explore-follow li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.explore .explore-follow a {
+  display: inline-block;
+}
+
+.explore .explore-follow img {
+  width: 32px;
+  height: 32px;
+}
+
+@media (width <= 480px) {
+  .explore .explore-follow ul {
+    margin-top: 4px;
+  }
+}
+
+/* follow-only explore (CR) below 860: the live social-follow row sits 64px under the
+   CTA band (measure.mjs at 360: band end 6600, socialfollow 6664) */
+@media (width < 860px) {
+  .explore:not(.stacked, :has(.explore-links)) {
+    padding-top: 0;
+  }
+}
+
+@media (width >= 540px) {
+  .explore .explore-links li:first-child {
+    margin-left: 0;
+  }
+}
+
+/* ---------- variant `stacked` (accessibility): centred row of icon-over-label links
+   (MWF link-list with icons; measure.mjs at 1440 + 360). Additive. */
+.explore.stacked {
+  padding-top: 24px;
+}
+
+/* the live grid-image container closes with a 1px rule above the link list */
+.explore.stacked .explore-follow {
+  padding: 24px 0 0;
+  border-top: 1px solid rgb(255 255 255 / 35%);
+  text-align: center;
+}
+
+.explore.stacked .explore-follow ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 16px;
+}
+
+.explore.stacked .explore-follow li {
+  display: block;
+  width: 33.3333%;
+  margin: 0;
+  padding: 16px 0;
+}
+
+.explore.stacked .explore-follow a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  color: #3aa0fa;
+  text-decoration: underline;
+}
+
+.explore.stacked .explore-follow img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+@media (width >= 860px) {
+  .explore.stacked .explore-follow li {
+    width: auto;
+    margin: 0 24px;
+  }
+}

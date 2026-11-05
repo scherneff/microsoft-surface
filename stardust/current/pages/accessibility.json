@@ -1,0 +1,1110 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T01:25:11.559Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "accessibility",
+  "url": "https://www.microsoft.com/accessibility/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T01:25:11.559Z",
+  "finalUrl": "https://www.microsoft.com/en-us/accessibility",
+  "title": "Accessibility Technology & Tools | Microsoft Accessibility",
+  "description": "We embed accessibility into our design process to create better experiences for everyone. Explore accessible technology, training, and inclusive innovation.",
+  "og": {
+    "title": "Accessibility Technology & Tools | Microsoft Accessibility",
+    "description": "We embed accessibility into our design process to create better experiences for everyone. Explore accessible technology, training, and inclusive innovation.",
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Accessibility-Hero-1A-T1-Social?scl=1",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Accessibility at Microsoft"
+    },
+    {
+      "tag": "h2",
+      "text": "Help when and where you need it"
+    },
+    {
+      "tag": "h3",
+      "text": "Find what you need faster with AI"
+    },
+    {
+      "tag": "h3",
+      "text": "Disability Answer Desk"
+    },
+    {
+      "tag": "h2",
+      "text": "Self-help center"
+    },
+    {
+      "tag": "h3",
+      "text": "By product"
+    },
+    {
+      "tag": "h3",
+      "text": "By disability"
+    },
+    {
+      "tag": "h2",
+      "text": "AI skills"
+    },
+    {
+      "tag": "h3",
+      "text": "AI and accessibility overview"
+    },
+    {
+      "tag": "h3",
+      "text": "AI Skills for Accessibility"
+    },
+    {
+      "tag": "h2",
+      "text": "What’s new in accessibility at Microsoft?"
+    },
+    {
+      "tag": "h3",
+      "text": "Ability Summit 2026"
+    },
+    {
+      "tag": "h3",
+      "text": "The expanding role of assistive technology"
+    },
+    {
+      "tag": "h3",
+      "text": "Our new Chief Accessibility Officer"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft’s commitment to the European Accessibility Act"
+    },
+    {
+      "tag": "h2",
+      "text": "Advancing trustworthy and accessible AI"
+    },
+    {
+      "tag": "h2",
+      "text": "What's new"
+    },
+    {
+      "tag": "h2",
+      "text": "Microsoft Store"
+    },
+    {
+      "tag": "h2",
+      "text": "Education"
+    },
+    {
+      "tag": "h2",
+      "text": "Business"
+    },
+    {
+      "tag": "h2",
+      "text": "Developer & IT"
+    },
+    {
+      "tag": "h2",
+      "text": "Company"
+    }
+  ],
+  "body": [
+    "This video focuses on the intersection of AI and accessibility, discussing Microsoft's guidelines for responsible AI and the benefit to the disability community.",
+    "Duration: 4 minutes 30 seconds",
+    "Learn how to use AI for everyday tasks work and creativity. This course is taught by people with disabilities and shares practical accessible ways to use AI confidently.",
+    "Duration: 1 hour",
+    "Explore our approach to building trusted technology and discover how Microsoft employees with disabilities use AI to work more confidently, efficiently, and effectively.",
+    "LinkedIn",
+    "YouTube",
+    "Blog",
+    "Support"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Accessibility",
+      "href": "https://www.microsoft.com/accessibility"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "AI skilling and resources",
+      "href": "https://www.microsoft.com/accessibility/resources"
+    },
+    {
+      "label": "Support",
+      "href": "https://www.microsoft.com/en-us/accessibility/disability-answer-desk"
+    },
+    {
+      "label": "Workplace",
+      "href": null
+    },
+    {
+      "label": "Conformance reports",
+      "href": "https://www.microsoft.com/accessibility/conformance-reports"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blogs.microsoft.com/accessibility/"
+    },
+    {
+      "label": "All Microsoft",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Cart 0",
+      "href": "https://www.microsoft.com/en-us/store/cart"
+    },
+    {
+      "label": "Sign in",
+      "href": null
+    },
+    {
+      "label": "ME",
+      "href": null
+    },
+    {
+      "label": "Pause",
+      "href": null
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Explore skilling resources",
+      "href": "#skilling"
+    },
+    {
+      "label": "Try it now",
+      "href": "#open-ai-assistant"
+    },
+    {
+      "label": "Get support via chat, phone, or ASL",
+      "href": "https://www.microsoft.com/accessibility/disability-answer-desk"
+    },
+    {
+      "label": "Explore tips and tools",
+      "href": "https://support.microsoft.com/accessibility"
+    },
+    {
+      "label": "Windows",
+      "href": "https://www.microsoft.com/windows/accessibility-features"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "https://www.microsoft.com/accessibility/microsoft-365"
+    },
+    {
+      "label": "Microsoft Teams",
+      "href": "https://www.microsoft.com/microsoft-teams/accessibility-closed-captions-transcriptions"
+    },
+    {
+      "label": "Xbox",
+      "href": "https://www.xbox.com/community/for-everyone/accessibility"
+    },
+    {
+      "label": "Visual Studio",
+      "href": "https://learn.microsoft.com/visualstudio/ide/reference/accessibility-tips-and-tricks?view=vs-2022"
+    },
+    {
+      "label": "Adaptive accessories",
+      "href": "https://support.microsoft.com/adaptiveaccessories"
+    },
+    {
+      "label": "Vision",
+      "href": "https://support.microsoft.com/topic/accessibility-tools-for-vision-b3c57606-e0af-46d2-97b4-fa6b5fba4fa1"
+    },
+    {
+      "label": "Hearing",
+      "href": "https://support.microsoft.com/topic/accessibility-tools-for-hearing-111d7360-cd47-4104-aef1-2a33297909ad"
+    },
+    {
+      "label": "Neurodiversity",
+      "href": "https://support.microsoft.com/topic/accessibility-tools-for-neurodiversity-6dbd8065-b543-4cf8-bdfb-7c84d9e8f74a"
+    },
+    {
+      "label": "Learning",
+      "href": "https://support.microsoft.com/topic/accessibility-tools-for-learning-a610cc7f-6cd1-49ff-a543-214cdf9a0710"
+    },
+    {
+      "label": "Mobility",
+      "href": "https://support.microsoft.com/topic/accessibility-tools-for-mobility-19ff5a45-2d68-4306-9602-05c0aa967c9f"
+    },
+    {
+      "label": "Mental health",
+      "href": "https://support.microsoft.com/topic/accessibility-tools-for-mental-health-76629671-3fc3-4f06-bf65-7ee02d03f540"
+    },
+    {
+      "label": "Explore accessibility training and resources",
+      "href": "https://www.microsoft.com/accessibility/resources"
+    },
+    {
+      "label": "Learn about AI solutions",
+      "href": "https://aka.ms/AccessibleAIVideo"
+    },
+    {
+      "label": "Learn about AI skills for people with disabilities",
+      "href": "https://aka.ms/AISkills4Accessibility"
+    },
+    {
+      "label": "Watch Ability Summit 2026 sessions",
+      "href": "https://www.youtube.com/playlist?list=PLtSVUgxIo6Kqh35UgCKVnqb6T7Pm-gvm-"
+    },
+    {
+      "label": "Read about it on LinkedIn",
+      "href": "https://www.linkedin.com/pulse/ability-summit-2026-accessibility-ai-what-we-built-together-barnett-nww4c/?trackingId=nMN60AxwR967Xr%2B3NpAXdA%3D%3D"
+    },
+    {
+      "label": "Read the global Forrester study",
+      "href": "https://aka.ms/ForresterAccessibility_2026"
+    },
+    {
+      "label": "Read the announcement",
+      "href": "https://www.linkedin.com/posts/jennylf_accessibility-activity-7447685559113879555-sdCi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADnx-8BMwOu0JuVNUggQwyQhOyClY7CJpQ"
+    },
+    {
+      "label": "Read the EAA blog",
+      "href": "https://aka.ms/EuropeanAcessibilityAct"
+    },
+    {
+      "label": "Explore responsible innovation",
+      "href": "https://www.microsoft.com/corporate-responsibility/trusted-technology-group"
+    },
+    {
+      "label": "Watch the video series",
+      "href": "https://aka.ms/This_is_my_Copilot_VideoSeries"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/showcase/msft-accessibility"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/user/MSFTEnable"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blogs.microsoft.com/accessibility/"
+    },
+    {
+      "label": "Support",
+      "href": "https://www.microsoft.com/accessibility/disability-answer-desk"
+    },
+    {
+      "label": "Surface Laptop Ultra",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra"
+    },
+    {
+      "label": "Surface Pro",
+      "href": "https://www.microsoft.com/surface/devices/surface-pro"
+    },
+    {
+      "label": "Surface Laptop",
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop"
+    },
+    {
+      "label": "Surface RTX Spark Dev Box",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox"
+    },
+    {
+      "label": "Explore Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot"
+    },
+    {
+      "label": "Explore Microsoft products",
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+    },
+    {
+      "label": "Windows 11 apps",
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps"
+    },
+    {
+      "label": "Account profile",
+      "href": "https://account.microsoft.com/"
+    },
+    {
+      "label": "Download Center",
+      "href": "https://www.microsoft.com/en-us/download"
+    },
+    {
+      "label": "Microsoft Store support",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2139749"
+    },
+    {
+      "label": "Returns",
+      "href": "https://www.microsoft.com/en-us/store/b/returns"
+    },
+    {
+      "label": "Order tracking",
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking"
+    },
+    {
+      "label": "Certified Refurbished",
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+    },
+    {
+      "label": "Why buy from Microsoft Store",
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy"
+    },
+    {
+      "label": "Flexible Payments",
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc"
+    },
+    {
+      "label": "Microsoft in education",
+      "href": "https://www.microsoft.com/en-us/education"
+    },
+    {
+      "label": "Devices for education",
+      "href": "https://www.microsoft.com/en-us/education/devices/overview"
+    },
+    {
+      "label": "Microsoft Teams for Education",
+      "href": "https://www.microsoft.com/en-us/education/products/teams"
+    },
+    {
+      "label": "Microsoft 365 Education",
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365"
+    },
+    {
+      "label": "How to buy for your school",
+      "href": "https://www.microsoft.com/education/how-to-buy"
+    },
+    {
+      "label": "Educator training and development",
+      "href": "https://education.microsoft.com/"
+    },
+    {
+      "label": "Deals for students and parents",
+      "href": "https://www.microsoft.com/en-us/store/b/education"
+    },
+    {
+      "label": "AI for education",
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education"
+    },
+    {
+      "label": "Microsoft AI",
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI"
+    },
+    {
+      "label": "Microsoft Security",
+      "href": "https://www.microsoft.com/en-us/security"
+    },
+    {
+      "label": "Dynamics 365",
+      "href": "https://www.microsoft.com/en-us/dynamics-365"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+    },
+    {
+      "label": "Microsoft Power Platform",
+      "href": "https://www.microsoft.com/en-us/power-platform"
+    },
+    {
+      "label": "Microsoft Teams",
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+    },
+    {
+      "label": "Microsoft Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot"
+    },
+    {
+      "label": "Small Business",
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+    },
+    {
+      "label": "Azure",
+      "href": "https://azure.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Developer",
+      "href": "https://developer.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Learn",
+      "href": "https://learn.microsoft.com/"
+    },
+    {
+      "label": "Support for AI marketplace apps",
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Microsoft Tech Community",
+      "href": "https://techcommunity.microsoft.com/"
+    },
+    {
+      "label": "Microsoft Marketplace",
+      "href": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Software companies",
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Visual Studio",
+      "href": "https://visualstudio.microsoft.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.microsoft.com/"
+    },
+    {
+      "label": "About Microsoft",
+      "href": "https://www.microsoft.com/about"
+    },
+    {
+      "label": "Company news",
+      "href": "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews"
+    },
+    {
+      "label": "Privacy at Microsoft",
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy"
+    },
+    {
+      "label": "Investors",
+      "href": "https://www.microsoft.com/investor/default.aspx"
+    },
+    {
+      "label": "Diversity and inclusion",
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.microsoft.com/en-us/accessibility"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability"
+    },
+    {
+      "label": "English (United States)",
+      "href": "https://www.microsoft.com/en-us/accessibility/locale"
+    },
+    {
+      "label": "Your Privacy Choices Opt-Out Icon Your Privacy Choices",
+      "href": "https://aka.ms/yourcaliforniaprivacychoices"
+    },
+    {
+      "label": "Consumer Health Privacy",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2259814"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://support.microsoft.com/contactus"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://go.microsoft.com/fwlink/?LinkId=521839"
+    },
+    {
+      "label": "Terms of use",
+      "href": "https://go.microsoft.com/fwlink/?LinkID=530144"
+    },
+    {
+      "label": "Trademarks",
+      "href": "https://www.microsoft.com/trademarks"
+    },
+    {
+      "label": "About our ads",
+      "href": "https://choice.microsoft.com/"
+    }
+  ],
+  "links": [
+    "https://www.microsoft.com/en-us/accessibility#primaryArea",
+    "https://www.microsoft.com/",
+    "https://www.microsoft.com/accessibility",
+    "https://www.microsoft.com/windows/accessibility-features",
+    "https://support.microsoft.com/office/accessibility-tools-for-microsoft-365-b5087b20-1387-4686-a0a5-8e11c5f46cdf",
+    "https://www.microsoft.com/microsoft-teams/accessibility-closed-captions-transcriptions",
+    "https://www.microsoft.com/edge/features/accessibility",
+    "https://www.xbox.com/community/for-everyone/accessibility",
+    "https://www.microsoft.com/accessibility/resources",
+    "https://www.microsoft.com/en-us/accessibility/disability-answer-desk",
+    "https://www.microsoft.com/accessibility/hiring",
+    "https://www.microsoft.com/accessibility/working-at-microsoft",
+    "https://www.microsoft.com/accessibility/supported-employment",
+    "https://www.microsoft.com/accessibility/conformance-reports",
+    "https://blogs.microsoft.com/accessibility/",
+    "https://www.microsoft.com/microsoft-365",
+    "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp",
+    "https://copilot.com/?fromcode=cmmuaql67jy",
+    "https://www.microsoft.com/en-us/windows/",
+    "https://www.microsoft.com/surface",
+    "https://www.xbox.com/",
+    "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals",
+    "https://www.microsoft.com/en-us/store/b/business",
+    "https://support.microsoft.com/en-us",
+    "https://apps.microsoft.com/home",
+    "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+    "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+    "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app",
+    "https://www.microsoft.com/edge",
+    "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype",
+    "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+    "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox",
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+    "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+    "https://www.microsoft.com/en-us/store/b/microsoft-trade-in",
+    "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate",
+    "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass",
+    "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames",
+    "https://apps.microsoft.com/games",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI",
+    "https://www.microsoft.com/en-us/security",
+    "https://www.microsoft.com/en-us/dynamics-365",
+    "https://www.microsoft.com/en-us/microsoft-365/business",
+    "https://www.microsoft.com/en-us/power-platform",
+    "https://www.microsoft.com/en-us/windows-365",
+    "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+    "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty",
+    "https://azure.microsoft.com/en-us/",
+    "https://developer.microsoft.com/en-us/",
+    "https://learn.microsoft.com/",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://techcommunity.microsoft.com/",
+    "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://visualstudio.microsoft.com/",
+    "https://www.microsoft.com/rewards",
+    "https://www.microsoft.com/en-us/download",
+    "https://www.microsoft.com/en-us/education",
+    "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards",
+    "https://www.microsoft.com/licensing/",
+    "https://unlocked.microsoft.com/",
+    "https://www.microsoft.com/en-us/sitemap",
+    "https://www.microsoft.com/en-us/store/cart",
+    "https://www.microsoft.com/en-us/accessibility#58aa91d8-7cd7-412e-8ff7-50d4903d6b55",
+    "https://www.microsoft.com/en-us/accessibility#skilling",
+    "https://aka.ms/MyCopilot_Jessica_Rafuse",
+    "https://aka.ms/Neil_Barnett_NDEAM",
+    "https://www.microsoft.com/en-us/accessibility#open-ai-assistant",
+    "https://www.microsoft.com/accessibility/disability-answer-desk",
+    "https://support.microsoft.com/accessibility",
+    "https://www.microsoft.com/accessibility/microsoft-365",
+    "https://learn.microsoft.com/visualstudio/ide/reference/accessibility-tips-and-tricks?view=vs-2022",
+    "https://support.microsoft.com/adaptiveaccessories",
+    "https://support.microsoft.com/topic/accessibility-tools-for-vision-b3c57606-e0af-46d2-97b4-fa6b5fba4fa1",
+    "https://support.microsoft.com/topic/accessibility-tools-for-hearing-111d7360-cd47-4104-aef1-2a33297909ad",
+    "https://support.microsoft.com/topic/accessibility-tools-for-neurodiversity-6dbd8065-b543-4cf8-bdfb-7c84d9e8f74a",
+    "https://support.microsoft.com/topic/accessibility-tools-for-learning-a610cc7f-6cd1-49ff-a543-214cdf9a0710",
+    "https://support.microsoft.com/topic/accessibility-tools-for-mobility-19ff5a45-2d68-4306-9602-05c0aa967c9f",
+    "https://support.microsoft.com/topic/accessibility-tools-for-mental-health-76629671-3fc3-4f06-bf65-7ee02d03f540",
+    "https://aka.ms/AccessibleAIVideo",
+    "https://aka.ms/AISkills4Accessibility",
+    "https://www.youtube.com/playlist?list=PLtSVUgxIo6Kqh35UgCKVnqb6T7Pm-gvm-",
+    "https://www.linkedin.com/pulse/ability-summit-2026-accessibility-ai-what-we-built-together-barnett-nww4c/?trackingId=nMN60AxwR967Xr%2B3NpAXdA%3D%3D",
+    "https://aka.ms/ForresterAccessibility_2026",
+    "https://www.linkedin.com/posts/jennylf_accessibility-activity-7447685559113879555-sdCi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADnx-8BMwOu0JuVNUggQwyQhOyClY7CJpQ",
+    "https://aka.ms/EuropeanAcessibilityAct",
+    "https://www.microsoft.com/corporate-responsibility/trusted-technology-group",
+    "https://aka.ms/This_is_my_Copilot_VideoSeries",
+    "https://www.linkedin.com/showcase/msft-accessibility",
+    "https://www.youtube.com/user/MSFTEnable",
+    "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+    "https://www.microsoft.com/surface/devices/surface-pro",
+    "https://www.microsoft.com/surface/devices/surface-laptop",
+    "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+    "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+    "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+    "https://account.microsoft.com/",
+    "https://go.microsoft.com/fwlink/?linkid=2139749",
+    "https://www.microsoft.com/en-us/store/b/returns",
+    "https://www.microsoft.com/en-us/store/b/order-tracking",
+    "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+    "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+    "https://www.microsoft.com/en-us/education/devices/overview",
+    "https://www.microsoft.com/en-us/education/products/teams",
+    "https://www.microsoft.com/en-us/education/products/microsoft-365",
+    "https://www.microsoft.com/education/how-to-buy",
+    "https://education.microsoft.com/",
+    "https://www.microsoft.com/en-us/store/b/education",
+    "https://www.microsoft.com/en-us/education/ai-in-education",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://marketplace.microsoft.com/?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://careers.microsoft.com/",
+    "https://www.microsoft.com/about",
+    "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews",
+    "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+    "https://www.microsoft.com/investor/default.aspx",
+    "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+    "https://www.microsoft.com/en-us/accessibility",
+    "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+    "https://www.microsoft.com/en-us/accessibility/locale",
+    "https://aka.ms/yourcaliforniaprivacychoices",
+    "https://go.microsoft.com/fwlink/?linkid=2259814",
+    "https://support.microsoft.com/contactus",
+    "https://go.microsoft.com/fwlink/?LinkId=521839",
+    "https://www.microsoft.com/en-us/accessibility#",
+    "https://go.microsoft.com/fwlink/?LinkID=530144",
+    "https://www.microsoft.com/trademarks",
+    "https://choice.microsoft.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://uhf.microsoft.com/images/microsoft/RE1MmB8.png",
+        "alt": "Microsoft",
+        "w": 216,
+        "h": 46
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Accessibility-Hero-1A-T1-blue-theme:VP5-1920x600",
+        "alt": "Young adult who has a prosthetic leg, watches a video on a laptop at home.",
+        "w": 1920,
+        "h": 600
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Copilot-Jessica-2880x900:VP5-1920x600",
+        "alt": "Jessica Rafuse, Senior Corporate Counsel and Head of Global Partnerships, Microsoft Accessibility, in her motorized wheelchair on Microsoft’s campus.",
+        "w": 1920,
+        "h": 600
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Category-Card-Accessibility-AI-Answers-blue-theme?fmt=png-alpha",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Category-Card-Accessibility-Disability-Help-Desk-Alt?fmt=png-alpha",
+        "alt": "",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Windows-11?wid=50&hei=50&fit=crop",
+        "alt": "Microsoft Windows logo.",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Microsoft-365?wid=50&hei=50&fit=crop",
+        "alt": "Microsoft 365 logo.",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Teams?wid=50&hei=50&fit=crop",
+        "alt": "Microsoft Teams logo.",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Xbox?wid=50&hei=50&fit=crop",
+        "alt": "Microsoft Xbox logo.",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Visual-Studio?wid=50&hei=50&fit=crop",
+        "alt": "Microsoft Visual Studio logo.",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Microsoft?wid=50&hei=50&fit=crop",
+        "alt": "Microsoft logo.",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Vision?wid=50&hei=50&fit=crop&fmt=png-alpha",
+        "alt": "",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Hearing?wid=50&hei=50&fit=crop&fmt=png-alpha",
+        "alt": "",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Neurodiversity?wid=50&hei=50&fit=crop&fmt=png-alpha",
+        "alt": "",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Learning?wid=50&hei=50&fit=crop&fmt=png-alpha",
+        "alt": "",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Mobility?wid=50&hei=50&fit=crop&fmt=png-alpha",
+        "alt": "",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Spec-Card-Accessibility-Mentalhealth?wid=50&hei=50&fit=crop&fmt=png-alpha",
+        "alt": "",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CLO23_RemoteHome_013:VP5-800x450",
+        "alt": "A young professional with a physical disability stands by a window in an office stairwell holding a laptop.",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSC25-trend-lifestyle-Getty-1463832215-rgb:VP5-800x450",
+        "alt": "A disabled male gamer is wearing a headset and playing exciting online games in a neon-lit room.",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Panelists-on-blue-lit-stage?wid=570&hei=570&resSharp=1",
+        "alt": "Accessibility Architect for Microsoft Teams, Chris Sano uses American Sign Language as he presents beside Principal Program Manager for Narrator, Nidhi Jain, during a panel discussion during the 2026 Ability Summit Keynote.",
+        "w": 570,
+        "h": 570
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Forrester-Cover?wid=570&hei=570&resSharp=1",
+        "alt": "A woman in a wheelchair is congratulated by several colleagues in a modern office.",
+        "w": 570,
+        "h": 570
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Neil-Barnett-2026-Keynote?wid=570&hei=570&resSharp=1",
+        "alt": "Microsoft Chief Accessibility Officer, Neil Barnett speaks during the 2026 Ability Summit keynote.",
+        "w": 570,
+        "h": 570
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CLO22-Conference:VP5-1842x1036?fmt=png-alpha",
+        "alt": "People in a conference room hold a meeting with remote participants.",
+        "w": 1842,
+        "h": 1036
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Linkedin@2x-1?fmt=png-alpha&wid=40&hei=40",
+        "alt": "LinkedIn icon.",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Link-List-Accessibility-Footer-Youtube?fmt=png-alpha&wid=40&hei=40",
+        "alt": "YouTube icon.",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Link-List-Accessibility-Footer-Blogs?fmt=png-alpha&wid=40&hei=40",
+        "alt": "Blog icon.",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Link-List-Accessibility-Footer-Support?fmt=png-alpha&wid=40&hei=40",
+        "alt": "Support icon.",
+        "w": 40,
+        "h": 40
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [
+      "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Background-1-T1-blue-theme?scl=1",
+      "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Gradient-Card-Background-Large-T1-blue-theme?scl=1&fmt=png-alpha",
+      "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Background-2-T1-blue-theme?scl=1",
+      "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Accessibility-Background-3-T1-blue-theme?scl=1"
+    ],
+    "modals": [
+      "Ask questions or make requests to the web AI assistant. Use the text input at the bottom to send messages."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--progress-indicator-spacing": "14.25rem",
+    "--default-play-button-spacing": "$carousel-control-min-size * 2.5"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 22,
+    "mainTextLen": 5245,
+    "realImageCount": 27,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "path": "/api/v1/tas",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "js.monitor.azure.com",
+        "path": "/scripts/b/ai.config.1.cfg.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.microsoft.com",
+        "path": "/fe/api/features/variants",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1036,
+        "hits": 1,
+        "example": "https://www.microsoft.com/fe/api/features/variants",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 198,
+        "hits": 2,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "target.microsoft.com",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://target.microsoft.com/rest/v1/delivery",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "msftenterprise.sc.omtrdc.net",
+        "path": "/id",
+        "query": [
+          "cl",
+          "d_fieldgroup",
+          "d_visid_ver",
+          "mcorgid",
+          "mid",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://msftenterprise.sc.omtrdc.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "browser.events.data.microsoft.com",
+        "path": "/OneCollector/1.0/",
+        "query": [
+          "content-type",
+          "cors",
+          "w"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 153,
+        "hits": 3,
+        "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 3,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 3,
+      "thirdPartyEndpoints": 6,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/accessibility.png",
+  "renderedHtml": "pages/accessibility.html",
+  "slots": {
+    "type": "static",
+    "names": [
+      "hero",
+      "feature-band",
+      "card-grid",
+      "cta-band"
+    ],
+    "headline": "Accessibility at Microsoft",
+    "headings": 22,
+    "ctas": [
+      {
+        "label": "Accessibility",
+        "href": "https://www.microsoft.com/accessibility"
+      },
+      {
+        "label": "Products",
+        "href": null
+      },
+      {
+        "label": "AI skilling and resources",
+        "href": "https://www.microsoft.com/accessibility/resources"
+      },
+      {
+        "label": "Support",
+        "href": "https://www.microsoft.com/en-us/accessibility/disability-answer-desk"
+      },
+      {
+        "label": "Workplace",
+        "href": null
+      },
+      {
+        "label": "Conformance reports",
+        "href": "https://www.microsoft.com/accessibility/conformance-reports"
+      }
+    ],
+    "_provenance": "extract --prep typed slots (inferred from headings/ctas)"
+  }
+}

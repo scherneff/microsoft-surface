@@ -1,0 +1,380 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/optimize",
+    "writtenAt": "2026-11-04T09:22:44.134Z",
+    "stardustVersion": "0.0.0"
+  },
+  "runs": [
+    {
+      "id": "run-1",
+      "at": "2026-11-04T09:21:50.331Z",
+      "scopePages": [
+        "about",
+        "accessibility",
+        "ai",
+        "bing",
+        "corporate-responsibility",
+        "en-us-surface-do-more-with-surface",
+        "index",
+        "search",
+        "support"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--3bab0b60--aemcoder.aem.live"
+    },
+    {
+      "id": "run-2",
+      "at": "2026-11-04T09:22:38.802Z",
+      "scopePages": [
+        "about",
+        "accessibility",
+        "ai",
+        "bing",
+        "corporate-responsibility",
+        "en-us-surface-do-more-with-surface",
+        "index",
+        "search",
+        "support"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--3bab0b60--aemcoder.aem.live"
+    },
+    {
+      "id": "run-3",
+      "at": "2026-11-04T09:22:43.909Z",
+      "scopePages": [
+        "about",
+        "accessibility",
+        "ai",
+        "bing",
+        "corporate-responsibility",
+        "en-us-surface-do-more-with-surface",
+        "index",
+        "search",
+        "support"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--3bab0b60--aemcoder.aem.live"
+    },
+    {
+      "id": "run-4",
+      "at": "2026-11-04T09:22:44.134Z",
+      "scopePages": [
+        "about",
+        "accessibility",
+        "ai",
+        "bing",
+        "corporate-responsibility",
+        "en-us-surface-do-more-with-surface",
+        "index",
+        "search",
+        "support"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--3bab0b60--aemcoder.aem.live"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f-0da7fca284",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "support"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-1a1c61b902",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "search"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "accepted",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-1c34ea3357",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ai"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-39c3df43a8",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-04T09:22:38.802Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-54be5a397f",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "index"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-04T09:22:38.802Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6b5a26d83f",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "about"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-04T09:22:38.802Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-7818c9de0e",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "bing"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-a4aa8c0fec",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "corporate-responsibility"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-04T09:22:38.802Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-e1e5789d3e",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "accessibility"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "url": "https://www.microsoft.com/en-us",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2084,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 584,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "uhf-header uhf-breakpoint--desktop uhf-theme--light",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "store-carousel#carousel-ocd2bc button[aria-label=\"Next\"]",
+      "error": "not found"
+    },
+    {
+      "sel": "store-card-promo#card-promo-ocd988 button[aria-expanded]",
+      "error": "not found"
+    },
+    {
+      "sel": "store-pill[data-bi-cn=\"Business\"]",
+      "frames": [
+        {
+          "t": 19056.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19278.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19486.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19693.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#carousel-carousel-item-oc5829 button[aria-label=\"Next Slide\"]",
+      "error": "not found"
+    },
+    {
+      "sel": "store-button#action-ocef52",
+      "frames": [
+        {
+          "t": 20744.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20948.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21161.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21366.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "slide-in-bottom",
+        "el": "store-featured > store-tabs.cmp-tabs > store-tab-panel > store-base-ui-shell > store-heading-block",
+        "txt": "Empower your business decisions with AI-driven gui",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "Azure. Limitless innovation.\n      \n    \n\t\n\n  \n\n  ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-ui-shell.reimagine-hero-quicklinks > store-container.hero-with-quicklinks-body > store-layout > store-layout-column > store-secondary-nav",
+        "txt": "Secondary Nav\n                \n                \n  ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "New Surface Laptop Ultra for Business\n      \n    \n",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "Surface RTX Spark Dev Box\n      \n    \n\t\n\n  \n\n     ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "Microsoft Ignite is almost here\n      \n    \n\t\n\n  \n",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "Windows 11 Pro\n      \n    \n\t\n\n  \n\n      \n    \n\n   ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "Accelerate innovation with Microsoft AI\n      \n   ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "store-tab-panel > store-carousel.show-end-fade > store-layout-column > store-carousel-item > store-card-promo.with-hover",
+        "txt": "Grow your business with Microsoft Teams\n      \n   ",
+        "y": 0
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "store-layout-column > store-carousel-item > store-card-promo.with-hover > store-text-block > h2",
+        "y": 0,
+        "dur": "0.4s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "show-end-fade"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel-cardgrid.aem-GridColumn.aem-GridColumn--default--12 > store-carousel-card-grid > div > store-carousel.cmp-carousel.show-end-fade",
+        "y": 300
+      },
+      {
+        "added": [
+          "show-end-fade"
+        ],
+        "el": "div.featured.tabs.panelcontainer > store-featured > store-tabs.cmp-tabs > store-tab-panel > store-carousel.show-end-fade",
+        "y": 0
+      }
+    ]
+  }
+}

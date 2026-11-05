@@ -1,0 +1,148 @@
+{
+  "support-product-card": {
+    "origin": ".homePage-productGrid a.landingPage-card",
+    "build": ".sup-grid--products a.sup-card, .support-cards.products a.support-cards-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "support"
+    ],
+    "templates": [
+      "unique"
+    ]
+  },
+  "support-feature-card": {
+    "origin": ".homePage-featureGrid a.landingPage-card",
+    "build": ".sup-grid--features a.sup-card, .support-cards.features a.support-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "support"
+    ],
+    "templates": [
+      "unique"
+    ]
+  },
+  "support-section-card": {
+    "origin": ".homePage-sectionGrid > .col > .landingPage-card",
+    "build": ".sup-grid--sections > .sup-grid__col > .sup-card, .support-cards.groups .support-cards-col > .support-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "support"
+    ],
+    "templates": [
+      "unique"
+    ]
+  },
+  "support-section-link": {
+    "origin": ".homePage-sectionGrid a.landingPage-card",
+    "build": ".sup-grid--sections a.sup-card__link, .support-cards.groups a.support-cards-link",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "support"
+    ],
+    "templates": [
+      "unique"
+    ]
+  },
+  "about-commitment-card": {
+    "origin": "#content-card-uid29ab .card",
+    "build": ".commitments .card, .material-cards .material-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "about"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "about-story-card": {
+    "origin": "#layout-container-uid6cc0 .row-cols-md-2 .card",
+    "build": ".story-card, .showcase .showcase-story",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "about"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "bing-side-by-side": {
+    "origin": "main .block-side-by-side",
+    "build": "main .block-side-by-side",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "bing"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "dmws-article-card": {
+    "origin": ".custom-card-filter .custom-card-items > .custom-card-item .card-main",
+    "build": ".dm-cards > .dm-card-item .dm-card, .article-listing .article-listing-cards > .article-listing-item .article-listing-card",
+    "n": 11,
+    "required": true,
+    "pages": [
+      "en-us-surface-do-more-with-surface"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "index-promo-card": {
+    "origin": "#personal-tab store-carousel-item",
+    "build": "#personal-tab .hp-promo, #personal-tab .hero-promo",
+    "n": 8,
+    "required": false,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "advisory: live carousel content/position rotates per load (first card varies; 360 captured mid-slide) — positional pairing is not stable"
+  },
+  "index-quicklink": {
+    "origin": "#personal-tab store-secondary-nav-item",
+    "build": "#personal-tab .hp-quicklink, #personal-tab .hero-quicklink",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "index-feature-card": {
+    "origin": "store-card-feature",
+    "build": ".hp-feature, .feature-band.grid .feature-band-item",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "index-story-card": {
+    "origin": "store-carousel-card-grid store-card-banner",
+    "build": ".hp-story .hp-banner, .stories-carousel .stories-carousel-item",
+    "n": 2,
+    "required": false,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "advisory: live carousel content/position rotates per load (first card varies; 360 captured mid-slide) — positional pairing is not stable"
+  }
+}

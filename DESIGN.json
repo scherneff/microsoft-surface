@@ -1,0 +1,602 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-04T01:32:19Z",
+    "stardustVersion": "0.36.5",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json"
+    ],
+    "mode": "descriptive"
+  },
+  "name": "Microsoft (www.microsoft.com, en-us) — current state",
+  "colors": {
+    "background": "#ffffff",
+    "text": "#000000",
+    "text-muted": "#616161",
+    "heading-ink": "#0e1726",
+    "primary": "#0078d4",
+    "accent-link": "#006dac",
+    "secondary-plum": "#702573",
+    "plum-deep": "#3e143f",
+    "navy": "#112d52",
+    "navy-deep": "#17253d",
+    "ink-dark": "#242424",
+    "surface-tint-blue": "#e6f2fb",
+    "cyan": "#60ccfe",
+    "lavender": "#c0a0ea",
+    "border": "#e6e6e6",
+    "border-strong": "#d2d2d2",
+    "footer-bg": "#f2f2f2"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "Segoe UI Variable Display, Segoe UI, SegoeUI, Helvetica Neue, sans-serif",
+      "fontSize": "50px",
+      "fontWeight": 600
+    },
+    "h2": {
+      "fontFamily": "Segoe UI, SegoeUI, Helvetica Neue, sans-serif",
+      "fontSize": "48px",
+      "fontWeight": 500
+    },
+    "h3": {
+      "fontFamily": "Segoe UI, SegoeUI, Helvetica Neue, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": 500
+    },
+    "subhead": {
+      "fontFamily": "Segoe UI, SegoeUI, Helvetica Neue, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 600
+    },
+    "body": {
+      "fontFamily": "Segoe UI Variable Text, Segoe UI, SegoeUI, Helvetica Neue, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400
+    },
+    "small": {
+      "fontFamily": "Segoe UI, SegoeUI, Helvetica Neue, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": 400
+    }
+  },
+  "rounded": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "xl": "24px",
+    "pill": "200px",
+    "circle": "50%"
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "48px"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.primary}",
+      "textColor": "{colors.background}",
+      "rounded": "{rounded.sm}",
+      "padding": "10px 12px"
+    },
+    "footer": {
+      "backgroundColor": "{colors.footer-bg}",
+      "textColor": "{colors.text-muted}"
+    }
+  },
+  "extensions": {
+    "motifs": {
+      "radiusMode": "8px",
+      "areaRadiusMode": "16px",
+      "shadows": [
+        "rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px",
+        "rgba(0, 0, 0, 0.13) 0px 3px 7px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px 0px"
+      ]
+    },
+    "fonts": {
+      "families": [
+        "Segoe UI",
+        "Segoe UI Variable Text",
+        "Segoe UI Variable Display",
+        "segoe-vf",
+        "Segoe Sans"
+      ],
+      "licensing": "licensed (Microsoft); web files served from c.s-microsoft.com/static/fonts/segoe-ui/west-european/* — referenced, never rehosted",
+      "iconFonts": [
+        "FabricMDL2Icons",
+        "MWF-FLUENT-ICONS",
+        "Support Fluent Icons"
+      ]
+    },
+    "componentStyle": [],
+    "voice": {
+      "heroHeadline": "Hi there, welcome to Microsoft",
+      "ctas": [
+        "Shop now",
+        "Learn more",
+        "Shop Microsoft 365"
+      ]
+    },
+    "templates": {
+      "www-foxtrot": [
+        "index",
+        "about",
+        "accessibility",
+        "ai",
+        "corporate-responsibility",
+        "en-us-surface-do-more-with-surface"
+      ],
+      "explore.microsoft.com": [
+        "bing"
+      ],
+      "support.microsoft.com": [
+        "support"
+      ]
+    },
+    "modules": [
+      {
+        "id": "uhf-header",
+        "status": "candidate",
+        "instances": [
+          "all 8 pages (Universal Header: logo, section name, nav, All Microsoft, search, sign-in)"
+        ]
+      },
+      {
+        "id": "uhf-footer",
+        "status": "candidate",
+        "instances": [
+          "all 8 pages (6 link columns + locale/legal row)"
+        ]
+      },
+      {
+        "id": "hero",
+        "status": "candidate",
+        "instances": [
+          "about",
+          "accessibility",
+          "ai",
+          "corporate-responsibility",
+          "bing",
+          "support"
+        ]
+      },
+      {
+        "id": "content-card-grid",
+        "status": "candidate",
+        "instances": [
+          "index",
+          "about",
+          "ai",
+          "accessibility",
+          "corporate-responsibility",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "id": "feature-band",
+        "status": "candidate",
+        "instances": [
+          "about",
+          "ai",
+          "bing",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "tabs",
+        "status": "candidate",
+        "instances": [
+          "ai",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "product-carousel",
+        "status": "candidate",
+        "instances": [
+          "index"
+        ]
+      },
+      {
+        "id": "product-tile-grid",
+        "status": "candidate",
+        "instances": [
+          "support"
+        ]
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1624px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1320px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1320,
+          "via": "max-width",
+          "selector": "#ocArticle",
+          "pages": [
+            "https://support.microsoft.com/en-us/"
+          ]
+        },
+        {
+          "kind": "content",
+          "px": 990,
+          "via": "fixed",
+          "selector": "#supMainContent",
+          "pages": [
+            "https://support.microsoft.com/en-us/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "other",
+          "selector": "#highlight-uid7de9 > div.card-background > picture",
+          "pages": [
+            "https://www.microsoft.com/en-us/about"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1624,
+          "via": "other",
+          "selector": "#layout-container-uid6cc0 > div.container > div.row.row-cols-1",
+          "pages": [
+            "https://www.microsoft.com/en-us/about",
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1600,
+          "via": "other",
+          "selector": "#highlight-uid7de9 > div.card-foreground > div.container > div.d-flex.mt-md-n5",
+          "pages": [
+            "https://www.microsoft.com/en-us/about",
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1520,
+          "via": "max-width",
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default > div.block-container__container",
+          "pages": [
+            "https://explore.microsoft.com/en-us/bing?form=MA13QZ"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1328,
+          "via": "other",
+          "selector": "#featured-oc88c9 > store-layout-column",
+          "pages": [
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "#personal-tab > store-base-ui-shell > div.msstore-chatonpage",
+          "pages": [
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1121,
+          "via": "fixed",
+          "selector": "#articlescards-uidf3c7 > div.container > div.row.no-gutters > div.button-container.buttonFilter",
+          "pages": [
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 990,
+          "via": "max-width",
+          "selector": "#personal-tab > store-base-ui-shell > div.msstore-chatonpage > div",
+          "pages": [
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 900,
+          "via": "max-width",
+          "selector": "div.mini-block-container__blocks > div.mini-block-media > div.media-item-search-box.mini-block-media__media > div.media-item-search-box-bing",
+          "pages": [
+            "https://explore.microsoft.com/en-us/bing?form=MA13QZ"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 768,
+          "via": "other",
+          "selector": "#logo-footer-oc6df6 > store-text-block",
+          "pages": [
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 503,
+          "via": "fixed",
+          "selector": "#announcement-ocdc40 > p",
+          "pages": [
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 442,
+          "via": "fixed",
+          "selector": "#paginationLinks > div.pagination-list",
+          "pages": [
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 401,
+          "via": "fixed",
+          "selector": "#card-banner-oc46c2 > store-text-block > h2",
+          "pages": [
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 374,
+          "via": "fixed",
+          "selector": "div.card-main.card > div.card-group-wrap.pt-3 > div.card-body.pt-1 > a.d-inline-block.pt-1",
+          "pages": [
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 327,
+          "via": "fixed",
+          "selector": "#supMainContent > div.learnArticleContent > div.row.row-cols-1 > div.col",
+          "pages": [
+            "https://support.microsoft.com/en-us/",
+            "https://www.microsoft.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 295,
+          "via": "fixed",
+          "selector": "div.card > div.card-footer.pt-3 > div.link-group > a.cta",
+          "pages": [
+            "https://www.microsoft.com/en-us/about"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 263,
+          "via": "fixed",
+          "selector": "div.col > div.card-body > div.link-group > a.cta",
+          "pages": [
+            "https://www.microsoft.com/en-us/about",
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+            "https://support.microsoft.com/en-us/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 242,
+          "via": "fixed",
+          "selector": "div.card-main.card > div.card-group-wrap.pt-3 > div.card-body.pt-1 > a.d-inline-block.pt-1",
+          "pages": [
+            "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 0,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.highlight.mb-5",
+          "px": 1920
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 1,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 2,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 3,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 4,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1624
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 5,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 6,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 7,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 8,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 9,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/about",
+          "section": 10,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.layout-container.responsivegrid",
+          "px": 1600
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+          "section": 0,
+          "selector": "#primaryArea > div.aem-Grid.aem-Grid--12 > div.responsivegrid.MLSD",
+          "px": 1624
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+          "section": 1,
+          "selector": "#primaryArea > div.aem-Grid.aem-Grid--12 > div.back-to-top-button.mt-5",
+          "px": null
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 0,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 1,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 2,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 3,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 4,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 5,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--sixtyforty",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 6,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--default",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 7,
+          "selector": "#main > div.block-page.block-page--ready > section.block-container.block-container--sixtyforty",
+          "px": 1520
+        },
+        {
+          "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "section": 8,
+          "selector": "#main > div.block-page.block-page--ready > section.common-footnotes",
+          "px": 1520
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/",
+          "section": 0,
+          "selector": "#microsoft-support",
+          "px": null
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/",
+          "section": 1,
+          "selector": "#supMainContent > div.learnArticleContent",
+          "px": 327
+        },
+        {
+          "url": "https://www.microsoft.com/en-us",
+          "section": 0,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.announcement.aem-GridColumn",
+          "px": 503
+        },
+        {
+          "url": "https://www.microsoft.com/en-us",
+          "section": 1,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.featured.tabs",
+          "px": 1328
+        },
+        {
+          "url": "https://www.microsoft.com/en-us",
+          "section": 2,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.featured.tabs",
+          "px": 1328
+        },
+        {
+          "url": "https://www.microsoft.com/en-us",
+          "section": 3,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.carousel-cardgrid.aem-GridColumn",
+          "px": 1328
+        },
+        {
+          "url": "https://www.microsoft.com/en-us",
+          "section": 4,
+          "selector": "div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.logo-footer.aem-GridColumn",
+          "px": 768
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1600 (https://www.microsoft.com/en-us/about), 1624 (https://www.microsoft.com/en-us/surface/do-more-with-surface/), 1520 (https://explore.microsoft.com/en-us/bing?form=MA13QZ), 990 (https://support.microsoft.com/en-us/), 1328 (https://www.microsoft.com/en-us) — decide per template in the inconsistency register",
+        "shellMaxWidth differs between archetypes: fluid (https://www.microsoft.com/en-us/about), fluid (https://www.microsoft.com/en-us/surface/do-more-with-surface/), fluid (https://explore.microsoft.com/en-us/bing?form=MA13QZ), 1320 (https://support.microsoft.com/en-us/), fluid (https://www.microsoft.com/en-us)",
+        "module cap 1920px on a single section (#highlight-uid7de9 > div.card-background > picture, https://www.microsoft.com/en-us/about) — intent or mistake? register it",
+        "module cap 768px on a single section (#logo-footer-oc6df6 > store-text-block, https://www.microsoft.com/en-us) — intent or mistake? register it",
+        "module cap 503px on a single section (#announcement-ocdc40 > p, https://www.microsoft.com/en-us) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-04T01:44:28.511Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.microsoft.com/en-us/about",
+          "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+          "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+          "https://support.microsoft.com/en-us/",
+          "https://www.microsoft.com/en-us"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-04T03:19:17.227Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T09:23:07.573Z",
+  "pages": [
+    {
+      "slug": "about",
+      "path": "/about",
+      "title": "Our Mission and Values | About Microsoft",
+      "templateId": "about",
+      "source": {
+        "migratedHtml": "stardust/migrated/about/index.html",
+        "metaJson": "stardust/migrated/about/_meta.json",
+        "sourceHash": "sha256:20adfbe249451ad40626dda59cc9605ed42349e1b02b3066d9f76d0d35ea74c3",
+        "sourceUrl": "https://www.microsoft.com/about"
+      },
+      "blocks": [
+        "highlight",
+        "feature-band",
+        "commitments",
+        "copilot",
+        "discover",
+        "culture",
+        "values",
+        "explore"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/about",
+        "deployedAt": "2026-11-04T04:13:48.667Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.1,
+          "heightDelta": 67,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "accessibility",
+      "path": "/accessibility",
+      "title": "Accessibility Technology & Tools | Microsoft Accessibility",
+      "templateId": "about",
+      "source": {
+        "migratedHtml": "migrate:accessibility",
+        "metaJson": null,
+        "sourceHash": "sha256:cb916dd46b49654239175b7816fed44daeb0bcbfccee9541fa9a59c328ea2606"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/accessibility",
+        "deployedAt": "2026-11-04T07:25:25.428Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.62,
+          "heightDelta": -34,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": [
+              ".highlightcarousel=.highlight.carousel"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "ai",
+      "path": "/ai",
+      "title": "Microsoft AI - Business Solutions and Tools",
+      "templateId": "about",
+      "source": {
+        "migratedHtml": "migrate:ai",
+        "metaJson": null,
+        "sourceHash": "sha256:1e24fd497a31dee3777479ffac43161354f87f40e8b2b3d13723a4cdaf178500"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/ai",
+        "deployedAt": "2026-11-04T07:25:25.585Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 18.6,
+          "heightDelta": -9,
+          "clipped": 0,
+          "content": null,
+          "reasons": [
+            "pixel 18.6% > 10%"
+          ],
+          "override": "PASS (documented capture state + licensed-face wrap fork)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "bing",
+      "path": "/bing",
+      "title": "Microsoft Bing | Get to know Bing",
+      "templateId": "bing",
+      "source": {
+        "migratedHtml": "stardust/migrated/bing/index.html",
+        "metaJson": "stardust/migrated/bing/_meta.json",
+        "sourceHash": "sha256:e331afe7623739c241564985ca4f3262ee59cdfe35daa46e181c8b9d8b5c2f27",
+        "sourceUrl": "https://www.microsoft.com/bing"
+      },
+      "blocks": [
+        "bing-intro",
+        "bing-manifesto",
+        "bing-panel",
+        "bing-features",
+        "bing-footnotes"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/bing",
+        "deployedAt": "2026-11-04T04:28:59.906Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.92,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "corporate-responsibility",
+      "path": "/corporate-responsibility",
+      "title": "Microsoft Corporate Social Responsibility | Microsoft CSR",
+      "templateId": "about",
+      "source": {
+        "migratedHtml": "migrate:corporate-responsibility",
+        "metaJson": null,
+        "sourceHash": "sha256:0afc54df9ada73e1adce59628ceafdf66373463025fdb7c1b022d399c26676d2"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility",
+        "deployedAt": "2026-11-04T07:25:25.740Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.66,
+          "heightDelta": 6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": [
+              ".highlightcarousel=.highlight.carousel"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-surface-do-more-with-surface",
+      "path": "/en-us/surface/do-more-with-surface",
+      "title": "Do More with Surface Laptop &amp; Surface Pro | Microsoft Surface",
+      "templateId": "en-us-surface-do-more-with-surface",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/surface/do-more-with-surface/index.html",
+        "metaJson": "stardust/migrated/en-us/surface/do-more-with-surface/_meta.json",
+        "sourceHash": "sha256:22b0be48fffa8c731612d209977e3ad74648b5844c9db02c1d31761dde9994b5",
+        "sourceUrl": "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+      },
+      "blocks": [
+        "article-listing",
+        "social-follow"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/en-us/surface/do-more-with-surface",
+        "deployedAt": "2026-11-04T04:52:17.043Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:f8ced5ec6d5b58e145277a5aa8b32fdcaaf78766c2f7fb504a960bcb039b7dfd",
+        "sourceUrl": "https://www.microsoft.com/"
+      },
+      "blocks": [
+        "announce",
+        "hero",
+        "feature-band",
+        "stories-carousel",
+        "follow"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.live/",
+        "deployedAt": "2026-11-04T05:32:14.686Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.7,
+          "heightDelta": -12,
+          "clipped": 0,
+          "content": {
+            "missing": 5,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 18,
+            "variable": [
+              "#personal-tab store-carousel=#personal-tab .hero-carousel",
+              "#personal-tab store-banner-featured=#personal-tab .hero-featured",
+              "store-carousel-card-grid=.stories-carousel"
+            ]
+          },
+          "reasons": [
+            "content MISSING 5 / HIDDEN 0 (+1 control state)"
+          ],
+          "override": "PASS (documented live variance: rotating carousels, copy drift)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    },
+    {
+      "slug": "search",
+      "path": "/search",
+      "title": "Search results",
+      "templateId": "search",
+      "source": {
+        "migratedHtml": "dynamics:search",
+        "metaJson": null,
+        "sourceHash": "sha256:43240b3767121a9aee969cf0e070b648bbec2b2faa42583d930319481c7b86eb"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "support",
+      "path": "/support",
+      "title": "Microsoft Support",
+      "templateId": "support",
+      "source": {
+        "migratedHtml": "stardust/migrated/support/index.html",
+        "metaJson": "stardust/migrated/support/_meta.json",
+        "sourceHash": "sha256:dc57c56f73c8b874cf824c9d0c9577f3fe45cfbde73e5aa41dc1d1353cb67e00",
+        "sourceUrl": "https://www.microsoft.com/support"
+      },
+      "blocks": [
+        "support-content"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3bab0b60--aemcoder.aem.page/support",
+        "deployedAt": "2026-11-04T07:25:25.793Z",
+        "verifiedAt": "2026-11-04T09:23:07.573Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.01,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T09:13:41.408Z"
+        }
+      }
+    }
+  ]
+}

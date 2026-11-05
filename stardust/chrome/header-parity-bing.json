@@ -1,0 +1,63 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-04T02:40:54.447Z",
+ "source": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+ "build": "http://localhost:8791/bing-proposed.html",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 5,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "control-missing@360 menu",
+   "width": 360,
+   "path": "menu",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"\""
+  },
+  {
+   "key": "state-missing@1440 Download Edge [hover]",
+   "width": 1440,
+   "path": "Download Edge",
+   "action": "hover",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on hover on the source (0 links); nothing opens on the build"
+  },
+  {
+   "key": "state-missing@1440 Download Edge [click]",
+   "width": 1440,
+   "path": "Download Edge",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (0 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@1440 Download Edge [key]",
+   "width": 1440,
+   "path": "Download Edge",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (0 links); nothing opens on the build"
+  },
+  {
+   "key": "panel-visual@1440 Search [click]",
+   "width": 1440,
+   "path": "Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 3.4% (bar 2%; source 1440×45, build 1440×45; texture 27% thick)"
+  }
+ ]
+}

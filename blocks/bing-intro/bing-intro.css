@@ -1,0 +1,122 @@
+/* bing-intro — block-container--intro (Bing image of the day + search) */
+.bing-intro {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 6em 0;
+  overflow-x: clip;
+  color: #fff;
+}
+
+.bing-intro .intro-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.bing-intro .intro-bg picture,
+.bing-intro .intro-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.bing-intro .intro-bg img {
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.bing-intro .intro-frame {
+  position: relative;
+  display: grid;
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.bing-intro .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.bing-intro .intro-spacer {
+  min-height: 15vh;
+  width: 100%;
+}
+
+.bing-intro .search {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 45em;
+  height: 2.75em;
+  margin: 0 auto;
+  font-size: var(--sz-sh2);
+  line-height: 2.75;
+  color: #1a1a1a;
+}
+
+.bing-intro .search-form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #1a1a1a;
+  border-radius: 100px;
+  border: 1px solid rgb(255 255 255 / 15%);
+  box-shadow: 0 4px 5.5px -1.5px #0000000c, 0 9px 13.5px #00000003, 0 3px 17.5px #00000003;
+}
+
+.bing-intro .search-form:focus-within {
+  outline: 2px auto rgb(0 120 212 / 50%);
+}
+
+.bing-intro .search-input {
+  position: absolute;
+  inset: 0 2em 0 1em;
+  padding: 0 1em 0 0.25em;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  appearance: none;
+  font-size: inherit;
+  color: #1a1a1a;
+  text-align: left;
+}
+
+.bing-intro .search-input::placeholder {
+  color: #1a1a1a;
+  opacity: 0.75;
+}
+
+.bing-intro .search-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.5em;
+  width: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--theme-blue);
+  border-radius: 0.33em;
+}
+
+.bing-intro .search-button svg {
+  width: 1.1em;
+  height: 1.1em;
+  transition: transform 0.2s var(--ease);
+}
+
+@media (width <= 810px) {
+  .bing-intro {
+    padding: 3em 0;
+  }
+}
