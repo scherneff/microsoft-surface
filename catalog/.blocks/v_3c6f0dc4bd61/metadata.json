@@ -1,0 +1,31 @@
+{
+  "id": "v_3c6f0dc4bd61",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/bing",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Bing footnotes",
+    "structure": "Bing footnotes block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/bing",
+        "instanceId": "b05-bing-footnotes",
+        "instanceIds": [
+          "b05-bing-footnotes"
+        ],
+        "screenshot": ".pages/www_microsoft_com_bing--c4c34bf8/blocks/b05-bing-footnotes.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

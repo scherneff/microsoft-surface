@@ -7,5 +7,9 @@ helix-importer-ui
 .DS_Store
 *.bak
 .idea
-migration-work/navigation-validation/
-migration-work/footer-validation/
+
+# Ensure these files are tracked
+!CLAUDE.md
+!AGENTS.md
+# Replica runner writes the DA token to .env; keep it out of checkpoints.
+.env

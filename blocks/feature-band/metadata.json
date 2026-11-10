@@ -1,0 +1,66 @@
+{
+  "variantName": "feature-band",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about, /accessibility, /corporate-responsibility, /index"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light or dark surface",
+    "density": "medium",
+    "purpose": "media + copy features",
+    "imagePattern": "side-by-side or grid"
+  },
+  "contentPattern": {
+    "structure": "optional head row (heading + intro); one row per feature: image(s) + eyebrow, heading, body, CTA (video CTA opens modal)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "grid",
+      "label": "Grid"
+    },
+    {
+      "class": "surface",
+      "label": "Surface"
+    },
+    {
+      "class": "reversed",
+      "label": "Reversed"
+    },
+    {
+      "class": "alternate",
+      "label": "Alternate"
+    },
+    {
+      "class": "pair",
+      "label": "Pair"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "image + copy feature cards",
+      "3-up card grids",
+      "alternating media/text rows"
+    ],
+    "notSuitableFor": [
+      "carousels",
+      "link lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about",
+      "/accessibility",
+      "/corporate-responsibility",
+      "/index"
+    ],
+    "reuseCount": 4,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

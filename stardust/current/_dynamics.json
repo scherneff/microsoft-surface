@@ -1,0 +1,2411 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-04T01:46:37.467Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.microsoft.com/en-us",
+   "https://www.microsoft.com/en-us/about",
+   "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+   "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+   "https://support.microsoft.com/en-us/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/en-us": {
+   "url": "https://www.microsoft.com/en-us",
+   "status": 200,
+   "host": "www.microsoft.com",
+   "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+   "forms": [
+    {
+     "name": "uhf-search-form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "More",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "All Microsoft",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.microsoft.com/store/buy/cartcount",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "/cascadeauth/store/account/silentauth?auth=default",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://s.company-target.com/s/sync?exc=lr",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.microsoft.com/store/buy/cartcount",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/cascadeauth/store/account/silentauth?auth=default",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://s.company-target.com/s/sync?exc=lr",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://account.microsoft.com/"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [
+     "en-us",
+     "en-nz",
+     "de-at",
+     "fr-be",
+     "nl-be",
+     "da-dk",
+     "fi-fi",
+     "en-ie",
+     "en-hk",
+     "zh-hk",
+     "en-sg",
+     "en-in",
+     "en-au",
+     "en-ca",
+     "en-cy",
+     "en-eg",
+     "en-gb",
+     "en-il",
+     "en-jo",
+     "en-lb",
+     "en-lk",
+     "en-mt",
+     "en-my",
+     "en-ng",
+     "en-ph",
+     "en-pk",
+     "en-sa",
+     "en-za",
+     "ar-eg",
+     "ar-iq",
+     "ar-ly",
+     "ar-sa",
+     "bg-bg",
+     "cs-cz",
+     "de-ch",
+     "de-de",
+     "el-gr",
+     "es-ar",
+     "es-bo",
+     "es-cl",
+     "es-co",
+     "es-cr",
+     "es-do",
+     "es-ec",
+     "es-es",
+     "es-gt",
+     "es-mx",
+     "es-ni",
+     "es-pa",
+     "es-pe",
+     "es-pr",
+     "es-py",
+     "es-sv",
+     "es-uy",
+     "es-ve",
+     "et-ee",
+     "fr-ca",
+     "fr-ch",
+     "fr-dz",
+     "fr-fr",
+     "fr-lu",
+     "fr-ma",
+     "fr-tn",
+     "he-il",
+     "hr-hr",
+     "hu-hu",
+     "id-id",
+     "is-is",
+     "it-it",
+     "ja-jp",
+     "ko-kr",
+     "lt-lt",
+     "lv-lv",
+     "nb-no",
+     "nl-nl",
+     "pl-pl",
+     "pt-br",
+     "pt-pt",
+     "ro-md",
+     "ro-ro",
+     "ru-by",
+     "ru-kz",
+     "ru-ru",
+     "sk-sk",
+     "sl-si",
+     "sv-se",
+     "th-th",
+     "tr-tr",
+     "uk-ua",
+     "zh-cn",
+     "zh-tw",
+     "de-lu",
+     "es-hn",
+     "vi-vn",
+     "ar-ae",
+     "en-ae",
+     "bs-ba",
+     "sr-rs",
+     "sr-me",
+     "x-default"
+    ],
+    "switcher": [
+     "https://www.xbox.com/en-US/xbox-game-pass?icid=mscom_marcom_PRCP6a_GamePass#join"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "push"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "google_tag_manager",
+    "gtag",
+    "hj",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 29,
+   "inlineFetch": true,
+   "mainText": 2686,
+   "domAddedAfterLoad": 4,
+   "hosts": {
+    "www.microsoft.com": 170,
+    "uhf.microsoft.com": 9,
+    "cdn-dynmedia-1.microsoft.com": 33,
+    "c.s-microsoft.com": 5,
+    "wcpstatic.microsoft.com": 1,
+    "www.clarity.ms": 4,
+    "rum.hlx.page": 1,
+    "scripts.clarity.ms": 1,
+    "bat.bing.com": 6,
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net": 1,
+    "login.microsoftonline.com": 1,
+    "dpm.demdex.net": 1,
+    "www.facebook.com": 4,
+    "tag.demandbase.com": 1,
+    "www.googletagmanager.com": 1,
+    "px.ads.linkedin.com": 3,
+    "login.live.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "msftenterprise.sc.omtrdc.net": 1,
+    "www.google.com": 1,
+    "rtd-tm.everesttech.net": 1,
+    "pixel.everesttech.net": 1,
+    "target.microsoft.com": 4,
+    "www.linkedin.com": 1,
+    "api.company-target.com": 1,
+    "id.rlcdn.com": 2,
+    "s.company-target.com": 1,
+    "pixel.rubiconproject.com": 1,
+    "dsum-sec.casalemedia.com": 2,
+    "image2.pubmatic.com": 1,
+    "segments.company-target.com": 1,
+    "f.clarity.ms": 4,
+    "tag-logger.demandbase.com": 1,
+    "partners.tremorhub.com": 1,
+    "c.clarity.ms": 2,
+    "c.bing.com": 1,
+    "cdnssl.clicktale.net": 1,
+    "static.hj.contentsquare.net": 1,
+    "browser.events.data.microsoft.com": 5,
+    "c.az.clicktale.net": 5,
+    "k.af.clicktale.net": 1,
+    "dc.services.visualstudio.com": 1
+   },
+   "thirdPartyHosts": [
+    "c.s-microsoft.com",
+    "www.clarity.ms",
+    "rum.hlx.page",
+    "scripts.clarity.ms",
+    "bat.bing.com",
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+    "login.microsoftonline.com",
+    "dpm.demdex.net",
+    "www.facebook.com",
+    "tag.demandbase.com",
+    "www.googletagmanager.com",
+    "px.ads.linkedin.com",
+    "login.live.com",
+    "googleads.g.doubleclick.net",
+    "msftenterprise.sc.omtrdc.net",
+    "www.google.com",
+    "rtd-tm.everesttech.net",
+    "pixel.everesttech.net",
+    "www.linkedin.com",
+    "api.company-target.com",
+    "id.rlcdn.com",
+    "s.company-target.com",
+    "pixel.rubiconproject.com",
+    "dsum-sec.casalemedia.com",
+    "image2.pubmatic.com",
+    "segments.company-target.com",
+    "f.clarity.ms",
+    "tag-logger.demandbase.com",
+    "partners.tremorhub.com",
+    "c.clarity.ms",
+    "c.bing.com",
+    "cdnssl.clicktale.net",
+    "static.hj.contentsquare.net",
+    "c.az.clicktale.net",
+    "k.af.clicktale.net",
+    "dc.services.visualstudio.com"
+   ],
+   "scripts": [
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/entry.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-reimagine-env/base.ACSHASH8cd32d1ad0be8a1a9b98c8f1eda1aae6.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/v1.ACSHASHbf7b336dbb370c984e1bf59b1a980d86.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/link/v1.ACSHASH131f1552dd58553acd026d1eebb3b123.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/announcement/v1.ACSHASH5b2728f66151df66fa4d9148d5c767e3.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/media/v1.ACSHASH93339c66105cf58cb21c766c35bb5e3c.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/heading-block/v1.ACSHASH7fed80c2a499d0f6f768614e998a4b6a.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery-cookie.ACSHASH5c75a4fa9fb3503322f8a0c9dd51512d.min.js",
+    "https://www.microsoft.com/msonecloudapi/assets/reimaginesharedhead.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/ui-shell/v1.ACSHASHdc8a9dfebdb57444da59a3f3b75ab2e1.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/text-block/v1.ACSHASHcc36001324ce327d97cd3d0549b8fbb2.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/pill/v1.ACSHASH2a280fe0fefdf82c77ba13fe83ec53c9.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/indicator/indicator/v1.ACSHASH5932158e017fc6c9f09dbc25da424e44.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/secondary-nav/secondary-nav-item/v1.ACSHASHa66475c561ed9939890763d0602d2ee4.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/base/ui-shell/v1.ACSHASH161e8ab4f014a0feb0d935ef9ad43e9a.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/card-grid/featured/v2.ACSHASH89b3c130c8e5e91dc5fb04d4facff441.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/card/card-feature/v1.ACSHASH0fcef40c23a2c382877c48229f865817.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/carousel/card-grid/v2.ACSHASHc384e97045532637ca5e925a3fac5cde.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/badge/v1.ACSHASH152c18dfdaf6ab650bdcbdd90ed38c1e.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/utility/logo-footer/v1.ACSHASH76f31ba4d2b80d04a86bb25721b8eaf1.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/back-to-top/v1.ACSHASH3ac1ef6d9557810d6a7d71a1f4c67387.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/content/universalheader/v1/universalheader/clientlibs/site.ACSHASHd9c9fd98fe2a540a7662eb6492aa9c30.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/carousel/carousel/v1.ACSHASH686012237a1dead725f6b846cdd60f47.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/icon/v1.ACSHASH1d4b69b2cd445f0233b16ae663ee6231.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/layout/layout/v1.ACSHASHa3a614dc94c3d977a34191a033085d67.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/tabs/tab-panel/v1.ACSHASH84bfc937f07f3732c661cd7880460211.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/button/v1.ACSHASH87b7907cfea83e1a0211306fc3f10c2b.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/secondary-nav/secondary-nav/v1.ACSHASHe6ce7425ec55a568b99a6f2f09f004ce.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/card/card-banner/v1.ACSHASHe38db19b7728e6c79f9c5ce9c2dca75f.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/banner/banner-featured/v1.ACSHASHeb267296b427e3439661a6b4436004f1.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/carousel/carousel-item/v1.ACSHASH0e036cbd590e5450d8544d0670418cb0.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/card/card-promo/v1.ACSHASHc62b8034ec871353bf5813dfeb6cbaa2.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/tabs/tab/v1.ACSHASH51056d1bc2540c5aff00ad2a48f09584.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/tabs/tabs/v1.ACSHASHfc978c61b91ad3f7ed0071a9b5678218.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/button-group/v1.ACSHASH512a614af73e8a108d72e0f718ebeac6.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-web-components/tag/tag/v1.ACSHASH086f7405d7d0926b9726016babc035f3.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-polyfills.ACSHASHtrue.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery.ACSHASH75d0cb3e9ff9fee40f5ce5fd93c17fb2.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-site.ACSHASHa6896a8aeb4cfffd9202c553c29b233d.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/content/dynamic-price/v1/dynamic-price/clientlibs/sites.ACSHASHa26d031bf8c00f082570666bfff25659.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/components/content/reimagine/foundational/action/v1/action/clientlib/site.ACSHASH319be30bf70cf1a150e8493f9464d7d1.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/components/content/reimagine/blade/hero/quicklinks/v1/quicklinks/clientlibs.ACSHASHdee8f1d326213f9a847b828432bbf981.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/content/chatonpage/v1/chatonpage/clientlibs/site.ACSHASH2fb2ee7e38d60e8d94c57f9825ac077c.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.ACSHASH0a6aff292f5cc42142779cde92054524.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-reimagine-utils.ACSHASH2e8da8c9230bc7589ee557f90d9f8431.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/components/dialog-fields/reimagine/foundational/carousel/carousel/v1/carousel/utils/site.ACSHASH166d1eae54c77a2428160a7caa93c4e2.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-reimagine-env/publisher.ACSHASHcd629aed3cfa3b0e32904897f5959c98.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/core/wcm/components/tabs/v1/tabs/clientlibs/site.ACSHASHc53b992b35f5ca98e25330a02d295299.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-reimagine-csp.ACSHASHbbc1d812f5e6f9afa757a7bfa6b782e9.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/structure/page/clientlibs/embed-thirdparty.ACSHASH27de1aa1215463b126ed9a49430c4872.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-cookieconsent.ACSHASHc892f451b0c4db9c8ab2601a427c9b2c.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/cookie-compliance-manager.ACSHASHdec0d75e509be6ebf6b36ff24c516111.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-uhf.ACSHASH51647d1996247d663b110906f8aa8200.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-cookiecomp/v1.ACSHASHa238861e6209e4e02576ddf5d1749c8b.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/clientlib-httpclient.ACSHASH81e898694b0509d4273f98ebfa8f3470.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/clientlibs/clientlib-reimagine-telemetry.ACSHASH75700fee831fecc12a43889e71860361.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-lit-elements/js/dynamic-price.ACSHASH10e2accae17e558892f7c86d69c8612e.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/store/components/content/reimagine/foundational/carousel/carousel/v1/carousel/clientlibs/site.ACSHASHaf3c682323ce13b8ca35ba42fd2bf14c.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/clientlib-accessibility-footnotes.ACSHASH56276a039730a295cfa359a3f9eebf35.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/structure/page/clientlibs/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.microsoft.com",
+     "path": "/msstoreapiprod/api/buyBox",
+     "query": [
+      "environment",
+      "locale",
+      "productId"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.microsoft.com/msstoreapiprod/api/buyBox"
+    },
+    {
+     "method": "POST",
+     "host": "target.microsoft.com",
+     "path": "/rest/v1/delivery",
+     "query": [
+      "client",
+      "sessionId",
+      "version"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://target.microsoft.com/rest/v1/delivery"
+    },
+    {
+     "method": "POST",
+     "host": "browser.events.data.microsoft.com",
+     "path": "/OneCollector/1.0/",
+     "query": [
+      "content-type",
+      "cors",
+      "w"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+    "GET dpm.demdex.net/id",
+    "GET msftenterprise.sc.omtrdc.net/id",
+    "POST api.company-target.com/api/v3/ip.json",
+    "POST f.clarity.ms/collect",
+    "GET tag-logger.demandbase.com/bg9s",
+    "POST c.az.clicktale.net/pageview",
+    "GET c.az.clicktale.net/pageEvent",
+    "GET c.az.clicktale.net/dvar",
+    "POST k.af.clicktale.net/v2/recording",
+    "POST dc.services.visualstudio.com/v2/track"
+   ],
+   "postBodies": [
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageView\",\"time\":\"2026-11-04T01:46:38.458Z\",\"ver\":\"4.0\",\"iKey\":\"o:aacbcf0ee7614738b1ea4f99c23f2e82\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"www.microsoft.com\",\"userConsent\":false,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":false,\\\"SocialMedia\\\":false,\\\"Advertising\\\":false,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"installId\":\"d0e3aaa5-ee42-4f"
+    },
+    {
+     "url": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=c064da8726874cf7a2c2e6cad89b218d&version=2.11.8",
+     "body": "{\"requestId\":\"3cc1452238f741989e6e92a3d9e8272d\",\"context\":{\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"Linux\",\"browserUAWithMajorVersion\":\"\\\"Not:A-Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"156\\\"\",\"model\":\"\",\"platformVersion\":\"\",\"browserUAWithFullVersion\":\"\",\"architecture\":\"\",\"bitness\":\"\"},\"tim"
+    },
+    {
+     "url": "https://api.company-target.com/api/v3/ip.json?referrer=&page=https%3A%2F%2Fwww.microsoft.com%2Fen-us&page_title=Microsoft%20%E2%80%93%20AI%2C%20Cloud%2C%20Productivity%2C%20Computing%2C%20Gaming%20%26",
+     "body": "{\"src\":\"tag\",\"auth\":\"n3GiwUY2e3JLq6KpEYIrMd4mTjlyu1hwPlxhmJLl\"}"
+    },
+    {
+     "url": "https://f.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�W_o�6\f�*�\u001e�\u0004���o�6\fȮ�Z�\u000f\u0006��\u0006x�Bgˉ\u001a[��r�tX��o�O2�I�a\b�v\u000f\u001b\u0010��$%R\u0014ɟM�J\u001d]֔eeV���%K�\u0003\u0003nL\u0001tl�./��\u0014�\u0014�U��,)P��\u001d\u001f��~#>�<����󫫫l��\u0018�إ��C��b��\u001a��˺�\u0002J�J1\u0010��z\r����^T1�\u0002\u0003�\u0004��Z\u001b\u0001�\u0003]�\u0010b\"��-َq����DbG�к�\u0007ג#\\��<h���\u0010\\�\u001e\u001c��R\u0018�/����8�qI>��ρ\u0010Bl\"wܶ9��KM��ޅ��͔O)�.oⰍ��4�M\fɅ���\u000f��\u0007�wq\u000e�M>\u0006��\u001d�<�\u0003�\u001f\b\u000f\f�䲓����Ƕ��)�\u0014�q\\n��J��Jt��t\\5��C�fZ�\u0014��\"/b��)e]\u001c\u001f��\u001c}cC\f�C��o?������\u001e�f\u001e\\H��\u000er���\u0004/�1��v��w�;��{�܃�\u001e$w��܃�\u001e$� �\u000b$"
+    },
+    {
+     "url": "https://c.az.clicktale.net/pageview?cw=1&happid=4231853209&t=Microsoft%20%E2%80%93%20AI%2C%20Cloud%2C%20Productivity%2C%20Computing%2C%20Gaming%20%26%20Apps&ex=&dt=48&pvt=n&la=en-US&uc=0&url=https%3A%",
+     "body": ""
+    },
+    {
+     "url": "https://k.af.clicktale.net/v2/recording?rt=5&v=15.275.0&pid=2422&pn=1&sn=1&uu=f251a001-6cbc-adaf-b42c-1ec8408dc7f2&let=1793756801387&rst=1793756801384&ri=1&ct=2",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��丑.�*�\u0018�^���L��[��ѩ��{��գj���:V\u0006�`\u0006U\u0011d�ddVvO��;���?�h�$�\u0000\u0018\u0011$\u0000\u0007ɨ̮�vzF�\u0011$\u0003\u0004A���������*g\u001d_ݢ(!Q\u0010�>\"1�Zu�{����Պ5w����V\u001d�[��-�ju�B�5��k���_�nb�������W���-�-W\r�k���,mE�\u0016~Z������j������_�nW��۷�77\u000f\u000f\u000f׻2k�.�����j}hWW+�u�=�:_�⫕���O�6k���O�[����g�Y��ܖ��������8��M'~�P��fu�(��V\u001b^�m��m�˖�V<�ժ.��w��ͪ�?��խ�^ޑ������UQ6m�٦��[r��\u000emW���\u001d��V���)�E]w���\u0014_7���׶�\u001b�fUU\u001f�L�hp��;4<\u001f\u001cږ����\u001d�K6<�\u001e�C����aW\r�g��\u000f-ߊ\u000f�"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.ContentUpdate\",\"time\":\"2026-11-04T01:46:40.355Z\",\"ver\":\"4.0\",\"iKey\":\"o:aacbcf0ee7614738b1ea4f99c23f2e82\",\"ext\":{\"web\":{\"isManual\":true,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":11,\"installId\":\"d0e3aaa5-ee42-4"
+    },
+    {
+     "url": "https://dc.services.visualstudio.com/v2/track",
+     "body": "[{\"time\":\"2026-11-04T01:46:41.878Z\",\"iKey\":\"a030d1fa-7306-4ca3-8319-1f27d2a5b87d\",\"name\":\"Microsoft.ApplicationInsights.a030d1fa73064ca383191f27d2a5b87d.Pageview\",\"tags\":{\"ai.session.id\":\"AUSKW+8cxQO86Hl4Ytycoe\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/en-us\",\"ai.operation.id\":\"4aaab6668f964aae96871e1fa13d117e\",\"ai.internal.sdkVersion\":\"javascript:2.8.11\",\"ai.inter"
+    },
+    {
+     "url": "https://f.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Tێ�(\u0010�\u0017��\fw��|�e�0`��o1�/��_��f�'Q�\b\t�:Guʧ\n~ ��\u001bDp�K^t.i\u0004\f�R%PI\b�՜�Gr�ӂ\u0000�z\"6�\u0000��\u001b]�+\u0002\n��!�%>?=�N'<\u0006��q�\u00136���b��\u0005��s�Вq`\u0002�\u0019�\u001a�\u0005\u0001�ۂ�\u001c=\u001f�~�P\u000b\r����4�o���^Iu)��@A\u0000-�V��\u0000�\u0018TR\u0002'\\�7��\u0000W�3@�>\u0006��C�\u000e\f\u0001W�3`\u0015e���0�k��\nA@�J��p�$p\u0001�%\"hЗ[E_�\u0018�!�/�ttk\f�\u0014\u0011�\u000el\u0001�l9\u0001\u00155�B�\f\u0001\u0012�\u0010��\r|\t�\u0003�\u000f}Gɇ+˥1����dIu�:&\u000b!X_hR����J�\tI�F�g�6۩��N��$���\u0010x��m\u0018�z���{נu\u001b�a8�E�ܗ�\u0011B�\f���cۡ�٩��it6�>�'�ĤS0����i�c�e�\u0013���w<�5,)~�l��p��"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2",
+     "body": "{\"name\":\"MeControlWeb_PageView\",\"time\":\"2026-11-04T01:46:40.154Z\",\"ver\":\"4.0\",\"iKey\":\"o:b8ffe739c47a401190627519795ca4d2\",\"ext\":{\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"epoch\":\"3835946274\"},\"app\":{\"locale\":\"en-US\",\"sesId\":\"GCHngJdo9osfNYZlolVqEh\"},\"user\":{\"locale\":\"en-US\"},\"web\":{\"domain\":\"www.microsoft.com\",\"userConsent\":false,\"consentDetails\":\"{\\\"GPC_DataSharingOptIn\\\":false}\"},\"intweb\":{},\"ut"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D38c854d31f634f70aa37a8991538d09d%26HASH%3D38c8%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.OutgoingRequest\",\"time\":\"2026-11-04T01:46:41.947Z\",\"ver\":\"4.0\",\"iKey\":\"o:aacbcf0ee7614738b1ea4f99c23f2e82\",\"ext\":{\"dt\":{\"traceId\":\"56d3efdff6cd45f1adf08f106612d82f\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":23,\"installId\":\"d0e3aaa5-ee42-4ffc-8e33-bfb531f285a2\",\"epoch\":\"681681881\"},\"app\":{\"locale\":\"en-US\",\"env\":\"prod\",\"sesId\":\"ofpNqKPLTM7Ntnextg+mS7\"},\"user\":{\"locale\":\"en-US\"},\"web\":{"
+    },
+    {
+     "url": "https://f.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�P�n� \u0010�\u0017�O\t0�-�b��\u0012G�&�[��UW��+��C���H0�˜\u0011D'΍P2HO/�]M\u0002\u0004��ø\u0018 ��.����]@�W�3\t\b��SO�.���\u0012�Z���tZ�U��y\u001a�x�2�o�nx��h!�87\rig����\n�\u0002uQ)<K���0?\u001e�}�hlp\u001a\u001a�F�N�Z�IvK7�\"/����\n�,ӧ̏>�kztr誀(5�>��/�ǡn�9MO�.����e馥�]�K_��(u���\u001e�>�R0�F�\u0010���N�B{\u0007cAV=u��А�\n�A�4�\u0002���\u0011d\r#D�3n{�\b\f\nl�;2A����G$��\u001eуM<�c\u0012[�\u0000�f\u0007�#D\u000b\u000e� bd�\u0000�U�\u0001k\u000e��-�`�y�ZkÖn�=��[\u0004n���?��~x\u0002\u0000\u0000"
+    }
+   ],
+   "textAtLoad": 2674,
+   "mainEmptyAtLoad": false
+  },
+  "/en-us/about": {
+   "url": "https://www.microsoft.com/en-us/about",
+   "status": 200,
+   "host": "www.microsoft.com",
+   "title": "Our Mission and Values | About Microsoft",
+   "forms": [
+    {
+     "name": "uhf-search-form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "AI & Innovation",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Culture",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "News & Stories",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Facts & Information",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "More",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "All Microsoft",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 5,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://account.microsoft.com/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://www.microsoft.com/ai"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 13,
+   "inlineFetch": true,
+   "mainText": 2886,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.microsoft.com": 48,
+    "uhf.microsoft.com": 9,
+    "cdn-dynmedia-1.microsoft.com": 20,
+    "wcpstatic.microsoft.com": 1,
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net": 1,
+    "www.googletagmanager.com": 1,
+    "dpm.demdex.net": 1,
+    "www.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "msftenterprise.sc.omtrdc.net": 1,
+    "target.microsoft.com": 4,
+    "c1.microsoft.com": 2,
+    "c.bing.com": 1,
+    "browser.events.data.microsoft.com": 5,
+    "s7mbrstream.scene7.com": 10
+   },
+   "thirdPartyHosts": [
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "msftenterprise.sc.omtrdc.net",
+    "c.bing.com",
+    "s7mbrstream.scene7.com"
+   ],
+   "scripts": [
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/entry.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/universalheader/v1/universalheader/clientlibs/site.ACSHASHd9c9fd98fe2a540a7662eb6492aa9c30.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery-cookie.ACSHASH5c75a4fa9fb3503322f8a0c9dd51512d.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/clientlibs/exp-analytics/v1.ACSHASHbf7b336dbb370c984e1bf59b1a980d86.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/cascade.component.authoring/dynamicclientsidelibs/handlerscripts/v1.ACSHASH6734c5d7a732130b83c7d4a6ba54dcec.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery.ACSHASH75d0cb3e9ff9fee40f5ce5fd93c17fb2.min.js",
+    "https://www.microsoft.com/videoplayer/ump.mjs",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/dynamic-price/v1/dynamic-price/clientlibs/sites.ACSHASHa26d031bf8c00f082570666bfff25659.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/highlight/v1/highlight/clientlibs/site.ACSHASH42d1c50f184382e084403cd51f020f09.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/calltoaction/v1/calltoaction/clientlibs/site.ACSHASH6069c9c4123345cb32954882a5e52e8d.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/feature/v1/feature/clientlibs/site.ACSHASH6a881b6cf7c7d7a4dba0de58bcc3dada.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/dynamic-feature/v1/dynamic-feature/clientlibs/site.ACSHASH8f12ba5ad1a223d4bfb2bfd3ffbdcd1f.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/inline-video/v2/cascade-media-player/clientlibs/site.ACSHASH5ac5cef1715d0f536be472175d2b684f.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/structure/page/clientlibs/embed-thirdparty.ACSHASH27de1aa1215463b126ed9a49430c4872.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/areaheading/v1/areaheading/clientlibs/site.ACSHASH76fb40e80bb8af6050228e7a9b194fc2.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-cookieconsent.ACSHASHc892f451b0c4db9c8ab2601a427c9b2c.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/clientlibs/clientlib-mwf-new/main-light.ACSHASHdc9b57e47d336d2ff6ecc9dabb9170d5.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/socialfollow/v1/socialfollow/clientlibs/site.ACSHASHb65a051bd39f23fb21bc2a225b90a8a5.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/content-card/v1/content-card/clientlibs/site.ACSHASH65ebc911d315591324874e1b6818906c.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/structure/page/clientlibs/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/clientlibs/clientlib-httpclient.ACSHASH4c7363f4b035919c15b941fe063a27f2.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-base.ACSHASHeacc1c02ff0000fe3f138d24ca124a67.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/clientlibs/exp-cookiecomp/v1.ACSHASHa238861e6209e4e02576ddf5d1749c8b.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/content/lists/link-list/v1/link-list/clientlibs/site.ACSHASH91759bda472c208e3d58790ff216c1a9.min.js",
+    "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/index-BoAUqyYg.js",
+    "https://www.microsoft.com/msonecloudapi/assets/mwfhead.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/MeControl-BG3wj57x.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/index-B8sDcx8i.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/client-BY9SflKR.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/index-CQVn7Dmw.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/structure/page/clientlibs/visitor.ACSHASHb62afce26e7190363962d16ddaa42321.min.js",
+    "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-thirdparty/cela_v19.js",
+    "https://www.microsoft.com/foxtrot/etc.clientlibs/microsoft/components/structure/page/clientlibs/experimentation.ACSHASH312c76058a871d54d367898c995c2fd5.min.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/Index-rMmMtAfu.js",
+    "https://www.googletagmanager.com/gtag/js?id=DC-572608"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "target.microsoft.com",
+     "path": "/rest/v1/delivery",
+     "query": [
+      "client",
+      "sessionId",
+      "version"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://target.microsoft.com/rest/v1/delivery"
+    },
+    {
+     "method": "POST",
+     "host": "browser.events.data.microsoft.com",
+     "path": "/OneCollector/1.0/",
+     "query": [
+      "content-type",
+      "cors",
+      "w"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/"
+    },
+    {
+     "method": "GET",
+     "host": "cdn-dynmedia-1.microsoft.com",
+     "path": "/is/content/microsoftcorp/CoPilot-AI-Anthem-update_video_en-us-AVS.m3u8",
+     "query": [
+      "packagedStreaming"
+     ],
+     "status": 200,
+     "contentType": "application/vnd.apple.mpegurl",
+     "example": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/CoPilot-AI-Anthem-update_video_en-us-AVS.m3u8"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+    "GET dpm.demdex.net/id",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET msftenterprise.sc.omtrdc.net/id",
+    "GET s7mbrstream.scene7.com/is/content/microsoftcorp/_media_/6af/6af7bc24-e886-4834-8bb5-93f025bf1916.mp4.m",
+    "GET s7mbrstream.scene7.com/is/content/microsoftcorp/_media_/30b/30bc8d3a-efeb-4c31-8d06-d3e7d5326e2f-audio",
+    "GET s7mbrstream.scene7.com/is/content/microsoftcorp/_media_/6af/6af7bc24-e886-4834-8bb5-93f025bf1916-strea"
+   ],
+   "postBodies": [
+    {
+     "url": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=05737ab1addf4fe9b0aa19e5740ea9c0&version=2.11.8",
+     "body": "{\"requestId\":\"12ada37bab554c9abef9fa6685e4474a\",\"context\":{\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"Linux\",\"browserUAWithMajorVersion\":\"\\\"Not:A-Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"156\\\"\",\"model\":\"\",\"platformVersion\":\"\",\"browserUAWithFullVersion\":\"\",\"architecture\":\"\",\"bitness\":\"\"},\"tim"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=917235456.1793756812&dt=Our%20Mission%20and%20Values%20%7C%20About%20Microsoft&tid=DC-572608&en=page_view&dl=https%3A%2F%2Fwww.microsoft.com%",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=917235456.1793756812&gtm=45fe6b21h1z8a_DC-572608za208xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageView\",\"time\":\"2026-11-04T01:46:52.004Z\",\"ver\":\"4.0\",\"iKey\":\"o:95fca6fd4efd4182bbe3cc2165f0f955\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"installId\":\"570fe37b-94b4-464a-8"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.OutgoingRequest\",\"time\":\"2026-11-04T01:46:52.265Z\",\"ver\":\"4.0\",\"iKey\":\"o:95fca6fd4efd4182bbe3cc2165f0f955\",\"ext\":{\"dt\":{\"traceId\":\"89dd5e76b3194e81addd48f7a1937211\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":4,\"installId\":\"570fe37b-94b4-464a-87cf-58634f51a199\",\"epoch\":\"2922723110\"},\"app\":{\"locale\":\"en-US\",\"env\":\"prod\",\"sesId\":\"a/BKR4yq2kQe59ZHmoqZYv\"},\"user\":{\"locale\":\"en-US\"},\"web\":{"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2",
+     "body": "{\"name\":\"MeControlWeb_PageView\",\"time\":\"2026-11-04T01:46:52.209Z\",\"ver\":\"4.0\",\"iKey\":\"o:b8ffe739c47a401190627519795ca4d2\",\"ext\":{\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"epoch\":\"756243660\"},\"app\":{\"locale\":\"en-US\",\"sesId\":\"BRHd3j1kNICYM07uhyDeUl\"},\"user\":{\"locale\":\"en-US\"},\"web\":{\"domain\":\"www.microsoft.com\",\"userConsent\":false,\"consentDetails\":\"{\\\"GPC_DataSharingOptIn\\\":false}\"},\"intweb\":{},\"utc"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3Dbad062f618674ed083aa01c025a81cd4%26HASH%3Dbad0%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.ContentUpdate\",\"time\":\"2026-11-04T01:47:01.101Z\",\"ver\":\"4.0\",\"iKey\":\"o:95fca6fd4efd4182bbe3cc2165f0f955\",\"ext\":{\"web\":{\"isManual\":true,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":17,\"installId\":\"570fe37b-94b4-4"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3Dbad062f618674ed083aa01c025a81cd4%26HASH%3Dbad0%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.PageAction\",\"time\":\"2026-11-04T01:47:00.295Z\",\"ver\":\"4.0\",\"iKey\":\"o:95fca6fd4efd4182bbe3cc2165f0f955\",\"ext\":{\"web\":{\"isManual\":true,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":16,\"installId\":\"570fe37b-94b4-464a"
+    }
+   ],
+   "textAtLoad": 2886,
+   "mainEmptyAtLoad": false
+  },
+  "/en-us/surface/do-more-with-surface/": {
+   "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+   "status": 200,
+   "host": "www.microsoft.com",
+   "title": "Do More with Surface Laptop & Surface Pro | Microsoft Surface",
+   "forms": [
+    {
+     "name": "uhf-search-form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Computers",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Help & Support",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "More",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "All Microsoft",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.microsoft.com/store/buy/cartcount",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "/cascadeauth/account/silentauth?auth=default",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.microsoft.com/store/buy/cartcount",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/cascadeauth/account/silentauth?auth=default",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.microsoft.com/en-us/surface/accessories",
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://account.microsoft.com/"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [
+     "en-us",
+     "x-default"
+    ],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hj",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "row row-cols-1",
+     "cards": 12,
+     "sameSite": 12,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 48,
+   "inlineFetch": true,
+   "mainText": 2125,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.microsoft.com": 50,
+    "uhf.microsoft.com": 9,
+    "rum.hlx.page": 1,
+    "assets.adobedtm.com": 32,
+    "cdn-dynmedia-1.microsoft.com": 233,
+    "wcpstatic.microsoft.com": 1,
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net": 1,
+    "api.company-target.com": 1,
+    "cdnssl.clicktale.net": 1,
+    "www.clarity.ms": 1,
+    "s-vop.sundaysky.com": 12,
+    "login.microsoftonline.com": 2,
+    "dpm.demdex.net": 1,
+    "login.live.com": 1,
+    "s-vop.sundayskyads.com": 4,
+    "msftenterprise.sc.omtrdc.net": 1,
+    "target.microsoft.com": 1,
+    "ad.doubleclick.net": 2,
+    "snap.licdn.com": 1,
+    "connect.facebook.net": 2,
+    "cm.g.doubleclick.net": 1,
+    "pixel.rubiconproject.com": 1,
+    "vop.sundaysky.com": 1,
+    "scripts.clarity.ms": 1,
+    "px.ads.linkedin.com": 4,
+    "www.google.com": 1,
+    "rtb-csync.smartadserver.com": 1,
+    "static.hj.contentsquare.net": 1,
+    "c.az.clicktale.net": 5,
+    "www.linkedin.com": 1,
+    "browser.events.data.microsoft.com": 5,
+    "k.af.clicktale.net": 1,
+    "www.facebook.com": 2,
+    "n.clarity.ms": 3,
+    "c.clarity.ms": 2,
+    "c.bing.com": 2,
+    "c1.microsoft.com": 2
+   },
+   "thirdPartyHosts": [
+    "rum.hlx.page",
+    "assets.adobedtm.com",
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+    "api.company-target.com",
+    "cdnssl.clicktale.net",
+    "www.clarity.ms",
+    "s-vop.sundaysky.com",
+    "login.microsoftonline.com",
+    "dpm.demdex.net",
+    "login.live.com",
+    "s-vop.sundayskyads.com",
+    "msftenterprise.sc.omtrdc.net",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "connect.facebook.net",
+    "cm.g.doubleclick.net",
+    "pixel.rubiconproject.com",
+    "vop.sundaysky.com",
+    "scripts.clarity.ms",
+    "px.ads.linkedin.com",
+    "www.google.com",
+    "rtb-csync.smartadserver.com",
+    "static.hj.contentsquare.net",
+    "c.az.clicktale.net",
+    "www.linkedin.com",
+    "k.af.clicktale.net",
+    "www.facebook.com",
+    "n.clarity.ms",
+    "c.clarity.ms",
+    "c.bing.com"
+   ],
+   "scripts": [
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/entry.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery-cookie.ACSHASH5c75a4fa9fb3503322f8a0c9dd51512d.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/v1.ACSHASHbf7b336dbb370c984e1bf59b1a980d86.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/mlsd/clientlibs/clientlib-aiosplugin.ACSHASHaa8860acc4b8ef4cefcde1a50e58e598.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/dynamicclientsidelibs/handlerscripts/v1.ACSHASH6734c5d7a732130b83c7d4a6ba54dcec.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery.ACSHASH75d0cb3e9ff9fee40f5ce5fd93c17fb2.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/content/universalheader/v1/universalheader/clientlibs/site.ACSHASHd9c9fd98fe2a540a7662eb6492aa9c30.min.js",
+    "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/launch-EN7506e353034849faa4a18bc4c20e727c.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/content/socialfollow/v1/socialfollow/clientlibs/site.ACSHASHb65a051bd39f23fb21bc2a225b90a8a5.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/content/back-to-top-button/v1/back-to-top-button/clientlibs/sites.ACSHASH148bbe2eead6c5832c56691afb23e496.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/mlsd/clientlibs/clientlib-surface.ACSHASH77014e24f035235a6c93b13839c54373.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/cookie-compliance-manager.ACSHASHdec0d75e509be6ebf6b36ff24c516111.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/mlsd/clientlibs/clientlib-site.ACSHASHb99dc5ca91c2e710e3e46c5befc3b383.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-base.ACSHASHe1bb644e9ad6607632be3485f0b9937d.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC0c21eeee9c0f400a9402b4788b50930e-source.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/clientlib-mwf-new/main-light.ACSHASHdc9b57e47d336d2ff6ecc9dabb9170d5.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-cookieconsent.ACSHASHc892f451b0c4db9c8ab2601a427c9b2c.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/structure/page/clientlibs/featurecontrol.ACSHASHf120033122e43a4cb0b53bb306afc5dc.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-cookiecomp/v1.ACSHASHa238861e6209e4e02576ddf5d1749c8b.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/clientlib-httpclient.ACSHASH81e898694b0509d4273f98ebfa8f3470.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/mlsd/clientlibs/clientlib-handlebars.ACSHASHaa399686459ca4d277fa97feb2a5aa65.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/mlsd/components/content/schemamarkup/v1/schemamarkup/clientlibs/site.ACSHASH5a734f12d49ea89be9e1d39717e245a3.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/mlsd/components/content/articles/articlescards/v1/articlescards/clientlibs/site.ACSHASHb2f335ab38d5e1b9bf4eb649a54a7a0d.min.js",
+    "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH4c30d1ab2ba2274e01c92dfd8b2ea529.min.js",
+    "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/index-BoAUqyYg.js",
+    "https://www.microsoft.com/msonecloudapi/assets/mwfhead.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/index-B8sDcx8i.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/client-BY9SflKR.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/MeControl-BG3wj57x.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa3837734c6744578a4cd813563579094-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf7e0245a98054ec88e188bb60fc55b95-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC4eca6d570e2d4f919d49e225bf4ba061-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC6748f5eec85041a7b8ee9604dc3252f2-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC80a1882692f34f77aed4b4eeea3afc8e-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC502239fc70c04e1281d103f80e0e7386-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC4ddf6024aa164edc84af8d7f573672fe-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC875f7d1f59a04b359f4f3b10e9beb782-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC508ef9af51f14d99a50e4f8c13ea404d-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa25a1b74454a4c128a8f4ed5bdf335d1-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCbaa5eb6f200342a385cc9152f2c16979-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCdc5dfc7e9fe0429fb792428307bc5385-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf4e8ddb48e17419cb41d2d069084e732-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf07f548ff3904e6aae2cc165a2846cfc-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC8dac0e603b784cc98512fa2cc05157b1-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC73e8eba2c60442d5ac8f76988debb91c-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa26d541cf4ca4821943cfedadab3fb0a-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCaea9defea3ec4379976c7cfe2b2eaa7a-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCd508a852da794ced80a806fbe729bba1-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC831c1f5334c4445d9b40779405f3ec28-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC13a6c7b0206044d4ad427e3ddf66baa4-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCe6ead21b5c864be99dbf9cf91e7514a1-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCe2632179e6fa4fb69ccd57281368782b-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC0b89b86225eb4122812bba8e94f80a32-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC4a3828b51f064fe1ae28680b9150609c-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf45be8e1e9f44c998e8838d62a6d8472-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC123d622c21794026bdcb7c632f9e3442-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCd9e3e09bc95b4c85a8a74e832db38e22-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC6b4bbf1947bf47c981dff1cec4a3b78a-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "target.microsoft.com",
+     "path": "/rest/v1/delivery",
+     "query": [
+      "client",
+      "sessionId",
+      "version"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://target.microsoft.com/rest/v1/delivery"
+    },
+    {
+     "method": "POST",
+     "host": "browser.events.data.microsoft.com",
+     "path": "/OneCollector/1.0/",
+     "query": [
+      "content-type",
+      "cors",
+      "w"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+    "GET api.company-target.com/api/v3/ip.json",
+    "GET dpm.demdex.net/id",
+    "GET msftenterprise.sc.omtrdc.net/id",
+    "POST c.az.clicktale.net/pageview",
+    "GET c.az.clicktale.net/pageEvent",
+    "GET c.az.clicktale.net/dvar",
+    "POST k.af.clicktale.net/v2/recording",
+    "POST px.ads.linkedin.com/wa/",
+    "POST n.clarity.ms/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=9b4bbe0f28f3492685d27dfc14ba4c1e&version=2.11.8",
+     "body": "{\"requestId\":\"9963c847be8b4b0c89ac1767b2e9b108\",\"context\":{\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"Linux\",\"browserUAWithMajorVersion\":\"\\\"Not:A-Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"156\\\"\",\"model\":\"\",\"platformVersion\":\"\",\"browserUAWithFullVersion\":\"\",\"architecture\":\"\",\"bitness\":\"\"},\"tim"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageView\",\"time\":\"2026-11-04T01:47:04.247Z\",\"ver\":\"4.0\",\"iKey\":\"o:71b56821daef4546b06b863758fb9082\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"installId\":\"40368b6d-df6c-4474-9"
+    },
+    {
+     "url": "https://c.az.clicktale.net/pageview?cw=1&happid=4231853209&t=Do%20More%20with%20Surface%20Laptop%20%26%20Surface%20Pro%20%7C%20Microsoft%20Surface&ex=&dt=53&pvt=n&la=en-US&uc=0&url=https%3A%2F%2Fwww.m",
+     "body": ""
+    },
+    {
+     "url": "https://k.af.clicktale.net/v2/recording?rt=5&v=15.275.0&pid=2422&pn=1&sn=1&uu=573f7f45-6cbc-a120-ecc1-c1656d0fc5aa&let=1793756826029&rst=1793756826024&ri=1&ct=2",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003Խ��8�&�*4o��\u0019kg\u0004\u0001�\u001a���HIY�\u001d)S#)+�fbM\u0006'��L�IO�\u001e��j���}�}�}�}�y�]\u0000�;\u001d�\u0001�\u001e�K�E��\u0005\u0000I���;\u001f��?�1�h�fW(JH\u0014�1\u000e=��g�Æͮ\"<�����]��YKo�;V7yU��3\u0014\\�(��f����\"6���M�/����&_\u0014L\u0016 �E\u001e�\u001b�Jv%�c�fW���|��\r��͋��lն��������b��u�T��\"�֗�t��e���4e�Y宫���y�r������m~�^d�+<��&^�c֤uU\u0014�]y��翋�E��\"o\u001ffW�\u0007�ď��MU����<kW�+���|�b����]%�(�\u0016�\u0011�j�lX��-[Q���]��]y�D�����>�g˼nڧ���fWd>K�M[��\u0017l�ʶ��nWKwYU-�E���\u0015���Wy�-���PZU\u001fr�.hY�\u0017�Y��\u001d"
+    },
+    {
+     "url": "https://n.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�T�N�@\u0010���>T �\u0013��7��\u0006Ԣ\u0012�0��V����%���\u001b\u0002-�۫��(������93gg��*��P�\u0017�\u0002�\\+�Q`�\u0002�\u0012���f��c��R���&\b|\n��/�I؅�Go��۽~�X�J�7�5S��M�W�3o����f��O�S�F9\u000bmo�5H�@3��$܇\u0010˺��0\u0018C\u0012H`�C\"��\u0000\u001e\u0002\u001bC\u0012z \u0003��m��\u001f�����᭄\u0004��E>���.uůn��+v�e\u0014����th�:����T\u0018�\n>�l�\u0017���4��S��=�&j�+5Y�\u000f���A��ye��fv޾\u0015P��iV�����V�.Ue�Z�(��!9\u0010R��\\�X[��\u0013E\u001c2hg$��L\u00067�95Ea�$������99\u001e�����\u000f}�rt]d��ޮ64�mL�\u001dձ]�N�S�lhÓ�tIM���mr\u0017�Q\u0003\u0004��a��\u0001̵z7\u001c����\u000f]\u0014Y��d�+c�"
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA1VQTWvcMBT8K+YdepJqyR+SrVugbTBsIHSXXEopsvScFbUl1ZIJJc1/L97tBnqcecy8mXmF6GwC9U12LftOIJnVxfyEa3LBg+KMMVb3BLJbEBSXfS1b0VWiqTsCNizaeVCwOLOGFKb80YQFCGzrDArOOcekyvK/a4mebqlM2zppg6UNdAkr0heXz/RGAoEXHJPLeHTPXs9f8deGKQ8WFDBm9GgrSzVyQSfZGipHqWlfyXaaWC15x4BA1M94CNpeNLWphOhFTbFvNW20EVRPyCjnApnlvOn6Hgi4dFq1T7POaEFNek5IYHZf9PUz7ODeaZ+vYHHJgHqFmMZj1hlB0eZtdzk4/xPt4O9ifLfZ85xcnhEUfArFQ1ix2DsXx2vn4qBj"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3Da5dabf89756b4bddbbc7618a00de7f2d%26HASH%3Da5da%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.ContentUpdate\",\"time\":\"2026-11-04T01:47:06.635Z\",\"ver\":\"4.0\",\"iKey\":\"o:71b56821daef4546b06b863758fb9082\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":15,\"installId\":\"40368b6d-df6c-"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2",
+     "body": "{\"name\":\"MeControlWeb_PageView\",\"time\":\"2026-11-04T01:47:04.442Z\",\"ver\":\"4.0\",\"iKey\":\"o:b8ffe739c47a401190627519795ca4d2\",\"ext\":{\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"epoch\":\"4099550295\"},\"app\":{\"locale\":\"en-US\",\"sesId\":\"Jzk0rljfmMYppw2gxaZ0fh\"},\"user\":{\"locale\":\"en-US\"},\"web\":{\"domain\":\"www.microsoft.com\",\"userConsent\":false,\"consentDetails\":\"{\\\"GPC_DataSharingOptIn\\\":false}\"},\"intweb\":{},\"ut"
+    },
+    {
+     "url": "https://n.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�RɎ�0\f����gE��E��\u001ez���A��e��X�8i�/<�\u0014��XP (�Qz\\~��KA��,���\u0005C�\u0010JA����\u0017���]}�\u0011Ⱦ�Y�\u0012h|\u001b&�\u0013\u0004��P\u0017��/���l��u�s\u0013X=�g7E�?�mmL��v��yu�އ.z8�\u0004\u0019�\u0014��\t�\u0006�H ��\\#\u0015\u0002Bd\u001aq&š�\u00148\u0012!�\u0006M�oMp\u0004�$!�Zk$Y���D!b�\u0010+�wӺӷ��ӏ~t���S�O\t�\u0007J)(��r\u000e����Ҝ�_��a�o� %�Pк��\u001b�l1�Q�S\u0007\td�w�3c���0޽[�<!k;E�6���&\u0012O�^|0���\"[�D�D��ڪ^m۶Mն\u001docVq���mu�e�\u000b\u0007��?�\u00163ݢ`����`�Y=��\u000f76�OB�\u000f�\u001e��5���\u001f��Ȭ\u001b���\u001dӗ�/��R�u޽[�{wS�̚`�`�G�9$2\u001e#Fv�8G\u0002�\f9r\b�+h\u001c�%\u0013"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3Da5dabf89756b4bddbbc7618a00de7f2d%26HASH%3Da5da%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.OutgoingRequest\",\"time\":\"2026-11-04T01:47:07.691Z\",\"ver\":\"4.0\",\"iKey\":\"o:71b56821daef4546b06b863758fb9082\",\"ext\":{\"dt\":{\"traceId\":\"0144713ffa0445e3af3bd93b1adc891e\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":17,\"installId\":\"40368b6d-df6c-4474-9170-79bbb95fa57d\",\"epoch\":\"815139346\"},\"app\":{\"locale\":\"en-US\",\"env\":\"prod\",\"sesId\":\"TmitDjXCEc48kHQkxOtfSr\"},\"user\":{\"locale\":\"en-US\",\"localId"
+    },
+    {
+     "url": "https://n.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003̽��8�.�*�\u0018��sf�L\u0002 \u0000BmicY)UK6����1I&c0\u0018�lE�Q$#SY�ev����\u0000��N��>J?ɚ�Fg\\\u0012)��TVݒ�\u0003����\u0004>8��6�f\u000f��ғ�D�d^\r�,f1ai\u0016s��x���>�>��j\u0016�\u0016��\u0014�x��i�,�YL�T�7�\u001a�M�������d]�]۷��lקU�l��~�-��:]�ɺ���\u001e�\u0012\u0007��ǳb���[�o\u0016��dY\u001aS�K�/��1��ٮV�����[��\"&1#�ۙ�?�f-��rus�q��u�>f4~;�7�Xw�O䄶���Or��޻�S\u0018mL㌧1�\u0019������2V1Mc�c�\\]&b\u0011�\u0015���4\u0016\u0014�z��}<���3\u0012�Ƴy8�gM��ή��j\u0016�6���.�,�f��j���t���o�=�ųU�\\�UM��k�Muw�\u001a:�?ܮ������*�\u0014�E�\\&�v\u0018���H�ͧ?"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3Da5dabf89756b4bddbbc7618a00de7f2d%26HASH%3Da5da%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.ContentUpdate\",\"time\":\"2026-11-04T01:47:13.251Z\",\"ver\":\"4.0\",\"iKey\":\"o:71b56821daef4546b06b863758fb9082\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"www.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":19,\"installId\":\"40368b6d-df6c-"
+    }
+   ],
+   "textAtLoad": 2125,
+   "mainEmptyAtLoad": false
+  },
+  "/en-us/bing": {
+   "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+   "status": 200,
+   "host": "explore.microsoft.com",
+   "title": "Microsoft Bing | Get to know Bing",
+   "forms": [
+    {
+     "name": "common-search-box__search",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "common-search-box__search",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.bing.com/account/general?ru=https%3a%2f%2fwww.bing.com%2f&FORM=O2HV65",
+    "https://account.microsoft.com/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": "nuxt",
+   "globals": [
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 4,
+   "inlineFetch": false,
+   "mainText": 2288,
+   "domAddedAfterLoad": 29,
+   "hosts": {
+    "explore.microsoft.com": 4,
+    "edgecdn-embza6g8cacagcbn.z01.azurefd.net": 55,
+    "edgestatic.azureedge.net": 18,
+    "www.bing.com": 1,
+    "uhf.microsoft.com": 3,
+    "wcpstatic.microsoft.com": 1,
+    "js.monitor.azure.com": 1,
+    "www.clarity.ms": 6,
+    "bat.bing.com": 4,
+    "c.clarity.ms": 2,
+    "c.bing.com": 1,
+    "bat.bing.net": 1,
+    "browser.events.data.microsoft.com": 3
+   },
+   "thirdPartyHosts": [
+    "edgecdn-embza6g8cacagcbn.z01.azurefd.net",
+    "edgestatic.azureedge.net",
+    "www.bing.com",
+    "js.monitor.azure.com",
+    "www.clarity.ms",
+    "bat.bing.com",
+    "c.clarity.ms",
+    "c.bing.com",
+    "bat.bing.net"
+   ],
+   "scripts": [
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Cft4f2Vf.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/XKyaHtl9.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/0E-MsAXI.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/de0_5czH.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Bg9x6iC8.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/BYO3piU7.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Btbmb9py.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/DBlTneuX.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Djnvgbpv.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Cblsiisc.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/LJGCPTFO.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Ct3k7JUZ.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/C7F9VOuy.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/GfWgIBdP.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/DIzhuUoR.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/CDZ7Bk96.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/H77oi0xP.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/DtYt_3Uq.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/k81-MvW4.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/C8meklZp.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/scRjD-N6.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/kO--zhy4.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/DgHQZleA.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/D5-o2Ejy.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/C3aBO8Dq.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/BY5tTQQJ.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/entry.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/B_hb5kr1.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/B9tSe_VE.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/D7E_y8QD.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/3nEQBx_I.js",
+    "https://uhf.microsoft.com/statics/20261021.14.40/js/index-BoAUqyYg.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/Do4MPvPh.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/B1lLoF5K.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/BG_RsBGd.js",
+    "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+    "https://js.monitor.azure.com/scripts/c/ms.jsll-3.min.js",
+    "https://www.clarity.ms/tag/o7u185qj18",
+    "https://bat.bing.com/bat.js",
+    "https://bat.bing.com/p/action/355015334.js",
+    "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/BnSasj46.js",
+    "https://www.clarity.ms/s/0.8.73-beta/clarity.js",
+    "https://www.clarity.ms/tag/uet/355015334?conversions=1&insights=1"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "explore.microsoft.com",
+     "path": "/edge/api/i18n/1aef7089/en-us/messages.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://explore.microsoft.com/edge/api/i18n/1aef7089/en-us/messages.json"
+    },
+    {
+     "method": "GET",
+     "host": "explore.microsoft.com",
+     "path": "/edge/api/uhf",
+     "query": [
+      "locale"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://explore.microsoft.com/edge/api/uhf"
+    },
+    {
+     "method": "POST",
+     "host": "browser.events.data.microsoft.com",
+     "path": "/OneCollector/1.0/",
+     "query": [
+      "content-type",
+      "cors",
+      "w"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/search-reverse.C4HTXRDx.svg",
+    "POST www.clarity.ms/eus-e/collect",
+    "GET edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/builds/meta/06fa9301-1fab-4edf-bda1-38e89df354cd.json"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.clarity.ms/eus-e/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003����F� �*��@�=C���L\u0019��.�h[�5�l�tY(�y�h�I�*�{g1O1��[�\u000f�v�b\u001f���CD&y�s��,Y�bۭ�b�5\"3##\"##�6���'�$ֱb��v�,$a\u0012\u0012&�Y��D���B�,�eo�W�Գpve�\u0011.\u001b�7;�U���Ⱦ[�uc�e�5u[/�8��G����Ѽ��������\b���ބ�t����P���$\u0014��7��!!\u000eb��\u0001�\u000eɛ�D%!W�\b��/�P�<|��ۧ������?����PB\u00174��r�\u0003�`X8�ҋ�,��,���YH81,4JQ�V�����L������|��Ϻ�V���y;{\u0013�\u0000)\u0019\u000fg�k�]\u0014�,<����-ɒ\\-\b!\u000b�����y��Nt>g@�Uzf__�,䟗u�\u0016�ON��\u0002@2\u000bg\t\u0000�ҥ��.\u0004[\b�\"���8Mi�-QQ:��$�%��g���A�-T��!��"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageView\",\"time\":\"2026-11-04T01:47:16.819Z\",\"ver\":\"4.0\",\"iKey\":\"o:6071a635faa9495f9a5e79641fcee35e\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"explore.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"installId\":\"6611836a-071a-48"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageViewPerformance\",\"time\":\"2026-11-04T01:47:16.820Z\",\"ver\":\"4.0\",\"iKey\":\"o:6071a635faa9495f9a5e79641fcee35e\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"explore.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":2,\"installId\":\"66118"
+    },
+    {
+     "url": "https://www.clarity.ms/eus-e/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��o� \u0010��\u0015��#1�\u0018H\u0015Mݏ�>���i�\u0016Y\u0015��C���I�h��>�i�v��~t�\u001e*$��\u000eq��\u001e�W��l�≘p�\u000b\u001d\u0014�\u0004\be�y�\u0002�|C\u0004�|E\u0004\u0002T�W�G�v�W\u001dC@ \u001e\u0007Z�����T_��wzҘ��_�I雩vx�O\u000b��gK�5�ק����r@\n�\u0016��\u0014\b�4��%i�_�8���m���G\u000e\u000b.�\u0004\u0002),P��/��&z�]�'�\n�~�(?l�!�$�\t\u0007\nc�\u0002\u0018HH\u0018\u0010\n�\u0000B�!�f��\"\u0013\\\u0000��I) ��\t��L)\u0007)�<\u0007�\u000e叁\u0019�\f����˳\u000f\u0003l��~^���\u000e;��n�\u0018�����}S�yku�\u0000�ag�<�v\u0016���\t\u0002d��S[�\u000fi�!�L\u0002c�\t@\u0017�^�?{s~<���\\�һ���]��;�+�c�e��u����\u001eF��p�+���0��K��!Zڍv�\tck�U8VҨ�6\u000e\u0017>\u0004��\"���h"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D790f1197cce14839a1c4ad925b7a7962%26HASH%3D790f%26LV%3D202611%26V%3D",
+     "body": "{\"name\":\"Ms.Web.PageAction\",\"time\":\"2026-11-04T01:47:24.078Z\",\"ver\":\"4.0\",\"iKey\":\"o:6071a635faa9495f9a5e79641fcee35e\",\"ext\":{\"web\":{\"isManual\":true,\"domain\":\"explore.microsoft.com\",\"userConsent\":true,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":true,\\\"SocialMedia\\\":true,\\\"Advertising\\\":true,\\\"GPC_DataSharingOptIn\\\":true}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":20,\"installId\":\"6611836a-071a-"
+    },
+    {
+     "url": "https://www.clarity.ms/eus-e/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��ͮ�0\u0010F�e�s���_���\u0003t�m\u0011\u000b\u0012\u0012�\u0010b.\t\u0010���U\b\u0004\u0016Wl*K��3>�?� ��\u0002����G�u+@F�]@�� Dw$o>+�n�}\u0015\u0001�\u0012��`\u0000\t�A�u�v>�e����L���\u0010ۘw\"��Y�|\u001c�YR6��y<���A��7,\u0011V0_,�w\u001aI\"�D/%��z���ʂ��z�r\u000b�YN��0mtu��7��ą\rA>֓\u001d\u0004d���(]\u000bE�T�q\r ��<)�\u0017\\\u0012E�W�Q�H�C�� ��\u0014�\u0012W\r��D�k}�kQ�O��)`5\b�,\u0005>�N��\n}<��ǰ�\u000b�t\u000f����\u001e����\nS�M��C\n\bf�$F�\u0015\t*N�U�y\b�����E�9Wi��N��\u0005K�\u001fN�%\u001d�}(�Y��\\���=C�%�A3=�P|8fp\u000bX�\t�\t�P'���\u0018�+U�I�l^)\u001b?���T;~�ۭ^���\ru&��޿[\u001b�;:�\u000e���"
+    }
+   ],
+   "textAtLoad": 2250,
+   "mainEmptyAtLoad": false
+  },
+  "/en-us/": {
+   "url": "https://support.microsoft.com/en-us/",
+   "status": 200,
+   "host": "support.microsoft.com",
+   "title": "Microsoft Support",
+   "forms": [
+    {
+     "name": "searchForm",
+     "action": "https://support.microsoft.com/en-us/Search/results",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "/en-us/authentication/silentsignin?ru=%2Fen-us%2Fsilentsigninhandler",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "/en-us/authentication/silentsignin?ru=%2Fen-us%2Fsilentsigninhandler",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://support.microsoft.com/en-us/surface/accessories/pc/",
+    "https://support.microsoft.com/accounts-billing/",
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://support.microsoft.com/en-us/authentication/signin?ru=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2F",
+    "https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-account-help",
+    "https://support.microsoft.com/en-us/accounts-billing/",
+    "https://support.microsoft.com/en-us/accounts-billing/subscriptions/try-or-buy-microsoft-365",
+    "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://www.microsoft.com/ai/responsible-ai"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "row row-cols-2",
+     "cards": 10,
+     "sameSite": 9,
+     "hasDate": false
+    },
+    {
+     "cls": "row row-cols-1",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "row row-cols-1",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "row row-cols-1",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 1539,
+   "domAddedAfterLoad": 4,
+   "hosts": {
+    "support.microsoft.com": 50,
+    "uhf.microsoft.com": 1,
+    "www.microsoft.com": 2,
+    "mem.gfx.ms": 4,
+    "js.monitor.azure.com": 1,
+    "login.microsoftonline.com": 3,
+    "aadcdn.msauth.net": 1,
+    "login.live.com": 2,
+    "logincdn.msftauth.net": 1,
+    "browser.events.data.microsoft.com": 4
+   },
+   "thirdPartyHosts": [
+    "mem.gfx.ms",
+    "js.monitor.azure.com",
+    "login.microsoftonline.com",
+    "aadcdn.msauth.net",
+    "login.live.com",
+    "logincdn.msftauth.net"
+   ],
+   "scripts": [
+    "https://support.microsoft.com/lib/jquery/dist/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0",
+    "https://mem.gfx.ms/meversion?partner=SMCConvergence&market=en-us&uhf=1",
+    "https://support.microsoft.com/js/MeControlCallout.Main.min.js?v=tLNC8gJXmcpgKnVZCzJOdJOwkDcmcgvOTKeTIHyDJVw",
+    "https://support.microsoft.com/lib/bootstrap/dist/js/bootstrap.bundle.min.js?v=5P1JGBOIxI7FBAvT_mb1fCnI5n_NhQKzNUuW7Hq0fMc",
+    "https://support.microsoft.com/js/Support.Main.min.js?v=YU-6bvuqYbPuSFcD3H71b99Qvws9rMxWNkcd7L9swS8",
+    "https://support.microsoft.com/js/SilentSignInManager.Main.min.js?v=YhJIc9eIReDAmfom1ivxwN61e3gQDko8Dw4oru_ZXi4",
+    "https://support.microsoft.com/js/TabControl.Main.min.js?v=Tuq0JGG2-NUsWHZ5maQKtMZE5uDF4Q6HoAVX46j1Ktw",
+    "https://support.microsoft.com/lib/uhf/dist/uhfbundle.js?v=of4Bk4iHW2lu2zc7UaUcCo47rVLNSJYX0ELAcivbHkg",
+    "https://support.microsoft.com/lib/oneds/dist/ms.analytics-web-4.0.2.min.js?v=O7wAAOKAVN2-OLLnoh3KjWb9pW6khEi85GWLxrUYqXA",
+    "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js",
+    "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js",
+    "https://aadcdn.msauth.net/shared/1.0/content/js/FetchSessions_Core_H5IgszKn6xuaSfUqCqn3HQ2.js",
+    "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meCore.min.js",
+    "https://support.microsoft.com/js/SilentSignIn.Main.min.js?v=LKkJs9puSk_H_Tyd1JDE20VDXJlRd6pdfRVIUu_WniU",
+    "https://logincdn.msftauth.net/16.000/content/js/MeControl_h0m4SytBRac6oXHydFF0Pg2.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "browser.events.data.microsoft.com",
+     "path": "/OneCollector/1.0/",
+     "query": [
+      "content-type",
+      "cors",
+      "w"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry"
+   ],
+   "postBodies": [
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageView\",\"time\":\"2026-11-04T01:47:28.575Z\",\"ver\":\"4.0\",\"iKey\":\"o:ac04587c8d6b439297eee84d88c95e8b\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"support.microsoft.com\",\"screenRes\":\"1440X900\",\"userConsent\":false,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":false,\\\"SocialMedia\\\":false,\\\"Advertising\\\":false,\\\"GPC_DataSharingOptIn\\\":false}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-4.0.2\",\"seq\":1,\"e"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.PageViewPerformance\",\"time\":\"2026-11-04T01:47:29.204Z\",\"ver\":\"4.0\",\"iKey\":\"o:ac04587c8d6b439297eee84d88c95e8b\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"support.microsoft.com\",\"screenRes\":\"1440X900\",\"userConsent\":false,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":false,\\\"SocialMedia\\\":false,\\\"Advertising\\\":false,\\\"GPC_DataSharingOptIn\\\":false}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-4.0.2\""
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Webi.OutgoingRequest\",\"time\":\"2026-11-04T01:47:28.686Z\",\"ver\":\"4.0\",\"iKey\":\"o:b8ffe739c47a401190627519795ca4d2\",\"ext\":{\"sdk\":{\"ver\":\"1DS-Web-JS-3.2.18\",\"seq\":1,\"installId\":\"28a79010-0957-4f62-b70c-10a040f83ea6\",\"epoch\":\"1048139469\"},\"app\":{\"locale\":\"en-US\",\"env\":\"Production\",\"sesId\":\"LLVhDwy79nlGQBqKpmX9RB\"},\"user\":{\"locale\":\"en-US\"},\"web\":{\"domain\":\"support.microsoft.com\",\"userConsent"
+    },
+    {
+     "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+     "body": "{\"name\":\"Ms.Web.ContentUpdate\",\"time\":\"2026-11-04T01:47:37.380Z\",\"ver\":\"4.0\",\"iKey\":\"o:ac04587c8d6b439297eee84d88c95e8b\",\"ext\":{\"web\":{\"isManual\":false,\"domain\":\"support.microsoft.com\",\"screenRes\":\"1440X900\",\"userConsent\":false,\"consentDetails\":\"{\\\"Required\\\":true,\\\"Analytics\\\":false,\\\"SocialMedia\\\":false,\\\"Advertising\\\":false,\\\"GPC_DataSharingOptIn\\\":false}\"},\"sdk\":{\"ver\":\"1DS-Web-JS-4.0.2\",\"seq\""
+    }
+   ],
+   "textAtLoad": 1539,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-first-party-api-post-onecollector-1-0",
+   "class": "A",
+   "feature": "first-party API POST /OneCollector/1.0/",
+   "api": {
+    "method": "POST",
+    "path": "/OneCollector/1.0/"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /OneCollector/1.0/?content-type,cors,w → 200"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/bing",
+    "/en-us/"
+   ],
+   "reach": {
+    "pages": 8,
+    "of": 8
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-uhf-exp-fd-gbcrdgggfbggh0g3-b02-a",
+   "class": "A",
+   "feature": "unknown third-party host uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+   "hint": "inspect",
+   "evidence": [
+    "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-rest-v1-delivery",
+   "class": "A",
+   "feature": "first-party API POST /rest/v1/delivery",
+   "api": {
+    "method": "POST",
+    "path": "/rest/v1/delivery"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /rest/v1/delivery?client,sessionId,version → 200"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/"
+   ],
+   "reach": {
+    "pages": 4,
+    "of": 8
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-api-company-target-com",
+   "class": "A",
+   "feature": "unknown third-party host api.company-target.com",
+   "hint": "inspect",
+   "evidence": [
+    "api.company-target.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-c-az-clicktale-net",
+   "class": "A",
+   "feature": "unknown third-party host c.az.clicktale.net",
+   "hint": "inspect",
+   "evidence": [
+    "c.az.clicktale.net"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-k-af-clicktale-net",
+   "class": "A",
+   "feature": "unknown third-party host k.af.clicktale.net",
+   "hint": "inspect",
+   "evidence": [
+    "k.af.clicktale.net"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en-us",
+    "/en-us/about"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-tag-logger-demandbase-com",
+   "class": "A",
+   "feature": "unknown third-party host tag-logger.demandbase.com",
+   "hint": "inspect",
+   "evidence": [
+    "tag-logger.demandbase.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-dc-services-visualstudio-com",
+   "class": "A",
+   "feature": "unknown third-party host dc.services.visualstudio.com",
+   "hint": "inspect",
+   "evidence": [
+    "dc.services.visualstudio.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-msstoreapiprod-api-buybox",
+   "class": "A",
+   "feature": "first-party API GET /msstoreapiprod/api/buyBox",
+   "api": {
+    "method": "GET",
+    "path": "/msstoreapiprod/api/buyBox"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /msstoreapiprod/api/buyBox?environment,locale,productId → 200"
+   ],
+   "pages": [
+    "/en-us"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 8
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/en-us/about"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-s7mbrstream-scene7-com",
+   "class": "A",
+   "feature": "unknown third-party host s7mbrstream.scene7.com",
+   "hint": "inspect",
+   "evidence": [
+    "s7mbrstream.scene7.com"
+   ],
+   "pages": [
+    "/en-us/about"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-edgecdn-embza6g8cacagcbn-z01-azur",
+   "class": "A",
+   "feature": "unknown third-party host edgecdn-embza6g8cacagcbn.z01.azurefd.net",
+   "hint": "inspect",
+   "evidence": [
+    "edgecdn-embza6g8cacagcbn.z01.azurefd.net"
+   ],
+   "pages": [
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-edge-api-i18n-1aef7089-en-us-messages-",
+   "class": "A",
+   "feature": "first-party API GET /edge/api/i18n/1aef7089/en-us/messages.json",
+   "api": {
+    "method": "GET",
+    "path": "/edge/api/i18n/1aef7089/en-us/messages.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /edge/api/i18n/1aef7089/en-us/messages.json → 200"
+   ],
+   "pages": [
+    "/en-us/bing"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 8
+   }
+  },
+  {
+   "id": "a-first-party-api-get-edge-api-uhf",
+   "class": "A",
+   "feature": "first-party API GET /edge/api/uhf",
+   "api": {
+    "method": "GET",
+    "path": "/edge/api/uhf"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /edge/api/uhf?locale → 200"
+   ],
+   "pages": [
+    "/en-us/bing"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 8
+   }
+  },
+  {
+   "id": "cr-client-framework-nuxt",
+   "class": "CR",
+   "feature": "client framework nuxt",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-ai",
+   "class": "I18N",
+   "feature": "locale variants ai",
+   "hint": "locale",
+   "evidence": [
+    "https://www.microsoft.com/ai",
+    "https://www.microsoft.com/ai/responsible-ai"
+   ],
+   "pages": [
+    "/en-us/about",
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-us-en-nz-de-at-fr-be-nl-be-da-dk-fi-",
+   "class": "I18N",
+   "feature": "locale variants en-us,en-nz,de-at,fr-be,nl-be,da-dk,fi-fi,en-ie,en-hk,zh-hk,en-sg,en-in,en-au,en-ca,en-cy,en-eg,en-gb,en-il,en-jo,en-lb,en-lk,en-mt,en-my,en-ng,en-ph,en-pk,en-sa,en-za,ar-eg,ar-iq,ar-ly,ar-sa,bg-bg,cs-cz,de-ch,de-de,el-gr,es-ar,es-bo,es-cl,es-co,es-cr,es-do,es-ec,es-es,es-gt,es-mx,es-ni,es-pa,es-pe,es-pr,es-py,es-sv,es-uy,es-ve,et-ee,fr-ca,fr-ch,fr-dz,fr-fr,fr-lu,fr-ma,fr-tn,he-il,hr-hr,hu-hu,id-id,is-is,it-it,ja-jp,ko-kr,lt-lt,lv-lv,nb-no,nl-nl,pl-pl,pt-br,pt-pt,ro-md,ro-ro,ru-by,ru-kz,ru-ru,sk-sk,sl-si,sv-se,th-th,tr-tr,uk-ua,zh-cn,zh-tw,de-lu,es-hn,vi-vn,ar-ae,en-ae,bs-ba,sr-rs,sr-me,x-default",
+   "hint": "locale",
+   "evidence": [
+    "https://www.xbox.com/en-US/xbox-game-pass?icid=mscom_marcom_PRCP6a_GamePass#join"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-us-x-default",
+   "class": "I18N",
+   "feature": "locale variants en-us,x-default",
+   "hint": "locale",
+   "evidence": [],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-row-row-cols-1-12-cards",
+   "class": "L",
+   "feature": "listing candidate row row-cols-1 (12 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-row-row-cols-2-10-cards",
+   "class": "L",
+   "feature": "listing candidate row row-cols-2 (10 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-target-outside-dom",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "More",
+    "All Microsoft",
+    "AI & Innovation",
+    "Culture",
+    "News & Stories",
+    "Facts & Information",
+    "Computers",
+    "Help & Support"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/"
+   ],
+   "reach": {
+    "pages": 36,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "search:q",
+    "text:"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/bing"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-en-us-search-results",
+   "class": "S",
+   "feature": "site search form → /en-us/Search/results",
+   "hint": "search",
+   "evidence": [
+    "search:query"
+   ],
+   "pages": [
+    "/en-us/"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 8
+   }
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "bat.bing.com",
+    "googleads.g.doubleclick.net",
+    "rtd-tm.everesttech.net",
+    "pixel.everesttech.net",
+    "pixel.rubiconproject.com",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "connect.facebook.net",
+    "cm.g.doubleclick.net",
+    "bat.bing.net"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "f.clarity.ms",
+    "c.clarity.ms",
+    "static.hj.contentsquare.net",
+    "n.clarity.ms"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "msftenterprise.sc.omtrdc.net"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-login-live-com",
+   "class": "T",
+   "feature": "unknown third-party host login.live.com",
+   "hint": "inspect",
+   "evidence": [
+    "login.live.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-rum-hlx-page",
+   "class": "T",
+   "feature": "unknown third-party host rum.hlx.page",
+   "hint": "inspect",
+   "evidence": [
+    "rum.hlx.page"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-com",
+   "class": "T",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdnssl-clicktale-net",
+   "class": "T",
+   "feature": "unknown third-party host cdnssl.clicktale.net",
+   "hint": "inspect",
+   "evidence": [
+    "cdnssl.clicktale.net"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-js-monitor-azure-com",
+   "class": "T",
+   "feature": "unknown third-party host js.monitor.azure.com",
+   "hint": "inspect",
+   "evidence": [
+    "js.monitor.azure.com"
+   ],
+   "pages": [
+    "/en-us/bing",
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-s-microsoft-com",
+   "class": "T",
+   "feature": "unknown third-party host c.s-microsoft.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.s-microsoft.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tag-demandbase-com",
+   "class": "T",
+   "feature": "unknown third-party host tag.demandbase.com",
+   "hint": "inspect",
+   "evidence": [
+    "tag.demandbase.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-id-rlcdn-com",
+   "class": "T",
+   "feature": "unknown third-party host id.rlcdn.com",
+   "hint": "inspect",
+   "evidence": [
+    "id.rlcdn.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s-company-target-com",
+   "class": "T",
+   "feature": "unknown third-party host s.company-target.com",
+   "hint": "inspect",
+   "evidence": [
+    "s.company-target.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
+   "class": "T",
+   "feature": "unknown third-party host dsum-sec.casalemedia.com",
+   "hint": "inspect",
+   "evidence": [
+    "dsum-sec.casalemedia.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-image2-pubmatic-com",
+   "class": "T",
+   "feature": "unknown third-party host image2.pubmatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "image2.pubmatic.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-segments-company-target-com",
+   "class": "T",
+   "feature": "unknown third-party host segments.company-target.com",
+   "hint": "inspect",
+   "evidence": [
+    "segments.company-target.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-partners-tremorhub-com",
+   "class": "T",
+   "feature": "unknown third-party host partners.tremorhub.com",
+   "hint": "inspect",
+   "evidence": [
+    "partners.tremorhub.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s-vop-sundaysky-com",
+   "class": "T",
+   "feature": "unknown third-party host s-vop.sundaysky.com",
+   "hint": "inspect",
+   "evidence": [
+    "s-vop.sundaysky.com"
+   ],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s-vop-sundayskyads-com",
+   "class": "T",
+   "feature": "unknown third-party host s-vop.sundayskyads.com",
+   "hint": "inspect",
+   "evidence": [
+    "s-vop.sundayskyads.com"
+   ],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-vop-sundaysky-com",
+   "class": "T",
+   "feature": "unknown third-party host vop.sundaysky.com",
+   "hint": "inspect",
+   "evidence": [
+    "vop.sundaysky.com"
+   ],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-rtb-csync-smartadserver-com",
+   "class": "T",
+   "feature": "unknown third-party host rtb-csync.smartadserver.com",
+   "hint": "inspect",
+   "evidence": [
+    "rtb-csync.smartadserver.com"
+   ],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-edgestatic-azureedge-net",
+   "class": "T",
+   "feature": "unknown third-party host edgestatic.azureedge.net",
+   "hint": "inspect",
+   "evidence": [
+    "edgestatic.azureedge.net"
+   ],
+   "pages": [
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host www.bing.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.bing.com"
+   ],
+   "pages": [
+    "/en-us/bing"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-mem-gfx-ms",
+   "class": "T",
+   "feature": "unknown third-party host mem.gfx.ms",
+   "hint": "inspect",
+   "evidence": [
+    "mem.gfx.ms"
+   ],
+   "pages": [
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-aadcdn-msauth-net",
+   "class": "T",
+   "feature": "unknown third-party host aadcdn.msauth.net",
+   "hint": "inspect",
+   "evidence": [
+    "aadcdn.msauth.net"
+   ],
+   "pages": [
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-logincdn-msftauth-net",
+   "class": "T",
+   "feature": "unknown third-party host logincdn.msftauth.net",
+   "hint": "inspect",
+   "evidence": [
+    "logincdn.msftauth.net"
+   ],
+   "pages": [
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://account.microsoft.com/",
+    "https://www.microsoft.com/en-us/surface/accessories",
+    "https://www.bing.com/account/general?ru=https%3a%2f%2fwww.bing.com%2f&FORM=O2HV65",
+    "https://support.microsoft.com/en-us/surface/accessories/pc/",
+    "https://support.microsoft.com/accounts-billing/",
+    "https://support.microsoft.com/en-us/authentication/signin?ru=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2F"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/about",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/bing",
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "x-auth-identity-provider",
+   "class": "X",
+   "feature": "auth: identity provider",
+   "role": "auth: identity provider",
+   "hint": "decided-out",
+   "evidence": [
+    "login.microsoftonline.com"
+   ],
+   "pages": [
+    "/en-us",
+    "/en-us/surface/do-more-with-surface/",
+    "/en-us/"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-2",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 2)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/en-us/surface/do-more-with-surface/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 8,
+  "of": 8,
+  "endpoints": {
+   "GET uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas": 4,
+   "GET dpm.demdex.net/id": 5,
+   "GET msftenterprise.sc.omtrdc.net/id": 3,
+   "POST www.google.com/ccm/collect": 4,
+   "POST target.microsoft.com/rest/v1/delivery": 3,
+   "POST ad.doubleclick.net/ccm/s/collect": 2,
+   "POST c.az.clicktale.net/pageview": 4,
+   "GET c.az.clicktale.net/pageEvent": 4,
+   "GET c.az.clicktale.net/dvar": 4,
+   "POST browser.events.data.microsoft.com/OneCollector/1.0/": 8,
+   "POST k.af.clicktale.net/v2/recording": 4,
+   "POST srm.af.contentsquare.net/exist": 1,
+   "GET js.monitor.azure.com/scripts/b/ai.config.1.cfg.json": 2,
+   "POST www.microsoft.com/fe/api/features/variants": 2,
+   "POST edge.adobedc.net/ee/v1/identity/acquire": 1,
+   "POST www.microsoft.com/msonecloudapi/customerstory/searchstories": 1,
+   "POST edge.adobedc.net/ee/or2/v1/interact": 1,
+   "POST api.company-target.com/api/v3/ip.json": 1,
+   "GET tag-logger.demandbase.com/bg9s": 1,
+   "POST mboxedge35.tt.omtrdc.net/rest/v1/delivery": 1,
+   "POST alb.reddit.com/rp": 1,
+   "POST o.clarity.ms/collect": 1,
+   "POST ad.doubleclick.net/activity;src=8406079;type=pgazudir;cat=us_ms0;rcb=12;ord=9576348814835;npa=0;auiddc=1405840570.1793755498;u1=us;u2=en-us;u6=Microsoft%20AI%20-%20Business%20Solutions%20and%20Tools;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6b21v9189897307za200zd9189897307xecxf1;gcs=G1--;gcd=13l3l3R3l5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118131808~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123691370~123692834~123814183~123814946;epver=2;dc_random=1793755517_Bh0XdLxdXiD4zv3gDNMfANJj5essBYYBXA;~oref=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fai": 1,
+   "POST www.google.com/rmkt/collect/{n}/": 1,
+   "GET www.googleadservices.com/pagead/conversion/{n}/": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CKG-uoOU7ZcDFesNhAgdVmcxZg;src=8406079;type=pgazudir;cat=us_ms0;rcb=12;ord=9576348814835;npa=0;auiddc=1405840570.1793755498;u1=us;u2=en-us;u6=Microsoft%20AI%20-%20Business%20Solutions%20and%20Tools;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6b21v9189897307za200zd9189897307xecxf1;gcs=G1--;gcd=13l3l3R3l5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118131808~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123691370~123692834~123814183~123814946;epver=2;dc_random=1793755517_Bh0XdLxdXiD4zv3gDNMfANJj5essBYYBXA;~oref=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fai": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=668291552932404125;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8jmzUYuOgc-A3Fq5aJrWi-nltRwFjf3DHxQq;_dc_time=1793755517;dc_pre=CKG-uoOU7ZcDFesNhAgdVmcxZg;src=8406079;type=pgazudir;cat=us_ms0;rcb=12;ord=9576348814835;npa=0;auiddc=1405840570.1793755498;u1=us;u2=en-us;u6=Microsoft%20AI%20-%20Business%20Solutions%20and%20Tools;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6b21v9189897307za200zd9189897307xecxf1;gcs=G1--;gcd=13l3l3R3l5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118131808~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123691370~123692834~123814183~123814946;epver=2;dc_random=1793755517_Bh0XdLxdXiD4zv3gDNMfANJj5essBYYBXA;~oref=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fai": 1,
+   "POST px.ads.linkedin.com/wa/": 2,
+   "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/{n}/": 1,
+   "GET www.google.com/pagead/1p-conversion/{n}/": 1,
+   "POST insight.adsrvr.org/track/realtimeconversion": 1,
+   "GET explore.microsoft.com/edge/api/i18n/1aef7089/en-us/messages.json": 1,
+   "GET explore.microsoft.com/edge/api/uhf": 1,
+   "GET edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/search-reverse.C4HTXRDx.svg": 1,
+   "POST www.clarity.ms/eus2-f/collect": 2,
+   "GET edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/builds/meta/{uuid}.json": 1,
+   "GET api.company-target.com/api/v3/ip.json": 1,
+   "POST a.clarity.ms/collect": 1,
+   "GET www.microsoft.com/msstoreapiprod/api/buyBox": 1,
+   "POST u.clarity.ms/collect": 1
+  },
+  "searchFormPages": 3,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 36
+  }
+ }
+}

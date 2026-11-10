@@ -1,0 +1,75 @@
+/* announce — values from stardust/prototypes/index.css (.hp-announce, store-announcement theme=night) */
+.announce {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 8px;
+  min-height: 40px;
+  padding: 8px 48px;
+  background: #882a8b;
+  color: #f4fafd;
+  font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.announce p {
+  margin: 0;
+  line-height: 24px;
+}
+
+.announce .announce-cta {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.announce .announce-link {
+  color: #f4fafd;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.announce .announce-close {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+}
+
+.announce .announce-close::before,
+.announce .announce-close::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 0;
+  width: 1.5px;
+  height: 16px;
+  background: #f4fafd;
+  transform: rotate(45deg);
+}
+
+.announce .announce-close::after {
+  transform: rotate(-45deg);
+}
+
+@media (width < 860px) {
+  .announce {
+    flex-direction: column;
+    min-height: 84px;
+    padding: 8px 48px 8px 8px;
+  }
+
+  .announce .announce-text {
+    text-align: center;
+  }
+
+  .announce .announce-close {
+    right: 17px;
+  }
+}

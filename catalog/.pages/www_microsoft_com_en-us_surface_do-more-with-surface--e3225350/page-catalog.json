@@ -1,0 +1,71 @@
+{
+  "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+  "title": "Do More with Surface Laptop & Surface Pro | Microsoft Surface",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-article-listing",
+      "type": "cards",
+      "name": "article-listing",
+      "variantId": "v_8dafd17354ba",
+      "selector": null,
+      "screenshot": "blocks/b01-article-listing.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 56,
+        "width": 1440,
+        "height": 2340
+      },
+      "description": "Head row: title + optional search label; one row per article: image | read time, linked heading, description; tabs + pagination generated. Used on 1 page (article-listing template).",
+      "visualChars": {
+        "purpose": "Article listing",
+        "structure": "12 repeated items and 12 images",
+        "density": "dense",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "collection"
+    },
+    {
+      "id": "b02-social-follow",
+      "type": "custom",
+      "name": "social-follow",
+      "variantId": "v_c90a921479dc",
+      "selector": null,
+      "screenshot": "blocks/b02-social-follow.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 2396,
+        "width": 1440,
+        "height": 176
+      },
+      "description": "Heading row (\"Follow us:\"); one row per item: icon image | link. Used on 1 page (article-listing template).",
+      "visualChars": {
+        "purpose": "Social follow",
+        "structure": "one image",
+        "density": "minimal",
+        "imagePattern": "single"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "en-us-surface-do-more-with-surface",
+    "path": "/en-us/surface/do-more-with-surface",
+    "templateId": "en-us-surface-do-more-with-surface",
+    "liveUrl": "https://main--3bab0b60--aemcoder.aem.page/en-us/surface/do-more-with-surface",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/en-us/surface/do-more-with-surface",
+    "screenshotCapturedAt": "2026-11-10T16:08:35.621Z"
+  }
+}

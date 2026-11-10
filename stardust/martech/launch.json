@@ -1,0 +1,875 @@
+{
+ "url": "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/launch-EN7506e353034849faa4a18bc4c20e727c.min.js",
+ "pages": 1,
+ "build": "buildInfo:{minified:!0,buildDate:\"2026-11-02T11:40:59Z\",turbineBuildDate:\"2026-06-04T21:23:22Z\",turbineVersion:\"29.1.0\"}",
+ "orgId": "EA76ADE95776D2EC7F000101@AdobeOrg",
+ "extensions": [
+  "Core"
+ ],
+ "webSdk": null,
+ "target": null,
+ "dataElements": [
+  {
+   "name": "MSCC_Consent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "awaCmsMeta",
+   "type": "domAttribute",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "IsAEM",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".aem-Grid"
+   ]
+  },
+  {
+   "name": "skipCCPACheck",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "#primaryArea[data-m]"
+   ]
+  },
+  {
+   "name": "CMS",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "#primaryArea[data-m]",
+    "meta[name="
+   ]
+  },
+  {
+   "name": "Surface - EN-US Pages",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Surface - All Pages",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SiteConsent_Advertising",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Surface - Marketo Pages",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "JSLL RedTiger",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "#primaryArea[data-m]"
+   ]
+  },
+  {
+   "name": "SiteConsent_Analytics",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SiteConsent_SocialMedia",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "RL03ee66d4a1184e6f83282d3c96ee66ba",
+   "name": "Global ContentSquare",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCaea9defea3ec4379976c7cfe2b2eaa7a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0868c51a0b554b91ab75fceb9936707c",
+   "name": "Global Comscore",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC4eca6d570e2d4f919d49e225bf4ba061-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.microsoft.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1488a6be24ba41d1a52eb6e34f46c658",
+   "name": "JSLLShim Video OnePlayer",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCe31e692011f749dba930e390477832ea-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1b3b0cfd44a04c388221bf1e003f2ece",
+   "name": "Multi Marketo",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCefb6abf462e14aa3bf6819e3f8625b25-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1ccedbd0765b42069f3dab90b834d2cb",
+   "name": "Surface JSLLShim PageView",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC6c1f2b67bf274a2ea7e839b0b2789895-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL21b6dc0ba8c946ad93d14e9fcad3251f",
+   "name": "Temp Sunday Sky Media Tag | Sep 2026",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC80a1882692f34f77aed4b4eeea3afc8e-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "s-vop.sundaysky.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL22426df345314e008738d759d14b83a7",
+   "name": "AEM Surface Copilot HMC",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC4a3828b51f064fe1ae28680b9150609c-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2d0ef7a1373443c6bce155b21c3a6811",
+   "name": "Multi Google",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCbb43ab0df0dc49d88347b60b3b8cda8a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2e879c3c8288462fa99563183dfb8125",
+   "name": "Temp Oct22 Livestream Event",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC502239fc70c04e1281d103f80e0e7386-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3b63c6d668e94261a8d8778b46ab4823",
+   "name": "Pass Demandbase Data with Oneds Once Available (RT & SM)",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCbc8f59896675476391afc0579c5db8ec-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3d15669455c8443c83db68c5898a04bd",
+   "name": "AEM Personalization Tagging",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC8dac0e603b784cc98512fa2cc05157b1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL43591596148040b19437731a60251ce4",
+   "name": "Temp JSLLShim Exp Machine Learning",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa3837734c6744578a4cd813563579094-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL44df32333c984f2cabf743c5ba17986a",
+   "name": "Global Data Layer",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL47535087a0154d40a36ecffc6a8a786c",
+   "name": "Temp JSLLShimCompareDevicesSelection",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path"
+   ],
+   "paths": [
+    "(en-us|en-ca)\\\\/surface\\\\/devices\\\\/compare-devices"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCd33792d6d70140fb9389fa02342be154-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5a3631db50c2458f8ba6592ce8dbd788",
+   "name": "Temp - AEM - Custom Modal - Experiment",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC73e8eba2c60442d5ac8f76988debb91c-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa26d541cf4ca4821943cfedadab3fb0a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL607687f724b240c4a5ea6775f687d1f3",
+   "name": "JSLLShim Surface Help Me Choose",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC26df1c34041b4ea4857ee41216b3b87e-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL62275aaaa1e64b89adac92f2aba527a9",
+   "name": "AEM Global OneDs",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC4ddf6024aa164edc84af8d7f573672fe-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCd508a852da794ced80a806fbe729bba1-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC875f7d1f59a04b359f4f3b10e9beb782-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCbaa5eb6f200342a385cc9152f2c16979-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa25a1b74454a4c128a8f4ed5bdf335d1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.microsoft.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6ec587b8798442658976b59120cfd683",
+   "name": "Clarity Media",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf7e0245a98054ec88e188bb60fc55b95-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7044aa30be994852a6f9d0ae337116c1",
+   "name": "Custom_PageAction_Attribute_MTO_Tracking",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/welcome-to-surface",
+    "\\\\/surface-pro-models",
+    "/surface"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCe6ead21b5c864be99dbf9cf91e7514a1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL73fe230272f243839842c7ddd0132732",
+   "name": "Global DCM",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf45be8e1e9f44c998e8838d62a6d8472-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL75d61e003cb44f5d92d9726ddcc52416",
+   "name": "Global Framework",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7738df193f7149aab946a866eabe6ea0",
+   "name": "Temporary Tagging Fix for Store Assistant on Surface",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC0c21eeee9c0f400a9402b4788b50930e-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL783740ba9e4f4dfa942e1ffa10adadb1",
+   "name": "Pinterest ",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL78af6d3fd3be4d82ba26415440dd9e0f",
+   "name": "US Walmart",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC508ef9af51f14d99a50e4f8c13ea404d-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "beacon.walmart.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7e73ac251eac4355b90b23dc0f07ef06",
+   "name": "056 - Boost-Placement",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/surface\\\\/do-more-with-surface"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCd9e3e09bc95b4c85a8a74e832db38e22-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8100c79d8725488dac69d65576093cb9",
+   "name": "Temp - NonAEM - Custom Modal - Experiment",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC7425441fd444473a83cb525fcc21bdb2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8c4ed0f9dd7a40e39d73d187a783783c",
+   "name": "JSLLShim HTML5 Video ",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCe30a3a8b61364e14a7df4be9e8d7eee4-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL931dd1b249344f7b90f50b7d6f3379c7",
+   "name": "AEM Surface Help Me Choose",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC6748f5eec85041a7b8ee9604dc3252f2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL934538ba10bf43e5bd45a2f0970dd857",
+   "name": "AEM Oneds Compare Devices Scenario Tagging",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCdc5dfc7e9fe0429fb792428307bc5385-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL96d72aa6c7cf4a33bce997612676d182",
+   "name": "AEM OneDs Video Tagging",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf4e8ddb48e17419cb41d2d069084e732-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa8dfea8c8b6c4605875c69d5a29578bb",
+   "name": "Global JSLLShim",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCb74e6a710d2b44a0816c14f4d38a3561-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC0c89ffae1cce4c59919bd0e15680b327-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC45aba865e590437992252891359d5ed5-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC62614dd8be274dc4ab0160c85a14320c-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.microsoft.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb0e86fec76c74b10ad0d90a868c4570f",
+   "name": "AEM Global OneDs Shadow Root",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC6b4bbf1947bf47c981dff1cec4a3b78a-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC13a6c7b0206044d4ad427e3ddf66baa4-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCe2632179e6fa4fb69ccd57281368782b-source.min.js",
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC831c1f5334c4445d9b40779405f3ec28-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb76f0b49289c4469af421358172d4723",
+   "name": "Temp surface pilot pixel",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb89ee6364d504ef7add128d8094109b0",
+   "name": "Demandbase for AEM",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb911eec00a7a48899c063fe4ff6d4fb5",
+   "name": "Temp | FY27 Q2 Surface Direct Media Pixel Tags",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "dateRange"
+   ],
+   "paths": [
+    "en-us/surface/devices/surface-laptop-ultra"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCa454610da19442ee83b3f91066724be8-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "insight.adsrvr.org",
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc1aeebed5dfe436b85821971d134e6e8",
+   "name": "JSLLShim Comscore Survey Overlay Tagging",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RCf07f548ff3904e6aae2cc165a2846cfc-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc4b7449ac0714712b1c8f6d91744f07d",
+   "name": "Global Facebook",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC123d622c21794026bdcb7c632f9e3442-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLca66ff3eaf2a4c8788d357eb9cf460c4",
+   "name": "Temp Holiday Campaign Media Tags",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "dateRange"
+   ],
+   "paths": [
+    "en-us/surface/devices/surface-laptop-ultra"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC8f507bb3ff874edeac6ae3d5af15f3d9-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "bat.bing.net",
+    "insight.adsrvr.org",
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd025f165874244038e7733672f840912",
+   "name": "Global JSLLShim RT",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC74849dbe0d46404bb558c6ce751f7b81-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd821273c56994e93b17abc5427f27a05",
+   "name": "Global Linkedin",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/b42d7949d5cc/RC0b89b86225eb4122812bba8e94f80a32-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdf7bb962b5ff47c4a140205e1c494e47",
+   "name": "Pinterest Meta Tag",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  }
+ ]
+}

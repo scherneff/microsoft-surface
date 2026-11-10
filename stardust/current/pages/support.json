@@ -1,0 +1,1315 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T01:25:02.989Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "support",
+  "url": "https://www.microsoft.com/support",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T01:25:02.989Z",
+  "finalUrl": "https://support.microsoft.com/en-us/",
+  "title": "Microsoft Support",
+  "description": "Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows 11, Surface, and more.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Microsoft Support"
+    },
+    {
+      "tag": "h2",
+      "text": "What do you need help with today?"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft Copilot"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft 365"
+    },
+    {
+      "tag": "h3",
+      "text": "Outlook"
+    },
+    {
+      "tag": "h3",
+      "text": "OneDrive"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft Teams"
+    },
+    {
+      "tag": "h3",
+      "text": "Windows"
+    },
+    {
+      "tag": "h3",
+      "text": "Surface devices"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaming"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft account"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft Store"
+    },
+    {
+      "tag": "h2",
+      "text": "Start your Copilot journey here"
+    },
+    {
+      "tag": "h3",
+      "text": "New to Copilot? Start with Chat"
+    },
+    {
+      "tag": "h3",
+      "text": "Find the Copilot that's right for you"
+    },
+    {
+      "tag": "h3",
+      "text": "Get better answers from Copilot"
+    },
+    {
+      "tag": "h3",
+      "text": "Let Copilot do the work with Cowork"
+    },
+    {
+      "tag": "h2",
+      "text": "Find solutions"
+    },
+    {
+      "tag": "h3",
+      "text": "Signing in with Microsoft"
+    },
+    {
+      "tag": "h4",
+      "text": "How to sign in to a Microsoft account"
+    },
+    {
+      "tag": "h4",
+      "text": "Help for accounts in Windows"
+    },
+    {
+      "tag": "h4",
+      "text": "Back up your accounts in Microsoft Authenticator"
+    },
+    {
+      "tag": "h3",
+      "text": "Microsoft 365"
+    },
+    {
+      "tag": "h4",
+      "text": "Sign in to Microsoft 365"
+    },
+    {
+      "tag": "h4",
+      "text": "Install Microsoft 365"
+    },
+    {
+      "tag": "h4",
+      "text": "Get help with Microsoft Copilot"
+    },
+    {
+      "tag": "h3",
+      "text": "Devices and network connections"
+    },
+    {
+      "tag": "h4",
+      "text": "Phone Link help & learning"
+    },
+    {
+      "tag": "h4",
+      "text": "Fix Bluetooth problems in Windows"
+    },
+    {
+      "tag": "h4",
+      "text": "Screen mirroring and projecting to your PC or wireless display"
+    },
+    {
+      "tag": "h3",
+      "text": "How to stay protected"
+    },
+    {
+      "tag": "h4",
+      "text": "Protect yourself from phishing"
+    },
+    {
+      "tag": "h4",
+      "text": "Windows Security app"
+    },
+    {
+      "tag": "h4",
+      "text": "Use two-step verification with your Microsoft account"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional resources and support"
+    },
+    {
+      "tag": "h3",
+      "text": "Contact us"
+    },
+    {
+      "tag": "h4",
+      "text": "Home & personal support"
+    },
+    {
+      "tag": "h4",
+      "text": "Ask the community"
+    },
+    {
+      "tag": "h4",
+      "text": "Enterprise support"
+    },
+    {
+      "tag": "h4",
+      "text": "Report a support scam"
+    },
+    {
+      "tag": "h3",
+      "text": "Privacy & Security"
+    },
+    {
+      "tag": "h4",
+      "text": "Security"
+    },
+    {
+      "tag": "h4",
+      "text": "Report a privacy concern"
+    },
+    {
+      "tag": "h4",
+      "text": "Privacy FAQ"
+    },
+    {
+      "tag": "h4",
+      "text": "Responsible AI at Microsoft"
+    },
+    {
+      "tag": "h3",
+      "text": "More resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Accessibility"
+    },
+    {
+      "tag": "h4",
+      "text": "IT Pros & admins"
+    },
+    {
+      "tag": "h4",
+      "text": "Technical training"
+    },
+    {
+      "tag": "h4",
+      "text": "LinkedIn Learning"
+    }
+  ],
+  "body": [
+    "More Microsoft products",
+    "Ask a question, draft something, or summarize a file. This is where most people begin.",
+    "Sign in and see what's included with your account or subscription.",
+    "Small changes to how you ask can make a big difference in what you get back.",
+    "Describe a task and Cowork carries it out, checking with you before anything important happens."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Microsoft",
+      "href": "https://www.microsoft.com"
+    },
+    {
+      "label": "Support",
+      "href": "https://support.microsoft.com/en-us"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "https://www.microsoft.com/microsoft-365?ocid=cmmttvzgpuy"
+    },
+    {
+      "label": "Office",
+      "href": "https://www.microsoft.com/microsoft-365/microsoft-office?ocid=cmml7tr0rib"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "Devices",
+      "href": null
+    },
+    {
+      "label": "Account & billing",
+      "href": "https://support.microsoft.com/accounts-billing/"
+    },
+    {
+      "label": "Resources",
+      "href": null
+    },
+    {
+      "label": "Buy Microsoft 365",
+      "href": "https://go.microsoft.com/fwlink/?linkid=849747"
+    },
+    {
+      "label": "All Microsoft",
+      "href": null
+    },
+    {
+      "label": "Search Search for help",
+      "href": null
+    },
+    {
+      "label": "Sign in to your accountSign in",
+      "href": "https://support.microsoft.com/en-us/authentication/signin?ru=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2F"
+    },
+    {
+      "label": "Microsoft Copilot",
+      "href": "/en-us/microsoft-365-copilot/"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "/en-us/microsoft-365/"
+    },
+    {
+      "label": "Outlook",
+      "href": "/en-us/outlook/"
+    },
+    {
+      "label": "OneDrive",
+      "href": "/en-us/onedrive/"
+    },
+    {
+      "label": "Microsoft Teams",
+      "href": "/en-us/teams/"
+    },
+    {
+      "label": "Windows",
+      "href": "/en-us/windows/"
+    },
+    {
+      "label": "Surface devices",
+      "href": "/en-us/surface/"
+    },
+    {
+      "label": "Gaming",
+      "href": "https://support.xbox.com"
+    },
+    {
+      "label": "Microsoft account",
+      "href": "/en-us/accounts-billing/manage/microsoft-account-help"
+    },
+    {
+      "label": "Microsoft Store",
+      "href": "/en-us/accounts-billing/"
+    },
+    {
+      "label": "More Microsoft products",
+      "href": "all-products-list"
+    },
+    {
+      "label": "New to Copilot? Start with Chat Ask a question, draft something, or summarize a file. This is where most people begin.",
+      "href": "/en-us/Microsoft-365-Copilot/get-started-with-microsoft-365-copilot-chat"
+    },
+    {
+      "label": "Find the Copilot that's right for you Sign in and see what's included with your account or subscription.",
+      "href": "/en-us/accounts-billing/subscriptions/try-or-buy-microsoft-365"
+    },
+    {
+      "label": "Get better answers from Copilot Small changes to how you ask can make a big difference in what you get back.",
+      "href": "/en-us/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot"
+    },
+    {
+      "label": "Let Copilot do the work with Cowork Describe a task and Cowork carries it out, checking with you before anything important happens.",
+      "href": "/en-us/microsoft-365-copilot/get-started-with-cowork"
+    },
+    {
+      "label": "How to sign in to a Microsoft account",
+      "href": "/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account"
+    },
+    {
+      "label": "Help for accounts in Windows",
+      "href": "/en-us/Windows/Security/Identity-Signin/help-for-accounts-in-windows"
+    },
+    {
+      "label": "Back up your accounts in Microsoft Authenticator",
+      "href": "/en-us/authenticator/back-up-your-accounts-in-microsoft-authenticator"
+    },
+    {
+      "label": "Sign in to Microsoft 365",
+      "href": "/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365"
+    },
+    {
+      "label": "Install Microsoft 365",
+      "href": "/en-us/Office/lifecycle/officeinstall/download-install-or-reinstall-microsoft-365-or-office-2024-on-a-pc-or-mac"
+    },
+    {
+      "label": "Get help with Microsoft Copilot",
+      "href": "/en-us/microsoft-copilot/"
+    },
+    {
+      "label": "Phone Link help & learning",
+      "href": "/en-us/windows/apps/phonelink/"
+    },
+    {
+      "label": "Fix Bluetooth problems in Windows",
+      "href": "/en-us/Windows/Hardware/Bluetooth/fix-bluetooth-problems-in-windows"
+    },
+    {
+      "label": "Screen mirroring and projecting to your PC or wireless display",
+      "href": "/en-us/Windows/Hardware/Display-Graphics/screen-mirroring-and-projecting-to-your-pc-or-wireless-display"
+    },
+    {
+      "label": "Protect yourself from phishing",
+      "href": "/en-us/security/protect-yourself-from-phishing"
+    },
+    {
+      "label": "Windows Security app",
+      "href": "/en-us/Windows/Security/Windows-Security/windows-security-app-overview"
+    },
+    {
+      "label": "Use two-step verification with your Microsoft account",
+      "href": "/en-us/accounts-billing/security/how-to-use-two-step-verification-with-your-microsoft-account"
+    },
+    {
+      "label": "Home & personal support",
+      "href": "/en-us/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME"
+    },
+    {
+      "label": "Ask the community",
+      "href": "https://learn.microsoft.com/answers/"
+    },
+    {
+      "label": "Enterprise support",
+      "href": "https://support.serviceshub.microsoft.com/supportforbusiness"
+    },
+    {
+      "label": "Report a support scam",
+      "href": "https://www.microsoft.com/reportascam/"
+    },
+    {
+      "label": "Security",
+      "href": "/en-us/security"
+    },
+    {
+      "label": "Report a privacy concern",
+      "href": "https://www.microsoft.com/concern/privacy"
+    },
+    {
+      "label": "Privacy FAQ",
+      "href": "https://www.microsoft.com/privacy/faq"
+    },
+    {
+      "label": "Responsible AI at Microsoft",
+      "href": "https://www.microsoft.com/ai/responsible-ai"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/en-us/accessibility/"
+    },
+    {
+      "label": "IT Pros & admins",
+      "href": "https://learn.microsoft.com/microsoft-365/admin"
+    },
+    {
+      "label": "Technical training",
+      "href": "https://learn.microsoft.com/training/"
+    },
+    {
+      "label": "LinkedIn Learning",
+      "href": "https://www.linkedin.com/learning"
+    },
+    {
+      "label": "Surface Laptop Ultra",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra"
+    },
+    {
+      "label": "Surface Pro",
+      "href": "https://www.microsoft.com/surface/devices/surface-pro"
+    },
+    {
+      "label": "Surface Laptop",
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop"
+    },
+    {
+      "label": "Surface RTX Spark Dev Box",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox"
+    },
+    {
+      "label": "Explore Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot"
+    },
+    {
+      "label": "Explore Microsoft products",
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+    },
+    {
+      "label": "Windows 11 apps",
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps"
+    },
+    {
+      "label": "Account profile",
+      "href": "https://account.microsoft.com/"
+    },
+    {
+      "label": "Download Center",
+      "href": "https://www.microsoft.com/en-us/download"
+    },
+    {
+      "label": "Microsoft Store support",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2139749"
+    },
+    {
+      "label": "Returns",
+      "href": "https://www.microsoft.com/en-us/store/b/returns"
+    },
+    {
+      "label": "Order tracking",
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking"
+    },
+    {
+      "label": "Certified Refurbished",
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+    },
+    {
+      "label": "Why buy from Microsoft Store",
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy"
+    },
+    {
+      "label": "Flexible Payments",
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc"
+    },
+    {
+      "label": "Microsoft in education",
+      "href": "https://www.microsoft.com/en-us/education"
+    },
+    {
+      "label": "Devices for education",
+      "href": "https://www.microsoft.com/en-us/education/devices/overview"
+    },
+    {
+      "label": "Microsoft Teams for Education",
+      "href": "https://www.microsoft.com/en-us/education/products/teams"
+    },
+    {
+      "label": "Microsoft 365 Education",
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365"
+    },
+    {
+      "label": "How to buy for your school",
+      "href": "https://www.microsoft.com/education/how-to-buy"
+    },
+    {
+      "label": "Educator training and development",
+      "href": "https://education.microsoft.com/"
+    },
+    {
+      "label": "Deals for students and parents",
+      "href": "https://www.microsoft.com/en-us/store/b/education"
+    },
+    {
+      "label": "AI for education",
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education"
+    },
+    {
+      "label": "Microsoft AI",
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI"
+    },
+    {
+      "label": "Microsoft Security",
+      "href": "https://www.microsoft.com/en-us/security"
+    },
+    {
+      "label": "Dynamics 365",
+      "href": "https://www.microsoft.com/en-us/dynamics-365"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+    },
+    {
+      "label": "Microsoft Power Platform",
+      "href": "https://www.microsoft.com/en-us/power-platform"
+    },
+    {
+      "label": "Microsoft Teams",
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+    },
+    {
+      "label": "Microsoft Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot"
+    },
+    {
+      "label": "Small Business",
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+    },
+    {
+      "label": "Azure",
+      "href": "https://azure.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Developer",
+      "href": "https://developer.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Learn",
+      "href": "https://learn.microsoft.com/"
+    },
+    {
+      "label": "Support for AI marketplace apps",
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Microsoft Tech Community",
+      "href": "https://techcommunity.microsoft.com/"
+    },
+    {
+      "label": "Microsoft Marketplace",
+      "href": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Software companies",
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Visual Studio",
+      "href": "https://visualstudio.microsoft.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.microsoft.com/"
+    },
+    {
+      "label": "About Microsoft",
+      "href": "https://www.microsoft.com/about"
+    },
+    {
+      "label": "Company news",
+      "href": "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews"
+    },
+    {
+      "label": "Privacy at Microsoft",
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy"
+    },
+    {
+      "label": "Investors",
+      "href": "https://www.microsoft.com/investor/default.aspx"
+    },
+    {
+      "label": "Diversity and inclusion",
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.microsoft.com/en-us/accessibility"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability"
+    },
+    {
+      "label": "English (United States)",
+      "href": "https://support.microsoft.com/en-us/worldwide"
+    },
+    {
+      "label": "Your Privacy Choices Opt-Out Icon Your Privacy Choices",
+      "href": "https://aka.ms/yourcaliforniaprivacychoices"
+    }
+  ],
+  "links": [
+    "javascript:void(0)",
+    "https://www.microsoft.com/",
+    "https://support.microsoft.com/en-us",
+    "https://www.microsoft.com/microsoft-365?ocid=cmmttvzgpuy",
+    "https://www.microsoft.com/microsoft-365/microsoft-office?ocid=cmml7tr0rib",
+    "https://support.microsoft.com/en-us/microsoft-365/",
+    "https://support.microsoft.com/en-us/outlook/",
+    "https://support.microsoft.com/en-us/teams/",
+    "https://support.microsoft.com/en-us/onedrive/",
+    "https://support.microsoft.com/en-us/microsoft-copilot/",
+    "https://support.microsoft.com/en-us/onenote/",
+    "https://support.microsoft.com/en-us/windows/",
+    "https://support.microsoft.com/en-us/all-products-list",
+    "https://support.microsoft.com/en-us/surface/",
+    "https://support.microsoft.com/en-us/surface/accessories/pc/",
+    "https://support.xbox.com/",
+    "https://support.xbox.com/help/games-apps/my-games-apps/all-about-pc-gaming",
+    "https://docs.microsoft.com/hololens/",
+    "https://learn.microsoft.com/surface-hub/",
+    "https://support.microsoft.com/en-us/surface/hardware-warranty/",
+    "https://support.microsoft.com/accounts-billing/",
+    "https://learn.microsoft.com/answers/",
+    "https://portal.office.com/AdminPortal#/support",
+    "https://developer.microsoft.com/",
+    "https://support.microsoft.com/en-us/education/",
+    "https://www.microsoft.com/reportascam/",
+    "https://support.microsoft.com/en-us/surface/product-safety-guidelines",
+    "https://go.microsoft.com/fwlink/?linkid=849747",
+    "https://www.microsoft.com/microsoft-365",
+    "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp",
+    "https://copilot.com/?fromcode=cmmuaql67jy",
+    "https://www.microsoft.com/en-us/windows/",
+    "https://www.microsoft.com/surface",
+    "https://www.xbox.com/",
+    "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals",
+    "https://www.microsoft.com/en-us/store/b/business",
+    "https://apps.microsoft.com/home",
+    "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+    "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+    "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app",
+    "https://www.microsoft.com/edge",
+    "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype",
+    "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+    "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox",
+    "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+    "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+    "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+    "https://www.microsoft.com/en-us/store/b/microsoft-trade-in",
+    "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate",
+    "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass",
+    "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames",
+    "https://apps.microsoft.com/games",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI",
+    "https://www.microsoft.com/en-us/security",
+    "https://www.microsoft.com/en-us/dynamics-365",
+    "https://www.microsoft.com/en-us/microsoft-365/business",
+    "https://www.microsoft.com/en-us/power-platform",
+    "https://www.microsoft.com/en-us/windows-365",
+    "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+    "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty",
+    "https://azure.microsoft.com/en-us/",
+    "https://developer.microsoft.com/en-us/",
+    "https://learn.microsoft.com/",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://techcommunity.microsoft.com/",
+    "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://visualstudio.microsoft.com/",
+    "https://www.microsoft.com/rewards",
+    "https://www.microsoft.com/en-us/download",
+    "https://www.microsoft.com/en-us/education",
+    "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards",
+    "https://www.microsoft.com/licensing/",
+    "https://unlocked.microsoft.com/",
+    "https://www.microsoft.com/en-us/sitemap",
+    "https://support.microsoft.com/en-us/authentication/signin?ru=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2F",
+    "https://support.microsoft.com/en-us/microsoft-365-copilot/",
+    "https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-account-help",
+    "https://support.microsoft.com/en-us/accounts-billing/",
+    "https://support.microsoft.com/en-us/Microsoft-365-Copilot/get-started-with-microsoft-365-copilot-chat",
+    "https://support.microsoft.com/en-us/accounts-billing/subscriptions/try-or-buy-microsoft-365",
+    "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot",
+    "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-cowork",
+    "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account",
+    "https://support.microsoft.com/en-us/Windows/Security/Identity-Signin/help-for-accounts-in-windows",
+    "https://support.microsoft.com/en-us/authenticator/back-up-your-accounts-in-microsoft-authenticator",
+    "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+    "https://support.microsoft.com/en-us/Office/lifecycle/officeinstall/download-install-or-reinstall-microsoft-365-or-office-2024-on-a-pc-or-mac",
+    "https://support.microsoft.com/en-us/windows/apps/phonelink/",
+    "https://support.microsoft.com/en-us/Windows/Hardware/Bluetooth/fix-bluetooth-problems-in-windows",
+    "https://support.microsoft.com/en-us/Windows/Hardware/Display-Graphics/screen-mirroring-and-projecting-to-your-pc-or-wireless-display",
+    "https://support.microsoft.com/en-us/security/protect-yourself-from-phishing",
+    "https://support.microsoft.com/en-us/Windows/Security/Windows-Security/windows-security-app-overview",
+    "https://support.microsoft.com/en-us/accounts-billing/security/how-to-use-two-step-verification-with-your-microsoft-account",
+    "https://support.microsoft.com/en-us/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME",
+    "https://support.serviceshub.microsoft.com/supportforbusiness",
+    "https://support.microsoft.com/en-us/security",
+    "https://www.microsoft.com/concern/privacy",
+    "https://www.microsoft.com/privacy/faq",
+    "https://www.microsoft.com/ai/responsible-ai",
+    "https://support.microsoft.com/en-us/accessibility/",
+    "https://learn.microsoft.com/microsoft-365/admin",
+    "https://learn.microsoft.com/training/",
+    "https://www.linkedin.com/learning",
+    "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+    "https://www.microsoft.com/surface/devices/surface-pro",
+    "https://www.microsoft.com/surface/devices/surface-laptop",
+    "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+    "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+    "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+    "https://account.microsoft.com/",
+    "https://go.microsoft.com/fwlink/?linkid=2139749",
+    "https://www.microsoft.com/en-us/store/b/returns",
+    "https://www.microsoft.com/en-us/store/b/order-tracking",
+    "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+    "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+    "https://www.microsoft.com/en-us/education/devices/overview",
+    "https://www.microsoft.com/en-us/education/products/teams",
+    "https://www.microsoft.com/en-us/education/products/microsoft-365",
+    "https://www.microsoft.com/education/how-to-buy",
+    "https://education.microsoft.com/",
+    "https://www.microsoft.com/en-us/store/b/education",
+    "https://www.microsoft.com/en-us/education/ai-in-education",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://marketplace.microsoft.com/?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://careers.microsoft.com/",
+    "https://www.microsoft.com/about",
+    "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews",
+    "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+    "https://www.microsoft.com/investor/default.aspx",
+    "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+    "https://www.microsoft.com/en-us/accessibility",
+    "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+    "https://support.microsoft.com/en-us/worldwide",
+    "https://aka.ms/yourcaliforniaprivacychoices",
+    "https://go.microsoft.com/fwlink/?linkid=2259814",
+    "https://www.microsoft.com/en-us/sitemap1.aspx",
+    "https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=undefined",
+    "https://go.microsoft.com/fwlink/?LinkId=521839",
+    "https://support.microsoft.com/en-us/#",
+    "https://go.microsoft.com/fwlink/?LinkID=206977",
+    "https://go.microsoft.com/fwlink/?linkid=2196228",
+    "https://go.microsoft.com/fwlink/?linkid=2196227",
+    "https://www.microsoft.com/en-us/legal/compliance/recycling",
+    "https://choice.microsoft.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+        "alt": "",
+        "w": 216,
+        "h": 46
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/copilot-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/microsoft-365-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/outlook-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/onedrive-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/teams-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/windows-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/surface-devices.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/xbox-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/microsoft-365-logo.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/microsoft-store.png",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/get-started-hub.png",
+        "alt": "Screenshot of Microsoft Copilot.",
+        "w": 720,
+        "h": 400
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/find-right-copilot-new.png",
+        "alt": "Abstract 3D image with Microsoft Copilot color theme",
+        "w": 520,
+        "h": 292
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/get-better-results.png",
+        "alt": "Illustration of comparing results from Microsoft Copilot",
+        "w": 520,
+        "h": 292
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/new-cowork-placeholder.png",
+        "alt": "Abstract illustration featuring the icons for Microsoft Copilot, Excel, PowerPoint, and Word",
+        "w": 521,
+        "h": 293
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/cream-msgibr-05heroexpression-rnd07-03.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/cream-msgibr-05heroexpression-rnd07-04.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/group-2018778675-2.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/artboard-8-2-700x176.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/artboard-7-2-2-700x176.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-chat-help-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-chat-help-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-person-feedback-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-person-feedback-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/onedrive-design-as-75-2.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ms-collaboration-shot08-02-2-700x176.png",
+        "alt": "",
+        "w": 700,
+        "h": 176
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-accessibility-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-book-24-filled-7.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-hat-graduation-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://support.microsoft.com/en-us/media/ic-fluent-hat-graduation-24-filled-3.png",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      }
+    ],
+    "allImgCount": 46,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--bs-blue": "#0d6efd",
+    "--bs-indigo": "#6610f2",
+    "--bs-purple": "#6f42c1",
+    "--bs-pink": "#d63384",
+    "--bs-red": "#dc3545",
+    "--bs-orange": "#fd7e14",
+    "--bs-yellow": "#ffc107",
+    "--bs-green": "#198754",
+    "--bs-teal": "#20c997",
+    "--bs-cyan": "#0dcaf0",
+    "--bs-black": "#000",
+    "--bs-white": "#fff",
+    "--bs-gray": "#6c757d",
+    "--bs-gray-dark": "#343a40",
+    "--bs-gray-100": "#f8f9fa",
+    "--bs-gray-200": "#e9ecef",
+    "--bs-gray-300": "#dee2e6",
+    "--bs-gray-400": "#ced4da",
+    "--bs-gray-500": "#adb5bd",
+    "--bs-gray-600": "#6c757d",
+    "--bs-gray-700": "#495057",
+    "--bs-gray-800": "#343a40",
+    "--bs-gray-900": "#212529",
+    "--bs-primary": "#0d6efd",
+    "--bs-secondary": "#6c757d",
+    "--bs-success": "#198754",
+    "--bs-info": "#0dcaf0",
+    "--bs-warning": "#ffc107",
+    "--bs-danger": "#dc3545",
+    "--bs-light": "#f8f9fa",
+    "--bs-dark": "#212529",
+    "--bs-primary-rgb": "13,110,253",
+    "--bs-secondary-rgb": "108,117,125",
+    "--bs-success-rgb": "25,135,84",
+    "--bs-info-rgb": "13,202,240",
+    "--bs-warning-rgb": "255,193,7",
+    "--bs-danger-rgb": "220,53,69",
+    "--bs-light-rgb": "248,249,250",
+    "--bs-dark-rgb": "33,37,41",
+    "--bs-primary-text-emphasis": "#052c65",
+    "--bs-secondary-text-emphasis": "#2b2f32",
+    "--bs-success-text-emphasis": "#0a3622",
+    "--bs-info-text-emphasis": "#055160",
+    "--bs-warning-text-emphasis": "#664d03",
+    "--bs-danger-text-emphasis": "#58151c",
+    "--bs-light-text-emphasis": "#495057",
+    "--bs-dark-text-emphasis": "#495057",
+    "--bs-primary-bg-subtle": "#cfe2ff",
+    "--bs-secondary-bg-subtle": "#e2e3e5",
+    "--bs-success-bg-subtle": "#d1e7dd",
+    "--bs-info-bg-subtle": "#cff4fc",
+    "--bs-warning-bg-subtle": "#fff3cd",
+    "--bs-danger-bg-subtle": "#f8d7da",
+    "--bs-light-bg-subtle": "#fcfcfd",
+    "--bs-dark-bg-subtle": "#ced4da",
+    "--bs-primary-border-subtle": "#9ec5fe",
+    "--bs-secondary-border-subtle": "#c4c8cb",
+    "--bs-success-border-subtle": "#a3cfbb",
+    "--bs-info-border-subtle": "#9eeaf9",
+    "--bs-warning-border-subtle": "#ffe69c",
+    "--bs-danger-border-subtle": "#f1aeb5",
+    "--bs-light-border-subtle": "#e9ecef",
+    "--bs-dark-border-subtle": "#adb5bd",
+    "--bs-white-rgb": "255,255,255",
+    "--bs-black-rgb": "0,0,0",
+    "--bs-font-sans-serif": "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",\"Noto Sans\",\"Liberation Sans\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--bs-font-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--bs-gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))",
+    "--bs-body-font-family": "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",\"Noto Sans\",\"Liberation Sans\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--bs-body-font-size": "1rem",
+    "--bs-body-font-weight": "400",
+    "--bs-body-line-height": "1.5",
+    "--bs-body-color": "#212529",
+    "--bs-body-color-rgb": "33,37,41",
+    "--bs-body-bg": "#fff",
+    "--bs-body-bg-rgb": "255,255,255",
+    "--bs-emphasis-color": "#000",
+    "--bs-emphasis-color-rgb": "0,0,0",
+    "--bs-secondary-color": "rgba(33, 37, 41, 0.75)",
+    "--bs-secondary-color-rgb": "33,37,41",
+    "--bs-secondary-bg": "#e9ecef",
+    "--bs-secondary-bg-rgb": "233,236,239",
+    "--bs-tertiary-color": "rgba(33, 37, 41, 0.5)",
+    "--bs-tertiary-color-rgb": "33,37,41",
+    "--bs-tertiary-bg": "#f8f9fa",
+    "--bs-tertiary-bg-rgb": "248,249,250",
+    "--bs-heading-color": "inherit",
+    "--bs-link-color": "#0d6efd",
+    "--bs-link-color-rgb": "13,110,253",
+    "--bs-link-decoration": "underline",
+    "--bs-link-hover-color": "#0a58ca",
+    "--bs-link-hover-color-rgb": "10,88,202",
+    "--bs-code-color": "#d63384",
+    "--bs-highlight-color": "#212529",
+    "--bs-highlight-bg": "#fff3cd",
+    "--bs-border-width": "1px",
+    "--bs-border-style": "solid",
+    "--bs-border-color": "#dee2e6",
+    "--bs-border-color-translucent": "rgba(0, 0, 0, 0.175)",
+    "--bs-border-radius": "0.375rem",
+    "--bs-border-radius-sm": "0.25rem",
+    "--bs-border-radius-lg": "0.5rem",
+    "--bs-border-radius-xl": "1rem",
+    "--bs-border-radius-xxl": "2rem",
+    "--bs-border-radius-2xl": "2rem",
+    "--bs-border-radius-pill": "50rem",
+    "--bs-box-shadow": "0 0.5rem 1rem rgba(0, 0, 0, 0.15)",
+    "--bs-box-shadow-sm": "0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)",
+    "--bs-box-shadow-lg": "0 1rem 3rem rgba(0, 0, 0, 0.175)",
+    "--bs-box-shadow-inset": "inset 0 1px 2px rgba(0, 0, 0, 0.075)",
+    "--bs-focus-ring-width": "0.25rem",
+    "--bs-focus-ring-opacity": "0.25",
+    "--bs-focus-ring-color": "rgba(13, 110, 253, 0.25)",
+    "--bs-form-valid-color": "#198754",
+    "--bs-form-valid-border-color": "#198754",
+    "--bs-form-invalid-color": "#dc3545",
+    "--bs-form-invalid-border-color": "#dc3545",
+    "--bs-breakpoint-xs": "0",
+    "--bs-breakpoint-sm": "576px",
+    "--bs-breakpoint-md": "768px",
+    "--bs-breakpoint-lg": "992px",
+    "--bs-breakpoint-xl": "1200px",
+    "--bs-breakpoint-xxl": "1400px",
+    "--bs-carousel-indicator-active-bg": "#fff",
+    "--bs-carousel-caption-color": "#fff"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 49,
+    "mainTextLen": 1539,
+    "realImageCount": 46,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "browser.events.data.microsoft.com",
+        "path": "/OneCollector/1.0/",
+        "query": [
+          "content-type",
+          "cors",
+          "w"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 154,
+        "hits": 3,
+        "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "mem.gfx.ms",
+        "count": 3
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "aadcdn.msftauth.net",
+        "count": 1
+      },
+      {
+        "host": "logincdn.msftauth.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://support.microsoft.com/en-us/Search/results",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "query"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 2,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 4,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/support.png",
+  "renderedHtml": "pages/support.html",
+  "slots": {
+    "type": "unique",
+    "names": [
+      "hero",
+      "search",
+      "tile-grid",
+      "card-grid"
+    ],
+    "headline": "Microsoft Support",
+    "headings": 50,
+    "ctas": [
+      {
+        "label": "Microsoft",
+        "href": "https://www.microsoft.com"
+      },
+      {
+        "label": "Support",
+        "href": "https://support.microsoft.com/en-us"
+      },
+      {
+        "label": "Microsoft 365",
+        "href": "https://www.microsoft.com/microsoft-365?ocid=cmmttvzgpuy"
+      },
+      {
+        "label": "Office",
+        "href": "https://www.microsoft.com/microsoft-365/microsoft-office?ocid=cmml7tr0rib"
+      },
+      {
+        "label": "Products",
+        "href": null
+      },
+      {
+        "label": "Devices",
+        "href": null
+      }
+    ],
+    "_provenance": "extract --prep typed slots (inferred from headings/ctas)"
+  }
+}

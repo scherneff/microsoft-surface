@@ -1,0 +1,39 @@
+{
+  "variantName": "panes",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:37.225Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "white",
+    "density": "medium",
+    "purpose": "lead pane + stacked panes",
+    "imagePattern": "text/image pairs"
+  },
+  "contentPattern": {
+    "structure": "optional head; one row per pair: heading + copy + CTA, and an image (first pair left, rest stacked right, ruled)",
+    "buttonCount": 1,
+    "imageCount": 3
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "one featured story beside a stack of smaller ones (culture)"
+    ],
+    "notSuitableFor": [
+      "equal-weight card grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T16:07:37.225Z"
+  }
+}

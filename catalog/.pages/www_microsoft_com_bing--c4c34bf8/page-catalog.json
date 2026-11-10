@@ -1,0 +1,137 @@
+{
+  "url": "https://www.microsoft.com/bing",
+  "title": "Microsoft Bing | Get to know Bing",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-bing-intro",
+      "type": "hero",
+      "name": "bing-intro",
+      "variantId": "v_2491553fb793",
+      "selector": null,
+      "screenshot": "blocks/b01-bing-intro.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 45,
+        "width": 1440,
+        "height": 504
+      },
+      "description": "One cell: background picture, placeholder paragraph, search link paragraph (form action + button label). Used on 1 page (product-program template).",
+      "visualChars": {
+        "purpose": "Bing intro",
+        "structure": "Bing intro block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-bing-manifesto",
+      "type": "custom",
+      "name": "bing-manifesto",
+      "variantId": "v_2512ebd2d638",
+      "selector": null,
+      "screenshot": "blocks/b02-bing-manifesto.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 550,
+        "width": 1440,
+        "height": 228
+      },
+      "description": "One cell: statement heading + layered picture (scroll reveal). Used on 1 page (product-program template).",
+      "visualChars": {
+        "purpose": "Bing manifesto",
+        "structure": "Bing manifesto block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-bing-panel",
+      "type": "columns",
+      "name": "bing-panel",
+      "variantId": "v_2667c02fd693",
+      "selector": null,
+      "screenshot": "blocks/b03-bing-panel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 785,
+        "width": 1440,
+        "height": 575
+      },
+      "description": "Row: media (picture or .mp4 link) | text (tag, heading, description, CTAs) | optional row options (rounded, rounded-block, yellow); 2+ rows = slider. Used on 1 page (product-program template).",
+      "visualChars": {
+        "purpose": "Bing panel",
+        "structure": "Bing panel block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-bing-panel",
+      "type": "columns",
+      "name": "bing-panel",
+      "variantId": "v_f46b832ab5d8",
+      "selector": null,
+      "screenshot": "blocks/b04-bing-panel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 1481,
+        "width": 1440,
+        "height": 550
+      },
+      "description": "Row: media (picture or .mp4 link) | text (tag, heading, description, CTAs) | optional row options (rounded, rounded-block, yellow); 2+ rows = slider. Used on 1 page (product-program template).",
+      "visualChars": {
+        "purpose": "Bing features",
+        "structure": "Bing features block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-bing-footnotes",
+      "type": "custom",
+      "name": "bing-footnotes",
+      "variantId": "v_3c6f0dc4bd61",
+      "selector": null,
+      "screenshot": "blocks/b05-bing-footnotes.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 4727,
+        "width": 1440,
+        "height": 119
+      },
+      "description": "One list; items starting with a superscript number become #footnote-<n> anchors. Used on 1 page (product-program template).",
+      "visualChars": {
+        "purpose": "Bing footnotes",
+        "structure": "Bing footnotes block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "bing",
+    "path": "/bing",
+    "templateId": "bing",
+    "liveUrl": "https://main--3bab0b60--aemcoder.aem.page/bing",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/bing",
+    "screenshotCapturedAt": "2026-11-10T16:08:28.817Z"
+  }
+}

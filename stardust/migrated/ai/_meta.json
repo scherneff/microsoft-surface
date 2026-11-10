@@ -1,0 +1,712 @@
+{
+  "slug": "ai",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "about",
+  "modules": [
+    "ds-section",
+    "ds-anchor-nav",
+    "ds-stories",
+    "ds-faq"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "aem-Grid"
+  ],
+  "canonShas": {
+    "header": "c9c52e8f2daa",
+    "footer": "3b49ea5c7aae",
+    "css": "2d514920911e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Microsoft AI - Business Solutions and Tools",
+    "description": "Explore Microsoft AI solutions, responsible AI, and AI tools for business. Get clear guidance, pathways, and insights to confidently adopt AI with Microsoft AI.",
+    "canonical": "https://www.microsoft.com/en-us/ai",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Microsoft AI - Business Solutions and Tools",
+    "description": "Explore Microsoft AI solutions, responsible AI, and AI tools for business. Get clear guidance, pathways, and insights to confidently adopt AI with Microsoft AI.",
+    "url": "https://www.microsoft.com/en-us/ai"
+  },
+  "migratedAt": "2026-11-04T04:57:14Z",
+  "designMdSha": "5af6eb9b3fef",
+  "designJsonSha": "11d362c68b95",
+  "sourceCurrentSha": "983ddc24f194",
+  "sourceProposedSha": "d5125dd6b64f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "about",
+  "archetypeSha": "26ed423ec8ac",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim from stardust/current/pages/ai.json (generator/hand-authored), block-roundtrip/ew-probe 0 dead 0 duplicated; deviations in journal (cluster-about)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.microsoft.com/en-us/ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/frontier-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/see-you-in-the-work",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/frontier-accelerate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/ai-business-value-and-benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/use-case",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/consumer-goods",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sovereignty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/energy-resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/energy-resources/power-utilities",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/energy-resources/oil-gas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/energy-resources/mining",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/financial-services/banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/financial-services/capital-markets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/financial-services/insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/government",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/defense-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/government/transportation-urban-infrastructure",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/government/public-health-social-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/government/public-safety-and-justice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/government/public-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/us-government",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/us-government/defense-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/us-government/federal-civilian",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/us-government/state-local",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/us-government/government-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/us-government/ai-for-government",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/health/providers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/health/payors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/health/life-sciences",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/health-solutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/manufacturing/industrial-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/media-entertainment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/mobility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/mobility/automotive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/mobility/travel-transportation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/retail",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/telecommunications",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/resources/agents",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/microsoft-iq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/download-copilot-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-agent-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security/business/solutions/security-for-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/products/copilot-studio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://microsoft.com/en-us/ai/agent-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/business/devices/copilot-plus-pcs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/responsible-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/principles-and-approach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/tools-practices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security/security-insider/emerging-trends",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/trust-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/ai-101",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/industry/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-cloud/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/frontier-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/ai-business-value-and-benefits#Resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/see-you-in-the-work",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/customers/brand-collections/nfl-gameday-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/customers/brand-collections/mercedes-f1-race-performance-and-strategy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/26765-brown-university-health-microsoft-365-copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/26946-kawasaki-heavy-industries-azure-kubernetes-service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/26647-levi-strauss-and-co-microsoft-foundry",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/26514-genworth-microsoft-365-e5",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/microsoft-iq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/products/copilot-studio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-fabric",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-agent-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security/business/solutions/security-for-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/trust-center/privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/responsible-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/use-case",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/consumer-goods",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/energy-resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/government",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/media-entertainment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/mobility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/retail",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/telecommunications",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/see-you-in-the-work",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/events/local-events/microsoft-frontier-transformation-week",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/events/local-events/microsoft-agent-a-thon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/events/local-events/microsoft-frontier-transformation-week",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/events/local-events/microsoft-agent-a-thon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/customers/search?filters=product%3Aai-microsoft-copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/27573-andritz-microsoft-viva-glint",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/27571-huron-microsoft-365-copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/26940-home-office-power-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/27535-wechange-ai-microsoft-365-copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/27527-iss-microsoft-entra-id",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en/customers/story/27526-canada-goose-dynamics-365-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/ai-101/what-is-generative-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai#ai-solutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/solutions/enterprise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/products/copilot-studio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/download-copilot-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot#pricing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/powerpoint/ai-powerpoint-generator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/trust-center/privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/trust-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/principles-and-approach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/trust-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/tools-practices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/ai-business-value-and-benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/ai-business-value-and-benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface/devices/surface-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/download",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/returns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/devices/overview",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/products/teams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/education/how-to-buy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/dynamics-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/power-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/investor/default.aspx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai/locale",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sitemap1.aspx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/legal/compliance/recycling",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ai/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "ai/_meta.json",
+  "driverVersion": "1"
+}

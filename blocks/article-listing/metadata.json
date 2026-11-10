@@ -1,0 +1,39 @@
+{
+  "variantName": "article-listing",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/en-us/surface/do-more-with-surface"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "filterable article card listing",
+    "imagePattern": "card thumbnails"
+  },
+  "contentPattern": {
+    "structure": "head row: title + optional search label; one row per article: image | read time, linked heading, description; tabs + pagination generated",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "article/blog listings with category tabs, search and paging"
+    ],
+    "notSuitableFor": [
+      "small static card sets"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/en-us/surface/do-more-with-surface"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

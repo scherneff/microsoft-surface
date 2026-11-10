@@ -1,0 +1,57 @@
+{
+  "variantName": "highlight",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about, /accessibility, /corporate-responsibility"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light card on image",
+    "density": "spacious",
+    "purpose": "page-hero",
+    "imagePattern": "full-bleed"
+  },
+  "contentPattern": {
+    "structure": "picture(s) (wide + optional narrow crop) + card: heading, body paragraphs, optional CTA paragraphs; carousel: one row per slide",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "backplate",
+      "label": "Backplate"
+    },
+    {
+      "class": "band",
+      "label": "Band"
+    },
+    {
+      "class": "carousel",
+      "label": "Carousel"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "page heroes with full-bleed image and overlaid copy card",
+      "mid-page image bands",
+      "rotating hero slides"
+    ],
+    "notSuitableFor": [
+      "text-only intros",
+      "product-card grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about",
+      "/accessibility",
+      "/corporate-responsibility"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "/accessibility": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T05:10:28.605Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/corporate-responsibility": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T05:05:44.547Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-accessibility": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T05:05:52.538Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-corporate-responsibility": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T05:05:52.594Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T06:06:36.517Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T05:58:10.972Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

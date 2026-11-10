@@ -1,0 +1,137 @@
+{
+  "url": "https://www.microsoft.com/",
+  "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-announce",
+      "type": "custom",
+      "name": "announce",
+      "variantId": "v_e1035f8d0d56",
+      "selector": null,
+      "screenshot": "blocks/b01-announce.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 56,
+        "width": 1440,
+        "height": 40
+      },
+      "description": "One cell: message paragraph(s) + paragraph holding one link. Used on 1 page (homepage template).",
+      "visualChars": {
+        "purpose": "Announce",
+        "structure": "Announce block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-hero",
+      "type": "hero",
+      "name": "hero",
+      "variantId": "v_f23dafb8fd82",
+      "selector": null,
+      "screenshot": "blocks/b02-hero.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 96,
+        "width": 1440,
+        "height": 2011
+      },
+      "description": "Row: background picture | h1; per tab: label | lede | placeholder | prompt pills, followed by promo carousel, quick links and featured banner rows. Used on 1 page (homepage template).",
+      "visualChars": {
+        "purpose": "Hero",
+        "structure": "2 repeated items and 31 images",
+        "density": "dense",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "collection"
+    },
+    {
+      "id": "b03-feature-band",
+      "type": "columns",
+      "name": "feature-band",
+      "variantId": "v_cd069977ea16",
+      "selector": null,
+      "screenshot": "blocks/b03-feature-band.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 2107,
+        "width": 1440,
+        "height": 765
+      },
+      "description": "Optional head row (heading + intro); one row per feature: image(s) + eyebrow, heading, body, CTA (video CTA opens modal). Used on 2 pages (corporate-info and homepage templates).",
+      "visualChars": {
+        "purpose": "Feature band",
+        "structure": "one image",
+        "density": "moderate",
+        "imagePattern": "single"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-stories-carousel",
+      "type": "carousel",
+      "name": "stories-carousel",
+      "variantId": "v_100d7e4df3e6",
+      "selector": null,
+      "screenshot": "blocks/b04-stories-carousel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 2872,
+        "width": 1440,
+        "height": 670
+      },
+      "description": "One row per slide: picture | heading, text, CTA link. Used on 1 page (homepage template).",
+      "visualChars": {
+        "purpose": "Stories carousel",
+        "structure": "2 repeated items and 2 images",
+        "density": "moderate",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "collection"
+    },
+    {
+      "id": "b05-follow",
+      "type": "custom",
+      "name": "follow",
+      "variantId": "v_53d0c78014d2",
+      "selector": null,
+      "screenshot": "blocks/b05-follow.jpg",
+      "bounds": {
+        "x": 336,
+        "y": 3542,
+        "width": 768,
+        "height": 80
+      },
+      "description": "Heading row + linked icons (link wrapping picture, list or paragraphs). Used on 1 page (homepage template).",
+      "visualChars": {
+        "purpose": "Follow",
+        "structure": "3 repeated items and 3 images",
+        "density": "moderate",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "collection"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "index",
+    "path": "/",
+    "templateId": "index",
+    "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/",
+    "screenshotCapturedAt": "2026-11-10T16:08:08.014Z"
+  }
+}

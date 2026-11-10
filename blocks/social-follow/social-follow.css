@@ -1,0 +1,145 @@
+/* social-follow — "Follow us:" row + back-to-top band.
+   Values from the gated prototype (en-us-surface-do-more-with-surface.css: dm-social, dm-back-to-top,
+   lifted from the live mlsd sheets + MWF back-to-top-button). */
+
+.social-follow {
+  color: #000;
+}
+
+.social-follow > .container {
+  /* the prototype's container is a flex item of <main> (own formatting context): the row's
+     16px margins stay inside it instead of collapsing into the back-to-top band's 48px */
+  display: flow-root;
+}
+
+.social-follow .social-follow-row {
+  margin: 16px 0;
+  padding: 0 12px;
+  color: #000;
+}
+
+.social-follow .social-follow-title {
+  display: inline;
+  margin: 0 12px 16px 0;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.social-follow .social-follow-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.social-follow .social-follow-list li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.social-follow .social-follow-item,
+.social-follow .social-follow-top-holder {
+  display: contents;
+}
+
+.social-follow .social-follow-link {
+  display: inline-block;
+}
+
+.social-follow .social-follow-list img {
+  display: inline;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
+.social-follow .social-follow-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* back-to-top band (MWF fixed-sticky) */
+.social-follow .social-follow-top {
+  min-height: 64px;
+  margin-top: 48px;
+  background: #f2f2f2;
+}
+
+.social-follow .social-follow-top-bar {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  height: 64px;
+  padding: 12px;
+  transition: background 0.2s ease-out;
+}
+
+.social-follow .social-follow-top-bar.stuck {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1020;
+  width: 100%;
+  transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.social-follow .social-follow-top-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 12px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.social-follow .social-follow-glyph-up {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.social-follow .social-follow-glyph-up::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 4px;
+  width: 6px;
+  height: 6px;
+  border: solid currentcolor;
+  border-width: 1.5px 0 0 1.5px;
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .social-follow .social-follow-top-bar.stuck {
+    transition: none;
+  }
+}
+
+@media (width <= 540px) {
+  .social-follow .social-follow-top-bar.stuck {
+    position: static;
+  }
+}
+
+@media (width < 540px) {
+  .social-follow .social-follow-row {
+    padding-top: 4px;
+  }
+}

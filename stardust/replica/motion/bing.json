@@ -1,0 +1,871 @@
+{
+  "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".common-pager__button--next",
+      "frames": [
+        {
+          "t": 25511.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -26.5312, -26.5312)",
+          "dots": []
+        },
+        {
+          "t": 25718.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -26.5312, -26.5312)",
+          "dots": []
+        },
+        {
+          "t": 25924.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -26.5312, -26.5312)",
+          "dots": []
+        },
+        {
+          "t": 26129.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -26.5312, -26.5312)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".block-slider__selector:nth-child(3)",
+      "frames": [
+        {
+          "t": 27154.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27361.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27572.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27778.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".block-heading__actions a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 110, 206)",
+          "boxShadow": "rgba(0, 0, 0, 0.15) 0px 0.756593px 2px 0px",
+          "opacity": "1",
+          "transition": "background-color 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), color 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 110, 206)",
+          "boxShadow": "rgba(0, 0, 0, 0.15) 0px 0.756593px 2px 0px",
+          "opacity": "1",
+          "transition": "background-color 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), color 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".common-nav__menu-item a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".common-pager__button--next",
+      "changed": [
+        "span.common-arrow-button__button.common-arrow-button__button-default.transform",
+        "span.common-arrow-button__button.common-arrow-button__button-default.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -26.5312, -26.5312)",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), visibility 0.5s cubic-bezier(0.215, 0.61, 0.355, 1)"
+        },
+        "subs": [
+          {
+            "el": "span.common-arrow-button__button.common-arrow-button__button-default",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "background": "rgb(255, 255, 255)",
+            "boxShadow": "rgba(0, 0, 0, 0.075) 0px 6px 7.5px -2px, rgba(0, 0, 0, 0.024) 0px 12.5px 19px 0px, rgba(0, 0, 0, 0.024) 0px 4.5px 25px 0px",
+            "opacity": "1",
+            "transition": "box-shadow 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1)"
+          },
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "matrix(1, 0, 0, 1, -10.0859, -10.0859)",
+            "color": "rgb(26, 26, 26)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -26.5312, -26.5312)",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), visibility 0.5s cubic-bezier(0.215, 0.61, 0.355, 1)"
+        },
+        "subs": [
+          {
+            "el": "span.common-arrow-button__button.common-arrow-button__button-default",
+            "transform": "matrix(1.033, 0, 0, 1.033, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "background": "rgb(255, 255, 255)",
+            "boxShadow": "rgba(0, 0, 0, 0.15) 0px 9px 11.5px -3px, rgba(0, 0, 0, 0.05) 0px 18.5px 28.5px 0px, rgba(0, 0, 0, 0.04) 0px 7px 37.5px 0px",
+            "opacity": "1",
+            "transition": "box-shadow 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1)"
+          },
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "matrix(1, 0, 0, 1, -10.0859, -10.0859)",
+            "color": "rgb(26, 26, 26)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".block-slider__selector",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "0.4",
+          "transition": "transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.2s cubic-bezier(0.215, 0.61, 0.355, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, -1)",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "0.4",
+          "transition": "transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.2s cubic-bezier(0.215, 0.61, 0.355, 1)"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-videos/77cc55958b334afbb455299539c7edb2.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "box-shadow",
+        "el": "html.smooth-scroll-ready > body.theme-default.standard > div > div.fluent-layout.fluent.lang-en > div.common-nav.common-nav--sticky.common-nav--scrolled",
+        "y": 274,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container.block-slider__outer-container",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container.block-slider__outer-container",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container.block-slider__outer-container",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container.block-slider__outer-container",
+        "y": 384,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 384,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--default.fluent > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 1584,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 1584,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container",
+        "y": 1584,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container",
+        "y": 1584,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 1584,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 1584,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 1600,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 1600,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--background-mode-inner.block-container--sixtyforty",
+        "y": 2390,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--background-mode-inner.block-container--sixtyforty",
+        "y": 2390,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--sixtyforty > div.block-side-by-side__media",
+        "y": 2390,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--sixtyforty > div.block-side-by-side__media",
+        "y": 2390,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--sixtyforty > div.block-heading.block-heading--sixtyforty.block-side-by-side__heading",
+        "y": 2400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--sixtyforty > div.block-heading.block-heading--sixtyforty.block-side-by-side__heading",
+        "y": 2400,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 2790,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner",
+        "y": 2790,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container",
+        "y": 2790,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container",
+        "y": 2790,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 2790,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-side-by-side__media",
+        "y": 2790,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 2800,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--default > div.block-heading.block-heading--default.block-side-by-side__heading",
+        "y": 2800,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--background-mode-inner.block-container--sixtyforty",
+        "y": 3578,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div > div.fluent-layout.fluent.lang-en > main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--background-mode-inner.block-container--sixtyforty",
+        "y": 3578,
+        "dur": "0.8s, 0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--sixtyforty > div.block-side-by-side__media",
+        "y": 3578,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--sixtyforty > div.block-side-by-side__media",
+        "y": 3578,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--sixtyforty > div.block-heading.block-heading--sixtyforty.block-side-by-side__heading",
+        "y": 3600,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.block-container.block-container--background-mode-inner.block-container--sixtyforty > div.block-container__container > div.block-container__content > div.block-side-by-side.block-side-by-side--reversed.block-side-by-side--sixtyforty > div.block-heading.block-heading--sixtyforty.block-side-by-side__heading",
+        "y": 3600,
+        "dur": "0.65s, 0.65s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "html.smooth-scroll-ready > body.theme-default.standard > div > div.fluent-layout.fluent.lang-en > div.common-nav.common-nav--sticky",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "html.smooth-scroll-ready > body.theme-default.standard > div > div.fluent-layout.fluent.lang-en > div.common-nav.common-nav--sticky.common-nav--scrolled",
+        "y": 389,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--after",
+        "y": 622,
+        "dur": "1s, 1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-slider__selectors.fluent.fluent--light > button.block-slider__selector",
+        "y": 622,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--before",
+        "y": 622,
+        "dur": "1s, 1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--before",
+        "y": 622,
+        "dur": "1s, 1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-slider__selectors.fluent.fluent--light > button.block-slider__selector",
+        "y": 622,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--active",
+        "y": 622,
+        "dur": "1.5s, 1.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--active",
+        "y": 622,
+        "dur": "1.5s, 1.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--active",
+        "y": 872,
+        "dur": "1.5s, 1.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--active",
+        "y": 872,
+        "dur": "1.5s, 1.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--after",
+        "y": 872,
+        "dur": "1s, 1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-slider__selectors.fluent.fluent--light > button.block-slider__selector",
+        "y": 872,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--before",
+        "y": 872,
+        "dur": "1s, 1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--before",
+        "y": 872,
+        "dur": "1s, 1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-slider__selectors.fluent.fluent--light > button.block-slider__selector",
+        "y": 872,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-slider > div.common-pager.block-slider__pager > div.common-pager__next > button.common-arrow-button.common-pager__button.common-pager__button--next > span.common-arrow-button__button.common-arrow-button__button-default",
+        "y": 622,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.block-slider > div.common-pager.block-slider__pager > div.common-pager__next > button.common-arrow-button.common-pager__button.common-pager__button--next > span.common-arrow-button__button.common-arrow-button__button-default",
+        "y": 622,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.block-slider > div.common-pager.block-slider__pager > div.common-pager__next > button.common-arrow-button.common-pager__button.common-pager__button--next > span.common-arrow-button__button.common-arrow-button__button-default",
+        "y": 622,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.block-slider > div.common-pager.block-slider__pager > div.common-pager__next > button.common-arrow-button.common-pager__button.common-pager__button--next > span.common-arrow-button__button.common-arrow-button__button-default",
+        "y": 622,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "main > div.block-page.block-page--ready.block-page--theme-default > section.block-container.block-container--has-inner-background.block-container--background-mode-inner > div.block-slider__selectors.fluent.fluent--light > button.block-slider__selector",
+        "y": 872,
+        "dur": "0.2s, 0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "common-nav--scrolled"
+        ],
+        "el": "html.smooth-scroll-ready > body.theme-default.standard > div > div.fluent-layout.fluent.lang-en > div.common-nav.common-nav--sticky.common-nav--scrolled",
+        "y": 274
+      },
+      {
+        "added": [
+          "common-nav--scrolled"
+        ],
+        "el": "html.smooth-scroll-ready > body.theme-default.standard > div > div.fluent-layout.fluent.lang-en > div.common-nav.common-nav--sticky.common-nav--scrolled",
+        "y": 322
+      },
+      {
+        "added": [
+          "common-pager__page--before"
+        ],
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--before",
+        "y": 622
+      },
+      {
+        "added": [
+          "common-pager__page--active"
+        ],
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--active",
+        "y": 622
+      },
+      {
+        "added": [
+          "common-pager__page--after"
+        ],
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--after",
+        "y": 622
+      },
+      {
+        "added": [
+          "common-pager__page--before"
+        ],
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--before",
+        "y": 872
+      },
+      {
+        "added": [
+          "common-pager__page--active"
+        ],
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--active",
+        "y": 872
+      },
+      {
+        "added": [
+          "common-pager__page--after"
+        ],
+        "el": "div.block-container__content > div.block-slider > div.common-pager.block-slider__pager > div.common-pager__pages > div.common-pager__page.common-pager__page--after",
+        "y": 872
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v_f23dafb8fd82",
+  "type": "hero",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "dense",
+    "imagePattern": "multiple",
+    "purpose": "Hero",
+    "structure": "2 repeated items and 31 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/",
+        "instanceId": "b02-hero",
+        "instanceIds": [
+          "b02-hero"
+        ],
+        "screenshot": ".pages/www_microsoft_com--bdeafa04/blocks/b02-hero.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

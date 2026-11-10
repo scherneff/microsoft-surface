@@ -1,0 +1,458 @@
+/* bing-panel — explore.microsoft.com block-container + block-side-by-side (+ block-slider) */
+.bing-panel {
+  --mb: 8;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  color: var(--theme-page-fg);
+  margin-bottom: calc(var(--mb) * 1em);
+  overflow-x: clip;
+}
+
+.bing-panel.compact {
+  --mb: 5;
+}
+
+.bing-panel .panel-frame {
+  position: relative;
+  display: grid;
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.bing-panel .panel-frame.padded {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.bing-panel .panel-frame.slider-outer {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.bing-panel .panel-bg {
+  position: absolute;
+  inset: 0 var(--gutter);
+  border-radius: 1.25em;
+}
+
+.bing-panel.gray .panel-bg {
+  background-color: var(--theme-section-bg-gray);
+}
+
+.bing-panel.lightblue .panel-bg {
+  background-color: var(--theme-section-bg-lightblue);
+}
+
+.bing-panel .panel-content {
+  position: relative;
+  min-width: 0;
+}
+
+.bing-panel.gray .panel-content,
+.bing-panel.lightblue .panel-content {
+  padding: 0 4em;
+}
+
+/* side by side */
+.bing-panel .block-side-by-side {
+  display: grid;
+  grid-template: "media heading" / minmax(0, 5fr) minmax(0, 5fr);
+  gap: 4em;
+}
+
+.bing-panel .block-side-by-side.reversed {
+  grid-template: "heading media" / minmax(0, 5fr) minmax(0, 5fr);
+}
+
+.bing-panel .block-side-by-side.sixtyforty {
+  grid-template: "media heading" / minmax(0, 4fr) minmax(0, 6fr);
+}
+
+.bing-panel .block-side-by-side.sixtyforty.reversed {
+  grid-template: "heading media" / minmax(0, 6fr) minmax(0, 4fr);
+}
+
+.bing-panel .side-media {
+  grid-area: media;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  position: relative;
+}
+
+.bing-panel .side-heading {
+  grid-area: heading;
+  align-self: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.bing-panel .media-frame {
+  width: 100%;
+}
+
+.bing-panel .media-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.bing-panel .media-frame.rounded {
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.bing-panel .media-frame.rounded-block {
+  border-radius: 1.25em;
+  overflow: hidden;
+}
+
+.bing-panel .media-video {
+  width: 100%;
+  align-self: center;
+}
+
+.bing-panel .media-video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  aspect-ratio: 26 / 23;
+}
+
+/* heading block */
+.bing-panel .tag {
+  align-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45em;
+  height: 2em;
+  margin-bottom: -1.5em;
+  padding: 0 1.33em;
+  border-radius: 100px;
+  font-size: clamp(12px, 0.921vw, 14px);
+  font-weight: 600;
+  line-height: 1;
+  background-color: var(--theme-blue);
+  color: var(--theme-page-bg);
+}
+
+.bing-panel .tag.yellow {
+  background-color: var(--theme-yellow);
+  color: #1a1a1a;
+}
+
+.bing-panel .heading {
+  position: relative;
+}
+
+.bing-panel .title :is(h1, h2, h3, h4, h5, h6) {
+  position: relative;
+  width: 100%;
+  max-width: 60em;
+  margin-bottom: 0.5em;
+  font-size: var(--sz-h2);
+  line-height: 1.15;
+  letter-spacing: -0.0125em;
+  font-weight: 400;
+  text-wrap: balance;
+}
+
+.bing-panel .title p {
+  margin: 0;
+}
+
+.bing-panel .description {
+  position: relative;
+  max-width: 60em;
+  font-size: var(--sz-sh2);
+  line-height: 1.35;
+}
+
+.bing-panel .description p {
+  line-height: 1.33;
+  text-wrap: balance;
+}
+
+.bing-panel .description a[href^="#footnote"] {
+  display: inline-block;
+  margin: 0 -0.25em;
+  padding: 0 0.25em;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.bing-panel .description sup {
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.bing-panel .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.bing-panel .actions a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 9em;
+  min-height: 2.66em;
+  padding: 0 2em 0.1em;
+  font-size: 1.08em;
+  line-height: 1.2;
+  color: #fff;
+  background-color: #006ece;
+  border-radius: 0.33em;
+  box-shadow: 0 0.7566px 2px 0 rgb(0 0 0 / 15%);
+  white-space: nowrap;
+}
+
+.bing-panel .actions.blue a {
+  background-color: var(--theme-blue);
+}
+
+.bing-panel .fineprint::before {
+  content: "";
+  display: block;
+  height: 1px;
+  max-width: 5em;
+  margin: 0 auto 1em 0;
+  background-color: currentcolor;
+}
+
+.bing-panel .fineprint p {
+  width: fit-content;
+}
+
+/* slider (pager) */
+.bing-panel .pager {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.bing-panel .pages {
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: stretch;
+  position: relative;
+}
+
+.bing-panel .page {
+  grid-area: 1 / 1;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 var(--gutter);
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    transform 1s cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity 1s cubic-bezier(0.075, 0.82, 0.165, 1),
+    visibility 1s;
+}
+
+.bing-panel .page.before {
+  transform: translate(-100px);
+}
+
+.bing-panel .page.after {
+  transform: translate(100px);
+}
+
+.bing-panel .page.active {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity 1.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    visibility 0s;
+}
+
+.bing-panel .pager-button {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 100em;
+  font-size: clamp(14px, 1.053vw, 16px);
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s var(--ease), visibility 0.5s var(--ease);
+}
+
+.bing-panel .pager-prev {
+  left: 0;
+}
+
+.bing-panel .pager-next {
+  left: 100%;
+}
+
+.bing-panel .arrow-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--theme-page-bg);
+  color: var(--theme-page-fg);
+  box-shadow: 0 6px 7.5px -2px #00000013, 0 12.5px 19px #00000006, 0 4.5px 25px #00000006;
+  transition: box-shadow 0.2s var(--ease), transform 0.2s var(--ease);
+}
+
+.bing-panel .arrow-button svg {
+  width: 1.33em;
+  height: 1.33em;
+}
+
+.bing-panel .pager-button:hover .arrow-button {
+  transform: scale(1.033);
+  box-shadow: 0 9px 11.5px -3px #00000026, 0 18.5px 28.5px #0000000d, 0 7px 37.5px #0000000a;
+}
+
+.bing-panel .pager-button:active .arrow-button {
+  transform: scale(0.98);
+  box-shadow: 0 6px 7.5px -2px #0000000a, 0 12.5px 19px #00000003, 0 4.5px 25px #00000003;
+}
+
+.bing-panel .selectors {
+  position: absolute;
+  left: 0;
+  bottom: 0.5em;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--theme-page-fg);
+}
+
+.bing-panel .selector {
+  position: relative;
+  width: 2em;
+  height: 4em;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: transform 0.2s var(--ease), opacity 0.2s var(--ease);
+}
+
+.bing-panel .selector::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: currentcolor;
+}
+
+.bing-panel .selector:hover {
+  transform: translateY(-1px);
+}
+
+.bing-panel .selector[aria-selected="true"] {
+  opacity: 1;
+}
+
+/* scroll reveal (live BlockPage.css: section .8s, inner 6vh, media stagger 2rem .65s) */
+.bing-panel[data-reveal] {
+  opacity: 0;
+  transform: translateY(8vh);
+  transition: opacity 0.8s var(--ease) 0.1s, transform 0.8s var(--ease) 0.1s;
+}
+
+.bing-panel[data-reveal="true"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bing-panel[data-reveal] [data-reveal-inner] {
+  opacity: 0;
+  transform: translateY(6vh);
+  transition: opacity 0.8s var(--ease) 0.1s, transform 0.8s var(--ease) 0.1s;
+}
+
+.bing-panel[data-reveal="true"] [data-reveal-inner] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bing-panel[data-reveal] [data-reveal-stagger] {
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: opacity 0.65s var(--ease) 0.1s, transform 0.65s var(--ease) 0.1s;
+}
+
+.bing-panel[data-reveal="true"] [data-reveal-stagger] {
+  opacity: 1;
+  transform: none;
+}
+
+@media (width <= 810px) {
+  .bing-panel {
+    margin-bottom: calc(var(--mb) * 0.5em);
+  }
+
+  .bing-panel .panel-frame.padded {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .bing-panel.gray .panel-content,
+  .bing-panel.lightblue .panel-content {
+    padding: 0 2em;
+  }
+
+  .bing-panel.features .panel-frame {
+    padding-bottom: 2em;
+  }
+
+  .bing-panel .block-side-by-side,
+  .bing-panel .block-side-by-side.reversed,
+  .bing-panel .block-side-by-side.sixtyforty,
+  .bing-panel .block-side-by-side.sixtyforty.reversed {
+    grid-template: "media" "heading" / 100%;
+    gap: 2em;
+  }
+
+  .bing-panel .panel-frame.slider-outer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bing-panel .page {
+    padding-bottom: 2em;
+  }
+
+  .bing-panel .pager-button {
+    font-size: 0.9em;
+  }
+
+  .bing-panel .selectors {
+    bottom: 0.75em;
+  }
+
+  .bing-panel .selector {
+    height: 2em;
+  }
+}

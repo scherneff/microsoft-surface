@@ -1,0 +1,39 @@
+{
+  "variantName": "stories-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/index"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light cards",
+    "density": "medium",
+    "purpose": "featured products/announcements slideshow",
+    "imagePattern": "card banner images"
+  },
+  "contentPattern": {
+    "structure": "one row per slide: picture | heading, text, CTA link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "auto-advancing card slideshows with play/pause"
+    ],
+    "notSuitableFor": [
+      "static grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

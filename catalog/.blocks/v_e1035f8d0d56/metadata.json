@@ -1,0 +1,31 @@
+{
+  "id": "v_e1035f8d0d56",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Announce",
+    "structure": "Announce block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/",
+        "instanceId": "b01-announce",
+        "instanceIds": [
+          "b01-announce"
+        ],
+        "screenshot": ".pages/www_microsoft_com--bdeafa04/blocks/b01-announce.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

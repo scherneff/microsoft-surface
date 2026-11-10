@@ -1,0 +1,42 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-11-10T16:07:44.632Z",
+    "totalUrls": 9,
+    "totalDocuments": 0,
+    "method": "user-provided-list",
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "Pages imported from a stardust auto-migration run; no site discovery was performed.",
+    "confidence": "100%",
+    "urls": [
+      {
+        "url": "https://www.microsoft.com/about"
+      },
+      {
+        "url": "https://www.microsoft.com/accessibility/"
+      },
+      {
+        "url": "https://www.microsoft.com/ai"
+      },
+      {
+        "url": "https://www.microsoft.com/bing"
+      },
+      {
+        "url": "https://www.microsoft.com/corporate-responsibility"
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+      },
+      {
+        "url": "https://www.microsoft.com/"
+      },
+      {
+        "url": "https://www.microsoft.com/search"
+      },
+      {
+        "url": "https://www.microsoft.com/support"
+      }
+    ],
+    "documents": []
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 4,
+    "concurrency": 2
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.microsoft.com/favicon.ico?v2",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": [
+      {
+        "url": "https://www.microsoft.com/dashboard",
+        "slug": "dashboard",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-11-04T01:26:06.742Z"
+      },
+      {
+        "url": "https://www.microsoft.com/earn",
+        "slug": "earn",
+        "errorClass": "BotChallenge",
+        "message": "bot-management challenge not cleared: HTTP 403 + Akamai edge signature",
+        "at": "2026-11-04T01:26:17.296Z"
+      }
+    ],
+    "pageTimeoutMs": 120000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 2,
+    "pagesWithSameSiteData": 2,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 2,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "path": "/api/v1/tas",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.az.clicktale.net",
+        "path": "/pageEvent",
+        "query": [
+          "ct",
+          "cvt",
+          "fvt",
+          "fvurl",
+          "happid",
+          "isCustomHashId",
+          "isETR",
+          "pid",
+          "pn",
+          "r",
+          "sh",
+          "sn",
+          "sw",
+          "t",
+          "url",
+          "uu",
+          "v",
+          "value"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.az.clicktale.net/pageEvent",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "c.az.clicktale.net",
+        "path": "/pageview",
+        "query": [
+          "ct",
+          "cvt",
+          "cw",
+          "dh",
+          "dr",
+          "dt",
+          "dw",
+          "ex",
+          "fvt",
+          "fvurl",
+          "happid",
+          "hd",
+          "la",
+          "pid",
+          "pn",
+          "pvt",
+          "sh",
+          "sn",
+          "sw",
+          "t",
+          "uc",
+          "url",
+          "uu",
+          "v",
+          "wh",
+          "ww"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.az.clicktale.net/pageview",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.az.clicktale.net",
+        "path": "/dvar",
+        "query": [
+          "ct",
+          "cvt",
+          "dv",
+          "fvt",
+          "fvurl",
+          "happid",
+          "pid",
+          "pn",
+          "r",
+          "sh",
+          "sn",
+          "sw",
+          "t",
+          "url",
+          "uu",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.az.clicktale.net/dvar",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "k.af.clicktale.net",
+        "path": "/v2/recording",
+        "query": [
+          "ct",
+          "let",
+          "pid",
+          "pn",
+          "ri",
+          "rst",
+          "rt",
+          "sn",
+          "uu",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://k.af.clicktale.net/v2/recording",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "browser.events.data.microsoft.com",
+        "path": "/OneCollector/1.0/",
+        "query": [
+          "content-type",
+          "cors",
+          "w"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.microsoft.com",
+        "path": "/msstoreapiprod/api/buyBox",
+        "query": [
+          "environment",
+          "locale",
+          "productId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.microsoft.com/msstoreapiprod/api/buyBox",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "u.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://u.clarity.ms/collect",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.company-target.com",
+        "path": "/api/v3/ip.json",
+        "query": [
+          "key",
+          "page",
+          "referrer",
+          "title"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.company-target.com/api/v3/ip.json",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dpm.demdex.net/id",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "msftenterprise.sc.omtrdc.net",
+        "path": "/id",
+        "query": [
+          "cl",
+          "d_fieldgroup",
+          "d_visid_ver",
+          "mcorgid",
+          "mid",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://msftenterprise.sc.omtrdc.net/id",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "target.microsoft.com",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://target.microsoft.com/rest/v1/delivery",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "a.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://a.clarity.ms/collect",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.clarity.ms",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "rum.hlx.page",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "cdnssl.clicktale.net",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "static.hj.contentsquare.net",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 1,
+        "examples": [
+          "en-us-surface-do-more-with-surface"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en-us-surface-do-more-with-surface"
+        ]
+      }
+    ],
+    "globalState": [],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "about",
+      "verdict": "ok",
+      "notes": "hero \"We empower the world\" matches; imagery throughout"
+    },
+    {
+      "slug": "accessibility",
+      "verdict": "ok",
+      "notes": "dark navy page; hero carousel matches; 27 imgs + 4 css bgs"
+    },
+    {
+      "slug": "ai",
+      "verdict": "suspect",
+      "notes": "tab panel under \"Build business value with trusted AI\" empty in full-page screenshot (lazy/tab hydration); DOM content present; gate stitched captures are ground truth"
+    },
+    {
+      "slug": "bing",
+      "verdict": "ok",
+      "notes": "redirects to explore.microsoft.com; own Bing header + standard footer"
+    },
+    {
+      "slug": "corporate-responsibility",
+      "verdict": "ok",
+      "notes": "dark hero matches"
+    },
+    {
+      "slug": "en-us-surface-do-more-with-surface",
+      "verdict": "ok",
+      "notes": "no h1; 4x3 article card grid rendered"
+    },
+    {
+      "slug": "index",
+      "verdict": "suspect",
+      "notes": "full-page screenshot blank below header (24936px; lazy content not painted in one-shot fullPage capture); rendered DOM holds the full main content; recapture 1x (wait slow) same; gate stitched captures are ground truth"
+    },
+    {
+      "slug": "support",
+      "verdict": "ok",
+      "notes": "redirects to support.microsoft.com; sign-in popover open top-right"
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://support.microsoft.com",
+      "confidence": "high",
+      "evidence": "/support redirects there (in plan scope)",
+      "decision": "in scope as page, not brand-source"
+    },
+    {
+      "origin": "https://explore.microsoft.com",
+      "confidence": "high",
+      "evidence": "/bing redirects there",
+      "decision": "in scope as page, not brand-source"
+    }
+  ],
+  "scopeDecisions": [
+    {
+      "url": "https://www.microsoft.com/earn",
+      "decision": "redirect",
+      "target": "https://earn.microsoft.com/",
+      "evidence": "301 maxRedirects:0 probe"
+    },
+    {
+      "url": "https://www.microsoft.com/dashboard",
+      "decision": "not-migrated",
+      "evidence": "HTTP 404 on source (2 attempts)"
+    }
+  ]
+}

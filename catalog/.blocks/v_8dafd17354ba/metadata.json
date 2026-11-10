@@ -1,0 +1,31 @@
+{
+  "id": "v_8dafd17354ba",
+  "type": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "dense",
+    "imagePattern": "multiple",
+    "purpose": "Article listing",
+    "structure": "12 repeated items and 12 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+        "instanceId": "b01-article-listing",
+        "instanceIds": [
+          "b01-article-listing"
+        ],
+        "screenshot": ".pages/www_microsoft_com_en-us_surface_do-more-with-surface--e3225350/blocks/b01-article-listing.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

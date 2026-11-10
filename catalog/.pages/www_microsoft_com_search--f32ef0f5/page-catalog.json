@@ -1,0 +1,26 @@
+{
+  "url": "https://www.microsoft.com/search",
+  "title": "Search results",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [],
+  "replicaAdapter": {
+    "stardustSlug": "search",
+    "path": "/search",
+    "templateId": "search",
+    "liveUrl": null,
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/search",
+    "screenshotCapturedAt": "2026-11-10T16:08:37.893Z"
+  }
+}

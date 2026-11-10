@@ -1,0 +1,31 @@
+{
+  "id": "v_c90a921479dc",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "single",
+    "purpose": "Social follow",
+    "structure": "one image"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+        "instanceId": "b02-social-follow",
+        "instanceIds": [
+          "b02-social-follow"
+        ],
+        "screenshot": ".pages/www_microsoft_com_en-us_surface_do-more-with-surface--e3225350/blocks/b02-social-follow.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

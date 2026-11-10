@@ -1,25 +1,37 @@
-/* Microsoft Surface brand fonts (self-hosted, mirrored from microsoft.com/en-us/surface) */
-@font-face {
-  font-family: 'Segoe Sans';
-  font-style: normal;
-  font-weight: 350;
-  font-display: swap;
-  src: url('../fonts/segoesans.woff2') format('woff2');
-}
+/* www (UHF canon): Segoe UI from Microsoft's font CDN (CORS *), never rehosted.
+   Family "SegoeUI" with the live sheet's weight map; local "Segoe UI" first. */
 
 @font-face {
-  font-family: 'Segoe Sans';
-  font-style: italic;
-  font-weight: 350;
-  font-display: optional;
-  src: url('../fonts/segoesansitalic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Aux Mono';
-  font-style: normal;
+  font-family: SegoeUI;
   font-weight: 400;
   font-display: swap;
-  ascent-override: 125%;
-  src: url('../fonts/auxmonofont.woff2') format('woff2');
+  src: local('Segoe UI'), url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: SegoeUI;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Segoe UI'), url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: SegoeUI;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Segoe UI'), url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: SegoeUI;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Segoe UI'), url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: SegoeUI;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Segoe UI'), url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2') format('woff2');
 }

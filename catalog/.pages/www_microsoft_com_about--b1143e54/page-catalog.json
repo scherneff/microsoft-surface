@@ -1,0 +1,203 @@
+{
+  "url": "https://www.microsoft.com/about",
+  "title": "Our Mission and Values | About Microsoft",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-highlight",
+      "type": "hero",
+      "name": "highlight",
+      "variantId": "v_840b2fe8b28d",
+      "selector": null,
+      "screenshot": "blocks/b01-highlight.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 56,
+        "width": 1440,
+        "height": 450
+      },
+      "description": "Picture(s) (wide + optional narrow crop) + card: heading, body paragraphs, optional CTA paragraphs; carousel: one row per slide. Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Highlight",
+        "structure": "one image",
+        "density": "minimal",
+        "imagePattern": "single"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-feature-band",
+      "type": "columns",
+      "name": "feature-band",
+      "variantId": "v_cd069977ea16",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 578,
+        "width": 1440,
+        "height": 365
+      },
+      "description": "Optional head row (heading + intro); one row per feature: image(s) + eyebrow, heading, body, CTA (video CTA opens modal). Used on 2 pages (corporate-info and homepage templates).",
+      "visualChars": {
+        "purpose": "Feature band",
+        "structure": "one image",
+        "density": "moderate",
+        "imagePattern": "single"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-material-cards",
+      "type": "cards",
+      "name": "material-cards",
+      "variantId": "v_069cc22b42bd",
+      "selector": null,
+      "screenshot": "blocks/b03-material-cards.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 1015,
+        "width": 1440,
+        "height": 699
+      },
+      "description": "Optional head (default content before block or first row without image); one row per card: image + heading + copy + optional CTA. Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Commitments",
+        "structure": "2 repeated items and 4 images",
+        "density": "dense",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-showcase",
+      "type": "custom",
+      "name": "showcase",
+      "variantId": "v_ef99e82bae73",
+      "selector": null,
+      "screenshot": "blocks/b04-showcase.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 1714,
+        "width": 1440,
+        "height": 1431
+      },
+      "description": "Rows by content: background image; logo + h2 + tagline + CTAs; video link (+ poster); h3 sub-heading; story cards (image, heading, copy, CTA); closing CTA strip. Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Copilot",
+        "structure": "2 repeated items and 4 images",
+        "density": "dense",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "collection"
+    },
+    {
+      "id": "b05-text-cards",
+      "type": "cards",
+      "name": "text-cards",
+      "variantId": "v_9ad898408be9",
+      "selector": null,
+      "screenshot": "blocks/b05-text-cards.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 3145,
+        "width": 1440,
+        "height": 360
+      },
+      "description": "Optional head (h2 + copy); one row per card: h3 + copy and/or CTA (optional leading image/icon). Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Discover",
+        "structure": "2 repeated items",
+        "density": "moderate",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-panes",
+      "type": "columns",
+      "name": "panes",
+      "variantId": "v_21030e6d7cff",
+      "selector": null,
+      "screenshot": "blocks/b06-panes.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 3505,
+        "width": 1440,
+        "height": 854
+      },
+      "description": "Optional head; one row per pair: heading + copy + CTA, and an image (first pair left, rest stacked right, ruled). Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Culture",
+        "structure": "3 repeated items and 3 images",
+        "density": "dense",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-text-cards",
+      "type": "cards",
+      "name": "text-cards",
+      "variantId": "v_9ca37f0e0157",
+      "selector": null,
+      "screenshot": "blocks/b07-text-cards.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 4359,
+        "width": 1440,
+        "height": 370
+      },
+      "description": "Optional head (h2 + copy); one row per card: h3 + copy and/or CTA (optional leading image/icon). Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Values",
+        "structure": "3 repeated items",
+        "density": "moderate",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "collection"
+    },
+    {
+      "id": "b08-explore",
+      "type": "custom",
+      "name": "explore",
+      "variantId": "v_4d3045939c8f",
+      "selector": null,
+      "screenshot": "blocks/b08-explore.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 4728,
+        "width": 1440,
+        "height": 284
+      },
+      "description": "Links row: heading + list of links; optional follow row: label + list of linked icons. Used on 1 page (corporate-info template).",
+      "visualChars": {
+        "purpose": "Explore",
+        "structure": "4 repeated items and 4 images",
+        "density": "moderate",
+        "imagePattern": "multiple"
+      },
+      "canonicalModel": "collection"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "about",
+    "path": "/about",
+    "templateId": "about",
+    "liveUrl": "https://main--3bab0b60--aemcoder.aem.page/about",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/about",
+    "screenshotCapturedAt": "2026-11-10T16:08:15.005Z"
+  }
+}

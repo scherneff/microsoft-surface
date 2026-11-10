@@ -1,0 +1,48 @@
+{
+  "variantName": "explore",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about, /accessibility, /corporate-responsibility"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "closing link list + social follow",
+    "imagePattern": "icons"
+  },
+  "contentPattern": {
+    "structure": "links row: heading + list of links; optional follow row: label + list of linked icons",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "stacked",
+      "label": "Stacked"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "end-of-page \"explore more\" link lists",
+      "icon-over-label link rows"
+    ],
+    "notSuitableFor": [
+      "primary navigation",
+      "feature content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about",
+      "/accessibility",
+      "/corporate-responsibility"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

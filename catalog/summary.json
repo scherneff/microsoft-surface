@@ -1,0 +1,29 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.microsoft.com",
+      "siteName": "www.microsoft.com",
+      "analysisDate": "2026-11-10",
+      "rootPageTitle": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "user-provided-list",
+      "totalPages": 9,
+      "localeCount": 0,
+      "locales": [],
+      "totalTemplates": 6,
+      "totalBlockTypes": 18,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 20,
+      "pagesAnalyzed": 9,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 0
+    }
+  }
+}

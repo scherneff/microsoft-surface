@@ -1,0 +1,57 @@
+{
+ "pages": 5,
+ "vendors": [
+  {
+   "host": "www.microsoft.com",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "uhf.microsoft.com",
+   "pages": 3,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "wcpstatic.microsoft.com",
+   "pages": 3,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "rum.hlx.page",
+   "pages": 2,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "mem.gfx.ms",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "_satellite": 1
+ },
+ "cspHosts": []
+}

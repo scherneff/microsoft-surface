@@ -1,0 +1,28 @@
+{
+  "frozenAt": "2026-11-04T07:05:33.149Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "1c19a330f653f774166abc7409d7660906c14ad3aeb46247c8083bdc2b539c72",
+    "blocks/footer/footer.js": "ed793841ded48074fe8fd8a50e6c0a38388ddfa487cc3b0e1090354bc4a0bc8a",
+    "blocks/header/header.css": "a5bd79666f02503818382f757cba6746876ad8c018ecfaa61a02d0de7f6211a9",
+    "blocks/header/header.js": "e1c7208bf69d93c456a367ccbd987e5bceba9af708083b3f00c07e941bf3d41d",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "57ba410d369b7b4fd5f34820371d5d37bbbd40ef71721b8a31094c0b99098934",
+    "scripts/scripts.js": "ace47d5db03aba97000969e0fb528ebe3b742bb24d1adbe6077996e2a070ce79",
+    "styles/fonts-bing.css": "4dbd806ba9cdd8d70209f59c09e4a4576b1ae2ae7526c493c6ff26615d98d4c6",
+    "styles/fonts-support.css": "392f6df7e83aae3397b623964ee5498098a4f77b3694ab550ba385c9022f2f33",
+    "styles/fonts.css": "5f0269907e9cf85cd19214755d04cf2212f6bf21ac383112a80fb8655c118cdb",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "4a8507b5e541deab5c8af09be88d84e77c5dfc2a1a53dc35f64396d0db5579de"
+  }
+}

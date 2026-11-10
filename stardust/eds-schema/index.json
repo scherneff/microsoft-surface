@@ -1,0 +1,814 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hp-announce",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Get extended free returns and price protection on gifts through Jan 31, 2027."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Shop deals",
+     "href": "https://www.microsoft.com/en-us/store/b/sale?icid=mscom_marcom_TS1a_HOLFY27&OCID=cmmb78t9kqh"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hp-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Hi there, welcome to Microsoft"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Personal"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Business"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Find what you need faster with AI-powered suggestions"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ask a question"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Help me choose a PC"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Microsoft 365 tips"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Sign in to my account"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "price unavailable"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Surface Laptop, 13.8-inch (8th Edition)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Turn holiday inspiration into finished work with raw power and portability, powered by Snapdragon X2® processors. Plus, get up to $500 cash back with a qualifying trade-in."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "*"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/store/configure/surface-laptop-13-8-inch-8th-edition/8mzbmmcjzpmf?icid=mscom_marcom_PRCP1a_SurfaceLaptop8-13.8in_HOLFY27&OCID=cmmb78t9kqh"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "What will you do with all this power?"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Meet the most advanced Windows laptops ever."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Learn more",
+     "href": "https://www.microsoft.com/en-us/windows/rtx-spark-laptops?icid=mscom_marcom_PRCP2a_WindowsLaptopsRTXSpark"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "New"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Surface Laptop Ultra"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "The most powerful Surface Laptop ever, powered by all-new NVIDIA silicon. Plus, trade in your MacBook Pro and get up to $1,000 cash back."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "**"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=mscom_marcom_PRCP3a_SurfaceLaptopUltra"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Go further with Copilot"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "With Microsoft 365, get productivity apps with Copilot, advanced AI features, and cloud storage all in one plan."
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Shop Microsoft 365",
+     "href": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products?icid=mscom_marcom_PRCP4_M365Compare2026"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "XBOX Wireless Controller"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Stay on target with textured triggers and bumpers, a hybrid D-pad, customizable button mapping, and more."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/store/collections/XboxControllers?icid=mscom_marcom_PRCP5a_XboxControllers"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "XBOX Game Pass"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Play hundreds of games from every genre—on XBOX console, PC, and more."
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Join now",
+     "href": "https://www.xbox.com/en-US/xbox-game-pass?icid=mscom_marcom_PRCP6a_GamePass#join"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "XBOX Series S"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Next-gen performance in the smallest XBOX ever"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/p/xbox-series-s/942j774tp9jn?icid=mscom_marcom_PRCP7a_XboxSeriesS"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "New Surface Mouse"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Your perfect companion"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Work smarter with Surface Mouse (2nd Edition)—precision feedback, seamless device switching, and a customizable action button."
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/d/surface-mouse-2nd-edition/8wg5vqp0x4bv?icid=mscom_marcom_PRCP8a_SurfaceMouse2_Fall27"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Secondary Nav"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Shop Surface"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Shop Microsoft 365"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Shop XBOX"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Find your next PC"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Shop accessories"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Shop for your business"
+    },
+    {
+     "role": "heading",
+     "order": 60,
+     "text": "on select Surface Pro, 13-inch (12th Edition)"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Up to 5% off for students*"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Make spirits bright with a Surface that delivers all the power of a laptop in a thin, light tablet powered by Snapdragon® X2 processors."
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/store/configure/surface-pro-13-inch-12th-edition/8mzbmmcjzpmr?icid=mscom_marcom_PMPH1a_SurfacePro12-13in_HOLFY27&OCID=cmmb78t9kqh"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Empower your business decisions with AI-driven guidance"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Ask a question"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Learn about Azure"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Find AI solutions"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Sign in to my account"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "New"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "New Surface Laptop Ultra for Business"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Meet Surface Laptop Ultra for Business, powered by all-new NVIDIA silicon. Plus, trade in your MacBook Pro and get up to $1,000 cash back."
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "*"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Shop now",
+     "href": "https://www.microsoft.com/en-us/d/surface-laptop-ultra-for-business/8wg5vqp0x4d1?icid=mscom_marcom_BRCP1a_SurfaceLaptopUltraBusiness"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Microsoft Ignite is almost here"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "On 11/17, join us for four days of learning, networking, hands-on experiences, and valuable connections you won't get anywhere else."
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Register now",
+     "href": "https://ignite.microsoft.com/home?wt.mc_ID=msignite26_ciarmar_corp_np_oo_BusinessMSCOMHomeRegT3_0537"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Azure. Limitless innovation."
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Explore the latest AI-ready databases designed for modern workloads with flexibility, enterprise performance, and built-in scale."
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "Get started with Azure",
+     "href": "https://azure.microsoft.com/en-us/?icid=mscom_marcom_BRCP3a_Azure"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "New"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Surface RTX Spark Dev Box"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Small enough to sit on your desktop. Powerful enough to meet the needs of frontier developers."
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "Learn more",
+     "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=mscom_marcom_BRCP4a_SurfaceRTXSpark"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Windows 11 Pro"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Achieve more with less time and effort. Enhance every workstyle with business AI and features to get organized in a snap."
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Learn more",
+     "href": "https://www.microsoft.com/en-us/windows/business?icid=mscom_marcom_BRCP5a_Windows11forBusiness"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Accelerate innovation with Microsoft AI"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Automate tasks, connect knowledge, and achieve measurable outcomes with trusted AI."
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "Learn more",
+     "href": "https://www.microsoft.com/en-us/ai?icid=mscom_marcom_BRCP6a_AI"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Grow your business with Microsoft Teams"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Read less"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "Online meetings, chat, real-time collaboration, and shared cloud storage—all in one place."
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Shop plans and pricing",
+     "href": "https://www.microsoft.com/en-us/microsoft-teams/small-medium-business?icid=mscom_marcom_BRCP7a_TeamsForBusiness"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "Secondary Nav"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Shop Surface"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Shop Microsoft 365"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Explore Azure"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Explore Security products"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Find your next PC"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Shop for your business"
+    },
+    {
+     "role": "heading",
+     "order": 114,
+     "text": "See you in the work"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Every AI transformation starts with a person finding a new way forward. Gain insights from the people behind AI breakthroughs."
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Explore their stories",
+     "href": "https://www.microsoft.com/en-us/ai/see-you-in-the-work?icid=mscom_marcom_BMPH1a_SeeYouInTheWork"
+    }
+   ],
+   "imgCount": 31,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hp-panel",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 9,
+      "imgs": 16,
+      "textRuns": 61
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hp-tab",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "hp-features",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get to know AI and Copilot"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Shaping the future of representation in AI"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "With help from a new Microsoft platform, advocacy groups can train AI systems to generate images that portray underrepresented communities more accurately."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://news.microsoft.com/signal/articles/a-new-approach-to-ai-data-puts-communities-in-charge/?icid=mscom_marcom_CPAI1a_CommunityLibraries"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Turning words into apps"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "“Vibe coding” allows people to build software by talking through an idea with a Microsoft AI tool that writes the code."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://news.microsoft.com/source/features/ai/vibe-coding-and-other-ways-ai-is-changing-who-can-build-apps-and-how/?icid=mscom_marcom_CPAI2a_AIVibeCoding"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "When disaster strikes, HASTE can help"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Using AI-assisted analysis, HASTE—a Microsoft tool—helps disaster response teams assess damage faster and direct aid where it's needed most."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Read the story",
+     "href": "https://news.microsoft.com/source/features/ai/when-disaster-strikes-ai-helps-responders-reach-people-more-quickly/?icid=mscom_marcom_CPAI3a_DisasterResponse"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.hp-feature",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "hp-stories",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The future of fan engagement"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "With personalized insights and more, the Premier League Companion powered by Copilot is connecting fans to the beautiful game like never before."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://unlocked.microsoft.com/premier-league-companion/?icid=mscom_marcom_SAM1a_AIPremierLeague2026"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Delivering lifelines, growing hope"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "With digital tools from Microsoft, Project C.U.R.E. sends donated medical supplies to underserved communities—helping restore health around the world."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read the story",
+     "href": "https://unlocked.microsoft.com/project-cure/?icid=mscom_marcom_SAM2a_ProjectCURE"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Play/Pause"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.hp-story",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "hp-follow",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Follow Microsoft"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "A.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

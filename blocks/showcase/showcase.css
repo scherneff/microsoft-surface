@@ -1,0 +1,278 @@
+/* showcase — values from stardust/prototypes/about.css (.copilot*, .story-card*, .alert-content) */
+.showcase {
+  position: relative;
+  padding: 24px 0 64px;
+}
+
+.showcase .showcase-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.showcase .showcase-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.showcase > .container {
+  position: relative;
+}
+
+/* CTAs: MWF .btn-primary for the bold link, .cta (drawn chevron) for the others */
+.showcase .link-group p {
+  display: inline;
+  margin: 0;
+}
+
+.showcase .link-group a,
+.showcase .showcase-strip a {
+  position: relative;
+  display: inline-block;
+  padding-right: 27px;
+  font-weight: 600;
+  color: var(--ms-link);
+  text-decoration: none;
+}
+
+.showcase .link-group a:hover,
+.showcase .showcase-strip a:hover {
+  text-decoration: underline;
+}
+
+.showcase .link-group a::after,
+.showcase .showcase-strip a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+.showcase .link-group a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4375em;
+  margin: 0.5rem 1.5rem 0.5rem 0;
+  padding: 0.625rem 0.75rem;
+  border: 0.125rem solid transparent;
+  border-radius: 0.125rem;
+  background-color: var(--ms-link);
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.showcase .link-group a.button:hover {
+  text-decoration: none;
+}
+
+.showcase .link-group a.button::after {
+  content: none;
+}
+
+.showcase .link-group .button-wrapper ~ p a {
+  margin: 0 1.5rem 0 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* intro card */
+.showcase .showcase-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.showcase .showcase-logo {
+  padding: 24px 0 0;
+}
+
+.showcase .showcase-logo img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.showcase .showcase-body {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.showcase .showcase-body-inner {
+  padding: 24px;
+}
+
+.showcase .showcase-heading :is(h1, h2) {
+  margin-bottom: 0.75rem;
+}
+
+.showcase .showcase-tagline {
+  margin-bottom: 8px;
+}
+
+/* video */
+.showcase .showcase-video {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 256px;
+  margin-bottom: 6px;
+  background: #000;
+}
+
+.showcase .showcase-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.showcase .showcase-poster {
+  display: none;
+}
+
+/* sub-heading */
+.showcase .showcase-ask {
+  padding-top: 64px;
+  margin-bottom: 48px;
+}
+
+.showcase .showcase-ask :is(h2, h3, h4) {
+  margin: 0;
+}
+
+/* story cards: col-4 / col-sm-3 media inside a -12px row */
+.showcase .showcase-stories {
+  margin-bottom: 48px;
+}
+
+.showcase .showcase-stories-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.showcase .showcase-story-col {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 24px;
+}
+
+.showcase .showcase-story-col:last-child {
+  margin-bottom: 0;
+}
+
+.showcase .showcase-story {
+  flex-direction: row;
+  width: 100%;
+}
+
+.showcase .showcase-story-media {
+  flex: 0 0 auto;
+  width: calc((100% + 24px) / 3 - 24px);
+  margin-right: 24px;
+}
+
+.showcase .showcase-story-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.showcase .showcase-story-body {
+  flex: 1 0 0;
+  min-width: 0;
+}
+
+.showcase .showcase-story-body :is(h3, h4, h5) {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+/* closing strip */
+.showcase .showcase-strip {
+  background: #fff;
+  text-align: center;
+}
+
+.showcase .showcase-strip p {
+  margin: 0;
+}
+
+.showcase .showcase-strip p a:any-link {
+  margin: 16px;
+}
+
+@media (width >= 540px) {
+  .showcase .showcase-body {
+    flex: 1 0 0;
+    max-width: 100%;
+  }
+
+  .showcase .showcase-story-media {
+    width: calc((100% + 24px) * 0.25 - 24px);
+  }
+}
+
+@media (width >= 860px) {
+  .showcase {
+    padding-top: 0;
+  }
+
+  .showcase .showcase-card {
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+
+  .showcase .showcase-logo {
+    padding: 48px 12px 48px 0;
+  }
+
+  .showcase .showcase-body-inner {
+    padding: 48px 48px 48px 12px;
+  }
+
+  .showcase .showcase-story-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1084px) {
+  .showcase .showcase-body-inner {
+    width: 91.6667%;
+  }
+
+  .showcase .showcase-heading :is(h1, h2) {
+    margin-bottom: 1rem;
+  }
+
+  .showcase .showcase-story-body :is(h3, h4, h5) {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .showcase .showcase-heading :is(h1, h2) {
+    margin-bottom: 1.25rem;
+  }
+
+  .showcase .showcase-story-body :is(h3, h4, h5) {
+    font-size: 1.3125rem;
+  }
+}

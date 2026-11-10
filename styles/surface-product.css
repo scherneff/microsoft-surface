@@ -1,0 +1,457 @@
+/*
+ * Surface product pages (e.g. /en-us/surface/devices/surface-laptop-ultra): the dark Surface
+ * design these pages were migrated with, before the auto-migrated www site replaced the
+ * site-wide styles. Loaded by scripts.js only on pages with a hero-product block, and scoped
+ * to `body.surface-product main`, so the www/bing/support pages, header and footer are untouched.
+ * Rules keep the original site-wide specificity (`:where()` scope), which the blocks were built
+ * against; only the tokens and the www default-content override are more specific.
+ */
+
+/* brand fonts: styles/fonts-surface-product.css, loaded with the other fonts (after LCP) */
+
+/* fallback fonts (metric-adjusted so layout doesn't shift when brand fonts load) */
+@font-face {
+  font-family: segoe-sans-fallback;
+  size-adjust: 100.5%;
+  src: local('Arial');
+}
+
+@font-face {
+  font-family: aux-mono-fallback;
+  size-adjust: 96%;
+  src: local('Courier New');
+}
+
+/* tokens */
+body.surface-product main {
+  /* fonts */
+  --body-font-family: 'Segoe Sans', segoe-sans-fallback, -apple-system, blinkmacsystemfont, 'Segoe UI', helvetica, arial, sans-serif;
+  --heading-font-family: var(--body-font-family);
+  --display-font-family: 'Aux Mono', aux-mono-fallback, 'Courier New', courier, monospace;
+
+  /* colors */
+  --background-color: #000;
+  --text-color: #fff;
+  --link-color: #fff;
+  --link-hover-color: #fff;
+  --light-color: #fff;
+  --light-text-color: #000;
+  --dark-color: #000;
+  --elevated-color: #1a1a1a;
+  --footnote-color: #141414;
+  --keyline-color: #e2e2e2;
+  --brand-color: #0078d4;
+  --brand-hover-color: #0585e7;
+  --brand-active-color: #0061ac;
+
+  /* type weights / tracking */
+  --font-weight-regular: 350;
+  --body-letter-spacing: 0.02em;
+  --display-letter-spacing: 0.01em;
+
+  /* display (uppercase mono) headline sizes */
+  --display-size: 24px;
+  --display-size-l: 48px;
+
+  /* layout */
+  --content-max-width: 1146px;
+  --content-gutter: 20px;
+  --section-padding: 64px;
+
+  /* body sizes */
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+  --lead-font-size: 20px;
+
+  /* heading sizes */
+  --heading-font-size-xxl: 28px;
+  --heading-font-size-xl: var(--display-size);
+  --heading-font-size-l: var(--display-size-l);
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 20px;
+  --heading-font-size-xs: 16px;
+
+  display: block;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (width >= 768px) {
+  body.surface-product main {
+    --display-size: 40px;
+    --content-gutter: 28px;
+  }
+}
+
+@media (width >= 1200px) {
+  body.surface-product main {
+    --display-size: 48px;
+    --section-padding: 120px;
+  }
+}
+
+/* these blocks were built on the browser's default box model (the www site sets border-box);
+   zero specificity, so any box-sizing a block sets still wins */
+:where(body.surface-product main) :where(*, *::before, *::after) {
+  box-sizing: content-box;
+}
+
+/* typography: the www base sizes headings with :is(h2, .h2) (class weight); the heading rules
+   match it so they win by order, and the blocks' own heading rules still win over them */
+:where(body.surface-product main) :is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: var(--heading-font-family);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--display-letter-spacing);
+  line-height: 1.4;
+  scroll-margin: 40px;
+}
+
+:where(body.surface-product main) :is(h1, .h1) { font-size: var(--heading-font-size-xxl); }
+
+/* uppercase mono display headlines (e.g. "INNER CRAFT. OUTER BEAUTY.") */
+:where(body.surface-product main) :is(h2, h3, .h2, .h3) {
+  font-family: var(--display-font-family);
+  text-transform: uppercase;
+}
+
+:where(body.surface-product main) :is(h2, .h2) { font-size: var(--heading-font-size-xl); }
+:where(body.surface-product main) :is(h3, .h3) { font-size: var(--heading-font-size-l); }
+:where(body.surface-product main) :is(h4, .h4) { font-size: var(--heading-font-size-m); }
+:where(body.surface-product main) :is(h5, .h5) { font-size: var(--heading-font-size-s); }
+:where(body.surface-product main) :is(h6, .h6) { font-size: var(--heading-font-size-xs); }
+
+:where(body.surface-product) main :is(p, dl, ol, ul, pre, blockquote) {
+  margin-top: 0;
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+:where(body.surface-product) main :is(code, pre) {
+  font-size: var(--body-font-size-s);
+}
+
+:where(body.surface-product) main pre {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--elevated-color);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+:where(body.surface-product) main sup {
+  font-size: 0.6em;
+  line-height: 0;
+}
+
+:where(body.surface-product) main input,
+:where(body.surface-product) main textarea,
+:where(body.surface-product) main select,
+:where(body.surface-product) main button {
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* links */
+:where(body.surface-product) main a:any-link {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  overflow-wrap: anywhere;
+}
+
+:where(body.surface-product) main a:hover {
+  color: var(--link-hover-color);
+  text-decoration-thickness: 2px;
+}
+
+:where(body.surface-product) main a:focus-visible {
+  outline: 1px dashed currentcolor;
+  outline-offset: 2px;
+}
+
+:where(body.surface-product) main sup a:any-link,
+:where(body.surface-product) main a:any-link sup {
+  text-decoration: none;
+}
+
+/* buttons: reset, then brand pill buttons */
+:where(body.surface-product) main .button-container,
+:where(body.surface-product) main .button-wrapper {
+  display: inline;
+}
+
+:where(body.surface-product) main a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+/* primary: **bold** link -> blue pill */
+:where(body.surface-product) main a.button.primary:any-link,
+:where(body.surface-product) main button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 40px;
+  margin: 0;
+  border: 0;
+  border-radius: 9999px;
+  padding: 12px 20px;
+  background-color: var(--brand-color);
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+:where(body.surface-product) main a.button.primary:hover,
+:where(body.surface-product) main button:hover {
+  background-color: var(--brand-hover-color);
+  color: #fff;
+}
+
+:where(body.surface-product) main a.button.primary:active,
+:where(body.surface-product) main button:active {
+  background-color: var(--brand-active-color);
+}
+
+:where(body.surface-product) main button:focus-visible {
+  outline: 1px dashed currentcolor;
+  outline-offset: 2px;
+}
+
+:where(body.surface-product) main button:disabled,
+:where(body.surface-product) main button:disabled:hover {
+  opacity: 0.4;
+  background-color: var(--brand-color);
+  cursor: not-allowed;
+}
+
+/* secondary: *italic* link -> white pill (e.g. hero "Pre-order") */
+:where(body.surface-product) main a.button.secondary:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  border-radius: 9999px;
+  padding: 18px 32px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 300ms ease;
+}
+
+:where(body.surface-product) main a.button.secondary:hover {
+  background-color: #e6e6e6;
+  color: #000;
+}
+
+:where(body.surface-product) main img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+:where(body.surface-product) main .icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+:where(body.surface-product) main .icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* sections: same specificity as the original site-wide rules, so the blocks' own wrapper and
+   section overrides still win */
+:where(body.surface-product) main > div {
+  margin: 0;
+}
+
+:where(body.surface-product) main > .section {
+  margin: 0;
+  padding: var(--section-padding) 0;
+}
+
+:where(body.surface-product) main > .section > div {
+  width: auto;
+  max-width: var(--content-max-width);
+  margin: auto;
+  padding: 0 var(--content-gutter);
+}
+
+:where(body.surface-product) main > .section:first-of-type {
+  padding-top: 0;
+}
+
+@media (width >= 1200px) {
+  :where(body.surface-product) main > .section > div {
+    padding: 0;
+  }
+}
+
+/* cancel the www site's default-content column (width 100% / 90%, 0.75rem / 5% padding): it is
+   more specific than the section rules above. Same weight as those www rules (wins by order),
+   so the footnote section's own max-width stays stronger. */
+:where(body.surface-product) main > .section > .default-content-wrapper {
+  width: auto;
+  max-width: var(--content-max-width);
+  padding-right: var(--content-gutter);
+  padding-left: var(--content-gutter);
+  box-sizing: content-box;
+}
+
+@media (width >= 1200px) {
+  :where(body.surface-product) main > .section > .default-content-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* section metadata styles */
+:where(body.surface-product) main .section.dark {
+  background-color: var(--dark-color);
+  color: var(--text-color);
+}
+
+:where(body.surface-product) main .section.light,
+:where(body.surface-product) main .section.highlight {
+  --link-color: var(--light-text-color);
+  --link-hover-color: var(--light-text-color);
+
+  background-color: var(--light-color);
+  color: var(--light-text-color);
+}
+
+/* light sections and CTA sections use sans headlines */
+:where(body.surface-product) main .section.light h2,
+:where(body.surface-product) main .section.cta h2,
+:where(body.surface-product) main .section.cta h3 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-m);
+  text-transform: none;
+}
+
+:where(body.surface-product) main .section.cta .default-content-wrapper {
+  text-align: center;
+}
+
+/* CTA strip (e.g. "See full ... specs"): top padding only, like the source. The www site's
+   global .cta link style (inline-block, bold, chevron) also matches this section: undo it. */
+:where(body.surface-product) main > .section.cta {
+  display: block;
+  padding: 64px 0 0;
+  color: inherit;
+  font-weight: inherit;
+}
+
+:where(body.surface-product) main > .section.cta::after {
+  content: none;
+}
+
+/* bento grid sits tighter than story sections */
+:where(body.surface-product) main > .section.cards-bento-container {
+  padding: 48px 0;
+}
+
+/* footnotes: two-column numbered list (marker | text) */
+:where(body.surface-product) main > .section.footnotes {
+  padding: 80px 0;
+}
+
+:where(body.surface-product) main .section.footnotes .default-content-wrapper {
+  max-width: 826px;
+  margin-inline: auto;
+}
+
+:where(body.surface-product) main .section.footnotes :is(p, li) {
+  font-size: var(--body-font-size-m);
+  line-height: 1.4;
+}
+
+:where(body.surface-product) main .section.footnotes :is(ol, ul) {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+:where(body.surface-product) main .section.footnotes li {
+  display: contents;
+}
+
+:where(body.surface-product) main .section.footnotes li > p {
+  margin: 0;
+}
+
+:where(body.surface-product) main .section.footnotes a:any-link {
+  text-decoration: none;
+}
+
+:where(body.surface-product) main .section.footnotes p a:any-link:not([href^="#"]) {
+  text-decoration: underline;
+}
+
+@media (width >= 1200px) {
+  :where(body.surface-product) main > .section.footnotes {
+    padding: 160px 0;
+  }
+}
+
+/* centered story (e.g. "Yours for the long haul"): narrow centered copy, full-bleed image */
+:where(body.surface-product) main > .section.centered {
+  padding: 64px 0;
+}
+
+:where(body.surface-product) main .section.centered .default-content-wrapper {
+  text-align: center;
+}
+
+:where(body.surface-product) main .section.centered .default-content-wrapper > :is(h2, h3, p:not(:has(picture))) {
+  max-width: 472px;
+  margin-inline: auto;
+}
+
+:where(body.surface-product) main .section.centered .default-content-wrapper > p:has(picture) {
+  width: 100vw;
+  margin: 64px 0 0 calc(50% - 50vw);
+}
+
+:where(body.surface-product) main .section.centered .default-content-wrapper > p:has(picture) img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}

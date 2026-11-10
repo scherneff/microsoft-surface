@@ -1,0 +1,27 @@
+/* Surface product pages: brand fonts (self-hosted, mirrored from microsoft.com/en-us/surface).
+   Loaded by scripts.js loadFonts() on body.surface-product pages. */
+
+@font-face {
+  font-family: 'Segoe Sans';
+  font-style: normal;
+  font-weight: 350;
+  font-display: swap;
+  src: url('../fonts/segoesans.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Segoe Sans';
+  font-style: italic;
+  font-weight: 350;
+  font-display: optional;
+  src: url('../fonts/segoesansitalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Aux Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  ascent-override: 125%;
+  src: url('../fonts/auxmonofont.woff2') format('woff2');
+}

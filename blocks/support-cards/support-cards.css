@@ -1,0 +1,322 @@
+/* support-cards — support.microsoft.com home (values from the gated prototype support.css) */
+
+/* the block is the bootstrap main column: .sup-container > .sup-row > .sup-main (75% >= 768px) */
+.support-cards {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+  font-family: var(--sup-font);
+}
+
+/* .sup-main margin-top (a flex item there: padding here, so it never collapses out of main) */
+main .section > div:first-child > .support-cards {
+  padding-top: 24px;
+}
+
+/* last grid margin (32px) + .sup-help padding-bottom (1rem) */
+main .section > div:last-child > .support-cards {
+  padding-bottom: 48px;
+}
+
+@media (width >= 576px) {
+  .support-cards {
+    max-width: 540px;
+  }
+}
+
+@media (width >= 768px) {
+  .support-cards {
+    max-width: 540px;
+  }
+}
+
+@media (width >= 992px) {
+  .support-cards {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 1200px) {
+  .support-cards {
+    max-width: 855px;
+  }
+}
+
+@media (width >= 1400px) {
+  .support-cards {
+    max-width: 990px;
+  }
+}
+
+/* head: page title + section headings */
+.support-cards .support-cards-head h1 {
+  margin: 0;
+  font-family: var(--sup-font-semibold);
+  font-weight: 400;
+  text-align: center;
+  color: var(--sup-ink);
+  font-size: 2.75em;
+  line-height: 1.6364;
+}
+
+.support-cards .support-cards-head h2 {
+  margin: 48px 0 20px;
+  font-family: var(--sup-font-semibold);
+  font-weight: 400;
+  text-align: center;
+  color: var(--sup-ink);
+  font-size: 1.875em;
+  line-height: 1.33;
+}
+
+@media (width <= 767px) {
+  .support-cards .support-cards-head h1 {
+    font-size: 2.25em;
+    line-height: 1.3333;
+  }
+}
+
+@media (width <= 600px) {
+  .support-cards .support-cards-head h2 {
+    font-size: 2.1em;
+    line-height: 1.25;
+    margin-top: 40px;
+  }
+}
+
+/* bootstrap row-cols grids (g-2 product grid, g-3 feature/section grids), centred */
+.support-cards .support-cards-grid {
+  --gx: 1rem;
+  --gy: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: calc(-1 * var(--gy));
+  margin-left: calc(-0.5 * var(--gx));
+  margin-right: calc(-0.5 * var(--gx));
+}
+
+.support-cards.products .support-cards-grid {
+  --gx: 0.5rem;
+  --gy: 0.5rem;
+}
+
+.support-cards .support-cards-col {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 calc(0.5 * var(--gx));
+  margin-top: var(--gy);
+}
+
+.support-cards.products .support-cards-col {
+  width: 50%;
+}
+
+@media (width >= 576px) {
+  .support-cards.products .support-cards-col {
+    width: 33.3333%;
+  }
+}
+
+@media (width >= 768px) {
+  .support-cards.products .support-cards-col {
+    width: 25%;
+  }
+
+  .support-cards.features .support-cards-col,
+  .support-cards.groups .support-cards-col {
+    width: 50%;
+  }
+}
+
+@media (width >= 992px) {
+  .support-cards.products .support-cards-col {
+    width: 20%;
+  }
+
+  .support-cards.features .support-cards-col,
+  .support-cards.groups .support-cards-col {
+    width: 33.3333%;
+  }
+}
+
+@media (width >= 1200px) {
+  .support-cards.features .support-cards-col,
+  .support-cards.groups .support-cards-grid:not(.support-cards-three) .support-cards-col {
+    width: 25%;
+  }
+}
+
+/* foot: "More Microsoft products" */
+.support-cards .support-cards-foot {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.support-cards .support-cards-foot p {
+  margin: 0 0 1rem;
+}
+
+.support-cards .support-cards-foot a {
+  display: inline-block;
+  word-break: normal;
+  color: var(--sup-link);
+  text-decoration: underline;
+}
+
+/* cards (learn.css .landingPage-card family) */
+.support-cards .support-cards-card {
+  display: block;
+  height: 100%;
+  padding: 8px 8px 40px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  color: var(--sup-muted);
+  font-family: var(--sup-font);
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.support-cards picture {
+  display: block;
+}
+
+.support-cards img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.support-cards .support-cards-inline h3,
+.support-cards .support-cards-feature h3 {
+  margin: 4px 0;
+  color: var(--sup-card-ink);
+  font-family: var(--sup-font);
+  font-size: 1.1667em;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.support-cards .support-cards-inline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  border-color: #d6d6d6;
+}
+
+.support-cards .support-cards-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  margin: 0;
+}
+
+.support-cards .support-cards-icon {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+  align-self: center;
+}
+
+.support-cards .support-cards-text {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.support-cards .support-cards-inline h3 {
+  margin: 0;
+}
+
+.support-cards a.support-cards-feature {
+  padding-bottom: 16px;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.support-cards a.support-cards-feature:hover,
+.support-cards a.support-cards-feature:focus-visible {
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 4px 8px 0 rgb(0 0 0 / 14%);
+  transform: translateY(-2px);
+}
+
+.support-cards .support-cards-media img {
+  border-radius: 2px;
+}
+
+.support-cards .support-cards-feature h3,
+.support-cards .support-cards-feature p {
+  padding-inline: 8px;
+}
+
+.support-cards .support-cards-feature p {
+  margin: 0;
+}
+
+.support-cards .support-cards-group {
+  padding: 0 0 12px;
+}
+
+.support-cards .support-cards-banner img {
+  border-radius: 7px 7px 0 0;
+}
+
+.support-cards .support-cards-heading h3 {
+  margin: 12px 12px 4px;
+  padding-inline: 8px;
+  color: var(--sup-card-ink);
+  font-family: var(--sup-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.support-cards .support-cards-link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6px 28px 6px 12px;
+  border-radius: 8px;
+  color: var(--sup-muted);
+  text-decoration: none;
+}
+
+.support-cards .support-cards-link .support-cards-row {
+  gap: 0;
+}
+
+.support-cards .support-cards-link .support-cards-icon {
+  display: none;
+}
+
+.support-cards .support-cards-link h4 {
+  margin: 0;
+  color: var(--sup-link-blue);
+  font-family: var(--sup-font);
+  font-size: 1.1667em;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.support-cards .support-cards-link::after {
+  content: "\203A";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--sup-link-blue);
+}
+
+.support-cards .support-cards-link:hover,
+.support-cards .support-cards-link:focus-visible {
+  background: #f3f3f3;
+}

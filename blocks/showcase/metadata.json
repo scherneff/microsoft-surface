@@ -1,0 +1,39 @@
+{
+  "variantName": "showcase",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:37.225Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image background",
+    "density": "spacious",
+    "purpose": "product showcase band",
+    "imagePattern": "background + logo + video + story cards"
+  },
+  "contentPattern": {
+    "structure": "rows by content: background image; logo + h2 + tagline + CTAs; video link (+ poster); h3 sub-heading; story cards (image, heading, copy, CTA); closing CTA strip",
+    "buttonCount": 3,
+    "imageCount": 4
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "rich product bands (e.g. Microsoft Copilot) mixing video and story cards"
+    ],
+    "notSuitableFor": [
+      "simple heroes or card rows"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T16:07:37.225Z"
+  }
+}

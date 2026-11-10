@@ -1,0 +1,218 @@
+/* ds-faq — reimagine ocr-faq accordion of /ai (measure.mjs at 1440 + 360) */
+.ds-faq {
+  --ds-display: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+
+  box-sizing: border-box;
+  min-height: 1378px;
+  padding: 56px 20px 96px;
+  background: #fcfbf9;
+  color: #17253d;
+  font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ds-faq .ds-faq-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.ds-faq .ds-faq-title :is(h1, h2, h3) {
+  margin: 0;
+  color: #0e1726;
+  font-family: var(--ds-display);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+}
+
+.ds-faq .ds-faq-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.ds-faq .ds-faq-all {
+  padding: 6px 12px;
+  border: 2px solid #702573;
+  border-radius: 8px;
+  background: #fff;
+  color: #0e1726;
+  font: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.ds-faq .ds-faq-all:disabled {
+  border-color: #e0d0e0;
+  color: #b9a9b9;
+  cursor: default;
+}
+
+.ds-faq .ds-faq-item {
+  border-bottom: 1px solid #d6d1cc;
+}
+
+.ds-faq .ds-faq-header {
+  display: grid;
+  grid-template-columns: 1fr 32px;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.ds-faq .ds-faq-label {
+  display: none;
+}
+
+.ds-faq .ds-faq-label p {
+  margin: 0;
+  color: #8c331f;
+}
+
+.ds-faq .ds-faq-question :is(h2, h3, h4) {
+  margin: 0;
+  color: #0e1726;
+  font-family: var(--ds-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.36px;
+}
+
+.ds-faq .ds-faq-toggle {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: #702573;
+  cursor: pointer;
+}
+
+.ds-faq .ds-faq-toggle::before,
+.ds-faq .ds-faq-toggle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 1.5px;
+  margin: -0.75px 0 0 -6px;
+  background: #fff;
+}
+
+.ds-faq .ds-faq-toggle::after {
+  transform: rotate(90deg);
+}
+
+.ds-faq .open .ds-faq-toggle::after {
+  content: none;
+}
+
+.ds-faq .ds-faq-body {
+  padding: 0 0 24px;
+}
+
+.ds-faq .ds-faq-body a {
+  color: #0067b8;
+}
+
+@media (width >= 860px) {
+  .ds-faq {
+    min-height: 1186px;
+    padding: 96px 5%;
+  }
+
+  .ds-faq .ds-faq-title :is(h1, h2, h3) {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.2px;
+  }
+
+  .ds-faq .ds-faq-header {
+    grid-template-columns: 168px 1fr 32px;
+    padding: 24px 0;
+  }
+
+  .ds-faq .ds-faq-label {
+    display: block;
+  }
+
+  .ds-faq .ds-faq-question :is(h2, h3, h4) {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.27px;
+  }
+
+  .ds-faq .ds-faq-body {
+    padding-left: 168px;
+  }
+}
+
+@media (width >= 860px) {
+  .ds-faq .ds-faq-head {
+    margin-bottom: 37px;
+  }
+}
+
+@media (width < 860px) {
+  .ds-faq .ds-faq-question :is(h2, h3, h4) {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+  }
+
+  .ds-faq .ds-faq-head {
+    margin-bottom: 24px;
+  }
+
+  .ds-faq .ds-faq-actions {
+    display: grid;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .ds-faq .ds-faq-all {
+    padding: 10px 12px;
+  }
+}
+
+@media (width >= 860px) {
+  .ds-faq .ds-faq-header {
+    min-height: 88px;
+    box-sizing: border-box;
+  }
+
+  .ds-faq .ds-faq-toggle {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+/* final-fix (gate 360): live accordion titles are 18 / 24 / 600, 20px rows; the list starts
+   264px under the heading (textpos at 360) */
+@media (width < 860px) {
+  .ds-faq .ds-faq-question :is(h2, h3, h4) {
+    font-size: 18px;
+    letter-spacing: -0.36px;
+  }
+
+  .ds-faq .ds-faq-header {
+    padding: 18px 0;
+  }
+
+  .ds-faq .ds-faq-head {
+    margin-bottom: 46px;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "variantName": "support-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:37.225Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/support"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "support home card groups",
+    "imagePattern": "logos or images"
+  },
+  "contentPattern": {
+    "structure": "head row (heading, no image); one row per card: image | text (linked heading = card link); foot row (link, no image/heading)",
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "options": [
+    {
+      "class": "products",
+      "label": "Products"
+    },
+    {
+      "class": "features",
+      "label": "Features"
+    },
+    {
+      "class": "groups",
+      "label": "Groups"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "product logo cards, feature image cards, link-group banners on support pages"
+    ],
+    "notSuitableFor": [
+      "marketing feature bands"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/support"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T16:07:37.225Z"
+  }
+}

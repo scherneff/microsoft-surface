@@ -1,0 +1,67 @@
+{
+  "variantName": "bing-panel",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/bing"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "white, gray or light blue",
+    "density": "medium",
+    "purpose": "side-by-side media panel / slider",
+    "imagePattern": "image or video beside text"
+  },
+  "contentPattern": {
+    "structure": "row: media (picture or .mp4 link) | text (tag, heading, description, CTAs) | optional row options (rounded, rounded-block, yellow); 2+ rows = slider",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "reversed",
+      "label": "Reversed"
+    },
+    {
+      "class": "sixtyforty",
+      "label": "60/40"
+    },
+    {
+      "class": "gray",
+      "label": "Gray"
+    },
+    {
+      "class": "lightblue",
+      "label": "Light blue"
+    },
+    {
+      "class": "features",
+      "label": "Features"
+    },
+    {
+      "class": "compact",
+      "label": "Compact"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "image/video beside heading panels",
+      "paged feature sliders",
+      "autoplaying video feature panels (a link to an .mp4 in the media cell)"
+    ],
+    "notSuitableFor": [
+      "card grids",
+      "heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/bing"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

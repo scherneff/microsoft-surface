@@ -1,0 +1,45 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "static",
+        "unique",
+        "program",
+        "listing"
+      ],
+      "pages": 8,
+      "startedAt": "2026-11-04T03:18:57Z",
+      "endedAt": "2026-11-04T03:18:57Z",
+      "verdict": "plan: 5 Path A (approved archetypes), 3 Path A' siblings (static: accessibility, ai, corporate-responsibility) rendered after the static archetype unit"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "static",
+        "unique",
+        "program",
+        "listing"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-04T03:18:57Z",
+      "endedAt": "2026-11-04T03:18:57Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 3,
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0",
+      "startedAt": "2026-11-04T04:41:23.334Z",
+      "endedAt": "2026-11-04T06:47:32.448Z"
+    }
+  }
+}

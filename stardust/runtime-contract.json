@@ -1,0 +1,74 @@
+{
+  "$comment": "C0 foundation runtime contract — www.microsoft.com replica on AEM EDS. Frozen after C0 (foundation-freeze.mjs).",
+  "chrome": {
+    "variants": {
+      "www": {
+        "default": true,
+        "nav": "/nav",
+        "footer": "/footer",
+        "htmlClass": "chrome-www",
+        "prototype": "stardust/prototypes/about-proposed.html (+ canon.css / canon.js)",
+        "headerRoot": ".uhf-header (UHF: brand, contextual nav + dropdowns, All Microsoft mega menu, search, me control, optional cart)",
+        "homeFlavour": "a www nav doc WITHOUT a site-logo link (brand section has only the Microsoft link) renders .uhf-header.hp-header (index archetype: single 54px mobile row, product links, cart)",
+        "liveReference": "https://www.microsoft.com/about"
+      },
+      "bing": {
+        "nav": "/nav-bing",
+        "footer": "/footer-bing",
+        "htmlClass": "chrome-bing",
+        "prototype": "stardust/prototypes/bing-proposed.html (+ bing.css / bing.js)",
+        "headerRoot": ".common-nav (sticky explore.microsoft.com nav: logos, Features/More popups, search expand, drawer < 811px)",
+        "liveReference": "https://www.microsoft.com/bing"
+      },
+      "support": {
+        "nav": "/nav-support",
+        "footer": "/footer-support",
+        "htmlClass": "chrome-support",
+        "prototype": "stardust/prototypes/support-proposed.html (+ support.css / support.js)",
+        "headerRoot": ".uhf-header.uhf-header-category (support.microsoft.com UHF category header + sign-in teaching callout)",
+        "liveReference": "https://www.microsoft.com/support"
+      }
+    },
+    "selection": "Page metadata `nav` (and `footer`). scripts.js maps a nav path ending in nav-bing / nav-support to that variant (else www) BEFORE first paint and sets <html class=\"chrome-<variant>\">; metadata `chrome` (www|bing|support) overrides the mapping. The header/footer blocks render the variant template and MOVE the authored nodes of the nav/footer document into it.",
+    "navDocumentModel": {
+      "brand": "section 1: [optional <p><a href=\"#id\">skip link</a>] <p>corporate logo link or text (Microsoft)</p> [<p><a>site logo / category link</a></p>]",
+      "menu": "section with one top-level <ul>: <li><a></li> links; <li>Label<ul>…</ul></li> dropdowns (bing: <li><a>Label</a><ul>…</ul></li> = link + popup; a last <li>More<ul>…</ul></li> = overflow items); an <li> whose link equals the site-logo href is the mobile-only Home item; <li><strong><a></a></strong></li> = CTA (support)",
+      "allMicrosoft": "section starting <p>All Microsoft</p><ul>header links</ul> then <p>Column</p><ul>…</ul> pairs, ending <p><a>View Sitemap</a></p>",
+      "tools": "section holding the search link (<a href=form action>Search</a>), then <p>placeholder</p>, [<p>Cancel</p>], [<p>Sign in</p> or <p><a>Sign in</a></p>], [<p>ME</p>], [<p><a href=…/cart>Cart</a></p>]; bing: <p>CTA label</p>",
+      "callout": "support only: <p>heading</p><p>text</p> (sign-in teaching callout)",
+      "metadata": "Robots | noindex on every chrome document"
+    },
+    "footerDocumentModel": {
+      "groups": "section 1: <h2>Group</h2><ul>links</ul> × 6 (rendered as two rows of three)",
+      "base": "section 2: <p><a>locale</a></p> <p><a>Your Privacy Choices</a></p> <p><a>Consumer Health Privacy</a></p> <ul>corporate links + <li>© line</li></ul>"
+    },
+    "headerHeights": {
+      "www": "56px (54 bar + 2) >= 860, 88px < 860 (hp-header: 54px < 860)",
+      "bing": "3rem (html font-size clamp(14px, 1.053vw, 16px)), sticky",
+      "support": "56px >= 860, 88px < 860"
+    }
+  },
+  "breakpoints": {
+    "policy": "source steps, per variant (DESIGN.json extensions.breakpoints has no `target` set, so breakpoint-lint skips)",
+    "www": [540, 860, 1084, 1400],
+    "bing": [641, 811],
+    "support": [540, 576, 768, 860, 992, 1084, 1200, 1400],
+    "mobileChrome": { "www": "max-width: 859px", "support": "max-width: 859px", "bing": "width <= 810px" }
+  },
+  "fonts": {
+    "policy": "Segoe UI is licensed: referenced from Microsoft's CDN (c.s-microsoft.com/static/fonts/segoe-ui/west-european/*/latest.woff2) exactly as the prototypes do, never rehosted. One font sheet per variant, loaded by scripts.js loadFonts(): styles/fonts.css (www: family SegoeUI, local('Segoe UI') first), styles/fonts-bing.css (family \"Segoe UI\" 300/350/400/600/700), styles/fonts-support.css (\"Segoe UI\" + \"Segoe UI Semibold/Bold/Light/Semilight\" + MWF-MDL2 icon font from www.microsoft.com/mwf).",
+    "stacks": {
+      "www": "--ms-font: \"Segoe UI\", SegoeUI, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "bing": "--font: \"Segoe UI\", \"Liberation Sans\", Arimo, sans-serif",
+      "support": "--sup-font / --uhf-font (styles.css)"
+    }
+  },
+  "styles": {
+    "styles.css": "tokens for all three variants, www base (MWF reboot + type ramp) scoped with :where() to zero specificity, bing/support page bases under :where(.chrome-x), utility canon (.container, .cta, .btn, .link-group, .card), EDS section model (default-content-wrapper = variant container)",
+    "perArchetype": "section/module styling lives in the archetype blocks, never in styles/"
+  },
+  "assets": {
+    "favicon": "/favicon.ico (captured stardust/current/assets/favicon.ico)",
+    "logos": "/icons/RE1Mu3b.png (UHF), /icons/microsoft-wordmark.svg + /icons/bing-logo.avif (bing nav) — code origin, chrome-only"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v_53d0c78014d2",
+  "type": "custom",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "moderate",
+    "imagePattern": "multiple",
+    "purpose": "Follow",
+    "structure": "3 repeated items and 3 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/",
+        "instanceId": "b05-follow",
+        "instanceIds": [
+          "b05-follow"
+        ],
+        "screenshot": ".pages/www_microsoft_com--bdeafa04/blocks/b05-follow.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

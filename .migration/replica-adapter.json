@@ -1,0 +1,106 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.36.5",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://www.microsoft.com",
+  "previewBase": "https://main--3bab0b60--aemcoder.aem.page/about",
+  "convertedAt": "2026-11-10T16:07:44.632Z",
+  "counts": {
+    "pages": 9,
+    "templates": 6,
+    "blockVariants": 20
+  },
+  "templateNames": {
+    "about": {
+      "name": "corporate-info",
+      "description": "Corporate information pages (About, Accessibility, AI, Corporate Responsibility): image hero, feature bands and closing explore links"
+    },
+    "bing": {
+      "name": "product-program",
+      "description": "Bing product showcase: search intro, manifesto, side-by-side media panels and footnotes"
+    },
+    "en-us-surface-do-more-with-surface": {
+      "name": "article-listing",
+      "description": "Surface \"Do more\" article listing with category tabs, search, paging and follow row"
+    },
+    "index": {
+      "name": "homepage",
+      "description": "Microsoft homepage: announcement strip, tabbed store hero, feature grid, stories carousel and follow row"
+    },
+    "search": {
+      "name": "search",
+      "description": "Site search results page"
+    },
+    "support": {
+      "name": "support-hub",
+      "description": "Microsoft Support landing page"
+    }
+  },
+  "screenshots": {
+    "capturedAt": "2026-11-10T16:08:43.043Z",
+    "pages": [
+      {
+        "slug": "www_microsoft_com--bdeafa04",
+        "captured": 5,
+        "total": 5,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/"
+      },
+      {
+        "slug": "www_microsoft_com_about--b1143e54",
+        "captured": 7,
+        "total": 8,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/about"
+      },
+      {
+        "slug": "www_microsoft_com_accessibility--9457a859",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/accessibility"
+      },
+      {
+        "slug": "www_microsoft_com_ai--652b54be",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/ai"
+      },
+      {
+        "slug": "www_microsoft_com_bing--c4c34bf8",
+        "captured": 5,
+        "total": 5,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/bing"
+      },
+      {
+        "slug": "www_microsoft_com_corporate-responsibility--dee20b21",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/corporate-responsibility"
+      },
+      {
+        "slug": "www_microsoft_com_en-us_surface_do-more-with-surface--e3225350",
+        "captured": 2,
+        "total": 2,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/en-us/surface/do-more-with-surface"
+      },
+      {
+        "slug": "www_microsoft_com_search--f32ef0f5",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/search"
+      },
+      {
+        "slug": "www_microsoft_com_support--999e2d97",
+        "captured": 1,
+        "total": 1,
+        "url": "https://aem-20261110--microsoft-surface--scherneff.aem.page/support"
+      }
+    ],
+    "variants": {
+      "total": 20,
+      "cropped": 20
+    }
+  }
+}

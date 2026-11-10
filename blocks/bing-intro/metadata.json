@@ -1,0 +1,39 @@
+{
+  "variantName": "bing-intro",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/bing"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image background",
+    "density": "spacious",
+    "purpose": "search intro hero",
+    "imagePattern": "full-bleed background"
+  },
+  "contentPattern": {
+    "structure": "one cell: background picture, placeholder paragraph, search link paragraph (form action + button label)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "hero with centred search box over background image"
+    ],
+    "notSuitableFor": [
+      "standard text heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/bing"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

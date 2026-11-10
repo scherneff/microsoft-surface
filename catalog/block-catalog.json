@@ -1,0 +1,389 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-10T16:07:44.632Z",
+    "totalBlockVariants": 20,
+    "totalBlocksProcessed": 21,
+    "newVariantsCreated": 0,
+    "variantsReused": 0,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 9,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_840b2fe8b28d": {
+        "id": "v_840b2fe8b28d",
+        "name": "highlight",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Picture(s) (wide + optional narrow crop) + card: heading, body paragraphs, optional CTA paragraphs; carousel: one row per slide. Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b01-highlight.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "highlight",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_cd069977ea16": {
+        "id": "v_cd069977ea16",
+        "name": "feature-band",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Optional head row (heading + intro); one row per feature: image(s) + eyebrow, heading, body, CTA (video CTA opens modal). Used on 2 pages (corporate-info and homepage templates).",
+        "screenshots": [
+          ".pages/www_microsoft_com--bdeafa04/blocks/b03-feature-band.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "feature-band",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_069cc22b42bd": {
+        "id": "v_069cc22b42bd",
+        "name": "material-cards",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Optional head (default content before block or first row without image); one row per card: image + heading + copy + optional CTA. Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b03-material-cards.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "commitments",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ef99e82bae73": {
+        "id": "v_ef99e82bae73",
+        "name": "showcase",
+        "type": "custom",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Rows by content: background image; logo + h2 + tagline + CTAs; video link (+ poster); h3 sub-heading; story cards (image, heading, copy, CTA); closing CTA strip. Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b04-showcase.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "copilot",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_9ad898408be9": {
+        "id": "v_9ad898408be9",
+        "name": "text-cards",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Optional head (h2 + copy); one row per card: h3 + copy and/or CTA (optional leading image/icon). Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b05-text-cards.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "discover",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Merged into text-cards (default) with the Values cards: one block handles both",
+        "variant": null,
+        "placedBy": "person",
+        "confidenceSource": "user"
+      },
+      "v_21030e6d7cff": {
+        "id": "v_21030e6d7cff",
+        "name": "panes",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Optional head; one row per pair: heading + copy + CTA, and an image (first pair left, rest stacked right, ruled). Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b06-panes.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "culture",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_9ca37f0e0157": {
+        "id": "v_9ca37f0e0157",
+        "name": "text-cards",
+        "type": "cards",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Optional head (h2 + copy); one row per card: h3 + copy and/or CTA (optional leading image/icon). Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b07-text-cards.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "values",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Merged into text-cards (default) with the Discover cards: one block handles both",
+        "variant": null,
+        "placedBy": "person",
+        "confidenceSource": "user"
+      },
+      "v_4d3045939c8f": {
+        "id": "v_4d3045939c8f",
+        "name": "explore",
+        "type": "custom",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Links row: heading + list of links; optional follow row: label + list of linked icons. Used on 1 page (corporate-info template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_about--b1143e54/blocks/b08-explore.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "explore",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_2491553fb793": {
+        "id": "v_2491553fb793",
+        "name": "bing-intro",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "One cell: background picture, placeholder paragraph, search link paragraph (form action + button label). Used on 1 page (product-program template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_bing--c4c34bf8/blocks/b01-bing-intro.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "bing-intro",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_2512ebd2d638": {
+        "id": "v_2512ebd2d638",
+        "name": "bing-manifesto",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "One cell: statement heading + layered picture (scroll reveal). Used on 1 page (product-program template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_bing--c4c34bf8/blocks/b02-bing-manifesto.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "bing-manifesto",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_2667c02fd693": {
+        "id": "v_2667c02fd693",
+        "name": "bing-panel",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Row: media (picture or .mp4 link) | text (tag, heading, description, CTAs) | optional row options (rounded, rounded-block, yellow); 2+ rows = slider. Used on 1 page (product-program template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_bing--c4c34bf8/blocks/b03-bing-panel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "bing-panel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Merged into bing-panel (default) with the video feature panel: one block handles both",
+        "variant": null,
+        "placedBy": "person",
+        "confidenceSource": "user"
+      },
+      "v_f46b832ab5d8": {
+        "id": "v_f46b832ab5d8",
+        "name": "bing-panel",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Row: media (picture or .mp4 link) | text (tag, heading, description, CTAs) | optional row options (rounded, rounded-block, yellow); 2+ rows = slider. Used on 1 page (product-program template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_bing--c4c34bf8/blocks/b04-bing-panel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "bing-features",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Merged into bing-panel (default) with the side-by-side panel: one block handles both",
+        "variant": null,
+        "placedBy": "person",
+        "confidenceSource": "user"
+      },
+      "v_3c6f0dc4bd61": {
+        "id": "v_3c6f0dc4bd61",
+        "name": "bing-footnotes",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "One list; items starting with a superscript number become #footnote-<n> anchors. Used on 1 page (product-program template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_bing--c4c34bf8/blocks/b05-bing-footnotes.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "bing-footnotes",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_8dafd17354ba": {
+        "id": "v_8dafd17354ba",
+        "name": "article-listing",
+        "type": "cards",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Head row: title + optional search label; one row per article: image | read time, linked heading, description; tabs + pagination generated. Used on 1 page (article-listing template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_en-us_surface_do-more-with-surface--e3225350/blocks/b01-article-listing.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "article-listing",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_c90a921479dc": {
+        "id": "v_c90a921479dc",
+        "name": "social-follow",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Heading row (\"Follow us:\"); one row per item: icon image | link. Used on 1 page (article-listing template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_en-us_surface_do-more-with-surface--e3225350/blocks/b02-social-follow.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "social-follow",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_e1035f8d0d56": {
+        "id": "v_e1035f8d0d56",
+        "name": "announce",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "One cell: message paragraph(s) + paragraph holding one link. Used on 1 page (homepage template).",
+        "screenshots": [
+          ".pages/www_microsoft_com--bdeafa04/blocks/b01-announce.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "announce",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_f23dafb8fd82": {
+        "id": "v_f23dafb8fd82",
+        "name": "hero",
+        "type": "hero",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Row: background picture | h1; per tab: label | lede | placeholder | prompt pills, followed by promo carousel, quick links and featured banner rows. Used on 1 page (homepage template).",
+        "screenshots": [
+          ".pages/www_microsoft_com--bdeafa04/blocks/b02-hero.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "hero",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_100d7e4df3e6": {
+        "id": "v_100d7e4df3e6",
+        "name": "stories-carousel",
+        "type": "carousel",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "One row per slide: picture | heading, text, CTA link. Used on 1 page (homepage template).",
+        "screenshots": [
+          ".pages/www_microsoft_com--bdeafa04/blocks/b04-stories-carousel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "stories-carousel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_53d0c78014d2": {
+        "id": "v_53d0c78014d2",
+        "name": "follow",
+        "type": "custom",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Heading row + linked icons (link wrapping picture, list or paragraphs). Used on 1 page (homepage template).",
+        "screenshots": [
+          ".pages/www_microsoft_com--bdeafa04/blocks/b05-follow.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "follow",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_a6b599e70e48": {
+        "id": "v_a6b599e70e48",
+        "name": "support-cards",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Head row (heading, no image); one row per card: image | text (linked heading = card link); foot row (link, no image/heading). Used on 1 page (support-hub template).",
+        "screenshots": [
+          ".pages/www_microsoft_com_support--999e2d97/blocks/b01-support-cards.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "support-content",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      }
+    }
+  }
+}

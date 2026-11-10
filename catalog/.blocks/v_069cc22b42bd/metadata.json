@@ -1,0 +1,31 @@
+{
+  "id": "v_069cc22b42bd",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/about",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "dense",
+    "imagePattern": "multiple",
+    "purpose": "Commitments",
+    "structure": "2 repeated items and 4 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/about",
+        "instanceId": "b03-material-cards",
+        "instanceIds": [
+          "b03-material-cards"
+        ],
+        "screenshot": ".pages/www_microsoft_com_about--b1143e54/blocks/b03-material-cards.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-04T03:19:22.361Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T05:32:14.946Z",
+  "blocks": [
+    {
+      "id": "announce",
+      "label": "announce",
+      "kind": "module",
+      "signature": "module:announce",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "announce",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "article-listing",
+      "label": "article-listing",
+      "kind": "module",
+      "signature": "module:article-listing",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "usedByPages": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "article-listing",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "bing-features",
+      "label": "bing-features",
+      "kind": "module",
+      "signature": "module:bing-features",
+      "source": null,
+      "usedByTemplates": [
+        "bing"
+      ],
+      "usedByPages": [
+        "bing"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bing-panel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "bing-footnotes",
+      "label": "bing-footnotes",
+      "kind": "module",
+      "signature": "module:bing-footnotes",
+      "source": null,
+      "usedByTemplates": [
+        "bing"
+      ],
+      "usedByPages": [
+        "bing"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bing-footnotes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "bing-intro",
+      "label": "bing-intro",
+      "kind": "module",
+      "signature": "module:bing-intro",
+      "source": null,
+      "usedByTemplates": [
+        "bing"
+      ],
+      "usedByPages": [
+        "bing"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bing-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "bing-manifesto",
+      "label": "bing-manifesto",
+      "kind": "module",
+      "signature": "module:bing-manifesto",
+      "source": null,
+      "usedByTemplates": [
+        "bing"
+      ],
+      "usedByPages": [
+        "bing"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bing-manifesto",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "bing-panel",
+      "label": "bing-panel",
+      "kind": "module",
+      "signature": "module:bing-panel",
+      "source": null,
+      "usedByTemplates": [
+        "bing"
+      ],
+      "usedByPages": [
+        "bing"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bing-panel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "commitments",
+      "label": "commitments",
+      "kind": "module",
+      "signature": "module:commitments",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "material-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "copilot",
+      "label": "copilot",
+      "kind": "module",
+      "signature": "module:copilot",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "showcase",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "culture",
+      "label": "culture",
+      "kind": "module",
+      "signature": "module:culture",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "panes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "discover",
+      "label": "discover",
+      "kind": "module",
+      "signature": "module:discover",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "text-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "explore",
+      "label": "explore",
+      "kind": "module",
+      "signature": "module:explore",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "explore",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feature-band",
+      "label": "feature-band",
+      "kind": "module",
+      "signature": "module:feature-band",
+      "source": null,
+      "usedByTemplates": [
+        "about",
+        "index"
+      ],
+      "usedByPages": [
+        "about",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "feature-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "follow",
+      "label": "follow",
+      "kind": "module",
+      "signature": "module:follow",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "follow",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "highlight",
+      "label": "highlight",
+      "kind": "module",
+      "signature": "module:highlight",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "highlight",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "social-follow",
+      "label": "social-follow",
+      "kind": "module",
+      "signature": "module:social-follow",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "usedByPages": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "social-follow",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stories-carousel",
+      "label": "stories-carousel",
+      "kind": "module",
+      "signature": "module:stories-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "stories-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "support-content",
+      "label": "support-content",
+      "kind": "module",
+      "signature": "module:support-content",
+      "source": null,
+      "usedByTemplates": [
+        "support"
+      ],
+      "usedByPages": [
+        "support"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "support-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "values",
+      "label": "values",
+      "kind": "module",
+      "signature": "module:values",
+      "source": null,
+      "usedByTemplates": [
+        "about"
+      ],
+      "usedByPages": [
+        "about"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "text-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}
