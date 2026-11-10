@@ -66,7 +66,11 @@ if (window.trustedTypes && window.trustedTypes.createPolicy) {
 async function loadFonts() {
   const variant = getChromeVariant();
   const sheet = variant === 'www' ? 'fonts' : `fonts-${variant}`;
-  await loadCSS(`${window.hlx.codeBasePath}/styles/${sheet}.css`);
+  const sheets = [loadCSS(`${window.hlx.codeBasePath}/styles/${sheet}.css`)];
+  if (document.body.classList.contains('surface-product')) {
+    sheets.push(loadCSS(`${window.hlx.codeBasePath}/styles/fonts-surface-product.css`));
+  }
+  await Promise.all(sheets);
   try {
     if (!window.location.hostname.includes('localhost')) sessionStorage.setItem('fonts-loaded', 'true');
   } catch (e) {
@@ -202,10 +206,14 @@ async function loadEager(doc) {
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
-    await loadSurfaceProductStyles(main);
+    // fetch the Surface product sheet alongside the first section's blocks, and only
+    // reveal the page once it is in (no unstyled flash)
+    const surfaceProductStyles = loadSurfaceProductStyles(main);
     decorateMain(main);
+    const firstSection = loadSection(main.querySelector('.section'), waitForFirstImage);
+    await surfaceProductStyles;
     document.body.classList.add('appear');
-    await loadSection(main.querySelector('.section'), waitForFirstImage);
+    await firstSection;
   }
 
   try {

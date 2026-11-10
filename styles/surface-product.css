@@ -7,31 +7,7 @@
  * against; only the tokens and the www default-content override are more specific.
  */
 
-/* brand fonts (self-hosted, mirrored from microsoft.com/en-us/surface) */
-@font-face {
-  font-family: 'Segoe Sans';
-  font-style: normal;
-  font-weight: 350;
-  font-display: swap;
-  src: url('../fonts/segoesans.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Segoe Sans';
-  font-style: italic;
-  font-weight: 350;
-  font-display: optional;
-  src: url('../fonts/segoesansitalic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Aux Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  ascent-override: 125%;
-  src: url('../fonts/auxmonofont.woff2') format('woff2');
-}
+/* brand fonts: styles/fonts-surface-product.css, loaded with the other fonts (after LCP) */
 
 /* fallback fonts (metric-adjusted so layout doesn't shift when brand fonts load) */
 @font-face {
