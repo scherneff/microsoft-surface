@@ -1,0 +1,27 @@
+{
+  "variantName": "tabs-media",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "media-switcher",
+    "imagePattern": "video-panel",
+    "structure": "label + video"
+  },
+  "contentPattern": "One row per tab: cell 1 = label (Morning/Afternoon/Evening), cell 2 = poster image + video link.",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14T17:19:54.039Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "tabs-media"
+  ]
+}

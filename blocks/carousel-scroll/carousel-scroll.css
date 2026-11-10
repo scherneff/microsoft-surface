@@ -1,0 +1,274 @@
+/* carousel-scroll: sticky, scroll-driven media panel (values from source computed styles) */
+
+/* full-bleed with source side gutters (8 / 20 / 28px) */
+.carousel-scroll-container .carousel-scroll-wrapper {
+  max-width: unset;
+  padding: 0 8px;
+}
+
+.carousel-scroll {
+  position: relative;
+  color: var(--text-color);
+}
+
+/* tall track: one viewport of scroll per slide; the stage sticks inside it */
+.carousel-scroll .carousel-scroll-track {
+  position: relative;
+  height: calc(var(--slide-count, 1) * 100svh);
+}
+
+/* stage = one viewport; the rounded frame is vertically centred in it */
+.carousel-scroll .carousel-scroll-stage {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100svh;
+}
+
+.carousel-scroll .carousel-scroll-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 374 / 724;
+  max-height: calc(100svh - 120px);
+  border-radius: 20px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.carousel-scroll .carousel-scroll-slides {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel-scroll .carousel-scroll-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s;
+}
+
+.carousel-scroll .carousel-scroll-slide.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.carousel-scroll .carousel-scroll-slide-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.carousel-scroll .carousel-scroll-slide-media picture,
+.carousel-scroll .carousel-scroll-slide-media img,
+.carousel-scroll .carousel-scroll-slide-media video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* source overlay: bg-linear-to-tl from-black/15 to-black */
+.carousel-scroll .carousel-scroll-slide-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to left top, rgb(0 0 0 / 15%) 0%, rgb(0 0 0) 100%);
+}
+
+/* text overlay */
+.carousel-scroll .carousel-scroll-slide-content {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 64px 20px 0;
+  box-sizing: border-box;
+}
+
+.carousel-scroll .carousel-scroll-slide-content h1,
+.carousel-scroll .carousel-scroll-slide-content h2,
+.carousel-scroll .carousel-scroll-slide-content h3,
+.carousel-scroll .carousel-scroll-slide-content h4 {
+  margin: 0;
+  font-family: var(--display-font-family);
+  font-size: 24px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+  letter-spacing: var(--display-letter-spacing);
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.carousel-scroll .carousel-scroll-slide-content p {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: 18px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+
+/* progress dashes above the slide text */
+.carousel-scroll .carousel-scroll-indicators {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 40px;
+}
+
+.carousel-scroll .carousel-scroll-indicator {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 2px;
+  border-radius: 9999px;
+  background-color: rgb(255 255 255 / 40%);
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.carousel-scroll .carousel-scroll-indicator.is-active {
+  width: 80px;
+}
+
+.carousel-scroll .carousel-scroll-indicator.is-active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-color: rgb(255 255 255);
+  transform: scaleX(var(--slide-progress, 0));
+  transform-origin: left;
+}
+
+/* play / pause: frosted circle (overrides the global blue pill button) */
+.carousel-scroll .carousel-scroll-toggle {
+  position: absolute;
+  z-index: 30;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  min-height: 40px;
+  margin: 0;
+  padding: 12px;
+  border: 0;
+  border-radius: 9999px;
+  background-color: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(48px);
+  color: rgb(255 255 255);
+  cursor: pointer;
+}
+
+.carousel-scroll .carousel-scroll-toggle:hover,
+.carousel-scroll .carousel-scroll-toggle:active {
+  background-color: rgb(255 255 255 / 10%);
+  color: rgb(255 255 255);
+}
+
+.carousel-scroll .carousel-scroll-toggle:focus-visible {
+  outline: 1px solid rgb(255 255 255);
+  outline-offset: 4px;
+}
+
+.carousel-scroll .carousel-scroll-toggle::before {
+  content: '';
+  display: block;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 12px;
+  border-color: transparent transparent transparent currentcolor;
+}
+
+.carousel-scroll .carousel-scroll-toggle[data-state='playing']::before {
+  width: 10px;
+  height: 16px;
+  border-width: 0 2px;
+  border-color: currentcolor;
+  box-sizing: border-box;
+}
+
+@media (width >= 768px) {
+  .carousel-scroll-container .carousel-scroll-wrapper {
+    padding: 0 20px;
+  }
+
+  .carousel-scroll .carousel-scroll-frame {
+    aspect-ratio: 2 / 3;
+  }
+
+  .carousel-scroll .carousel-scroll-slide-content {
+    padding: 50px 40px 0;
+  }
+
+  .carousel-scroll .carousel-scroll-slide-content h1,
+  .carousel-scroll .carousel-scroll-slide-content h2,
+  .carousel-scroll .carousel-scroll-slide-content h3,
+  .carousel-scroll .carousel-scroll-slide-content h4 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .carousel-scroll .carousel-scroll-slide-content p {
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .carousel-scroll-container .carousel-scroll-wrapper {
+    padding: 0 28px;
+  }
+
+  .carousel-scroll .carousel-scroll-frame {
+    aspect-ratio: 16 / 9;
+  }
+
+  .carousel-scroll .carousel-scroll-slide {
+    justify-content: flex-end;
+  }
+
+  .carousel-scroll .carousel-scroll-slide-content {
+    gap: 20px;
+    max-width: 562px;
+    padding: 0 64px 60px;
+  }
+
+  .carousel-scroll .carousel-scroll-slide-content h1,
+  .carousel-scroll .carousel-scroll-slide-content h2,
+  .carousel-scroll .carousel-scroll-slide-content h3,
+  .carousel-scroll .carousel-scroll-slide-content h4 {
+    font-size: 24px;
+  }
+
+  .carousel-scroll .carousel-scroll-slide-content p {
+    font-size: 20px;
+  }
+
+  .carousel-scroll .carousel-scroll-toggle {
+    top: 40px;
+    right: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-scroll .carousel-scroll-slide,
+  .carousel-scroll .carousel-scroll-indicator {
+    transition: none;
+  }
+}

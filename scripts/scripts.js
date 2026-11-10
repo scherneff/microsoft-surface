@@ -181,6 +181,17 @@ export function decorateMain(main) {
 }
 
 /**
+ * Surface product pages (a hero-product block) keep the dark Surface design they were
+ * migrated with: flags body.surface-product and loads its page-scoped stylesheet.
+ * @param {Element} main The main element
+ */
+async function loadSurfaceProductStyles(main) {
+  if (!main.querySelector(':scope > div > .hero-product')) return;
+  document.body.classList.add('surface-product');
+  await loadCSS(`${window.hlx.codeBasePath}/styles/surface-product.css`);
+}
+
+/**
  * Loads everything needed to get to LCP.
  * @param {Element} doc The container element
  */
@@ -191,6 +202,7 @@ async function loadEager(doc) {
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
+    await loadSurfaceProductStyles(main);
     decorateMain(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);

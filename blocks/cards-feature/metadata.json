@@ -1,0 +1,27 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "medium",
+    "purpose": "feature-icons",
+    "imagePattern": "square-image",
+    "structure": "image + heading + paragraph"
+  },
+  "contentPattern": "One row per card: cell 1 = image, cell 2 = H3 + paragraph.",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14T17:22:28.047Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-feature"
+  ]
+}
