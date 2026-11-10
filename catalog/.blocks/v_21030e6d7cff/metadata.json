@@ -1,0 +1,31 @@
+{
+  "id": "v_21030e6d7cff",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/about",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "dense",
+    "imagePattern": "multiple",
+    "purpose": "Culture",
+    "structure": "3 repeated items and 3 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/about",
+        "instanceId": "b06-panes",
+        "instanceIds": [
+          "b06-panes"
+        ],
+        "screenshot": ".pages/www_microsoft_com_about--b1143e54/blocks/b06-panes.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

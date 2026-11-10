@@ -1,0 +1,31 @@
+{
+  "id": "v_9ca37f0e0157",
+  "type": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/about",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "moderate",
+    "imagePattern": "noimg",
+    "purpose": "Values",
+    "structure": "3 repeated items"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/about",
+        "instanceId": "b07-text-cards",
+        "instanceIds": [
+          "b07-text-cards"
+        ],
+        "screenshot": ".pages/www_microsoft_com_about--b1143e54/blocks/b07-text-cards.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

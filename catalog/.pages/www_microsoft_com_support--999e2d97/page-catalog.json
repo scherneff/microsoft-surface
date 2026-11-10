@@ -1,0 +1,49 @@
+{
+  "url": "https://www.microsoft.com/support",
+  "title": "Microsoft Support",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-support-cards",
+      "type": "cards",
+      "name": "support-cards",
+      "variantId": "v_a6b599e70e48",
+      "selector": null,
+      "screenshot": "blocks/b01-support-cards.jpg",
+      "bounds": {
+        "x": 225,
+        "y": 56,
+        "width": 990,
+        "height": 355
+      },
+      "description": "Head row (heading, no image); one row per card: image | text (linked heading = card link); foot row (link, no image/heading). Used on 1 page (support-hub template).",
+      "visualChars": {
+        "purpose": "Support content",
+        "structure": "Support content block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "support",
+    "path": "/support",
+    "templateId": "support",
+    "liveUrl": "https://main--3bab0b60--aemcoder.aem.page/support",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/support",
+    "screenshotCapturedAt": "2026-11-10T16:08:40.938Z"
+  }
+}

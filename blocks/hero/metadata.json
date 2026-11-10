@@ -1,0 +1,39 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/index"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image background",
+    "density": "spacious",
+    "purpose": "homepage hero with tabs",
+    "imagePattern": "background + promo cards"
+  },
+  "contentPattern": {
+    "structure": "row: background picture | h1; per tab: label | lede | placeholder | prompt pills, followed by promo carousel, quick links and featured banner rows",
+    "buttonCount": 3,
+    "imageCount": 4
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "store-style homepage hero with Personal/Business tabs, chat prompt and promos"
+    ],
+    "notSuitableFor": [
+      "simple page heroes (use highlight)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

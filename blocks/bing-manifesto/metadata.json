@@ -1,0 +1,39 @@
+{
+  "variantName": "bing-manifesto",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/bing"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light rounded panel",
+    "density": "spacious",
+    "purpose": "statement",
+    "imagePattern": "layered decorative image"
+  },
+  "contentPattern": {
+    "structure": "one cell: statement heading + layered picture (scroll reveal)",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "large centred statement with decorative image"
+    ],
+    "notSuitableFor": [
+      "multi-item content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/bing"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "analysis-urls-checklist": {
+    "captured": "2026-11-10T16:07:44.632Z",
+    "totalPages": 9,
+    "statusBreakdown": {
+      "analyzed": 9
+    },
+    "pages": {
+      "https://www.microsoft.com/about": {
+        "url": "https://www.microsoft.com/about",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_about--b1143e54",
+        "title": "Our Mission and Values | About Microsoft",
+        "blockCount": 8,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/accessibility/": {
+        "url": "https://www.microsoft.com/accessibility/",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_accessibility--9457a859",
+        "title": "Accessibility Technology & Tools | Microsoft Accessibility",
+        "blockCount": 0,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/ai": {
+        "url": "https://www.microsoft.com/ai",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_ai--652b54be",
+        "title": "Microsoft AI - Business Solutions and Tools",
+        "blockCount": 0,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/bing": {
+        "url": "https://www.microsoft.com/bing",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_bing--c4c34bf8",
+        "title": "Microsoft Bing | Get to know Bing",
+        "blockCount": 5,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/corporate-responsibility": {
+        "url": "https://www.microsoft.com/corporate-responsibility",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_corporate-responsibility--dee20b21",
+        "title": "Microsoft Corporate Social Responsibility | Microsoft CSR",
+        "blockCount": 0,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/en-us/surface/do-more-with-surface/": {
+        "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_en-us_surface_do-more-with-surface--e3225350",
+        "title": "Do More with Surface Laptop & Surface Pro | Microsoft Surface",
+        "blockCount": 2,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/": {
+        "url": "https://www.microsoft.com/",
+        "status": "analyzed",
+        "slug": "www_microsoft_com--bdeafa04",
+        "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+        "blockCount": 5,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/search": {
+        "url": "https://www.microsoft.com/search",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_search--f32ef0f5",
+        "title": "Search results",
+        "blockCount": 0,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      },
+      "https://www.microsoft.com/support": {
+        "url": "https://www.microsoft.com/support",
+        "status": "analyzed",
+        "slug": "www_microsoft_com_support--999e2d97",
+        "title": "Microsoft Support",
+        "blockCount": 1,
+        "analyzedAt": "2026-11-10T16:07:44.632Z"
+      }
+    }
+  }
+}

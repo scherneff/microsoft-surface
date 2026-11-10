@@ -1,0 +1,39 @@
+{
+  "variantName": "bing-footnotes",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/bing"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "footnotes and disclaimers",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one list; items starting with a superscript number become #footnote-<n> anchors",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "legal footnotes and disclaimers referenced in-page"
+    ],
+    "notSuitableFor": [
+      "general body copy"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/bing"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

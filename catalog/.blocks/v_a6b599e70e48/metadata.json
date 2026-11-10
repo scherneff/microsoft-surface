@@ -1,0 +1,31 @@
+{
+  "id": "v_a6b599e70e48",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/support",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Support content",
+    "structure": "Support content block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/support",
+        "instanceId": "b01-support-cards",
+        "instanceIds": [
+          "b01-support-cards"
+        ],
+        "screenshot": ".pages/www_microsoft_com_support--999e2d97/blocks/b01-support-cards.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -34,23 +34,23 @@
         },
         {
           "id": "commitments",
-          "edsBlockName": "commitments"
+          "edsBlockName": "material-cards"
         },
         {
           "id": "copilot",
-          "edsBlockName": "copilot"
+          "edsBlockName": "showcase"
         },
         {
           "id": "discover",
-          "edsBlockName": "discover"
+          "edsBlockName": "text-cards"
         },
         {
           "id": "culture",
-          "edsBlockName": "culture"
+          "edsBlockName": "panes"
         },
         {
           "id": "values",
-          "edsBlockName": "values"
+          "edsBlockName": "text-cards"
         },
         {
           "id": "explore",
@@ -80,7 +80,7 @@
         },
         {
           "id": "bing-features",
-          "edsBlockName": "bing-features"
+          "edsBlockName": "bing-panel"
         },
         {
           "id": "bing-footnotes",
@@ -148,7 +148,7 @@
       "convert": [
         {
           "id": "support-content",
-          "edsBlockName": "support-content"
+          "edsBlockName": "support-cards"
         }
       ],
       "reuse": []

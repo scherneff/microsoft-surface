@@ -1,0 +1,26 @@
+{
+  "url": "https://www.microsoft.com/corporate-responsibility",
+  "title": "Microsoft Corporate Social Responsibility | Microsoft CSR",
+  "timestamp": "2026-11-10T16:07:44.632Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [],
+  "replicaAdapter": {
+    "stardustSlug": "corporate-responsibility",
+    "path": "/corporate-responsibility",
+    "templateId": "about",
+    "liveUrl": "https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261110--microsoft-surface--scherneff.aem.page/corporate-responsibility",
+    "screenshotCapturedAt": "2026-11-10T16:08:31.822Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "follow",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:50:16.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/index"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "social follow row",
+    "imagePattern": "icons"
+  },
+  "contentPattern": {
+    "structure": "heading row + linked icons (link wrapping picture, list or paragraphs)",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "\"Follow Microsoft\" social icon rows"
+    ],
+    "notSuitableFor": [
+      "rows needing a back-to-top control (use social-follow)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-10T15:50:16.632Z"
+  }
+}

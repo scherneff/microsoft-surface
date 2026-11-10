@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "microsoft-surface": {
+      "previewOrg": "scherneff",
+      "previewSite": "microsoft-surface",
+      "contentHostUrl": "https://content.da.live/scherneff/microsoft-surface/"
+    }
+  },
+  "type": "da"
+}

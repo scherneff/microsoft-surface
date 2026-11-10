@@ -1,0 +1,54 @@
+{
+  "variantName": "material-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:37.225Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about, /accessibility, /corporate-responsibility"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "white, peach, dark or flat",
+    "density": "medium",
+    "purpose": "image cards under an area heading",
+    "imagePattern": "card images 1/2/4-up"
+  },
+  "contentPattern": {
+    "structure": "optional head (default content before block or first row without image); one row per card: image + heading + copy + optional CTA",
+    "buttonCount": 1,
+    "imageCount": 4
+  },
+  "options": [
+    {
+      "class": "peach",
+      "label": "Peach"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "flat",
+      "label": "Flat"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "rows of image cards (commitments, programs)"
+    ],
+    "notSuitableFor": [
+      "text-only cards (use text-cards)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about",
+      "/accessibility",
+      "/corporate-responsibility"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-11-10T16:07:37.225Z"
+  }
+}

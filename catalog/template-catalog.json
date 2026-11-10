@@ -1,0 +1,49 @@
+{
+  "templates": [
+    {
+      "name": "corporate-info",
+      "description": "Corporate information pages (About, Accessibility, AI, Corporate Responsibility): image hero, feature bands and closing explore links",
+      "urls": [
+        "https://www.microsoft.com/about",
+        "https://www.microsoft.com/accessibility/",
+        "https://www.microsoft.com/ai",
+        "https://www.microsoft.com/corporate-responsibility"
+      ]
+    },
+    {
+      "name": "product-program",
+      "description": "Bing product showcase: search intro, manifesto, side-by-side media panels and footnotes",
+      "urls": [
+        "https://www.microsoft.com/bing"
+      ]
+    },
+    {
+      "name": "article-listing",
+      "description": "Surface \"Do more\" article listing with category tabs, search, paging and follow row",
+      "urls": [
+        "https://www.microsoft.com/en-us/surface/do-more-with-surface/"
+      ]
+    },
+    {
+      "name": "homepage",
+      "description": "Microsoft homepage: announcement strip, tabbed store hero, feature grid, stories carousel and follow row",
+      "urls": [
+        "https://www.microsoft.com/"
+      ]
+    },
+    {
+      "name": "search",
+      "description": "Site search results page",
+      "urls": [
+        "https://www.microsoft.com/search"
+      ]
+    },
+    {
+      "name": "support-hub",
+      "description": "Microsoft Support landing page",
+      "urls": [
+        "https://www.microsoft.com/support"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v_4d3045939c8f",
+  "type": "custom",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/about",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "moderate",
+    "imagePattern": "multiple",
+    "purpose": "Explore",
+    "structure": "4 repeated items and 4 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/about",
+        "instanceId": "b08-explore",
+        "instanceIds": [
+          "b08-explore"
+        ],
+        "screenshot": ".pages/www_microsoft_com_about--b1143e54/blocks/b08-explore.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

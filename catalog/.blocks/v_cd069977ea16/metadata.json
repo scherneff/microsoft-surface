@@ -1,0 +1,39 @@
+{
+  "id": "v_cd069977ea16",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:44.632Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com/about",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "moderate",
+    "imagePattern": "single",
+    "purpose": "Feature band",
+    "structure": "one image"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/about",
+        "instanceId": "b02-feature-band",
+        "instanceIds": [
+          "b02-feature-band"
+        ],
+        "screenshot": ".pages/www_microsoft_com_about--b1143e54/blocks/b02-feature-band.jpg"
+      },
+      {
+        "url": "https://www.microsoft.com/",
+        "instanceId": "b03-feature-band",
+        "instanceIds": [
+          "b03-feature-band"
+        ],
+        "screenshot": ".pages/www_microsoft_com--bdeafa04/blocks/b03-feature-band.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

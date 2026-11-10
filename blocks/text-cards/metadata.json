@@ -1,0 +1,68 @@
+{
+  "variantName": "text-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-10T16:07:37.225Z",
+  "sourceContext": {
+    "originUrl": "https://www.microsoft.com",
+    "originPage": "/about, /accessibility, /corporate-responsibility"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "white, peach, gradient or dark band",
+    "density": "medium",
+    "purpose": "text cards under an area heading",
+    "imagePattern": "none or icons"
+  },
+  "contentPattern": {
+    "structure": "optional head (h2 + copy); one row per card: h3 + copy and/or CTA (optional leading image/icon)",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "peach",
+      "label": "Peach"
+    },
+    {
+      "class": "divider",
+      "label": "Divider"
+    },
+    {
+      "class": "with-icons",
+      "label": "With icons"
+    },
+    {
+      "class": "tiles",
+      "label": "Tiles"
+    },
+    {
+      "class": "halves",
+      "label": "Halves"
+    },
+    {
+      "class": "band",
+      "label": "Band"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "text card rows (discover, values)",
+      "icon link tiles",
+      "dark CTA bands"
+    ],
+    "notSuitableFor": [
+      "image-led cards (use material-cards)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/about",
+      "/accessibility",
+      "/corporate-responsibility"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-11-10T16:07:37.225Z"
+  }
+}
