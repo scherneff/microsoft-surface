@@ -1,0 +1,1408 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+ "at": "2026-11-04T01:51:15.337Z",
+ "shots": "stardust/.work/chrome/header-contract-bing",
+ "widths": {
+  "360": {
+   "root": "#nav",
+   "controls": [
+    {
+     "name": "Download Edge",
+     "key": "download edge",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>section>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      201,
+      8,
+      120,
+      27
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "navigates": "https://go.microsoft.com/fwlink?linkid=2149051&brand=M102"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://go.microsoft.com/fwlink?linkid=2149051&brand=M102"
+      }
+     }
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      321,
+      0,
+      28,
+      42
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://explore.microsoft.com/en-us/bing?form=MA13QZ"
+         },
+         {
+          "text": "Features",
+          "href": "https://explore.microsoft.com/bing/features?form=MA13QZ"
+         },
+         {
+          "text": "Search with AI",
+          "href": "https://explore.microsoft.com/bing/ai?form=MA13QZ"
+         },
+         {
+          "text": "Visual Search",
+          "href": "https://explore.microsoft.com/bing/visual-search?form=MA13QZ"
+         },
+         {
+          "text": "Homepage",
+          "href": "https://www.bing.com/?form=MA13QZ"
+         },
+         {
+          "text": "Rewards",
+          "href": "https://www.microsoft.com/rewards?form=MA13QZ"
+         },
+         {
+          "text": "Edge+Bing",
+          "href": "https://www.microsoft.com/en-us/edge/bing?form=MA13VI"
+         },
+         {
+          "text": "Blog",
+          "href": "https://blogs.bing.com/?form=MA13QZ"
+         },
+         {
+          "text": "Support",
+          "href": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Close",
+         "Features"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         360,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.px-toggle-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.px-side-drawer__drawer"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.px-float__overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.px-side-drawer__icon-button"
+        }
+       ],
+       "shot": "360-001-toggle-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://explore.microsoft.com/en-us/bing?form=MA13QZ"
+         },
+         {
+          "text": "Features",
+          "href": "https://explore.microsoft.com/bing/features?form=MA13QZ"
+         },
+         {
+          "text": "Search with AI",
+          "href": "https://explore.microsoft.com/bing/ai?form=MA13QZ"
+         },
+         {
+          "text": "Visual Search",
+          "href": "https://explore.microsoft.com/bing/visual-search?form=MA13QZ"
+         },
+         {
+          "text": "Homepage",
+          "href": "https://www.bing.com/?form=MA13QZ"
+         },
+         {
+          "text": "Rewards",
+          "href": "https://www.microsoft.com/rewards?form=MA13QZ"
+         },
+         {
+          "text": "Edge+Bing",
+          "href": "https://www.microsoft.com/en-us/edge/bing?form=MA13VI"
+         },
+         {
+          "text": "Blog",
+          "href": "https://blogs.bing.com/?form=MA13QZ"
+         },
+         {
+          "text": "Support",
+          "href": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Close",
+         "Features"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         360,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.px-float__overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.px-side-drawer__drawer"
+        }
+       ],
+       "shot": "360-002-toggle-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer-v-0-0>div>div:nth-of-type(1)>div>button",
+       "expanded": null,
+       "rect": [
+        315,
+        -1,
+        46,
+        46
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 12
+        },
+        "key": {
+         "opened": false,
+         "hides": 12
+        }
+       }
+      },
+      {
+       "name": "Features",
+       "key": "features",
+       "role": "link",
+       "kind": "link",
+       "sel": "#drawer-v-0-0>div>div:nth-of-type(2)>ul>li:nth-of-type(2)>div>a",
+       "href": "https://explore.microsoft.com/bing/features?form=MA13QZ",
+       "expanded": null,
+       "rect": [
+        56,
+        126,
+        60,
+        32
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Features",
+       "key": "features",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer-v-0-0>div>div:nth-of-type(2)>ul>li:nth-of-type(2)>div>button",
+       "expanded": null,
+       "rect": [
+        116,
+        137,
+        228,
+        10
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Image Creator",
+            "href": "https://explore.microsoft.com/bing/features/bing-image-creator?form=MA13QZ"
+           },
+           {
+            "text": "Web Search",
+            "href": "https://explore.microsoft.com/bing/features/web-search?form=MA13QZ"
+           },
+           {
+            "text": "Video Search",
+            "href": "https://explore.microsoft.com/bing/features/video-search?form=MA13QZ"
+           },
+           {
+            "text": "Bing News",
+            "href": "https://explore.microsoft.com/bing/features/bing-news?form=MA13QZ"
+           },
+           {
+            "text": "Edge Search Bar",
+            "href": "https://explore.microsoft.com/bing/features/edge-search-bar?form=MA13QZ"
+           },
+           {
+            "text": "Rewards",
+            "href": "https://explore.microsoft.com/bing/features/rewards?form=MA13QZ"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           40,
+           166,
+           320,
+           288
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+           "target": "button.px-side-drawer__icon-button"
+          }
+         ],
+         "shot": "360-003-Features-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Image Creator",
+            "href": "https://explore.microsoft.com/bing/features/bing-image-creator?form=MA13QZ"
+           },
+           {
+            "text": "Web Search",
+            "href": "https://explore.microsoft.com/bing/features/web-search?form=MA13QZ"
+           },
+           {
+            "text": "Video Search",
+            "href": "https://explore.microsoft.com/bing/features/video-search?form=MA13QZ"
+           },
+           {
+            "text": "Bing News",
+            "href": "https://explore.microsoft.com/bing/features/bing-news?form=MA13QZ"
+           },
+           {
+            "text": "Edge Search Bar",
+            "href": "https://explore.microsoft.com/bing/features/edge-search-bar?form=MA13QZ"
+           },
+           {
+            "text": "Rewards",
+            "href": "https://explore.microsoft.com/bing/features/rewards?form=MA13QZ"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           40,
+           166,
+           320,
+           288
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "360-004-Features-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 42,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 42,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 42,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 42,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": null,
+   "loads": 1,
+   "requests": 3,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#nav",
+   "controls": [
+    {
+     "name": "Bing",
+     "key": "bing",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(1)>div>a",
+     "href": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      203,
+      0,
+      55,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Features",
+     "key": "features",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(2)>div>a",
+     "href": "https://explore.microsoft.com/bing/features?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      282,
+      0,
+      56,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Features",
+     "key": "features",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(2)>div>button",
+     "expanded": null,
+     "rect": [
+      338,
+      0,
+      17,
+      45
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Image Creator",
+          "href": "https://explore.microsoft.com/bing/features/bing-image-creator?form=MA13QZ"
+         },
+         {
+          "text": "Web Search",
+          "href": "https://explore.microsoft.com/bing/features/web-search?form=MA13QZ"
+         },
+         {
+          "text": "Video Search",
+          "href": "https://explore.microsoft.com/bing/features/video-search?form=MA13QZ"
+         },
+         {
+          "text": "Bing News",
+          "href": "https://explore.microsoft.com/bing/features/bing-news?form=MA13QZ"
+         },
+         {
+          "text": "Edge Search Bar",
+          "href": "https://explore.microsoft.com/bing/features/edge-search-bar?form=MA13QZ"
+         },
+         {
+          "text": "Rewards",
+          "href": "https://explore.microsoft.com/bing/features/rewards?form=MA13QZ"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         39,
+         1440,
+         861
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.px-float"
+        }
+       ],
+       "shot": "1440-001-Features-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Image Creator",
+          "href": "https://explore.microsoft.com/bing/features/bing-image-creator?form=MA13QZ"
+         },
+         {
+          "text": "Web Search",
+          "href": "https://explore.microsoft.com/bing/features/web-search?form=MA13QZ"
+         },
+         {
+          "text": "Video Search",
+          "href": "https://explore.microsoft.com/bing/features/video-search?form=MA13QZ"
+         },
+         {
+          "text": "Bing News",
+          "href": "https://explore.microsoft.com/bing/features/bing-news?form=MA13QZ"
+         },
+         {
+          "text": "Edge Search Bar",
+          "href": "https://explore.microsoft.com/bing/features/edge-search-bar?form=MA13QZ"
+         },
+         {
+          "text": "Rewards",
+          "href": "https://explore.microsoft.com/bing/features/rewards?form=MA13QZ"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         39,
+         1440,
+         861
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.px-float"
+        }
+       ],
+       "shot": "1440-002-Features-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Search with AI",
+     "key": "search with ai",
+     "role": "link",
+     "kind": "search",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(3)>div>a",
+     "href": "https://explore.microsoft.com/bing/ai?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      377,
+      0,
+      95,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Visual Search",
+     "key": "visual search",
+     "role": "link",
+     "kind": "search",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(4)>div>a",
+     "href": "https://explore.microsoft.com/bing/visual-search?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      495,
+      0,
+      88,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Homepage",
+     "key": "homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(5)>div>a",
+     "href": "https://www.bing.com/?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      606,
+      0,
+      74,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Rewards",
+     "key": "rewards",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(6)>div>a",
+     "href": "https://www.microsoft.com/rewards?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      703,
+      0,
+      56,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Edge+Bing",
+     "key": "edgebing",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(7)>div>a",
+     "href": "https://www.microsoft.com/en-us/edge/bing?form=MA13VI",
+     "expanded": null,
+     "rect": [
+      781,
+      0,
+      74,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Blog",
+     "key": "blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(8)>div>a",
+     "href": "https://blogs.bing.com/?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      877,
+      0,
+      30,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(9)>div>a",
+     "href": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ",
+     "expanded": null,
+     "rect": [
+      930,
+      0,
+      54,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#header-search-box>div>div>button",
+     "expanded": null,
+     "rect": [
+      1194,
+      8,
+      59,
+      29
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "input"
+        ],
+        "buttons": [
+         "More",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         45
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.px-icon-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.px-fit__outer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "form.common-search-box__search"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "form.common-search-box__search"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "form.common-search-box__search"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "form.common-search-box__search"
+        }
+       ],
+       "shot": "1440-003-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "input"
+        ],
+        "buttons": [
+         "Features",
+         "More",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         45
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.media-item-video"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.px-fit__outer"
+        }
+       ],
+       "shot": "1440-004-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "More",
+       "key": "more",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>div>div>nav>ul>li:nth-of-type(8)>div>button",
+       "expanded": null,
+       "rect": [
+        877,
+        0,
+        52,
+        45
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Blog",
+            "href": "https://blogs.bing.com/?form=MA13QZ"
+           },
+           {
+            "text": "Support",
+            "href": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           39,
+           1440,
+           861
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+           "target": "button.px-icon-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 400,
+           "delay": 0,
+           "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+           "target": "div.px-float"
+          }
+         ],
+         "shot": "1440-005-More-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Blog",
+            "href": "https://blogs.bing.com/?form=MA13QZ"
+           },
+           {
+            "text": "Support",
+            "href": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           39,
+           1440,
+           861
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+           "target": "button.px-icon-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 400,
+           "delay": 0,
+           "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+           "target": "div.px-float"
+          }
+         ],
+         "shot": "1440-006-More-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#header-search-box>div>div>div>form>input",
+       "expanded": null,
+       "rect": [
+        982,
+        9,
+        223,
+        28
+       ],
+       "actions": {},
+       "search": {
+        "probe": "skip",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#header-search-box>div>div>div>form>button",
+       "expanded": null,
+       "rect": [
+        1212,
+        15,
+        13,
+        13
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Download Edge",
+     "key": "download edge",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>section>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1268,
+      8,
+      132,
+      30
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 59,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Features"
+        ],
+        "options": 0,
+        "rect": [
+         40,
+         0,
+         1140,
+         45
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.common-button-v1"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.common-button-v1"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.media-item-video"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.px-fit__outer"
+        }
+       ],
+       "shot": "1440-007-Download-Edge-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 59,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Features"
+        ],
+        "options": 0,
+        "rect": [
+         40,
+         0,
+         1140,
+         45
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.common-button-v1"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.common-button-v1"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.media-item-video"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.px-fit__outer"
+        }
+       ],
+       "shot": "1440-008-Download-Edge-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 59,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Features"
+        ],
+        "options": 0,
+        "rect": [
+         40,
+         0,
+         1140,
+         45
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 400,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "button.common-button-v1"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.media-item-video"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "div.block-container__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 800,
+         "delay": 100,
+         "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+         "target": "section.block-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.px-fit__outer"
+        }
+       ],
+       "shot": "1440-009-Download-Edge-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 45,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 45,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 45,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 45,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 9,
+   "truncated": null,
+   "loads": 25,
+   "requests": 77,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "skip"
+}

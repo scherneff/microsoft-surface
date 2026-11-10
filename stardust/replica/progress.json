@@ -1,0 +1,248 @@
+{
+  "types": {
+    "about": {
+      "pageType": "static",
+      "archetype": "about",
+      "liveUrl": "https://www.microsoft.com/en-us/about",
+      "main": "#primaryArea",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 2.16,
+          "dh": 3,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 0.9,
+          "dh": 1,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "360 video band 26.7% (live mid-playback vs poster)",
+        "360 header crop 97.73% vs 98% (icon font not copied, licensed)",
+        "unit-geometry cache holds 1440 positions — 360 forced run 24/24 PASS"
+      ],
+      "accepted": "stardust/replica/accepted.json (4 content-diff entries: redrawn icons, More trigger, single search input)",
+      "motion": {
+        "observed": 2,
+        "implemented": 2,
+        "dead": [
+          "8 hover families",
+          "header scroll-morph"
+        ]
+      },
+      "fonts": "@font-face SegoeUI → c.s-microsoft.com public woff2 (referenced, not rehosted)",
+      "status": "approved"
+    },
+    "support": {
+      "pageType": "unique",
+      "archetype": "support",
+      "liveUrl": "https://support.microsoft.com/en-us/",
+      "main": "#supMainContent",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 0,
+          "dh": 0,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 0.01,
+          "dh": 0,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "header-contract compare 15 errors (search typeahead/submit unwired; 390 open-menu crops 2-6%; 1440 search panel 48 vs 54px)"
+      ],
+      "captureState": [
+        {
+          "what": "sign-in popover open by default",
+          "policy": "replicated, closes like live"
+        }
+      ],
+      "motion": {
+        "observed": 5,
+        "implemented": 5,
+        "dead": [
+          "header scroll-morph",
+          "card/nav/footer hovers"
+        ]
+      },
+      "fonts": "Segoe UI → c.s-microsoft.com public woff2",
+      "status": "approved"
+    },
+    "bing": {
+      "pageType": "program",
+      "archetype": "bing",
+      "liveUrl": "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+      "main": "#main",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 2.99,
+          "dh": -1,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 1.31,
+          "dh": 1,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "header-contract compare 5 errors awaiting owner (unnamed live hamburger named Menu; Download Edge phantom states; search crop 3.4% font fork)",
+        "13 headings advisory font-face flag (live segoe-vf variable)"
+      ],
+      "motion": {
+        "observed": 7,
+        "implemented": 7,
+        "dead": [
+          "CTA hover",
+          "nav-link hover",
+          "slider autoplay",
+          "reduced-motion"
+        ]
+      },
+      "fonts": "Segoe UI → c.s-microsoft.com public woff2",
+      "status": "approved"
+    },
+    "en-us-surface-do-more-with-surface": {
+      "pageType": "listing",
+      "archetype": "en-us-surface-do-more-with-surface",
+      "liveUrl": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+      "main": "#primaryArea",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 0.59,
+          "dh": 0,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 0.56,
+          "dh": 0,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "R1 360 header crop 96.96% (icon glyphs)",
+        "R2 article feed client-rendered; captured 12 cards kept static",
+        "R3 back-to-top threshold ~100px",
+        "R4 unit cache single-width"
+      ],
+      "canonBackports": [
+        "UHF cart",
+        "footer margin-top 0 under back-to-top",
+        "per-section nav data"
+      ],
+      "motion": {
+        "observed": 2,
+        "implemented": 2,
+        "dead": [
+          "header scroll-morph",
+          "pagination frames",
+          "hovers"
+        ]
+      },
+      "status": "approved"
+    },
+    "index": {
+      "pageType": "landing",
+      "archetype": "index",
+      "liveUrl": "https://www.microsoft.com/en-us",
+      "main": "#primaryArea",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 7.48,
+          "dh": 0,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 4.81,
+          "dh": 3,
+          "contentRed": 0,
+          "contentYellowLost": 0,
+          "clipped": 0,
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "R3 360 header crop 96.71% (icon glyphs)",
+        "promo carousel first card varies per load (500-1000 band)",
+        "360 stories carousel captured mid-slide",
+        "prices as captured (accepted.json)",
+        "unit-geometry positional pairing on rotating carousel"
+      ],
+      "canonBackports": [
+        "home header variant",
+        "store-template type overrides",
+        "shared chrome include"
+      ],
+      "motion": {
+        "observed": 2,
+        "implemented": 1,
+        "dead": [
+          "autoplay",
+          "show-end-fade",
+          "header scroll-morph"
+        ]
+      },
+      "status": "approved",
+      "prototypeTable": {
+        "360": "FAIL(units only; pixel 7.48 PASS)",
+        "1440": "FAIL(units only; pixel 4.81 PASS)"
+      },
+      "unitsResidual": "carousel families rotate per live load; units.json required:false set but gate-all still counts them required — revisit with overrides at the published gate"
+    }
+  }
+}

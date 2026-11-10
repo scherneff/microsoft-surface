@@ -1,0 +1,110 @@
+.search-container {
+  padding: 0 var(--gutter, 24px);
+}
+
+.search .search-widget {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px 0 64px;
+  font-family: var(--ms-font);
+  color: var(--ms-text);
+}
+
+.search .search-title {
+  margin: 0 0 24px;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.search .search-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9375rem;
+}
+
+.search .search-field {
+  display: flex;
+  max-width: 640px;
+  gap: 8px;
+}
+
+.search .search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--ms-border);
+  font: inherit;
+}
+
+.search .search-input:focus {
+  border-color: var(--uhf-search-border);
+  outline: 1px solid var(--uhf-search-border);
+}
+
+.search .search-submit {
+  padding: 8px 20px;
+  border: 0;
+  background: var(--ms-link);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search .search-submit:hover {
+  background: var(--ms-link-hover);
+}
+
+.search .search-summary {
+  margin: 32px 0 16px;
+  font-size: 1rem;
+}
+
+.search .search-results {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.search .search-result {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ms-border);
+}
+
+.search .search-result h2 {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.search .search-result a {
+  color: var(--ms-link);
+}
+
+.search .search-result p {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.search .search-pages {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.search .search-pages a[aria-current] {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--ms-text);
+}
+
+.search-container h1 {
+  max-width: 1600px;
+  margin: 40px auto 0;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+}

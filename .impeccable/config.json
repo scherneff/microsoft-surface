@@ -1,0 +1,43 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "segoe ui semibold",
+        "createdAt": "2026-11-04T02:03:42.805Z",
+        "reason": "replica (same-design migration) mirrors the live support.microsoft.com site-fonts.css families verbatim; brief mandates live font faces"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "segoe ui bold",
+        "createdAt": "2026-11-04T02:03:42.822Z",
+        "reason": "replica (same-design migration) mirrors the live support.microsoft.com site-fonts.css families verbatim; brief mandates live font faces"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "segoe ui light",
+        "createdAt": "2026-11-04T02:03:42.839Z",
+        "reason": "replica (same-design migration) mirrors the live support.microsoft.com site-fonts.css families verbatim; brief mandates live font faces"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "segoe ui semilight",
+        "createdAt": "2026-11-04T02:03:42.853Z",
+        "reason": "replica (same-design migration) mirrors the live support.microsoft.com site-fonts.css families verbatim; brief mandates live font faces"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "mwf-mdl2",
+        "createdAt": "2026-11-04T02:03:42.875Z",
+        "reason": "replica (same-design migration) mirrors the live support.microsoft.com site-fonts.css families verbatim; brief mandates live font faces"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fabricmdl2icons",
+        "createdAt": "2026-11-04T02:33:56.267Z"
+      }
+    ]
+  }
+}

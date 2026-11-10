@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-11-04T09:23:49.567Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.microsoft.com",
+    "liveHost": "main--3bab0b60--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 9,
+    "prototyped": 9,
+    "deployed": 9,
+    "optimised": 5
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 4,
+    "optimised": 5
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "about",
+      "path": "/about",
+      "stage": "optimised",
+      "templateId": "about",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "accessibility",
+      "path": "/accessibility",
+      "stage": "deployed",
+      "templateId": "about",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ai",
+      "path": "/ai",
+      "stage": "deployed",
+      "templateId": "about",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "bing",
+      "path": "/bing",
+      "stage": "deployed",
+      "templateId": "bing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "corporate-responsibility",
+      "path": "/corporate-responsibility",
+      "stage": "optimised",
+      "templateId": "about",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-surface-do-more-with-surface",
+      "path": "/en-us/surface/do-more-with-surface",
+      "stage": "optimised",
+      "templateId": "en-us-surface-do-more-with-surface",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "search",
+      "path": "/search",
+      "stage": "optimised",
+      "templateId": "search",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "support",
+      "path": "/support",
+      "stage": "deployed",
+      "templateId": "support",
+      "isTemplate": true,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "about",
+      "archetype": "about",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "bing",
+      "archetype": "bing",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-us-surface-do-more-with-surface",
+      "archetype": "en-us-surface-do-more-with-surface",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "search",
+      "archetype": "search",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "support",
+      "archetype": "support",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 20,
+    "converted": 20
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      50,
+      90,
+      100,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 4
+    },
+    "byAutofix": {}
+  }
+}

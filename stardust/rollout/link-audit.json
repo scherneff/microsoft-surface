@@ -1,0 +1,236 @@
+{
+ "origin": "https://main--3bab0b60--aemcoder.aem.live",
+ "at": "2026-11-04T09:21:19.066Z",
+ "total": 498,
+ "byStatus": {
+  "ext:200": 462,
+  "int:200": 14,
+  "ext:404": 3,
+  "ext:403": 17,
+  "ext:-1": 2
+ },
+ "notOk": [
+  {
+   "url": "https://aka.ms/AISkills4Accessibility",
+   "internal": false,
+   "status": 404,
+   "final": "https://founderz.com/programa/ai-accessibility-course/",
+   "on": [
+    "/accessibility"
+   ]
+  },
+  {
+   "url": "https://www.microsoft.com/en/customers/story/27571-huron-microsoft-365-copilot",
+   "internal": false,
+   "status": 404,
+   "final": "https://www.microsoft.com/en/customers/story/27571-huron-microsoft-365-copilot",
+   "on": [
+    "/ai"
+   ]
+  },
+  {
+   "url": "https://go.microsoft.com/fwlink/?linkid=2307109",
+   "internal": false,
+   "status": 403,
+   "final": "https://appsource.microsoft.com/en-us/marketplace/apps?page=1&filters=Copilot-extension&product=office",
+   "on": [
+    "/ai"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/security",
+   "internal": false,
+   "status": 404,
+   "final": "https://support.microsoft.com/en-us/security",
+   "on": [
+    "/support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/teams/personal/microsoft-teams-personal-help?icid=DSM_All_Skype",
+   "on": [
+    "/nav",
+    "/nav-accessibility",
+    "/nav-ai",
+    "/nav-corporate-responsibility",
+    "/nav-home",
+    "/nav-support",
+    "/nav-surface"
+   ]
+  },
+  {
+   "url": "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&",
+   "internal": false,
+   "status": 403,
+   "final": "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&",
+   "on": [
+    "/nav",
+    "/nav-accessibility",
+    "/nav-ai",
+    "/nav-corporate-responsibility",
+    "/nav-home",
+    "/nav-support",
+    "/nav-surface"
+   ]
+  },
+  {
+   "url": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&",
+   "internal": false,
+   "status": -1,
+   "final": "UNABLE_TO_GET_ISSUER_CERT_LOCALLY",
+   "on": [
+    "/nav",
+    "/nav-accessibility",
+    "/nav-ai",
+    "/nav-corporate-responsibility",
+    "/nav-home",
+    "/nav-support",
+    "/nav-surface"
+   ]
+  },
+  {
+   "url": "https://go.microsoft.com/fwlink/?linkid=2139749",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/microsoft-store-and-billing?ocid=MS_Footer_StoreSupport",
+   "on": [
+    "/footer",
+    "/footer-bing",
+    "/footer-support"
+   ]
+  },
+  {
+   "url": "https://marketplace.microsoft.com/?icid=DSM_Footer_Marketplace&",
+   "internal": false,
+   "status": 403,
+   "final": "https://marketplace.microsoft.com/?icid=DSM_Footer_Marketplace&",
+   "on": [
+    "/footer",
+    "/footer-bing",
+    "/footer-support"
+   ]
+  },
+  {
+   "url": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&",
+   "internal": false,
+   "status": -1,
+   "final": "UNABLE_TO_GET_ISSUER_CERT_LOCALLY",
+   "on": [
+    "/footer",
+    "/footer-bing",
+    "/footer-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/worldwide",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/worldwide",
+   "on": [
+    "/footer-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/office/accessibility-tools-for-microsoft-365-b5087b20-1387-4686-a0a5-8e11c5f46cdf",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/office/accessibility-tools-for-microsoft-365-b5087b20-1387-4686-a0a5-8e11c5f46cdf",
+   "on": [
+    "/nav-accessibility"
+   ]
+  },
+  {
+   "url": "https://marketplace.microsoft.com/en-us/marketplace/apps?category=ai-apps-and-agents&",
+   "internal": false,
+   "status": 403,
+   "final": "https://marketplace.microsoft.com/en-us/marketplace/apps?category=ai-apps-and-agents&",
+   "on": [
+    "/nav-ai"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ",
+   "on": [
+    "/nav-bing"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/onenote/",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/onenote/",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/surface/accessories/pc/",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/surface/accessories/pc/",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/surface/hardware-warranty/",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/surface/hardware-warranty/",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/accounts-billing/",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/accounts-billing/",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/education/",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/education/",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/surface/product-safety-guidelines",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/surface/product-safety-guidelines",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/search/results",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/search/results",
+   "on": [
+    "/nav-support"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/authentication/signin?ru=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2F",
+   "internal": false,
+   "status": 403,
+   "final": "https://support.microsoft.com/en-us/authentication/signin?ru=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2F",
+   "on": [
+    "/nav-support"
+   ]
+  }
+ ]
+}

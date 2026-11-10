@@ -1,0 +1,364 @@
+{
+ "source": "http://localhost:8791/en-us-surface-do-more-with-surface-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "dm-filter",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Do more with Surface"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Explore Articles by Category:"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "All",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Choose the best",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/choose-the-best"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Set it up",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/set-up"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Get productive",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/productive"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Stay secure",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/secure"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Play",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/play"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Windows Learning Center",
+     "href": "https://www.microsoft.com/en-us/windows/learning-center"
+    },
+    {
+     "role": "eyebrow",
+     "order": 9,
+     "text": "8 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "How Surface Pro is unlocking the secrets of a remote Spanish cave",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-pro-unlocks-secrets-of-spanish-caves"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "University of Cantabria scientists use digital tools to study prehistoric artifacts in a new way."
+    },
+    {
+     "role": "eyebrow",
+     "order": 12,
+     "text": "8 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Surface Pro turns crowds into creators of public art",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-pro-turns-crowds-into-creators-of-public-art"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Creative technologist Philippe Dubost is using Surface Pro to make audiences a key element of his light shows."
+    },
+    {
+     "role": "eyebrow",
+     "order": 15,
+     "text": "5 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Surface + Sony WH-1000XM6: the ultimate Bluetooth LE Audio experience",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-sony-wh1000xm6-le-audio"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Surface Pro and Surface Laptop and Sony WH-1000XM6 unlock the next generation of Bluetooth audio."
+    },
+    {
+     "role": "eyebrow",
+     "order": 18,
+     "text": "6 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Why a Microsoft Surface is the best Windows device experience",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/why-microsoft-surface-is-the-best-windows-device-experience"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Surface offers the best advantages with options that unlock exclusive Copilot+ PC features."
+    },
+    {
+     "role": "eyebrow",
+     "order": 21,
+     "text": "5 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "What is Snapdragon®?",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/what-is-snapdragon"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Surface laptops are powered by Snapdragon® for fast, efficient on-device AI and long battery life."
+    },
+    {
+     "role": "eyebrow",
+     "order": 24,
+     "text": "5 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Surface Pro: A comprehensive guide",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/surface-pro-a-comprehensive-guide"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Part tablet and part laptop, work, create, and connect anywhere with AI power and versatility."
+    },
+    {
+     "role": "eyebrow",
+     "order": 27,
+     "text": "5 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Surface Laptop: Which one is right for you?",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/which-surface-laptop-is-best-for-you"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Surface Laptop is designed to help you do more, wherever and however you work."
+    },
+    {
+     "role": "eyebrow",
+     "order": 30,
+     "text": "4 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Eco-friendly laptops: Microsoft Surface sustainability features",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/environmentally-friendly-laptops"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Recycled materials and energy-saving technologies equals Microsoft Surface sustainability."
+    },
+    {
+     "role": "eyebrow",
+     "order": 33,
+     "text": "6 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "The differences between Surface Laptop and Surface Pro from Microsoft",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/difference-between-surface-laptop-vs-surface-pro"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Surface Laptop and Surface Pro share powerful features but each excels in their own right. Discover what makes each a standout."
+    },
+    {
+     "role": "eyebrow",
+     "order": 36,
+     "text": "3 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "What are 2‑in‑1 laptops?",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/whats-a-2-in-1-laptop"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Two-in-one laptops let you work, play, and study anywhere with laptop power and tablet freedom."
+    },
+    {
+     "role": "eyebrow",
+     "order": 39,
+     "text": "3 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Touchscreen laptops: Top picks for work and entertainment",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/touchscreen-laptops-top-picks-for-work-and-entertainment"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Touchscreen laptops combine precision, flexibility, and performance. Surface leads the way."
+    },
+    {
+     "role": "eyebrow",
+     "order": 42,
+     "text": "8 MIN READ"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Bringing shark science and art together with Surface Pro",
+     "href": "https://www.microsoft.com/en-us/surface/do-more-with-surface/bringing-shark-science-and-art-together-with-surface-pro"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Natalie Donato uses science, illustration, and Surface Pro to reveal sharks’ hidden sensory world."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Previous"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "1",
+     "href": "#articlescards"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "2",
+     "href": "#articlescards"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "3",
+     "href": "#articlescards"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "4",
+     "href": "#articlescards"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "5",
+     "href": "#articlescards"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "..."
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "20",
+     "href": "#articlescards"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "22",
+     "href": "#articlescards"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Next",
+     "href": "#articlescards"
+    }
+   ],
+   "imgCount": 12,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "A.dm-tab",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.dm-card-item",
+     "count": 12,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.dm-page",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "dm-social",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Follow us:"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

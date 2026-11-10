@@ -1,0 +1,486 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2081,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 581,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "uhf-header hp-header",
+      "position": "static",
+      "height": "54px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".hp-pill#hp-tab-business",
+      "frames": [
+        {
+          "t": 9866,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10071.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10277,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10483,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#personal-tab .hp-arrow--next",
+      "frames": [
+        {
+          "t": 11500.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11705.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11913.200000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12121.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#personal-tab .hp-promo:nth-child(2) .hp-readmore",
+      "frames": [
+        {
+          "t": 13138,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13345.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13556.200000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13764.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".hp-story-carousel .hp-arrow--next",
+      "frames": [
+        {
+          "t": 14784,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14994.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15204.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15412.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".hp-playpause",
+      "frames": [
+        {
+          "t": 16431.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16640.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16847.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17052.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "slide-in-bottom",
+        "el": "section.hp-hero > div.hp-hero__inner > div.hp-tabs > div.hp-panel.is-entering > div.hp-chat",
+        "txt": "Empower your business decisions with AI-driven gui",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "New\n                  New Surface Laptop Ultra for",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "Microsoft Ignite is almost hereRead moreRead less\n",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "Azure. Limitless innovation.Read moreRead less\n   ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "New\n                  Surface RTX Spark Dev BoxRea",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "Windows 11 ProRead moreRead less\n                 ",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "Accelerate innovation with Microsoft AIRead moreRe",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "div.hp-panel.is-entering > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo",
+        "txt": "Grow your business with Microsoft TeamsRead moreRe",
+        "y": 0
+      },
+      {
+        "name": "slide-in-bottom",
+        "el": "section.hp-hero > div.hp-hero__inner > div.hp-tabs > div.hp-panel.is-entering > nav.hp-quicklinks",
+        "txt": "Secondary Nav\n            Shop Surface\n           ",
+        "y": 0
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "main.microsoft-template-layout-container > section.hp-stories > div.hp-carousel.hp-story-carousel > div.hp-carousel__viewport > ul.hp-carousel__track",
+        "y": 3018,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-entering"
+        ],
+        "el": "main.microsoft-template-layout-container > section.hp-hero > div.hp-hero__inner > div.hp-tabs > div.hp-panel.is-entering",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-entering"
+        ],
+        "el": "main.microsoft-template-layout-container > section.hp-hero > div.hp-hero__inner > div.hp-tabs > div.hp-panel.is-entering",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.hp-panel > div.hp-carousel.hp-promo-carousel > div.hp-carousel__viewport > ul.hp-carousel__track > li.hp-promo.is-open",
+        "y": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "/about": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T04:25:22.981Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,2836 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.microsoft.com/en-us/about",
+ "at": "2026-11-04T01:38:24.282Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header",
+   "controls": [
+    {
+     "name": "All Microsoft expand to see list of Microsoft products and services",
+     "key": "all microsoft expand to see list of microsoft products and services",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>button",
+     "expanded": null,
+     "rect": [
+      15,
+      0,
+      28,
+      54
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Microsoft 365",
+          "href": "https://www.microsoft.com/microsoft-365"
+         },
+         {
+          "text": "Azure",
+          "href": "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp"
+         },
+         {
+          "text": "Copilot",
+          "href": "https://copilot.com/?fromcode=cmmuaql67jy"
+         },
+         {
+          "text": "Windows",
+          "href": "https://www.microsoft.com/en-us/windows/"
+         },
+         {
+          "text": "Surface",
+          "href": "https://www.microsoft.com/surface"
+         },
+         {
+          "text": "XBOX",
+          "href": "https://www.xbox.com/"
+         },
+         {
+          "text": "Deals",
+          "href": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals"
+         },
+         {
+          "text": "Small Business",
+          "href": "https://www.microsoft.com/en-us/store/b/business"
+         },
+         {
+          "text": "Support",
+          "href": "https://support.microsoft.com/en-us"
+         },
+         {
+          "text": "View Sitemap",
+          "href": "https://www.microsoft.com/en-us/sitemap"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Software",
+         "PCs & Devices",
+         "Entertainment",
+         "Business",
+         "Developer & IT",
+         "Other"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         54,
+         390,
+         776
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-All-Microsoft-expand-to-see-list-of-Micr.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Microsoft 365",
+          "href": "https://www.microsoft.com/microsoft-365"
+         },
+         {
+          "text": "Azure",
+          "href": "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp"
+         },
+         {
+          "text": "Copilot",
+          "href": "https://copilot.com/?fromcode=cmmuaql67jy"
+         },
+         {
+          "text": "Windows",
+          "href": "https://www.microsoft.com/en-us/windows/"
+         },
+         {
+          "text": "Surface",
+          "href": "https://www.microsoft.com/surface"
+         },
+         {
+          "text": "XBOX",
+          "href": "https://www.xbox.com/"
+         },
+         {
+          "text": "Deals",
+          "href": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals"
+         },
+         {
+          "text": "Small Business",
+          "href": "https://www.microsoft.com/en-us/store/b/business"
+         },
+         {
+          "text": "Support",
+          "href": "https://support.microsoft.com/en-us"
+         },
+         {
+          "text": "View Sitemap",
+          "href": "https://www.microsoft.com/en-us/sitemap"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Software",
+         "PCs & Devices",
+         "Entertainment",
+         "Business",
+         "Developer & IT",
+         "Other"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         54,
+         390,
+         776
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-All-Microsoft-expand-to-see-list-of-Micr.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Software",
+       "key": "software",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>uhf-popout>ul>li:nth-of-type(2)>uhf-dropdown-column>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        490,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Windows Apps",
+            "href": "https://apps.microsoft.com/home"
+           },
+           {
+            "text": "Outlook",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+           },
+           {
+            "text": "OneDrive",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+           },
+           {
+            "text": "Microsoft Teams",
+            "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+           },
+           {
+            "text": "OneNote",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app"
+           },
+           {
+            "text": "Microsoft Edge",
+            "href": "https://www.microsoft.com/edge"
+           },
+           {
+            "text": "Moving from Skype to Teams",
+            "href": "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           539,
+           370,
+           306
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-003-Software-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Windows Apps",
+            "href": "https://apps.microsoft.com/home"
+           },
+           {
+            "text": "Outlook",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+           },
+           {
+            "text": "OneDrive",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+           },
+           {
+            "text": "Microsoft Teams",
+            "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+           },
+           {
+            "text": "OneNote",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app"
+           },
+           {
+            "text": "Microsoft Edge",
+            "href": "https://www.microsoft.com/edge"
+           },
+           {
+            "text": "Moving from Skype to Teams",
+            "href": "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           539,
+           370,
+           306
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-004-Software-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "PCs & Devices",
+       "key": "pcs devices",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>uhf-popout>ul>li:nth-of-type(3)>uhf-dropdown-column>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        539,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Computers",
+            "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC"
+           },
+           {
+            "text": "Shop XBOX",
+            "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox"
+           },
+           {
+            "text": "Accessories",
+            "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories"
+           },
+           {
+            "text": "VR & mixed reality",
+            "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality"
+           },
+           {
+            "text": "Certified Refurbished",
+            "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+           },
+           {
+            "text": "Trade-in for cash",
+            "href": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           587,
+           370,
+           257
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-005-PCs-Devices-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Computers",
+            "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC"
+           },
+           {
+            "text": "Shop XBOX",
+            "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox"
+           },
+           {
+            "text": "Accessories",
+            "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories"
+           },
+           {
+            "text": "VR & mixed reality",
+            "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality"
+           },
+           {
+            "text": "Certified Refurbished",
+            "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+           },
+           {
+            "text": "Trade-in for cash",
+            "href": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           587,
+           370,
+           257
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-006-PCs-Devices-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Entertainment",
+       "key": "entertainment",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>uhf-popout>ul>li:nth-of-type(4)>uhf-dropdown-column>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        587,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "XBOX Game Pass Ultimate",
+            "href": "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate"
+           },
+           {
+            "text": "PC Game Pass",
+            "href": "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass"
+           },
+           {
+            "text": "XBOX games",
+            "href": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames"
+           },
+           {
+            "text": "PC games",
+            "href": "https://apps.microsoft.com/games"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           636,
+           370,
+           193
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-007-Entertainment-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "XBOX Game Pass Ultimate",
+            "href": "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate"
+           },
+           {
+            "text": "PC Game Pass",
+            "href": "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass"
+           },
+           {
+            "text": "XBOX games",
+            "href": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames"
+           },
+           {
+            "text": "PC games",
+            "href": "https://apps.microsoft.com/games"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           636,
+           370,
+           193
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-008-Entertainment-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Business",
+       "key": "business",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>uhf-popout>ul>li:nth-of-type(5)>uhf-dropdown-column>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        636,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft AI",
+            "href": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"
+           },
+           {
+            "text": "Microsoft Security",
+            "href": "https://www.microsoft.com/en-us/security"
+           },
+           {
+            "text": "Dynamics 365",
+            "href": "https://www.microsoft.com/en-us/dynamics-365"
+           },
+           {
+            "text": "Microsoft 365 for business",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+           },
+           {
+            "text": "Microsoft Power Platform",
+            "href": "https://www.microsoft.com/en-us/power-platform"
+           },
+           {
+            "text": "Windows 365",
+            "href": "https://www.microsoft.com/en-us/windows-365"
+           },
+           {
+            "text": "Small Business",
+            "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+           },
+           {
+            "text": "Digital Sovereignty",
+            "href": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           684,
+           370,
+           160
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-009-Business-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft AI",
+            "href": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"
+           },
+           {
+            "text": "Microsoft Security",
+            "href": "https://www.microsoft.com/en-us/security"
+           },
+           {
+            "text": "Dynamics 365",
+            "href": "https://www.microsoft.com/en-us/dynamics-365"
+           },
+           {
+            "text": "Microsoft 365 for business",
+            "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+           },
+           {
+            "text": "Microsoft Power Platform",
+            "href": "https://www.microsoft.com/en-us/power-platform"
+           },
+           {
+            "text": "Windows 365",
+            "href": "https://www.microsoft.com/en-us/windows-365"
+           },
+           {
+            "text": "Small Business",
+            "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+           },
+           {
+            "text": "Digital Sovereignty",
+            "href": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           684,
+           370,
+           160
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-010-Business-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Developer & IT",
+       "key": "developer it",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>uhf-popout>ul>li:nth-of-type(6)>uhf-dropdown-column>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        684,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Azure",
+            "href": "https://azure.microsoft.com/en-us/"
+           },
+           {
+            "text": "Microsoft Developer",
+            "href": "https://developer.microsoft.com/en-us/"
+           },
+           {
+            "text": "Microsoft Learn",
+            "href": "https://learn.microsoft.com/"
+           },
+           {
+            "text": "Support for AI marketplace apps",
+            "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"
+           },
+           {
+            "text": "Microsoft Tech Community",
+            "href": "https://techcommunity.microsoft.com/"
+           },
+           {
+            "text": "Microsoft Marketplace",
+            "href": "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98"
+           },
+           {
+            "text": "Software companies",
+            "href": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98"
+           },
+           {
+            "text": "Visual Studio",
+            "href": "https://visualstudio.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           733,
+           370,
+           112
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-011-Developer-IT-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Azure",
+            "href": "https://azure.microsoft.com/en-us/"
+           },
+           {
+            "text": "Microsoft Developer",
+            "href": "https://developer.microsoft.com/en-us/"
+           },
+           {
+            "text": "Microsoft Learn",
+            "href": "https://learn.microsoft.com/"
+           },
+           {
+            "text": "Support for AI marketplace apps",
+            "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"
+           },
+           {
+            "text": "Microsoft Tech Community",
+            "href": "https://techcommunity.microsoft.com/"
+           },
+           {
+            "text": "Microsoft Marketplace",
+            "href": "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98"
+           },
+           {
+            "text": "Software companies",
+            "href": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98"
+           },
+           {
+            "text": "Visual Studio",
+            "href": "https://visualstudio.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           733,
+           370,
+           112
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-012-Developer-IT-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Other",
+       "key": "other",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-global-nav>uhf-global-nav-mobile>uhf-popout>ul>li:nth-of-type(7)>uhf-dropdown-column>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        733,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft Rewards",
+            "href": "https://www.microsoft.com/rewards"
+           },
+           {
+            "text": "Free downloads & security",
+            "href": "https://www.microsoft.com/en-us/download"
+           },
+           {
+            "text": "Education",
+            "href": "https://www.microsoft.com/en-us/education"
+           },
+           {
+            "text": "Gift cards",
+            "href": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards"
+           },
+           {
+            "text": "Licensing",
+            "href": "https://www.microsoft.com/licensing/"
+           },
+           {
+            "text": "Unlocked stories",
+            "href": "https://unlocked.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           781,
+           370,
+           63
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-013-Other-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft Rewards",
+            "href": "https://www.microsoft.com/rewards"
+           },
+           {
+            "text": "Free downloads & security",
+            "href": "https://www.microsoft.com/en-us/download"
+           },
+           {
+            "text": "Education",
+            "href": "https://www.microsoft.com/en-us/education"
+           },
+           {
+            "text": "Gift cards",
+            "href": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards"
+           },
+           {
+            "text": "Licensing",
+            "href": "https://www.microsoft.com/licensing/"
+           },
+           {
+            "text": "Unlocked stories",
+            "href": "https://unlocked.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           781,
+           370,
+           63
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-014-Other-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Search or ask a question",
+     "key": "search or ask a question",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-search>button",
+     "expanded": null,
+     "rect": [
+      53,
+      0,
+      26,
+      54
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 5,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Back",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         15,
+         0,
+         360,
+         54
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-015-Search-or-ask-a-question-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 5,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Back",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         15,
+         0,
+         360,
+         54
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-016-Search-or-ask-a-question-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Back",
+       "key": "back",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-search>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        20,
+        9,
+        35,
+        36
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft",
+            "href": "https://www.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "All Microsoft expand to see list of Microsoft products and services",
+           "Search or ask a question",
+           "ME"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           0,
+           360,
+           54
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-017-Back-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft",
+            "href": "https://www.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "All Microsoft expand to see list of Microsoft products and services",
+           "Search or ask a question",
+           "ME"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           0,
+           360,
+           54
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-018-Back-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Search or ask a question",
+       "key": "search or ask a question",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-search>div:nth-of-type(1)>form>input",
+       "expanded": "true",
+       "rect": [
+        65,
+        9,
+        295,
+        36
+       ],
+       "actions": {},
+       "search": {
+        "probe": "cancel",
+        "typeahead": {
+         "links": 6,
+         "options": 11
+        },
+        "submit": "https://www.microsoft.com/en-us/search/explore?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(1)>uhf-search>div:nth-of-type(1)>form>button",
+       "expanded": null,
+       "rect": [
+        324,
+        9,
+        36,
+        36
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Microsoft",
+     "key": "microsoft",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>uhf-brand>div>div:nth-of-type(1)>a",
+     "href": "https://www.microsoft.com/",
+     "expanded": null,
+     "rect": [
+      127,
+      0,
+      137,
+      54
+     ],
+     "actions": {}
+    },
+    {
+     "name": "ME",
+     "key": "me",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(1)>div:nth-of-type(2)>uhf-mecontrol>div>button",
+     "expanded": null,
+     "rect": [
+      335,
+      9,
+      36,
+      36
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "navigates": "https://www.microsoft.com/cascadeauth/account/signin?ru=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fabout"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.microsoft.com/cascadeauth/account/signin?ru=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fabout"
+      }
+     }
+    },
+    {
+     "name": "About",
+     "key": "about",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(2)>uhf-contextual-nav>uhf-contextual-nav-mobile>button",
+     "expanded": null,
+     "rect": [
+      15,
+      54,
+      70,
+      34
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Home",
+          "href": "https://www.microsoft.com/en-us/about"
+         },
+         {
+          "text": "Our commitments",
+          "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+         },
+         {
+          "text": "Careers",
+          "href": "https://careers.microsoft.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "AI & Innovation",
+         "Culture",
+         "News & Stories",
+         "Facts & Information"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         339
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-019-About-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Home",
+          "href": "https://www.microsoft.com/en-us/about"
+         },
+         {
+          "text": "Our commitments",
+          "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+         },
+         {
+          "text": "Careers",
+          "href": "https://careers.microsoft.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "AI & Innovation",
+         "Culture",
+         "News & Stories",
+         "Facts & Information"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         339
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-020-About-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "AI & Innovation",
+       "key": "ai innovation",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(2)>uhf-contextual-nav>uhf-contextual-nav-mobile>nav>uhf-popout>ul>li:nth-of-type(3)>uhf-dropdown>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        185,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft AI",
+            "href": "https://www.microsoft.com/ai"
+           },
+           {
+            "text": "Microsoft Copilot",
+            "href": "https://www.microsoft.com/en-us/microsoft-copilot/learn"
+           },
+           {
+            "text": "Microsoft Cloud",
+            "href": "https://www.microsoft.com/microsoft-cloud"
+           },
+           {
+            "text": "Microsoft Research",
+            "href": "https://www.microsoft.com/en-us/research"
+           },
+           {
+            "text": "Products & apps",
+            "href": "https://www.microsoft.com/microsoft-products-and-apps"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           233,
+           370,
+           242
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-021-AI-Innovation-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Microsoft AI",
+            "href": "https://www.microsoft.com/ai"
+           },
+           {
+            "text": "Microsoft Copilot",
+            "href": "https://www.microsoft.com/en-us/microsoft-copilot/learn"
+           },
+           {
+            "text": "Microsoft Cloud",
+            "href": "https://www.microsoft.com/microsoft-cloud"
+           },
+           {
+            "text": "Microsoft Research",
+            "href": "https://www.microsoft.com/en-us/research"
+           },
+           {
+            "text": "Products & apps",
+            "href": "https://www.microsoft.com/microsoft-products-and-apps"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           233,
+           370,
+           242
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-022-AI-Innovation-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Culture",
+       "key": "culture",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div:nth-of-type(2)>uhf-contextual-nav>uhf-contextual-nav-mobile>nav>uhf-popout>ul>li:nth-of-type(4)>uhf-dropdown>uhf-dropdown-mobile>button",
+       "expanded": null,
+       "rect": [
+        0,
+        233,
+        390,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Work & Life",
+            "href": "https://news.microsoft.com/source/topics/work-life"
+           },
+           {
+            "text": "Diversity & inclusion",
+            "href": "https://www.microsoft.com/en-us/diversity"
+           },
+           {
+            "text": "Alumni network",
+            "href": "https://www.microsoftalumni.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           282,
+           370,
+           145
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-023-Culture-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Work & Life",
+            "href": "https://news.microsoft.com/source/topics/work-life"
+           },
+           {
+            "text": "Diversity & inclusion",
+            "href": "https://www.microsoft.com/en-us/diversity"
+           },
+           {
+            "text": "Alumni network",
+            "href": "https://www.microsoftalumni.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           20,
+           282,
+           370,
+           145
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-024-Culture-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 88,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 88,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 24,
+   "truncated": "request-budget",
+   "loads": 7,
+   "requests": 669,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header",
+   "controls": [
+    {
+     "name": "Microsoft",
+     "key": "microsoft",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-brand>div>div:nth-of-type(1)>a",
+     "href": "https://www.microsoft.com/",
+     "expanded": null,
+     "rect": [
+      72,
+      0,
+      137,
+      54
+     ],
+     "actions": {}
+    },
+    {
+     "name": "About",
+     "key": "about",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-brand>div>div:nth-of-type(2)>a",
+     "href": "https://www.microsoft.com/en-us/about",
+     "expanded": null,
+     "rect": [
+      225,
+      0,
+      67,
+      54
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Our commitments",
+     "key": "our commitments",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-contextual-nav>uhf-contextual-nav-desktop>nav>uhf-overflow-menu>div>div:nth-of-type(2)>a:nth-of-type(1)",
+     "href": "https://www.microsoft.com/en-us/corporate-responsibility",
+     "expanded": null,
+     "rect": [
+      302,
+      0,
+      120,
+      54
+     ],
+     "actions": {}
+    },
+    {
+     "name": "AI & Innovation",
+     "key": "ai innovation",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-contextual-nav>uhf-contextual-nav-desktop>nav>uhf-overflow-menu>div>div:nth-of-type(2)>uhf-dropdown:nth-of-type(1)>uhf-dropdown-desktop>button",
+     "expanded": "false",
+     "rect": [
+      427,
+      0,
+      120,
+      54
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Microsoft AI",
+          "href": "https://www.microsoft.com/ai"
+         },
+         {
+          "text": "Microsoft Copilot",
+          "href": "https://www.microsoft.com/en-us/microsoft-copilot/learn"
+         },
+         {
+          "text": "Microsoft Cloud",
+          "href": "https://www.microsoft.com/microsoft-cloud"
+         },
+         {
+          "text": "Microsoft Research",
+          "href": "https://www.microsoft.com/en-us/research"
+         },
+         {
+          "text": "Products & apps",
+          "href": "https://www.microsoft.com/microsoft-products-and-apps"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         427,
+         54,
+         195,
+         267
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-AI-Innovation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Microsoft AI",
+          "href": "https://www.microsoft.com/ai"
+         },
+         {
+          "text": "Microsoft Copilot",
+          "href": "https://www.microsoft.com/en-us/microsoft-copilot/learn"
+         },
+         {
+          "text": "Microsoft Cloud",
+          "href": "https://www.microsoft.com/microsoft-cloud"
+         },
+         {
+          "text": "Microsoft Research",
+          "href": "https://www.microsoft.com/en-us/research"
+         },
+         {
+          "text": "Products & apps",
+          "href": "https://www.microsoft.com/microsoft-products-and-apps"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         427,
+         54,
+         195,
+         267
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-AI-Innovation-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Culture",
+     "key": "culture",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-contextual-nav>uhf-contextual-nav-desktop>nav>uhf-overflow-menu>div>div:nth-of-type(2)>uhf-dropdown:nth-of-type(2)>uhf-dropdown-desktop>button",
+     "expanded": "false",
+     "rect": [
+      551,
+      0,
+      71,
+      54
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Work & Life",
+          "href": "https://news.microsoft.com/source/topics/work-life"
+         },
+         {
+          "text": "Diversity & inclusion",
+          "href": "https://www.microsoft.com/en-us/diversity"
+         },
+         {
+          "text": "Alumni network",
+          "href": "https://www.microsoftalumni.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         551,
+         54,
+         195,
+         161
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-Culture-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Work & Life",
+          "href": "https://news.microsoft.com/source/topics/work-life"
+         },
+         {
+          "text": "Diversity & inclusion",
+          "href": "https://www.microsoft.com/en-us/diversity"
+         },
+         {
+          "text": "Alumni network",
+          "href": "https://www.microsoftalumni.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         551,
+         54,
+         195,
+         161
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-Culture-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Careers",
+     "key": "careers",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-contextual-nav>uhf-contextual-nav-desktop>nav>uhf-overflow-menu>div>div:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://careers.microsoft.com/",
+     "expanded": null,
+     "rect": [
+      627,
+      0,
+      59,
+      54
+     ],
+     "actions": {}
+    },
+    {
+     "name": "News & Stories",
+     "key": "news stories",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-contextual-nav>uhf-contextual-nav-desktop>nav>uhf-overflow-menu>div>div:nth-of-type(2)>uhf-dropdown:nth-of-type(3)>uhf-dropdown-desktop>button",
+     "expanded": "false",
+     "rect": [
+      691,
+      0,
+      117,
+      54
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Official Microsoft Blog",
+          "href": "https://blogs.microsoft.com/"
+         },
+         {
+          "text": "Microsoft on the Issues",
+          "href": "https://blogs.microsoft.com/on-the-issues"
+         },
+         {
+          "text": "Microsoft Source",
+          "href": "https://news.microsoft.com/source"
+         },
+         {
+          "text": "Microsoft Unlocked",
+          "href": "https://unlocked.microsoft.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         691,
+         54,
+         195,
+         214
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-005-News-Stories-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Official Microsoft Blog",
+          "href": "https://blogs.microsoft.com/"
+         },
+         {
+          "text": "Microsoft on the Issues",
+          "href": "https://blogs.microsoft.com/on-the-issues"
+         },
+         {
+          "text": "Microsoft Source",
+          "href": "https://news.microsoft.com/source"
+         },
+         {
+          "text": "Microsoft Unlocked",
+          "href": "https://unlocked.microsoft.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         691,
+         54,
+         195,
+         214
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-006-News-Stories-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Facts & Information",
+     "key": "facts information",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-contextual-nav>uhf-contextual-nav-desktop>nav>uhf-overflow-menu>div>div:nth-of-type(2)>uhf-dropdown:nth-of-type(4)>uhf-dropdown-desktop>button",
+     "expanded": "false",
+     "rect": [
+      813,
+      0,
+      143,
+      54
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Facts about Microsoft",
+          "href": "https://news.microsoft.com/facts-about-microsoft"
+         },
+         {
+          "text": "Senior leadership",
+          "href": "https://news.microsoft.com/leadership"
+         },
+         {
+          "text": "Investor relations",
+          "href": "https://www.microsoft.com/investor"
+         },
+         {
+          "text": "Reports Hub",
+          "href": "https://www.microsoft.com/en-us/corporate-responsibility/reports-hub"
+         },
+         {
+          "text": "US locations",
+          "href": "https://www.microsoft.com/en-us/about/office-locations"
+         },
+         {
+          "text": "Worldwide sales offices",
+          "href": "https://www.microsoft.com/en-us/worldwide.aspx"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://support.microsoft.com/contactus"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         813,
+         54,
+         195,
+         373
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-007-Facts-Information-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Facts about Microsoft",
+          "href": "https://news.microsoft.com/facts-about-microsoft"
+         },
+         {
+          "text": "Senior leadership",
+          "href": "https://news.microsoft.com/leadership"
+         },
+         {
+          "text": "Investor relations",
+          "href": "https://www.microsoft.com/investor"
+         },
+         {
+          "text": "Reports Hub",
+          "href": "https://www.microsoft.com/en-us/corporate-responsibility/reports-hub"
+         },
+         {
+          "text": "US locations",
+          "href": "https://www.microsoft.com/en-us/about/office-locations"
+         },
+         {
+          "text": "Worldwide sales offices",
+          "href": "https://www.microsoft.com/en-us/worldwide.aspx"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://support.microsoft.com/contactus"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         813,
+         54,
+         195,
+         373
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-008-Facts-Information-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "All Microsoft",
+     "key": "all microsoft",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-global-nav>uhf-global-nav-desktop>nav>uhf-dropdown>uhf-dropdown-desktop>button",
+     "expanded": "false",
+     "rect": [
+      1079,
+      0,
+      102,
+      54
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Microsoft 365",
+          "href": "https://www.microsoft.com/microsoft-365"
+         },
+         {
+          "text": "Azure",
+          "href": "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp"
+         },
+         {
+          "text": "Copilot",
+          "href": "https://copilot.com/?fromcode=cmmuaql67jy"
+         },
+         {
+          "text": "Windows",
+          "href": "https://www.microsoft.com/en-us/windows/"
+         },
+         {
+          "text": "Surface",
+          "href": "https://www.microsoft.com/surface"
+         },
+         {
+          "text": "XBOX",
+          "href": "https://www.xbox.com/"
+         },
+         {
+          "text": "Deals",
+          "href": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals"
+         },
+         {
+          "text": "Small Business",
+          "href": "https://www.microsoft.com/en-us/store/b/business"
+         },
+         {
+          "text": "Support",
+          "href": "https://support.microsoft.com/en-us"
+         },
+         {
+          "text": "Windows Apps",
+          "href": "https://apps.microsoft.com/home"
+         },
+         {
+          "text": "Outlook",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+         },
+         {
+          "text": "OneDrive",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+         },
+         {
+          "text": "Microsoft Teams",
+          "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+         },
+         {
+          "text": "OneNote",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app"
+         },
+         {
+          "text": "Microsoft Edge",
+          "href": "https://www.microsoft.com/edge"
+         },
+         {
+          "text": "Moving from Skype to Teams",
+          "href": "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype"
+         },
+         {
+          "text": "Computers",
+          "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC"
+         },
+         {
+          "text": "Shop XBOX",
+          "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox"
+         },
+         {
+          "text": "Accessories",
+          "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories"
+         },
+         {
+          "text": "VR & mixed reality",
+          "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality"
+         },
+         {
+          "text": "Certified Refurbished",
+          "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+         },
+         {
+          "text": "Trade-in for cash",
+          "href": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in"
+         },
+         {
+          "text": "XBOX Game Pass Ultimate",
+          "href": "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate"
+         },
+         {
+          "text": "PC Game Pass",
+          "href": "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass"
+         },
+         {
+          "text": "XBOX games",
+          "href": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames"
+         },
+         {
+          "text": "PC games",
+          "href": "https://apps.microsoft.com/games"
+         },
+         {
+          "text": "Microsoft AI",
+          "href": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"
+         },
+         {
+          "text": "Microsoft Security",
+          "href": "https://www.microsoft.com/en-us/security"
+         },
+         {
+          "text": "Dynamics 365",
+          "href": "https://www.microsoft.com/en-us/dynamics-365"
+         },
+         {
+          "text": "Microsoft 365 for business",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+         },
+         {
+          "text": "Microsoft Power Platform",
+          "href": "https://www.microsoft.com/en-us/power-platform"
+         },
+         {
+          "text": "Windows 365",
+          "href": "https://www.microsoft.com/en-us/windows-365"
+         },
+         {
+          "text": "Small Business",
+          "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+         },
+         {
+          "text": "Digital Sovereignty",
+          "href": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty"
+         },
+         {
+          "text": "Azure",
+          "href": "https://azure.microsoft.com/en-us/"
+         },
+         {
+          "text": "Microsoft Developer",
+          "href": "https://developer.microsoft.com/en-us/"
+         },
+         {
+          "text": "Microsoft Learn",
+          "href": "https://learn.microsoft.com/"
+         },
+         {
+          "text": "Support for AI marketplace apps",
+          "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"
+         },
+         {
+          "text": "Microsoft Tech Community",
+          "href": "https://techcommunity.microsoft.com/"
+         },
+         {
+          "text": "Microsoft Marketplace",
+          "href": "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98"
+         },
+         {
+          "text": "Software companies",
+          "href": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98"
+         },
+         {
+          "text": "Visual Studio",
+          "href": "https://visualstudio.microsoft.com/"
+         },
+         {
+          "text": "Microsoft Rewards",
+          "href": "https://www.microsoft.com/rewards"
+         },
+         {
+          "text": "Free downloads & security",
+          "href": "https://www.microsoft.com/en-us/download"
+         },
+         {
+          "text": "Education",
+          "href": "https://www.microsoft.com/en-us/education"
+         },
+         {
+          "text": "Gift cards",
+          "href": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards"
+         },
+         {
+          "text": "Licensing",
+          "href": "https://www.microsoft.com/licensing/"
+         },
+         {
+          "text": "Unlocked stories",
+          "href": "https://unlocked.microsoft.com/"
+         },
+         {
+          "text": "View Sitemap",
+          "href": "https://www.microsoft.com/en-us/sitemap"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         255,
+         54,
+         1170,
+         527
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-009-All-Microsoft-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Microsoft 365",
+          "href": "https://www.microsoft.com/microsoft-365"
+         },
+         {
+          "text": "Azure",
+          "href": "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp"
+         },
+         {
+          "text": "Copilot",
+          "href": "https://copilot.com/?fromcode=cmmuaql67jy"
+         },
+         {
+          "text": "Windows",
+          "href": "https://www.microsoft.com/en-us/windows/"
+         },
+         {
+          "text": "Surface",
+          "href": "https://www.microsoft.com/surface"
+         },
+         {
+          "text": "XBOX",
+          "href": "https://www.xbox.com/"
+         },
+         {
+          "text": "Deals",
+          "href": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals"
+         },
+         {
+          "text": "Small Business",
+          "href": "https://www.microsoft.com/en-us/store/b/business"
+         },
+         {
+          "text": "Support",
+          "href": "https://support.microsoft.com/en-us"
+         },
+         {
+          "text": "Windows Apps",
+          "href": "https://apps.microsoft.com/home"
+         },
+         {
+          "text": "Outlook",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+         },
+         {
+          "text": "OneDrive",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+         },
+         {
+          "text": "Microsoft Teams",
+          "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+         },
+         {
+          "text": "OneNote",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app"
+         },
+         {
+          "text": "Microsoft Edge",
+          "href": "https://www.microsoft.com/edge"
+         },
+         {
+          "text": "Moving from Skype to Teams",
+          "href": "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype"
+         },
+         {
+          "text": "Computers",
+          "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC"
+         },
+         {
+          "text": "Shop XBOX",
+          "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox"
+         },
+         {
+          "text": "Accessories",
+          "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories"
+         },
+         {
+          "text": "VR & mixed reality",
+          "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality"
+         },
+         {
+          "text": "Certified Refurbished",
+          "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+         },
+         {
+          "text": "Trade-in for cash",
+          "href": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in"
+         },
+         {
+          "text": "XBOX Game Pass Ultimate",
+          "href": "https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate"
+         },
+         {
+          "text": "PC Game Pass",
+          "href": "https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass"
+         },
+         {
+          "text": "XBOX games",
+          "href": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames"
+         },
+         {
+          "text": "PC games",
+          "href": "https://apps.microsoft.com/games"
+         },
+         {
+          "text": "Microsoft AI",
+          "href": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"
+         },
+         {
+          "text": "Microsoft Security",
+          "href": "https://www.microsoft.com/en-us/security"
+         },
+         {
+          "text": "Dynamics 365",
+          "href": "https://www.microsoft.com/en-us/dynamics-365"
+         },
+         {
+          "text": "Microsoft 365 for business",
+          "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+         },
+         {
+          "text": "Microsoft Power Platform",
+          "href": "https://www.microsoft.com/en-us/power-platform"
+         },
+         {
+          "text": "Windows 365",
+          "href": "https://www.microsoft.com/en-us/windows-365"
+         },
+         {
+          "text": "Small Business",
+          "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+         },
+         {
+          "text": "Digital Sovereignty",
+          "href": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty"
+         },
+         {
+          "text": "Azure",
+          "href": "https://azure.microsoft.com/en-us/"
+         },
+         {
+          "text": "Microsoft Developer",
+          "href": "https://developer.microsoft.com/en-us/"
+         },
+         {
+          "text": "Microsoft Learn",
+          "href": "https://learn.microsoft.com/"
+         },
+         {
+          "text": "Support for AI marketplace apps",
+          "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"
+         },
+         {
+          "text": "Microsoft Tech Community",
+          "href": "https://techcommunity.microsoft.com/"
+         },
+         {
+          "text": "Microsoft Marketplace",
+          "href": "https://marketplace.microsoft.com/?icid=DSM_All_Marketplace&ocid=cmm3atxvn98"
+         },
+         {
+          "text": "Software companies",
+          "href": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98"
+         },
+         {
+          "text": "Visual Studio",
+          "href": "https://visualstudio.microsoft.com/"
+         },
+         {
+          "text": "Microsoft Rewards",
+          "href": "https://www.microsoft.com/rewards"
+         },
+         {
+          "text": "Free downloads & security",
+          "href": "https://www.microsoft.com/en-us/download"
+         },
+         {
+          "text": "Education",
+          "href": "https://www.microsoft.com/en-us/education"
+         },
+         {
+          "text": "Gift cards",
+          "href": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards"
+         },
+         {
+          "text": "Licensing",
+          "href": "https://www.microsoft.com/licensing/"
+         },
+         {
+          "text": "Unlocked stories",
+          "href": "https://unlocked.microsoft.com/"
+         },
+         {
+          "text": "View Sitemap",
+          "href": "https://www.microsoft.com/en-us/sitemap"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         255,
+         54,
+         1170,
+         527
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-010-All-Microsoft-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-search>button",
+     "expanded": null,
+     "rect": [
+      1191,
+      0,
+      76,
+      54
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 11,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search",
+         "Cancel"
+        ],
+        "options": 0,
+        "rect": [
+         219,
+         0,
+         1149,
+         54
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-011-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 11,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search",
+         "Cancel"
+        ],
+        "options": 0,
+        "rect": [
+         219,
+         0,
+         1149,
+         54
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-012-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search or ask a question",
+       "key": "search or ask a question",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-search>div:nth-of-type(1)>form>input",
+       "expanded": "true",
+       "rect": [
+        219,
+        9,
+        1075,
+        36
+       ],
+       "actions": {},
+       "search": {
+        "probe": "cancel",
+        "typeahead": {
+         "links": 6,
+         "options": 11
+        },
+        "submit": "https://www.microsoft.com/en-us/search/explore?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-search>div:nth-of-type(1)>form>button",
+       "expanded": null,
+       "rect": [
+        1258,
+        9,
+        36,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Cancel",
+       "key": "cancel",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-search>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1299,
+        9,
+        69,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "About",
+            "href": "https://www.microsoft.com/en-us/about"
+           },
+           {
+            "text": "Our commitments",
+            "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+           },
+           {
+            "text": "Careers",
+            "href": "https://careers.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "AI & Innovation",
+           "Culture",
+           "News & Stories",
+           "Facts & Information",
+           "All Microsoft",
+           "Search",
+           "Sign in",
+           "ME"
+          ],
+          "options": 0,
+          "rect": [
+           72,
+           0,
+           1296,
+           54
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-013-Cancel-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "About",
+            "href": "https://www.microsoft.com/en-us/about"
+           },
+           {
+            "text": "Our commitments",
+            "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+           },
+           {
+            "text": "Careers",
+            "href": "https://careers.microsoft.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "AI & Innovation",
+           "Culture",
+           "News & Stories",
+           "Facts & Information",
+           "All Microsoft",
+           "Search",
+           "Sign in",
+           "ME"
+          ],
+          "options": 0,
+          "rect": [
+           72,
+           0,
+           1296,
+           54
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-014-Cancel-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Sign in",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-mecontrol>button",
+     "expanded": null,
+     "rect": [
+      1285,
+      17,
+      39,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://www.microsoft.com/cascadeauth/account/signin?ru=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fabout"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.microsoft.com/cascadeauth/account/signin?ru=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fabout"
+      }
+     }
+    },
+    {
+     "name": "ME",
+     "key": "me",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(3)>div>div:nth-of-type(1)>uhf-header>header>div>uhf-actions>uhf-mecontrol>div>button",
+     "expanded": null,
+     "rect": [
+      1332,
+      9,
+      36,
+      36
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://www.microsoft.com/cascadeauth/account/signin?ru=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fabout"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.microsoft.com/cascadeauth/account/signin?ru=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fabout"
+      }
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 54,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 54,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 54,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 54,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": null,
+   "loads": 1,
+   "requests": 152,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "cancel"
+}

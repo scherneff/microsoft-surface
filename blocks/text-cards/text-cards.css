@@ -1,0 +1,561 @@
+/* text-cards — values from stardust/prototypes/about.css (.discover, .values, .text-cards) */
+.text-cards {
+  padding-top: 48px;
+}
+
+.text-cards.peach {
+  padding-bottom: 48px;
+  background-color: var(--ms-peach);
+}
+
+.text-cards .area-heading {
+  margin-bottom: 48px;
+}
+
+/* area heading (section intro) */
+.text-cards .area-heading-title,
+.text-cards .area-heading-body {
+  max-width: 100%;
+}
+
+.text-cards .area-heading-title :is(h2, h3) {
+  margin-bottom: 1rem;
+}
+
+.text-cards .area-heading.title-only :is(h2, h3) {
+  margin-bottom: 0;
+}
+
+.text-cards .area-heading-lede p {
+  margin-bottom: 0;
+}
+
+.text-cards .area-heading-lede p ~ p {
+  margin-top: 1rem;
+}
+
+.text-cards .has-actions .area-heading-lede {
+  padding-bottom: 16px;
+}
+
+.text-cards .area-heading .link-group {
+  margin-bottom: 0;
+}
+
+.text-cards .area-heading .link-group p {
+  display: inline;
+  margin: 0;
+}
+
+/* CTA (MWF .cta: chevron glyph drawn) */
+.text-cards .link-group a {
+  position: relative;
+  display: inline-block;
+  padding-right: 27px;
+  font-weight: 600;
+  color: var(--ms-link);
+  text-decoration: none;
+}
+
+.text-cards .link-group a:hover {
+  text-decoration: underline;
+}
+
+.text-cards .link-group a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+/* cards: Bootstrap row / col model (-12px row, 12px col gutters) */
+.text-cards .text-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.text-cards .text-cards-col {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 48px;
+}
+
+.text-cards .text-cards-col:last-child {
+  margin-bottom: 0;
+}
+
+.text-cards .card {
+  width: 100%;
+}
+
+.text-cards .text-cards-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-cards .card-body {
+  padding-top: 16px;
+}
+
+.text-cards .card-body :is(h2, h3, h4) {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-cards .card-footer {
+  padding-top: 16px;
+}
+
+.text-cards .text-cards-divider-wrap {
+  padding-top: 48px;
+}
+
+.text-cards .text-cards-divider {
+  border-top: 1px solid var(--ms-border);
+}
+
+@media (width >= 860px) {
+  .text-cards {
+    padding-top: 96px;
+  }
+
+  .text-cards.peach {
+    padding-top: 48px;
+  }
+
+  .text-cards .area-heading-title,
+  .text-cards .area-heading-body {
+    width: 66.6667%;
+  }
+
+  .text-cards .text-cards-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1084px) {
+  .text-cards .card-body :is(h2, h3, h4) {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .text-cards .area-heading-body {
+    width: 50%;
+  }
+
+  .text-cards .area-heading-title :is(h2, h3) {
+    margin-bottom: 1.25rem;
+  }
+
+  .text-cards .area-heading.title-only :is(h2, h3) {
+    margin-bottom: 0;
+  }
+
+  .text-cards .card-body :is(h2, h3, h4) {
+    font-size: 1.3125rem;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- variant rules appended after the base
+   cascade on purpose (additive to the live about page) */
+
+/* ---------- variants for the static siblings — values from the live MWF content-card /
+   area-heading modules (measure.mjs at 1440 + 360). Additive: default, peach and divider
+   (about) are unchanged. Nested containers collapse to the section container. */
+.text-cards:is(.with-icons, .tiles, .halves, .band) .container .container {
+  width: auto;
+  max-width: none;
+  padding: 0;
+}
+
+.text-cards:is(.with-icons, .tiles) {
+  padding-top: 48px;
+}
+
+.text-cards.with-icons {
+  padding-top: 72px;
+}
+
+.text-cards.tiles {
+  padding-bottom: 24px;
+}
+
+/* a tiles block headed by a sub-heading only (accessibility "By disability") */
+.text-cards.tiles:has(.area-heading-title h3) {
+  padding-top: 0;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading-title,
+.text-cards:is(.with-icons, .tiles) .area-heading-body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading-body > * {
+  padding-bottom: 0;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading-lede :is(h3, h4) {
+  margin: 28px 0 0;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading .link-group {
+  margin-top: 0;
+  min-height: 0;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading .link-group a {
+  margin: 12px 0;
+}
+
+/* icon: two gradient cards, icon column (col-3) + body */
+.text-cards.with-icons .text-cards-col,
+.text-cards.tiles .text-cards-col {
+  margin-bottom: 24px;
+}
+
+.text-cards.with-icons .card,
+.text-cards.tiles .card {
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgb(192 160 234);
+  border-radius: 8px;
+  background: url("card-gradient-large.png") center / cover no-repeat;
+  color: #fff;
+}
+
+.text-cards.with-icons .card {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: auto auto;
+  padding: 16px 4px;
+}
+
+.text-cards.with-icons .text-cards-media {
+  grid-row: 1 / span 2;
+  align-self: center;
+  padding: 0 12px;
+}
+
+.text-cards.with-icons .card-body {
+  align-self: end;
+  padding: 0 12px;
+}
+
+.text-cards.with-icons .card-footer {
+  align-self: start;
+  padding: 16px 12px 0;
+}
+
+.text-cards.with-icons .card-footer p {
+  margin: 0;
+}
+
+.text-cards.with-icons .card-body :is(h2, h3, h4) {
+  margin-bottom: 8px;
+  font-size: 1.0625rem;
+  line-height: 1.2;
+}
+
+.text-cards.with-icons .card-body p {
+  margin: 0 0 16px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.text-cards.with-icons .card-footer a {
+  color: var(--ms-link);
+}
+
+/* tiles: 3-up icon link tiles */
+.text-cards.tiles .card {
+  padding: 8px;
+  background-image: url("card-gradient-small.png");
+}
+
+.text-cards.tiles .text-cards-media {
+  flex: 0 0 50px;
+  width: 50px;
+}
+
+.text-cards.tiles .text-cards-media img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.text-cards.tiles .card-body {
+  display: none;
+}
+
+.text-cards.tiles .card-footer {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0 0 0 15px;
+}
+
+.text-cards.tiles .card-footer p {
+  margin: 0;
+}
+
+.text-cards.tiles .card-footer a {
+  display: block;
+  margin: 0;
+  color: #fff;
+}
+
+.text-cards.tiles .card-footer a::after {
+  right: 12px;
+}
+
+/* halves: 2-up text cards under a left-aligned area heading (CR "Our approach") */
+.text-cards.halves {
+  padding-top: 24px;
+}
+
+.text-cards.halves .area-heading {
+  text-align: center;
+}
+
+.text-cards.halves .area-heading-title,
+.text-cards.halves .area-heading-body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-cards.halves .text-cards-col {
+  margin-bottom: 24px;
+}
+
+.text-cards.halves .card-body {
+  padding-top: 16px;
+}
+
+.text-cards.halves .card-body :is(h2, h3, h4) {
+  font-size: 1.125rem;
+}
+
+/* band: dark full-width CTA band (CR newsletter) */
+.text-cards.band {
+  padding-top: 0;
+}
+
+.text-cards.band .text-cards-cards {
+  display: none;
+}
+
+.text-cards.band .area-heading {
+  margin: 48px 0;
+  padding: 24px 12px;
+  background-color: rgb(41 24 23);
+  color: #fff;
+  text-align: center;
+}
+
+.text-cards.band .area-heading-title :is(h2, h3) {
+  margin-bottom: 12px;
+}
+
+.text-cards.band .area-heading .link-group a {
+  color: #fff;
+}
+
+@media (width >= 860px) {
+  .text-cards.with-icons .text-cards-col,
+  .text-cards.halves .text-cards-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .text-cards.tiles .text-cards-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .text-cards.band .area-heading-title,
+  .text-cards.band .area-heading-body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (width >= 1084px) {
+  .text-cards.with-icons .card-body :is(h2, h3, h4) {
+    font-size: 1.1875rem;
+  }
+
+  .text-cards.band .area-heading {
+    padding: 48px;
+  }
+
+  .text-cards.halves .card-body :is(h2, h3, h4) {
+    font-size: 1.3125rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .text-cards.with-icons .card-body :is(h2, h3, h4) {
+    font-size: 1.1875rem;
+  }
+
+  .text-cards.tiles .area-heading-title h2,
+  .text-cards.with-icons .area-heading-title h2 {
+    font-size: 3.125rem;
+  }
+}
+
+/* live: the section h2s of the dark page run the MWF h1 ramp (29 / 37 / 50 px) */
+.text-cards:is(.with-icons, .tiles) .area-heading-title h2 {
+  font-size: 1.8125rem;
+  line-height: 1.2;
+}
+
+.text-cards:is(.with-icons, .tiles) .area-heading-title :is(h2, h3) {
+  margin-bottom: 12px;
+}
+
+@media (width >= 1084px) {
+  .text-cards:is(.with-icons, .tiles) .area-heading-title h2 {
+    font-size: 2.3125rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .text-cards:is(.with-icons, .tiles) .area-heading-title h2 {
+    font-size: 3.125rem;
+  }
+
+  .text-cards:is(.with-icons, .tiles) .area-heading-title :is(h2, h3) {
+    margin-bottom: 20px;
+  }
+}
+
+/* halves: card CTAs are MWF .cta links */
+.text-cards.halves .card-footer p {
+  margin: 0;
+}
+
+.text-cards.halves .card-footer a {
+  position: relative;
+  display: inline-block;
+  padding-right: 27px;
+  font-weight: 600;
+}
+
+.text-cards.halves .card-footer a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentcolor;
+  border-top: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+/* below 860 the live area headings are left-aligned and the CTA band is full-bleed */
+@media (width < 860px) {
+  .text-cards:is(.with-icons, .tiles, .halves, .band) .area-heading {
+    text-align: left;
+  }
+
+  .text-cards.band .area-heading {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+
+.text-cards.halves .card-footer {
+  padding-bottom: 16px;
+}
+
+@media (width < 860px) {
+  .text-cards.halves .text-cards-col {
+    margin-bottom: 48px;
+  }
+
+  .text-cards.halves .area-heading-title :is(h2, h3) {
+    margin-bottom: 12px;
+  }
+
+  .text-cards.halves .has-actions .area-heading-lede {
+    padding-bottom: 0;
+  }
+
+  .text-cards.halves .area-heading .link-group {
+    min-height: 0;
+    margin: 0;
+  }
+
+  .text-cards.halves .area-heading .link-group a {
+    margin: 4px 0 3px;
+  }
+
+  .text-cards.band .area-heading {
+    margin: 24px -12px 0;
+    padding: 48px 12px;
+  }
+}
+
+/* with-icons card CTA below 860: live .cta (600, <small> 14px, 24px lines, chevron) in a
+   link group 8px under the copy with a -8px bottom margin; the cards are at least 186px
+   (measure.mjs at 360: cards 186 / 194, link at copy end + 8) */
+@media (width < 860px) {
+  .text-cards.with-icons .card {
+    align-content: start;
+    min-height: 186px;
+  }
+
+  .text-cards.with-icons .card-footer {
+    padding-top: 8px;
+  }
+
+  .text-cards.with-icons .card-footer p:last-child {
+    margin-bottom: -8px;
+  }
+
+  .text-cards.with-icons .card-footer a {
+    position: relative;
+    display: inline-block;
+    padding-right: 27px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .text-cards.with-icons .card-footer a::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    margin-top: -3px;
+    border-right: 1.5px solid currentcolor;
+    border-top: 1.5px solid currentcolor;
+    transform: rotate(45deg);
+  }
+}

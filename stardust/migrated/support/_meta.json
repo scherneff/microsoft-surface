@@ -1,0 +1,478 @@
+{
+  "slug": "support",
+  "type": "unique",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "support-cards"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "sup-title",
+    "sup-content"
+  ],
+  "canonShas": {
+    "header": "dba9a5ce7ad9",
+    "footer": "8609b369f907",
+    "css": "2d514920911e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Microsoft Support",
+    "description": "Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows, Surface, and more.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Microsoft Support",
+    "description": "Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows, Surface, and more.",
+    "url": "https://www.microsoft.com/support"
+  },
+  "migratedAt": "2026-11-04T03:18:28Z",
+  "designMdSha": "5af6eb9b3fef",
+  "designJsonSha": "11d362c68b95",
+  "sourceCurrentSha": "573bd01c1c27",
+  "sourceProposedSha": "150e0de8ad01",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 3,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.microsoft.com/microsoft-365?ocid=cmmttvzgpuy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/microsoft-365/microsoft-office?ocid=cmml7tr0rib",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/reportascam/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/edge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/dynamics-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/power-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/rewards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/download",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/licensing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sitemap",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/microsoft-365-copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/microsoft-365/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/outlook/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/onedrive/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/teams/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/windows/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/surface/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accounts-billing/manage/microsoft-account-help",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accounts-billing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "all-products-list",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/Microsoft-365-Copilot/get-started-with-microsoft-365-copilot-chat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accounts-billing/subscriptions/try-or-buy-microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/microsoft-365-copilot/get-started-with-cowork",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/Windows/Security/Identity-Signin/help-for-accounts-in-windows",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/authenticator/back-up-your-accounts-in-microsoft-authenticator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/Office/lifecycle/officeinstall/download-install-or-reinstall-microsoft-365-or-office-2024-on-a-pc-or-mac",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/microsoft-copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/windows/apps/phonelink/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/Windows/Hardware/Bluetooth/fix-bluetooth-problems-in-windows",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/Windows/Hardware/Display-Graphics/screen-mirroring-and-projecting-to-your-pc-or-wireless-display",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/security/protect-yourself-from-phishing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/Windows/Security/Windows-Security/windows-security-app-overview",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accounts-billing/security/how-to-use-two-step-verification-with-your-microsoft-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/reportascam/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/concern/privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/privacy/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/ai/responsible-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accessibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface/devices/surface-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/download",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/returns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/devices/overview",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/products/teams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/education/how-to-buy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/dynamics-365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/power-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/investor/default.aspx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/sitemap1.aspx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.microsoft.com/en-us/legal/compliance/recycling",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "support/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "support/_meta.json",
+  "driverVersion": "1"
+}

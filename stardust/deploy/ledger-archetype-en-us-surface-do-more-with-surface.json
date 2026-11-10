@@ -1,0 +1,20 @@
+{
+  "/en-us/surface/do-more-with-surface": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T04:31:51.078Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-surface": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T04:31:58.098Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

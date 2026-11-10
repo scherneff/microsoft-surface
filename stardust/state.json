@@ -1,0 +1,431 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-11-04T04:57:14Z",
+    "stardustVersion": "0.36.5"
+  },
+  "site": {
+    "originUrl": "https://www.microsoft.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-04T01:31:35.261Z",
+    "pageCap": 10,
+    "totalDiscovered": 1710,
+    "crawled": 8,
+    "scopeSource": "stardust/.labs/site-plan.json (10 selected)",
+    "notCaptured": [
+      {
+        "url": "https://www.microsoft.com/earn",
+        "reason": "301 to https://earn.microsoft.com/ (off-origin) — redirect, not a page"
+      },
+      {
+        "url": "https://www.microsoft.com/dashboard",
+        "reason": "HTTP 404 on source"
+      }
+    ],
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-04T01:31:35.261Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.microsoft.com/",
+      "finalUrl": "https://www.microsoft.com/en-us",
+      "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:26:04.850Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T03:04:21Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T03:04:21Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T05:00:42.414Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/",
+      "deployedPath": "/"
+    },
+    {
+      "slug": "about",
+      "url": "https://www.microsoft.com/about",
+      "finalUrl": "https://www.microsoft.com/en-us/about",
+      "title": "Our Mission and Values | About Microsoft",
+      "type": "static",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:25:04.570Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T02:33:22Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T02:33:22Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T04:41:09Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T04:41:09.619Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about.json",
+      "prototypePath": "stardust/prototypes/about-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/about",
+      "deployedPath": "/about"
+    },
+    {
+      "slug": "support",
+      "url": "https://www.microsoft.com/support",
+      "finalUrl": "https://support.microsoft.com/en-us/",
+      "title": "Microsoft Support",
+      "type": "unique",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:25:02.989Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T02:35:19Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T02:35:19Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T04:22:24Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T04:22:24.405Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/support.json",
+      "prototypePath": "stardust/prototypes/support-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/support",
+      "deployedPath": "/support"
+    },
+    {
+      "slug": "accessibility",
+      "url": "https://www.microsoft.com/accessibility/",
+      "finalUrl": "https://www.microsoft.com/en-us/accessibility",
+      "title": "Accessibility Technology & Tools | Microsoft Accessibility",
+      "type": "static",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:25:11.559Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-04T04:57:14Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T05:06:11.459Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/accessibility.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/accessibility",
+      "deployedPath": "/accessibility"
+    },
+    {
+      "slug": "ai",
+      "url": "https://www.microsoft.com/ai",
+      "finalUrl": "https://www.microsoft.com/en-us/ai",
+      "title": "Microsoft AI - Business Solutions and Tools",
+      "type": "static",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:25:28.877Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-04T04:57:14Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T05:59:10.676Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/ai",
+      "deployedPath": "/ai"
+    },
+    {
+      "slug": "bing",
+      "url": "https://www.microsoft.com/bing",
+      "finalUrl": "https://explore.microsoft.com/en-us/bing?form=MA13QZ&cs=2850852386",
+      "title": "Microsoft Bing | Get to know Bing",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:25:22.579Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T02:43:12Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T02:43:12Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T04:29:57Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T04:29:57.047Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/bing.json",
+      "prototypePath": "stardust/prototypes/bing-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/bing",
+      "deployedPath": "/bing"
+    },
+    {
+      "slug": "corporate-responsibility",
+      "url": "https://www.microsoft.com/corporate-responsibility",
+      "finalUrl": "https://www.microsoft.com/en-us/corporate-responsibility",
+      "title": "Microsoft Corporate Social Responsibility | Microsoft CSR",
+      "type": "static",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:25:30.805Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-04T04:57:14Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T05:06:11.459Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/corporate-responsibility.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/corporate-responsibility",
+      "deployedPath": "/corporate-responsibility"
+    },
+    {
+      "slug": "en-us-surface-do-more-with-surface",
+      "url": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+      "finalUrl": "https://www.microsoft.com/en-us/surface/do-more-with-surface/",
+      "title": "Do More with Surface Laptop & Surface Pro | Microsoft Surface",
+      "type": "listing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T01:26:05.624Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T02:51:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T02:51:47Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T04:53:05Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-04T04:53:05.095Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-surface-do-more-with-surface.json",
+      "prototypePath": "stardust/prototypes/en-us-surface-do-more-with-surface-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--3bab0b60--aemcoder.aem.live/en-us/surface/do-more-with-surface",
+      "deployedPath": "/en-us/surface/do-more-with-surface"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-04T04:57:14Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about",
+        "outputPath": "about/index.html",
+        "slug": "about",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/support",
+        "outputPath": "support/index.html",
+        "slug": "support",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/accessibility/",
+        "outputPath": "accessibility/index.html",
+        "slug": "accessibility",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ai",
+        "outputPath": "ai/index.html",
+        "slug": "ai",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/bing",
+        "outputPath": "bing/index.html",
+        "slug": "bing",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/corporate-responsibility",
+        "outputPath": "corporate-responsibility/index.html",
+        "slug": "corporate-responsibility",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/surface/do-more-with-surface/",
+        "outputPath": "en-us/surface/do-more-with-surface/index.html",
+        "slug": "en-us-surface-do-more-with-surface",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 11,
+    "bundledAssets": [
+      "about.css",
+      "bing.css",
+      "bing.js",
+      "canon.css",
+      "canon.js",
+      "en-us-surface-do-more-with-surface.css",
+      "en-us-surface-do-more-with-surface.js",
+      "index.css",
+      "index.js",
+      "support.css",
+      "support.js"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "about",
+        "file": "stardust/migrated/about/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "support",
+        "file": "stardust/migrated/support/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "bing",
+        "file": "stardust/migrated/bing/index.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "en-us-surface-do-more-with-surface",
+        "file": "stardust/migrated/en-us/surface/do-more-with-surface/index.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "accessibility",
+        "file": "stardust/migrated/accessibility/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ai",
+        "file": "stardust/migrated/ai/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "corporate-responsibility",
+        "file": "stardust/migrated/corporate-responsibility/index.html",
+        "assetsBundled": 1
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-04T04:57:14Z",
+      "rendered": [
+        "accessibility",
+        "ai",
+        "corporate-responsibility"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_provenance": { "writtenBy": "stardust:extract", "writtenAt": "2026-11-04T01:34:34Z", "readArtifacts": ["stardust/current/_computed-styles.json", "stardust/current/pages/*.json"] },
+  "origins": [ { "origin": "https://www.microsoft.com", "pages": 6 }, { "origin": "https://explore.microsoft.com", "pages": 1, "via": "redirect from /bing" }, { "origin": "https://support.microsoft.com", "pages": 1, "via": "redirect from /support" } ],
+  "logo": { "path": "stardust/current/assets/logo.png", "source": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png", "selector": "header img[alt=Microsoft]" },
+  "favicon": { "path": "stardust/current/assets/favicon.ico" },
+  "palette": "see _computed-styles.json#aggregate.colors (sources[] cite url/selector/prop)",
+  "type": { "headingFamily": "Segoe UI", "bodyFamily": "Segoe UI", "scaleAudit": { "kind": "ad-hoc" },
+    "files": [
+      { "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2", "license": "licensed — reference only" },
+      { "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2", "license": "licensed — reference only" },
+      { "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2", "license": "licensed — reference only" },
+      { "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2", "license": "licensed — reference only" },
+      { "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2", "license": "licensed — reference only" } ] },
+  "iconFont": { "families": ["FabricMDL2Icons", "MWF-FLUENT-ICONS", "Support Fluent Icons"], "glyphs": "see _computed-styles.json#aggregate.iconFont.glyphs" },
+  "motifs": { "radiusMode": "8px", "areaRadiusMode": "16px", "shadowsTop": 3 },
+  "voice": { "heroHeadline": "Hi there, welcome to Microsoft", "mission": "We empower the world", "ctas": ["Shop now", "Learn more", "Shop Microsoft 365"] },
+  "systemComponents": [ "UHF header (all pages)", "UHF footer (all pages; dark variant on accessibility)", "promo strip (home)", "Back to top (home)" ]
+}

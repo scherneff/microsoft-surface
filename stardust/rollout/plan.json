@@ -1,0 +1,157 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-04T03:19:22.425Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T03:19:22.425Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "about",
+    "bing",
+    "en-us-surface-do-more-with-surface",
+    "index",
+    "support"
+  ],
+  "steps": [
+    {
+      "slug": "about",
+      "path": "/about",
+      "templateId": "about",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "highlight",
+          "edsBlockName": "highlight"
+        },
+        {
+          "id": "feature-band",
+          "edsBlockName": "feature-band"
+        },
+        {
+          "id": "commitments",
+          "edsBlockName": "commitments"
+        },
+        {
+          "id": "copilot",
+          "edsBlockName": "copilot"
+        },
+        {
+          "id": "discover",
+          "edsBlockName": "discover"
+        },
+        {
+          "id": "culture",
+          "edsBlockName": "culture"
+        },
+        {
+          "id": "values",
+          "edsBlockName": "values"
+        },
+        {
+          "id": "explore",
+          "edsBlockName": "explore"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "bing",
+      "path": "/bing",
+      "templateId": "bing",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "bing-intro",
+          "edsBlockName": "bing-intro"
+        },
+        {
+          "id": "bing-manifesto",
+          "edsBlockName": "bing-manifesto"
+        },
+        {
+          "id": "bing-panel",
+          "edsBlockName": "bing-panel"
+        },
+        {
+          "id": "bing-features",
+          "edsBlockName": "bing-features"
+        },
+        {
+          "id": "bing-footnotes",
+          "edsBlockName": "bing-footnotes"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "en-us-surface-do-more-with-surface",
+      "path": "/en-us/surface/do-more-with-surface",
+      "templateId": "en-us-surface-do-more-with-surface",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "article-listing",
+          "edsBlockName": "article-listing"
+        },
+        {
+          "id": "social-follow",
+          "edsBlockName": "social-follow"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "announce",
+          "edsBlockName": "announce"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "stories-carousel",
+          "edsBlockName": "stories-carousel"
+        },
+        {
+          "id": "follow",
+          "edsBlockName": "follow"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "feature-band",
+          "edsBlockName": "feature-band",
+          "convertedBy": "about"
+        }
+      ]
+    },
+    {
+      "slug": "support",
+      "path": "/support",
+      "templateId": "support",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "support-content",
+          "edsBlockName": "support-content"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

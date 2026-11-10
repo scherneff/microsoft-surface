@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.microsoft.com/en-us/surface/do-more-with-surface/" target="_blank" rel="noopener">https://www.microsoft.com/en-us/surface/do-more-with-surface/</a><br>Preview site: <a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--3bab0b60--aemcoder.aem.page/</a><br>Last updated: 2026-11-04 09:24 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 11 pages, chosen from the 1710 we found on your site. 9 of 11 are published on the preview site; 9 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>11 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.microsoft.com/" target="_blank" rel="noopener">https://www.microsoft.com/</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp;amp; Apps</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/about" target="_blank" rel="noopener">https://www.microsoft.com/about</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/support" target="_blank" rel="noopener">https://www.microsoft.com/support</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/support" target="_blank" rel="noopener">Microsoft Support</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/accessibility/" target="_blank" rel="noopener">https://www.microsoft.com/accessibility/</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/ai" target="_blank" rel="noopener">https://www.microsoft.com/ai</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/bing" target="_blank" rel="noopener">https://www.microsoft.com/bing</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/corporate-responsibility" target="_blank" rel="noopener">https://www.microsoft.com/corporate-responsibility</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/dashboard" target="_blank" rel="noopener">https://www.microsoft.com/dashboard</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/earn" target="_blank" rel="noopener">https://www.microsoft.com/earn</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.microsoft.com/en-us/surface/do-more-with-surface/" target="_blank" rel="noopener">https://www.microsoft.com/en-us/surface/do-more-with-surface/</a></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/en-us/surface/do-more-with-surface" target="_blank" rel="noopener">Do More with Surface Laptop &amp;amp; Surface Pro | Microsoft Surface</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td>—</td><td><a href="https://main--3bab0b60--aemcoder.aem.page/search" target="_blank" rel="noopener">Search results</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Surface story listing</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Bing product page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Search</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Company and programme pages</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Support home</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel" id="blocks-used">
+    <h2 class="spectrum-panel-header">Blocks used</h2>
+    <div class="panel-body">
+      <p>23 blocks in 54 variants across 8 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="5">feature-band<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+          <tr><td><span class="variant">alternate</span><span class="variant">surface</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a></td></tr>
+          <tr><td><span class="variant">grid</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp;amp; Apps</a></td></tr>
+          <tr><td><span class="variant">pair</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr><td><span class="variant">surface</span><span class="variant">reversed</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">explore<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a>, <a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr><td><span class="variant">stacked</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">highlight<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+          <tr><td><span class="variant">carousel</span><span class="variant">backplate</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a>, <a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr><td><span class="variant">backplate</span><span class="variant">band</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">material-cards<span class="block-pages">3 pages</span></td><td><span class="variant">dark</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a></td></tr>
+          <tr><td><span class="variant">flat</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr><td><span class="variant">peach</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+          <tr class="group"><td class="block" rowspan="6">text-cards<span class="block-pages">3 pages</span></td><td><span class="variant">band</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr><td><span class="variant">divider</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+          <tr><td><span class="variant">halves</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/corporate-responsibility" target="_blank" rel="noopener">Microsoft Corporate Social Responsibility | Microsoft CSR</a></td></tr>
+          <tr><td><span class="variant">peach</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+          <tr><td><span class="variant">tiles</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">with-icons</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block">announce<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp;amp; Apps</a></td></tr>
+          <tr class="group"><td class="block">article-listing<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/en-us/surface/do-more-with-surface" target="_blank" rel="noopener">Do More with Surface Laptop &amp;amp; Surface Pro | Microsoft Surface</a></td></tr>
+          <tr class="group"><td class="block">backdrop<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/accessibility" target="_blank" rel="noopener">Accessibility Technology &amp; Tools | Microsoft Accessibility</a> <span class="blocks-count">×3</span></td></tr>
+          <tr class="group"><td class="block">bing-footnotes<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+          <tr class="group"><td class="block">bing-intro<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block">bing-manifesto<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">bing-panel<span class="block-pages">1 page</span></td><td><span class="variant">sixtyforty</span><span class="variant">compact</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+          <tr><td><span class="variant">features</span><span class="variant">gray</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+          <tr><td><span class="variant">reversed</span><span class="variant">gray</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">reversed</span><span class="variant">lightblue</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+          <tr><td><span class="variant">reversed</span><span class="variant">sixtyforty</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/bing" target="_blank" rel="noopener">Microsoft Bing | Get to know Bing</a></td></tr>
+          <tr class="group"><td class="block">ds-anchor-nav<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr class="group"><td class="block">ds-faq<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr class="group"><td class="block" rowspan="12">ds-section<span class="block-pages">1 page</span></td><td><span class="variant">ask</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">banner</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">cards</span><span class="variant">carousel</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">industries</span><span class="variant">carousel</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">news</span><span class="variant">carousel</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">products</span><span class="variant">carousel</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">promo</span><span class="variant">carousel</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">closing</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">features</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">follow</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">hero</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr><td><span class="variant">people</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block">ds-stories<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/ai" target="_blank" rel="noopener">Microsoft AI - Business Solutions and Tools</a></td></tr>
+          <tr class="group"><td class="block">follow<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp;amp; Apps</a></td></tr>
+          <tr class="group"><td class="block">hero<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp;amp; Apps</a></td></tr>
+          <tr class="group"><td class="block">panes<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+          <tr class="group"><td class="block">showcase<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/about" target="_blank" rel="noopener">Our Mission and Values | About Microsoft</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">social-follow<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/en-us/surface/do-more-with-surface" target="_blank" rel="noopener">Do More with Surface Laptop &amp;amp; Surface Pro | Microsoft Surface</a></td></tr>
+          <tr class="group"><td class="block">stories-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp;amp; Apps</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">support-cards<span class="block-pages">1 page</span></td><td><span class="variant">features</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/support" target="_blank" rel="noopener">Microsoft Support</a></td></tr>
+          <tr><td><span class="variant">groups</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/support" target="_blank" rel="noopener">Microsoft Support</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">products</span></td><td><a href="https://main--3bab0b60--aemcoder.aem.page/support" target="_blank" rel="noopener">Microsoft Support</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 23</span><span class="bp-range bp-range-2">Blocks 6–10 of 23</span><span class="bp-range bp-range-3">Blocks 11–15 of 23</span><span class="bp-range bp-range-4">Blocks 16–20 of 23</span><span class="bp-range bp-range-5">Blocks 21–23 of 23</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label></div></nav>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Analytics and tags <span class="spectrum-badge">Switched off</span></h2>
+    <div class="panel-body">
+      <p>We carried over 2 tags, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.microsoft.com, explore.microsoft.com, support.microsoft.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Adobe Launch</td><td><code>launch-EN7506e353034849faa4a18bc4c20e727c.min.js</code></td></tr>
+          <tr><td>Google Tag Manager</td><td><code>DC-572608</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>dataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>session replay, ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Adobe Launch library (0 data-layer fields used).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your migration is complete. All eight pages and the new search results page are live on the new platform, match the current site on desktop and mobile, and have passed the final checks for links, search, interactive features and quality. Analytics and tags are carried over and switched off, ready for you to turn on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>The remaining steps are your business decisions listed in the final report, such as switching on analytics and choosing the production address.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "/footer-bing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T03:45:51.248Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer-support": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T03:45:51.248Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T03:45:57.683Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-bing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T03:45:57.686Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-support": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T03:46:03.165Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T03:46:03.222Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/drafts/shell-bing": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-04T03:46:15.652Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/drafts/shell-support": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-04T03:46:15.652Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/drafts/shell-www": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-04T03:46:19.283Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

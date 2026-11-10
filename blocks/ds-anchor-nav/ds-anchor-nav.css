@@ -1,0 +1,87 @@
+/* ds-anchor-nav — reimagine secondary sticky nav of /ai (measure.mjs at 1440 + 360) */
+.ds-anchor-nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.ds-anchor-nav {
+  height: 56px;
+  background: #fefefe;
+  font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+
+.ds-anchor-nav .ds-anchor-nav-bar {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 16px;
+}
+
+.ds-anchor-nav .ds-anchor-nav-scroller {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.ds-anchor-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.ds-anchor-nav li {
+  padding: 0 0 4px 4px;
+}
+
+.ds-anchor-nav a {
+  display: inline-block;
+  margin-right: 48px;
+  padding: 6px 0;
+  color: #17253d;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.ds-anchor-nav a[aria-current="true"] {
+  font-weight: 600;
+}
+
+.ds-anchor-nav .ds-anchor-nav-more {
+  position: relative;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  padding: 0;
+  border: 2px solid #3e143f;
+  border-radius: 200px;
+  background: linear-gradient(90deg, #fefefe 25%, rgb(242 242 242 / 0%) 100%);
+  cursor: pointer;
+}
+
+.ds-anchor-nav .ds-anchor-nav-more::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin: -4px 0 0 -5px;
+  border-top: 1.5px solid #3e143f;
+  border-right: 1.5px solid #3e143f;
+  transform: rotate(45deg);
+}
+
+@media (width >= 860px) {
+  .ds-anchor-nav .ds-anchor-nav-bar {
+    padding: 0 5%;
+  }
+}

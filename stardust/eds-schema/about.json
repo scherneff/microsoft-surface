@@ -1,0 +1,432 @@
+{
+ "source": "http://localhost:8791/about-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "highlight",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "We empower the world"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Microsoft’s mission is to empower every person and every organization on the planet to achieve more."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "feature-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our opportunity and responsibility"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We’re living in an era in which technology has the potential to power awesome advancements across every sector of our economy and society. This places us at a historic intersection of opportunity and responsibility. Our mission has never been more important. To realize it, we must create a future that benefits everyone."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Watch the video",
+     "href": "#mission-video-dialog"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "commitments",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "We believe that companies that can do more, should"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We focus on four enduring commitments that are central to our mission, serving as a guide to ensure our actions align with our mission."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore our commitments",
+     "href": "https://www.microsoft.com/en-us/corporate-responsibility"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Expand opportunity"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "We expand economic opportunity and growth for all."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Earn trust"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "We create a safe, secure, and responsible digital world."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Protect fundamental rights"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We support and advance people’s fundamental rights."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Advance sustainability"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "We are committed to meeting our own climate goals while enabling others to do the same."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "copilot",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Microsoft Copilot"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Your everyday AI companion"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Try Copilot",
+     "href": "https://copilot.microsoft.com/onboarding"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Copilot for personal use",
+     "href": "https://www.microsoft.com/en-us/microsoft-copilot/learn"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Copilot for organizations",
+     "href": "https://www.microsoft.com/en-us/microsoft-copilot/meet-copilot"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "What will you do with Copilot?"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "AI-powered coding for everyone"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Engineers like Anton Mirhorodchenko are tackling accessibility issues in unprecedented ways."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Discover his story",
+     "href": "https://unlocked.microsoft.com/copilot-voice/"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Pushing the game forward"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "The Billie Jean King Cup by Gainbridge is serving up better women's tennis stats with tech."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Explore the game-changing tech",
+     "href": "https://unlocked.microsoft.com/billie-jean-king-cup/"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Explore what’s new with Copilot",
+     "href": "https://aka.ms/about_copilot"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.about-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "discover",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Discover more from Microsoft"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Microsoft products built to support you"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore Microsoft products and apps",
+     "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Achieve more with the Microsoft Cloud"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn about Microsoft Cloud",
+     "href": "https://www.microsoft.com/en-us/microsoft-cloud"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Any platform. Any language. Our tools."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Visit Microsoft Developer",
+     "href": "https://developer.microsoft.com/en-us/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 4,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 7
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "culture",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our culture and careers"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Because impact matters"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "At Microsoft you can live your purpose every day. With our scale and reach, your personal impact becomes part of a collective force for global progress."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore careers at Microsoft",
+     "href": "https://careers.microsoft.com/"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Diversity & Inclusion"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "We believe our continued work to build diverse workforces and strengthen our culture of inclusion helps foster innovation."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn about diversity at Microsoft",
+     "href": "https://www.microsoft.com/en-us/diversity"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Inclusion is innovation"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We’re developing solutions to diversity and inclusion challenges by activating the same ingenuity, intention, and experience behind our groundbreaking technological innovations."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Explore the stories",
+     "href": "https://aka.ms/inclusionisinnovation"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.about-col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "values",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our corporate values"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Our values align to our mission, support our culture, and serve as a declaration of how we treat each other, our customers, and our partners."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Respect"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "We recognize that the thoughts, feelings, and backgrounds of others are as important as our own."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Integrity"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "We are honest, ethical, and trustworthy."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Accountability"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "We accept full responsibility for our decisions, actions, and results."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.about-col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "socialfollow",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Follow Microsoft"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

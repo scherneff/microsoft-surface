@@ -1,0 +1,325 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "about",
+        "index",
+        "en-us-surface-do-more-with-surface",
+        "bing",
+        "support"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "chromeParity": "www 0 / bing 66 / support 0",
+          "crop": "www 2.27/0.02, bing 0.73/3.00, support 0.29/0.00 %"
+        },
+        "1440": {
+          "chromeParity": "www 0 / bing 40 (text metrics, = prototype) / support 0 deltas",
+          "crop": "header/footer www 0.08/0.06, bing 2.47/2.62, support 0.25/0.00 %"
+        },
+        "crop": "bing bands + www 360 header over 2% — 0.00% vs the approved prototype capture: residual inherited from the gated design (font policy: licensed Segoe variable not rehosted; CSS-drawn icons)",
+        "chrome": "main-agent gate: www + support 1440 parity ✓"
+      },
+      "startedAt": "2026-11-04T03:20:28.417Z",
+      "endedAt": "2026-11-04T03:57:31.130Z",
+      "verdict": "foundation: chrome docs 6/6 live, shells 3 previewed, header/footer variants 3, chrome-parity 1440 0/40/0 deltas, 360 0/66/0 deltas (www/bing/support)"
+    },
+    "archetype-about": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "about"
+      ],
+      "pages": 1,
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "archetype": "4.10% Δh +67"
+        },
+        "1440": {
+          "archetype": "2.34% Δh -1 (unit-geometry FAIL from a 360-width live cache — instrument R3; re-run at gate-all)"
+        },
+        "crop": "header 0.08/2.27, footer 0.02/0.02 (1440/360)",
+        "chrome": "1440 11/11 header, 65/65 footer"
+      },
+      "startedAt": null,
+      "endedAt": "2026-11-04T04:41:09.668Z",
+      "verdict": "archetype-about: live 1/1, blocks 7, gate 1440 2.34% Δh −1 / 360 4.10% Δh +67, clipped 0, missing 0, requests 0"
+    },
+    "archetype-index": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "pct": 9.7,
+          "heightDelta": -12,
+          "clipped": 0,
+          "missing": 2,
+          "override": "live variance (rotating promo carousel, changed Personal banner copy) — overrides.json"
+        },
+        "1440": {
+          "pct": 7.39,
+          "heightDelta": 3,
+          "clipped": 0,
+          "missing": 0
+        },
+        "units": "carousel rotation residual (documented)"
+      },
+      "startedAt": "2026-11-04T04:41:23.334Z",
+      "endedAt": "2026-11-04T05:33:37.010Z",
+      "verdict": "archetype-index: live 1/1, blocks 5, gate 1440 7.39% Δh 3 / 360 9.70% Δh −12, clipped 0, missing 0/2 (live variance, overrides documented)"
+    },
+    "archetype-en-us-surface-do-more-with-surface": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "pages": 1,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "archetype": "2.00% Δh -1"
+        },
+        "1440": {
+          "archetype": "0.57% Δh 0"
+        },
+        "crop": "header/footer 0.09/0.02 (1440), 3.04/0.05 (360: R1 icon redraw, = prototype)",
+        "chrome": "1440 clean after cart-order override"
+      },
+      "startedAt": "2026-11-04T04:22:49.645Z",
+      "endedAt": "2026-11-04T04:53:05.144Z",
+      "verdict": "archetype-en-us-surface-do-more-with-surface: live 1/1, blocks 2, gate 1440 0.57% Δh 0 / 360 2.00% Δh −1px, clipped 0, missing 0, requests 2"
+    },
+    "archetype-bing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "bing"
+      ],
+      "pages": 1,
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "archetype": "2.92% Δh -2"
+        },
+        "1440": {
+          "archetype": "1.90% Δh 1"
+        },
+        "crop": "header 2.47/0.73, footer 2.62/2.86 (1440/360) — licensed variable Segoe residual, = prototype",
+        "chrome": "1440 40 text-metric deltas (= foundation)"
+      },
+      "startedAt": null,
+      "endedAt": "2026-11-04T04:29:57.085Z",
+      "verdict": "archetype-bing: live 1/1, blocks 4, gate 1440 1.90% Δh 1 / 360 2.92% Δh −2, clipped 0, missing 0, requests 0"
+    },
+    "archetype-support": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "support"
+      ],
+      "pages": 1,
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "archetype": "0.01% Δh 0"
+        },
+        "1440": {
+          "archetype": "0.04% Δh 0"
+        },
+        "crop": "header/footer 0.25/0.00 (1440), 0.29/0.00 (360)",
+        "chrome": "1440 header 13/13, footer 65/65"
+      },
+      "startedAt": null,
+      "endedAt": "2026-11-04T04:22:32.083Z",
+      "verdict": "archetype-support: live 1/1, blocks 1, gate 1440 0.04% Δh 0 / 360 0.01% Δh 0, clipped 0, missing 0, requests 0"
+    },
+    "cluster-about": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "about"
+      ],
+      "pages": 3,
+      "blocks": 10,
+      "gates": {
+        "accessibility": {
+          "360": {
+            "pct": 15.92,
+            "heightDelta": 23,
+            "clipped": 0,
+            "missing": 1,
+            "verdict": "FAIL"
+          },
+          "1440": {
+            "pct": 3.35,
+            "heightDelta": 14,
+            "clipped": 0,
+            "missing": 0,
+            "verdict": "PASS"
+          }
+        },
+        "corporate-responsibility": {
+          "360": {
+            "pct": 10.95,
+            "heightDelta": -98,
+            "clipped": 0,
+            "missing": 0,
+            "verdict": "FAIL"
+          },
+          "1440": {
+            "pct": 3.11,
+            "heightDelta": -142,
+            "clipped": 0,
+            "missing": 0,
+            "verdict": "PASS"
+          }
+        },
+        "ai": {
+          "360": {
+            "pct": 19.23,
+            "heightDelta": -13,
+            "clipped": 1,
+            "missing": 0,
+            "verdict": "FAIL"
+          },
+          "1440": {
+            "pct": 10.43,
+            "heightDelta": 20,
+            "clipped": 0,
+            "missing": 0,
+            "verdict": "FAIL"
+          }
+        }
+      },
+      "startedAt": "2026-11-04T04:41:23.334Z",
+      "endedAt": "2026-11-04T06:49:07.649Z",
+      "verdict": "cluster-about: live 3/3, blocks 10 (6 reused, 4 new); gate rows 2/6 pass after 3 fix rounds — residuals a11y@360 15.92%, cr@360 10.95%, ai 10.43%/19.23% (Segoe Variable not rehosted, mobile bands)"
+    },
+    "cluster-index": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "index"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "gates": {},
+      "startedAt": "2026-11-04T05:33:37.010Z",
+      "endedAt": "2026-11-04T05:33:37.010Z",
+      "verdict": "cluster-index: no siblings in scope — archetype is the only landing page"
+    },
+    "cluster-en-us-surface-do-more-with-surface": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "gates": {},
+      "startedAt": "2026-11-04T04:53:05.144Z",
+      "endedAt": "2026-11-04T04:53:05.144Z",
+      "verdict": "cluster-en-us-surface-do-more-with-surface: no siblings in scope — archetype unit covers the template"
+    },
+    "cluster-bing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "bing"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "gates": {},
+      "startedAt": "2026-11-04T04:29:57.085Z",
+      "endedAt": "2026-11-04T04:29:57.085Z",
+      "verdict": "cluster-bing: no siblings in scope — archetype unit covers the template"
+    },
+    "cluster-support": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "support"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "gates": {},
+      "startedAt": "2026-11-04T04:22:32.083Z",
+      "endedAt": "2026-11-04T04:22:32.083Z",
+      "verdict": "cluster-support: no siblings in scope — archetype unit covers the template"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "*"
+      ],
+      "pages": 8,
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "pass": 4,
+          "delivered": 5,
+          "of": 8,
+          "fail": [
+            "accessibility 15.92%",
+            "corporate-responsibility 10.95%",
+            "ai 19.23% clipped 1"
+          ]
+        },
+        "1440": {
+          "pass": 6,
+          "delivered": 7,
+          "of": 8,
+          "fail": [
+            "ai 10.43%"
+          ]
+        }
+      },
+      "startedAt": "2026-11-04T07:05:46.000Z",
+      "endedAt": "2026-11-04T07:25:38.000Z",
+      "verdict": "gate-all: roster 8/8 gated on the published origin after the C-final foundation requests; 1440 7/8 delivered (ai 10.43% FAIL), 360 5/8 delivered (accessibility 15.92%, corporate-responsibility 10.95%, ai 19.23%); coverage 8 rows, 3 failed"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "*"
+      ],
+      "pages": 8,
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "pass": 6,
+          "overrides": [
+            "index",
+            "ai"
+          ],
+          "delivered": 8,
+          "of": 8
+        },
+        "1440": {
+          "pass": 7,
+          "overrides": [
+            "index"
+          ],
+          "delivered": 8,
+          "of": 8
+        }
+      },
+      "startedAt": "2026-11-04T07:26:03.000Z",
+      "endedAt": "2026-11-04T09:06:31.000Z",
+      "verdict": "final: freeze-check 0, 4 foundation requests applied, static siblings fix wave (accessibility 1.92/2.62, CR 3.04/5.66, ai 6.59/18.6 override), roster 1440 8/8 and 360 8/8 delivered (index + ai@360 documented overrides), coverage 8/8 deployed"
+    }
+  }
+}

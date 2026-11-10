@@ -1,0 +1,57 @@
+{
+  "accepted": [
+    {
+      "probe": "content-diff",
+      "kind": "ICON DIFF",
+      "root": "header",
+      "reason": "about/canon: UHF glyphs (ChevronDown U+E70D, Search U+E721) come from FabricMDL2Icons, a licensed icon font embedded as a data: URI in the UHF stylesheet; not rehosted (same policy as Segoe UI). Recreated as CSS-stroke glyphs on the live boxes (8x12 chevron, 16x24 search). Canon decision for the main agent: lift a glyph subset if the licence review allows."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "ICON DIFF",
+      "root": "footer",
+      "reason": "about/canon: footer locale World glyph (FabricMDL2Icons U+E909) recreated as a CSS-stroke globe on the live 20x30 box; icon font not rehosted (licensed)."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING ICON",
+      "root": "header",
+      "reason": "about/canon: the live UHF overflow 'More' trigger is display:none at every gate width (overflow-menu helper with no overflowed items); its FabricMDL2Icons chevron has no rendered box. Not recreated."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING PLACEHOLDER",
+      "root": "header",
+      "text": "Search or ask a question",
+      "reason": "about/canon: live UHF renders separate desktop and mobile search inputs (one hidden per breakpoint); the canon header serves both breakpoints with ONE input carrying the same placeholder, title and aria-label."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING BODY",
+      "root": "#primaryArea",
+      "text": "Save up to $700.00",
+      "reason": "index: live dynamic-price personalisation (store pricing service) renders \"Save up to $700.00\" in the promo tag and banner; the capture holds \"price unavailable\" / \"Up to 5% off for students*\" \u2014 replicated as captured per the replica brief (prices from the capture, never from a live re-fetch)."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "ICON DIFF",
+      "root": "#primaryArea",
+      "text": "shop for your business",
+      "reason": "index: two quick-link bands (Personal tab: Quick-Links-Store-Business, Business tab: Quick-Links-MSCOM-Building) share the label 'Shop for your business'; the probe pairs the visible live item with the hidden Business-tab item of the build. Both icons are the live files, each in its own tab."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA",
+      "root": "#primaryArea",
+      "text": "price unavailable",
+      "reason": "index: promo tag replicated as captured ('price unavailable' from the dynamic-price service at capture time); live now renders a personalised price."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA",
+      "root": "#primaryArea",
+      "text": "Up to 5% off for students*",
+      "reason": "index: banner dynamic-price text replicated as captured; live renders a personalised 'Save up to $700.00'."
+    }
+  ]
+}

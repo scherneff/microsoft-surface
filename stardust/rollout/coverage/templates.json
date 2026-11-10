@@ -1,0 +1,132 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-04T03:19:17.227Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T09:23:07.573Z",
+  "templates": [
+    {
+      "id": "about",
+      "representativeSlug": "about",
+      "pages": [
+        "about",
+        "accessibility",
+        "ai",
+        "corporate-responsibility"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "commitments",
+        "copilot",
+        "culture",
+        "discover",
+        "explore",
+        "feature-band",
+        "highlight",
+        "values"
+      ],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "bing",
+      "representativeSlug": "bing",
+      "pages": [
+        "bing"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "bing-features",
+        "bing-footnotes",
+        "bing-intro",
+        "bing-manifesto",
+        "bing-panel"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-us-surface-do-more-with-surface",
+      "representativeSlug": "en-us-surface-do-more-with-surface",
+      "pages": [
+        "en-us-surface-do-more-with-surface"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "article-listing",
+        "social-follow"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "announce",
+        "feature-band",
+        "follow",
+        "hero",
+        "stories-carousel"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "search",
+      "representativeSlug": "search",
+      "pages": [
+        "search"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "support",
+      "representativeSlug": "support",
+      "pages": [
+        "support"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "support-content"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

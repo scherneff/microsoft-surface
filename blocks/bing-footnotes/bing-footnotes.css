@@ -1,0 +1,42 @@
+/* bing-footnotes — common-footnotes band */
+.bing-footnotes {
+  position: relative;
+  margin: 0;
+  padding: 2.5em;
+  color: #fff;
+  background-color: var(--theme-dark-bg);
+  font-size: clamp(10px, 0.789vw, 12px);
+}
+
+.bing-footnotes .footnotes-list {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.bing-footnotes .footnotes-list li {
+  max-width: 80em;
+  margin-bottom: 0.5em;
+}
+
+.bing-footnotes .footnotes-list li:has(sup) {
+  position: relative;
+  padding-left: 1em;
+}
+
+.bing-footnotes .footnotes-list sup {
+  position: absolute;
+  margin-inline-start: -1em;
+  margin-top: 0.15em;
+  display: inline-block;
+  font-size: 0.75em;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+@media (width <= 810px) {
+  .bing-footnotes {
+    padding: 2.5em 0;
+  }
+}

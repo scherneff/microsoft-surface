@@ -1,0 +1,87 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-04T03:19:31.702Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.microsoft.com",
+  "explore.microsoft.com",
+  "support.microsoft.com"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/5ef092d1efb5/4c272e8cc694/launch-EN7506e353034849faa4a18bc4c20e727c.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtag/js?id=DC-572608",
+   "boot": "gtag",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: session replay",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Adobe Launch",
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [],
+  "dataElements": [
+   {
+    "name": "IsAEM",
+    "selectors": [
+     ".aem-Grid"
+    ]
+   },
+   {
+    "name": "skipCCPACheck",
+    "selectors": [
+     "#primaryArea[data-m]"
+    ]
+   },
+   {
+    "name": "CMS",
+    "selectors": [
+     "#primaryArea[data-m]",
+     "meta[name="
+    ]
+   },
+   {
+    "name": "JSLL RedTiger",
+    "selectors": [
+     "#primaryArea[data-m]"
+    ]
+   }
+  ],
+  "library": "Adobe Launch",
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

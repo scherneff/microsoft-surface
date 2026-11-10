@@ -1,0 +1,833 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T01:25:22.579Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "bing",
+  "url": "https://www.microsoft.com/bing",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T01:25:22.579Z",
+  "finalUrl": "https://explore.microsoft.com/en-us/bing?form=MA13QZ&cs=2850852386",
+  "title": "Microsoft Bing | Get to know Bing",
+  "description": "Enhance your search experience with Microsoft Bing, the fast, secure, AI-powered search engine. Discover world-class performance, built-in security, and advanced tools to help you find what you need quickly and securely.",
+  "og": {
+    "title": "Microsoft Bing | Get to know Bing",
+    "description": "Enhance your search experience with Microsoft Bing, the fast, secure, AI-powered search engine. Discover world-class performance, built-in security, and advanced tools to help you find what you need quickly and securely.",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Bing is your AI-powered search and answer engine"
+    },
+    {
+      "tag": "h2",
+      "text": "Discover high-quality images with Bing Image Search"
+    },
+    {
+      "tag": "h2",
+      "text": "Create images from the address bar"
+    },
+    {
+      "tag": "h2",
+      "text": "Unlock Bing's Powerful Features"
+    },
+    {
+      "tag": "h2",
+      "text": "Microsoft Edge is the best browser for Bing"
+    },
+    {
+      "tag": "h2",
+      "text": "Bring your desktop to life with Bing Wallpaper"
+    },
+    {
+      "tag": "h2",
+      "text": "Discover more with Bing Mobile"
+    },
+    {
+      "tag": "h2",
+      "text": "What's new"
+    },
+    {
+      "tag": "h2",
+      "text": "Microsoft Store"
+    },
+    {
+      "tag": "h2",
+      "text": "Education"
+    },
+    {
+      "tag": "h2",
+      "text": "Business"
+    },
+    {
+      "tag": "h2",
+      "text": "Developer & IT"
+    },
+    {
+      "tag": "h2",
+      "text": "Company"
+    }
+  ],
+  "body": [
+    "Bing is your AI-powered search and answer engine",
+    "Discover high-quality images with Bing Image Search",
+    "Unlock a vast collection of high-quality images with Bing's advanced search capabilities. Whether you're looking for specific themes, colors, or layouts, Bing ensures you find the perfect image to elevate your project.",
+    "Create images from the address bar",
+    "Generate stunning visuals in a flash with Bing Image Creator. Simply type \"create an image of…\" in the Edge address bar to see your ideas come to life.1 Images will appear on the results page where you can recreate, share, or save for later.",
+    "Bing as your default search engine is required.",
+    "Unlock Bing's Powerful Features",
+    "Unleash the full potential of Bing with innovative tools and features designed to transform your search experience. From smarter searches to powerful insights, Bing is here to help you achieve more. Ready to explore what makes Bing stand out? Click \"Learn More\" and start optimizing the way you search today!",
+    "Microsoft Edge is the best browser for Bing",
+    "Faster, smarter browsing, tailored just for you: Discover a new level of browsing with Bing on Edge. Enjoy lightning-fast search results, enhanced privacy features, and personalized content that adapts to your needs.",
+    "Bring your desktop to life with Bing Wallpaper",
+    "Enjoy breathtaking daily backgrounds from around the world, automatically refreshing your desktop with stunning landscapes, iconic landmarks, and captivating scenes. Customize your experience by selecting favorites or letting Bing surprise you each day.",
+    "Discover more with Bing Mobile",
+    "Unlock a world of information, images, and insights at your fingertips. Whether you’re searching for the latest news, exploring new ideas, or finding the perfect image, Bing is your gateway to a smarter, more connected experience.",
+    "1Bing Image Creator uses the latest MAI-Image-2e, GPT-4o, or DALL-E 3 models.",
+    "* Feature availability and functionality may vary by device type, market, and browser version.",
+    "* The content on this page may have been translated using AI."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": "#main"
+    },
+    {
+      "label": "Features",
+      "href": "/bing/features?form=MA13QZ"
+    },
+    {
+      "label": "Search with AI",
+      "href": "/bing/ai?form=MA13QZ"
+    },
+    {
+      "label": "Visual Search",
+      "href": "/bing/visual-search?form=MA13QZ"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://www.bing.com/?form=MA13QZ"
+    },
+    {
+      "label": "Rewards",
+      "href": "https://www.microsoft.com/rewards?form=MA13QZ"
+    },
+    {
+      "label": "Edge+Bing",
+      "href": "https://www.microsoft.com/en-us/edge/bing?form=MA13VI"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blogs.bing.com/?form=MA13QZ"
+    },
+    {
+      "label": "Support",
+      "href": "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ"
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Download Edge",
+      "href": null
+    },
+    {
+      "label": "Try now",
+      "href": "https://www.bing.com/images/feed?form=Z9LH"
+    },
+    {
+      "label": "1",
+      "href": "#footnote-1"
+    },
+    {
+      "label": "Try now",
+      "href": "https://www.bing.com/images/create?form=MA13QZ"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://www.microsoft.com/bing/features?form=MA13QZ"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://www.microsoft.com/en-us/edge?form=MA13QZ"
+    },
+    {
+      "label": "Try now",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2127820&pc=W245&form=MA13QZ"
+    },
+    {
+      "label": "Download Bing app",
+      "href": "https://bingapp.microsoft.com/bing?form=MA13QZ"
+    },
+    {
+      "label": "Surface Laptop Ultra",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra"
+    },
+    {
+      "label": "Surface Pro",
+      "href": "https://www.microsoft.com/surface/devices/surface-pro"
+    },
+    {
+      "label": "Surface Laptop",
+      "href": "https://www.microsoft.com/surface/devices/surface-laptop"
+    },
+    {
+      "label": "Surface RTX Spark Dev Box",
+      "href": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox"
+    },
+    {
+      "label": "Explore Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot"
+    },
+    {
+      "label": "Explore Microsoft products",
+      "href": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+    },
+    {
+      "label": "Windows 11 apps",
+      "href": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps"
+    },
+    {
+      "label": "Account profile",
+      "href": "https://account.microsoft.com/"
+    },
+    {
+      "label": "Download Center",
+      "href": "https://www.microsoft.com/en-us/download"
+    },
+    {
+      "label": "Microsoft Store support",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2139749"
+    },
+    {
+      "label": "Returns",
+      "href": "https://www.microsoft.com/en-us/store/b/returns"
+    },
+    {
+      "label": "Order tracking",
+      "href": "https://www.microsoft.com/en-us/store/b/order-tracking"
+    },
+    {
+      "label": "Certified Refurbished",
+      "href": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+    },
+    {
+      "label": "Why buy from Microsoft Store",
+      "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy"
+    },
+    {
+      "label": "Flexible Payments",
+      "href": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc"
+    },
+    {
+      "label": "Microsoft in education",
+      "href": "https://www.microsoft.com/en-us/education"
+    },
+    {
+      "label": "Devices for education",
+      "href": "https://www.microsoft.com/en-us/education/devices/overview"
+    },
+    {
+      "label": "Microsoft Teams for Education",
+      "href": "https://www.microsoft.com/en-us/education/products/teams"
+    },
+    {
+      "label": "Microsoft 365 Education",
+      "href": "https://www.microsoft.com/en-us/education/products/microsoft-365"
+    },
+    {
+      "label": "How to buy for your school",
+      "href": "https://www.microsoft.com/education/how-to-buy"
+    },
+    {
+      "label": "Educator training and development",
+      "href": "https://education.microsoft.com/"
+    },
+    {
+      "label": "Deals for students and parents",
+      "href": "https://www.microsoft.com/en-us/store/b/education"
+    },
+    {
+      "label": "AI for education",
+      "href": "https://www.microsoft.com/en-us/education/ai-in-education"
+    },
+    {
+      "label": "Microsoft AI",
+      "href": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI"
+    },
+    {
+      "label": "Microsoft Security",
+      "href": "https://www.microsoft.com/en-us/security"
+    },
+    {
+      "label": "Dynamics 365",
+      "href": "https://www.microsoft.com/en-us/dynamics-365"
+    },
+    {
+      "label": "Microsoft 365",
+      "href": "https://www.microsoft.com/en-us/microsoft-365/business"
+    },
+    {
+      "label": "Microsoft Power Platform",
+      "href": "https://www.microsoft.com/en-us/power-platform"
+    },
+    {
+      "label": "Microsoft Teams",
+      "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+    },
+    {
+      "label": "Microsoft Copilot",
+      "href": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot"
+    },
+    {
+      "label": "Small Business",
+      "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+    },
+    {
+      "label": "Azure",
+      "href": "https://azure.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Developer",
+      "href": "https://developer.microsoft.com/en-us/"
+    },
+    {
+      "label": "Microsoft Learn",
+      "href": "https://learn.microsoft.com/"
+    },
+    {
+      "label": "Support for AI marketplace apps",
+      "href": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Microsoft Tech Community",
+      "href": "https://techcommunity.microsoft.com/"
+    },
+    {
+      "label": "Microsoft Marketplace",
+      "href": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Software companies",
+      "href": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98"
+    },
+    {
+      "label": "Visual Studio",
+      "href": "https://visualstudio.microsoft.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.microsoft.com/"
+    },
+    {
+      "label": "About Microsoft",
+      "href": "https://www.microsoft.com/about"
+    },
+    {
+      "label": "Company news",
+      "href": "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews"
+    },
+    {
+      "label": "Privacy at Microsoft",
+      "href": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy"
+    },
+    {
+      "label": "Investors",
+      "href": "https://www.microsoft.com/investor/default.aspx"
+    },
+    {
+      "label": "Diversity and inclusion",
+      "href": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.microsoft.com/en-us/accessibility"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability"
+    },
+    {
+      "label": "Your Privacy Choices Opt-Out Icon Your Privacy Choices",
+      "href": "https://aka.ms/yourcaliforniaprivacychoices"
+    },
+    {
+      "label": "Consumer Health Privacy",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2259814"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://www.microsoft.com/en-us/sitemap1.aspx"
+    },
+    {
+      "label": "Contact Microsoft",
+      "href": "https://support.microsoft.com/contactus"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://go.microsoft.com/fwlink/?LinkId=521839"
+    },
+    {
+      "label": "Terms of use",
+      "href": "https://go.microsoft.com/fwlink/?LinkID=206977"
+    },
+    {
+      "label": "Trademarks",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2196228"
+    },
+    {
+      "label": "Safety & eco",
+      "href": "https://go.microsoft.com/fwlink/?linkid=2196227"
+    },
+    {
+      "label": "Recycling",
+      "href": "https://www.microsoft.com/en-us/legal/compliance/recycling"
+    },
+    {
+      "label": "About our ads",
+      "href": "https://choice.microsoft.com"
+    }
+  ],
+  "links": [
+    "https://explore.microsoft.com/en-us/bing?form=MA13QZ&cs=2850852386#main",
+    "https://explore.microsoft.com/en-us/bing?form=MA13QZ",
+    "https://explore.microsoft.com/bing/features?form=MA13QZ",
+    "https://explore.microsoft.com/bing/ai?form=MA13QZ",
+    "https://explore.microsoft.com/bing/visual-search?form=MA13QZ",
+    "https://www.bing.com/?form=MA13QZ",
+    "https://www.microsoft.com/rewards?form=MA13QZ",
+    "https://www.microsoft.com/en-us/edge/bing?form=MA13VI",
+    "https://blogs.bing.com/?form=MA13QZ",
+    "https://support.microsoft.com/en-us/topic/microsoft-bing-help-82d20721-2d6f-4012-a13d-d1910ccf203f?form=MA13QZ",
+    "https://www.bing.com/images/feed?form=Z9LH",
+    "https://www.bing.com/maps?form=MA13QZ",
+    "https://www.bing.com/shop?form=MA13QZ",
+    "https://www.bing.com/news?form=MA13QZ",
+    "https://explore.microsoft.com/en-us/bing?form=MA13QZ&cs=2850852386#footnote-1",
+    "https://www.bing.com/images/create?form=MA13QZ",
+    "https://www.bing.com/account/general?ru=https%3a%2f%2fwww.bing.com%2f&FORM=O2HV65",
+    "https://www.bing.com/travel?FORM=TGHPNT&entrypoint=TGHPNT",
+    "https://www.bing.com/search?q=albert+einstein&form=MA13QZ",
+    "https://www.microsoft.com/bing/features?form=MA13QZ",
+    "https://www.microsoft.com/en-us/edge?form=MA13QZ",
+    "https://go.microsoft.com/fwlink/?linkid=2127820&pc=W245&form=MA13QZ",
+    "https://bingapp.microsoft.com/bing?form=MA13QZ",
+    "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
+    "https://www.microsoft.com/surface/devices/surface-pro",
+    "https://www.microsoft.com/surface/devices/surface-laptop",
+    "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
+    "https://www.microsoft.com/en-us/microsoft-products-and-apps",
+    "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
+    "https://account.microsoft.com/",
+    "https://www.microsoft.com/en-us/download",
+    "https://go.microsoft.com/fwlink/?linkid=2139749",
+    "https://www.microsoft.com/en-us/store/b/returns",
+    "https://www.microsoft.com/en-us/store/b/order-tracking",
+    "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+    "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
+    "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+    "https://www.microsoft.com/en-us/education",
+    "https://www.microsoft.com/en-us/education/devices/overview",
+    "https://www.microsoft.com/en-us/education/products/teams",
+    "https://www.microsoft.com/en-us/education/products/microsoft-365",
+    "https://www.microsoft.com/education/how-to-buy",
+    "https://education.microsoft.com/",
+    "https://www.microsoft.com/en-us/store/b/education",
+    "https://www.microsoft.com/en-us/education/ai-in-education",
+    "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI",
+    "https://www.microsoft.com/en-us/security",
+    "https://www.microsoft.com/en-us/dynamics-365",
+    "https://www.microsoft.com/en-us/microsoft-365/business",
+    "https://www.microsoft.com/en-us/power-platform",
+    "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
+    "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+    "https://azure.microsoft.com/en-us/",
+    "https://developer.microsoft.com/en-us/",
+    "https://learn.microsoft.com/",
+    "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
+    "https://techcommunity.microsoft.com/",
+    "https://marketplace.microsoft.com/?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98",
+    "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
+    "https://visualstudio.microsoft.com/",
+    "https://careers.microsoft.com/",
+    "https://www.microsoft.com/about",
+    "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews",
+    "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
+    "https://www.microsoft.com/investor/default.aspx",
+    "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
+    "https://www.microsoft.com/en-us/accessibility",
+    "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability",
+    "https://www.microsoft.com/en-us/edge/worldwide",
+    "https://aka.ms/yourcaliforniaprivacychoices",
+    "https://go.microsoft.com/fwlink/?linkid=2259814",
+    "https://www.microsoft.com/en-us/sitemap1.aspx",
+    "https://support.microsoft.com/contactus",
+    "https://go.microsoft.com/fwlink/?LinkId=521839",
+    "https://explore.microsoft.com/en-us/bing?form=MA13QZ&cs=2850852386#",
+    "https://go.microsoft.com/fwlink/?LinkID=206977",
+    "https://go.microsoft.com/fwlink/?linkid=2196228",
+    "https://go.microsoft.com/fwlink/?linkid=2196227",
+    "https://www.microsoft.com/en-us/legal/compliance/recycling",
+    "https://choice.microsoft.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/logos/07eb9d99a8d34fb1a15c61c3dd6d23c2.svg",
+        "alt": "Microsoft",
+        "w": 120,
+        "h": 26
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/logos/6d3ce1f2e0f5455b86966077c20f5b42-png-w256.avif",
+        "alt": "Bing",
+        "w": 256,
+        "h": 127
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/bf96b9f3c72947b4816bae3752ceebaf-png-w1600.avif",
+        "alt": "",
+        "w": 1600,
+        "h": 1000
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/aefd4a9ed6c04d88bdf1e04854f6a9fe-png-w1600.avif",
+        "alt": "",
+        "w": 1600,
+        "h": 1001
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/54f3350d61f74bd78d5ab2d348a490df-png-w1600.avif",
+        "alt": "",
+        "w": 1600,
+        "h": 1000
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/df85c02f43a2426fa491970af1cf362c-png-w1234.avif",
+        "alt": "",
+        "w": 1234,
+        "h": 845
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/47b5fcdaac40436d991060b478b41521-png-w1600.avif",
+        "alt": "",
+        "w": 1600,
+        "h": 1000
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/3b8672957f5040b8959248b22427156c-png-w1601.avif",
+        "alt": "",
+        "w": 1601,
+        "h": 1001
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/9a2eb56c1f1a4c8b984808006d64538f-png-w1601.avif",
+        "alt": "",
+        "w": 1601,
+        "h": 1001
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/f21b6c7d92834be2a28d3b7585e7bcf4-png-w1601.avif",
+        "alt": "",
+        "w": 1601,
+        "h": 1001
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/54b599082d7f447491c8c24f85390a74-png-w795.avif",
+        "alt": "",
+        "w": 795,
+        "h": 796
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/469c5486276d4058a706678fba63dcc4-png-w1920.avif",
+        "alt": "",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/9f165bf2e0bf460abe8d6d29540b7471-png-w796.avif",
+        "alt": "",
+        "w": 796,
+        "h": 796
+      }
+    ],
+    "allImgCount": 14,
+    "cssBackgrounds": [
+      "https://www.bing.com/th?id=OHR.AlpineBraies_EN-US6636326357_1920x1080.webp",
+      "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/92454eebd346406dae0eadff771baf4c-png-w973.avif"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--px-toggle-size": "1em",
+    "--px-toggle-unchecked": "#22222254",
+    "--px-toggle-checked": "#1a59c8",
+    "--px-toggle-thumb": "white",
+    "--px-toggle-track-shadow": "inset 0 1px 1px 0 #0003",
+    "--px-toggle-thumb-shadow": "0 2px 4px 0 #0006",
+    "--breakpoint": "lg",
+    "--breakpoint-str": "\"lg\"",
+    "--breakpoint-width": "1600px",
+    "--is-mobile": "false",
+    "--breakpoint-names": "xl lg md sm mobile xs",
+    "--breakpoint-sizes": "1920px 1600px 1366px 1024px 810px 640px",
+    "--nav-height": "3rem",
+    "--mbt-sz-hero": "clamp(54px, 6.316vw, 96px)",
+    "--mbt-lh-hero": "1.08",
+    "--mbt-sz-hero-lg": "clamp(50px, 5.263vw, 80px)",
+    "--mbt-lh-hero-lg": "1.08",
+    "--mbt-sz-hero-md": "clamp(46px, 4.737vw, 72px)",
+    "--mbt-lh-hero-md": "1.08",
+    "--mbt-sz-h1": "clamp(32px, 3.684vw, 56px)",
+    "--mbt-lh-h1": "1",
+    "--mbt-sz-h2": "clamp(28px, 2.763vw, 42px)",
+    "--mbt-lh-h2": "1.15",
+    "--mbt-sz-h3": "clamp(24px, 2.237vw, 34px)",
+    "--mbt-lh-h3": "1.15",
+    "--mbt-sz-h4": "clamp(21px, 1.842vw, 28px)",
+    "--mbt-lh-h4": "1.15",
+    "--mbt-sz-h5": "clamp(19px, 1.579vw, 24px)",
+    "--mbt-lh-h5": "1.15",
+    "--mbt-sz-sh1": "clamp(19px, 1.579vw, 24px)",
+    "--mbt-lh-sh1": "1.35",
+    "--mbt-sz-sh2": "clamp(17px, 1.316vw, 20px)",
+    "--mbt-lh-sh2": "1.35",
+    "--mbt-sz-sh3": "clamp(16px, 1.184vw, 18px)",
+    "--mbt-lh-sh3": "1.35",
+    "--mbt-sz-sh4": "clamp(12px, .921vw, 14px)",
+    "--mbt-lh-sh4": "1.35",
+    "--mbt-sz-sh5": "clamp(10px, .789vw, 12px)",
+    "--mbt-lh-sh5": "1.35",
+    "--mbt-sz-xl": "clamp(19px, 1.579vw, 24px)",
+    "--mbt-lh-xl": "1.2",
+    "--mbt-sz-lg": "clamp(17px, 1.316vw, 20px)",
+    "--mbt-lh-lg": "1.2",
+    "--mbt-sz-md": "clamp(16px, 1.184vw, 18px)",
+    "--mbt-lh-md": "1.25",
+    "--mbt-sz-base": "clamp(14px, 1.053vw, 16px)",
+    "--mbt-lh-base": "1.25",
+    "--mbt-sz-sm": "clamp(12px, .921vw, 14px)",
+    "--mbt-lh-sm": "1.25",
+    "--mbt-sz-xs": "clamp(10px, .789vw, 12px)",
+    "--mbt-lh-xs": "1.25",
+    "--px-toggle-button-gap": ".33em",
+    "--px-toggle-button-icon-offset": "-.33em",
+    "--px-slide-transition-duration": "1s",
+    "--px-slide-transition-slide-amount": "40vw"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 13,
+    "mainTextLen": 3586,
+    "realImageCount": 13,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "explore.microsoft.com",
+        "path": "/edge/api/i18n/1aef7089/en-us/messages.json",
+        "query": [],
+        "resourceType": "other",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 6616,
+        "hits": 1,
+        "example": "https://explore.microsoft.com/edge/api/i18n/1aef7089/en-us/messages.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "explore.microsoft.com",
+        "path": "/edge/api/uhf",
+        "query": [
+          "locale"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3590,
+        "hits": 1,
+        "example": "https://explore.microsoft.com/edge/api/uhf",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "edgecdn-embza6g8cacagcbn.z01.azurefd.net",
+        "path": "/shared/edgeweb/_nuxt/search-reverse.C4HTXRDx.svg",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": 557,
+        "hits": 1,
+        "example": "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/search-reverse.C4HTXRDx.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.clarity.ms",
+        "path": "/eus2-f/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.clarity.ms/eus2-f/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "edgecdn-embza6g8cacagcbn.z01.azurefd.net",
+        "path": "/shared/edgeweb/_nuxt/builds/meta/{uuid}.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 88,
+        "hits": 1,
+        "example": "https://edgecdn-embza6g8cacagcbn.z01.azurefd.net/shared/edgeweb/_nuxt/builds/meta/06fa9301-1fab-4edf-bda1-38e89df354cd.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "browser.events.data.microsoft.com",
+        "path": "/OneCollector/1.0/",
+        "query": [
+          "content-type",
+          "cors",
+          "w"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 154,
+        "hits": 3,
+        "example": "https://browser.events.data.microsoft.com/OneCollector/1.0/",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "edgecdn-embza6g8cacagcbn.z01.azurefd.net",
+        "count": 34
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 3
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [
+      {
+        "id": "__NUXT_DATA__",
+        "type": "application/json",
+        "bytes": 28436,
+        "topLevelKeys": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      }
+    ],
+    "globalState": [],
+    "frameworkHints": [
+      "nuxt"
+    ],
+    "forms": [
+      {
+        "action": "https://explore.microsoft.com/en-us/bing",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 1,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 3,
+      "thirdPartyEndpoints": 3,
+      "thirdPartyScriptHosts": 4,
+      "inlineDataBlobs": 1,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/bing.png",
+  "renderedHtml": "pages/bing.html",
+  "slots": {
+    "type": "program",
+    "names": [
+      "program-headline",
+      "summary",
+      "feature-grid",
+      "cta-band"
+    ],
+    "headline": "Bing is your AI-powered search and answer engine",
+    "headings": 13,
+    "ctas": [
+      {
+        "label": "Skip to main content",
+        "href": "#main"
+      },
+      {
+        "label": "Features",
+        "href": "/bing/features?form=MA13QZ"
+      },
+      {
+        "label": "Search with AI",
+        "href": "/bing/ai?form=MA13QZ"
+      },
+      {
+        "label": "Visual Search",
+        "href": "/bing/visual-search?form=MA13QZ"
+      },
+      {
+        "label": "Homepage",
+        "href": "https://www.bing.com/?form=MA13QZ"
+      },
+      {
+        "label": "Rewards",
+        "href": "https://www.microsoft.com/rewards?form=MA13QZ"
+      }
+    ],
+    "_provenance": "extract --prep typed slots (inferred from headings/ctas)"
+  }
+}
