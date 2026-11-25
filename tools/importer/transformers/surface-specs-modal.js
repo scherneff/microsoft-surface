@@ -37,6 +37,35 @@ function richText(root, document) {
     sup.replaceWith(link);
   });
   clone.querySelectorAll('button, svg, img, script, style').forEach((el) => el.remove());
+  // line breaks inside bold text ("<strong>Surface Laptop 13-inch:<br></strong>") are lost on
+  // conversion: split the bold run at each break so the breaks sit between bold pieces
+  clone.querySelectorAll('strong, b').forEach((bold) => {
+    if (!bold.querySelector('br')) return;
+    const parts = [];
+    let current = document.createElement(bold.tagName.toLowerCase());
+    [...bold.childNodes].forEach((node) => {
+      if (node.nodeName === 'BR') {
+        parts.push(current, document.createElement('br'));
+        current = document.createElement(bold.tagName.toLowerCase());
+      } else {
+        current.append(node);
+      }
+    });
+    parts.push(current);
+    bold.replaceWith(...parts.filter((n) => n.nodeName === 'BR' || clean(n.textContent)));
+  });
+  // indented lines (leading spaces after a break, shown with white-space: pre-wrap on the
+  // source) keep their indent as em spaces, about 4 spaces each (plain and non-breaking spaces
+  // are collapsed on conversion)
+  const walker = document.createTreeWalker(clone, 4);
+  const texts = [];
+  while (walker.nextNode()) texts.push(walker.currentNode);
+  texts.forEach((t) => {
+    const prev = t.previousSibling;
+    if (prev && prev.nodeName === 'BR') {
+      t.textContent = t.textContent.replace(/^\s{2,}/, (m) => '\u2003'.repeat(Math.max(1, Math.round(m.replace(/[\r\n]/g, '').length / 4))));
+    }
+  });
   [clone, ...clone.querySelectorAll('*')].forEach((el) => {
     [...el.attributes].forEach((attr) => { if (attr.name !== 'href') el.removeAttribute(attr.name); });
   });

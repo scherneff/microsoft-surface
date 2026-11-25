@@ -1216,6 +1216,30 @@ var CustomImportScript = (() => {
       sup.replaceWith(link);
     });
     clone.querySelectorAll("button, svg, img, script, style").forEach((el) => el.remove());
+    clone.querySelectorAll("strong, b").forEach((bold) => {
+      if (!bold.querySelector("br")) return;
+      const parts = [];
+      let current = document2.createElement(bold.tagName.toLowerCase());
+      [...bold.childNodes].forEach((node) => {
+        if (node.nodeName === "BR") {
+          parts.push(current, document2.createElement("br"));
+          current = document2.createElement(bold.tagName.toLowerCase());
+        } else {
+          current.append(node);
+        }
+      });
+      parts.push(current);
+      bold.replaceWith(...parts.filter((n) => n.nodeName === "BR" || clean7(n.textContent)));
+    });
+    const walker = document2.createTreeWalker(clone, 4);
+    const texts = [];
+    while (walker.nextNode()) texts.push(walker.currentNode);
+    texts.forEach((t) => {
+      const prev = t.previousSibling;
+      if (prev && prev.nodeName === "BR") {
+        t.textContent = t.textContent.replace(/^\s{2,}/, (m) => "\u2003".repeat(Math.max(1, Math.round(m.replace(/[\r\n]/g, "").length / 4))));
+      }
+    });
     [clone, ...clone.querySelectorAll("*")].forEach((el) => {
       [...el.attributes].forEach((attr) => {
         if (attr.name !== "href") el.removeAttribute(attr.name);

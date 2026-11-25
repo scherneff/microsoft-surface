@@ -312,7 +312,8 @@
 }
 
 .table-compare.specs dd sup {
-  font-size: 0.75em;
+  font-size: 12px;
+  line-height: 0;
 }
 
 @media (width >= 1024px) {
@@ -330,4 +331,20 @@
   .table-compare.specs dt {
     padding-right: 40px;
   }
+}
+
+/* specs: footnote refs are small, black and underlined
+   and don't stretch the line */
+.table-compare.specs dd a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* footnote refs: underline the raised number itself, not the line below it */
+.table-compare.specs dd a:any-link:has(> sup) {
+  text-decoration: none;
+}
+
+.table-compare.specs dd a:any-link > sup {
+  text-decoration: underline;
 }

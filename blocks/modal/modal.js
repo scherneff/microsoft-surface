@@ -37,11 +37,35 @@ export async function createModal(contentNodes) {
   close.className = 'modal-close';
   close.setAttribute('aria-label', 'Close');
   close.innerHTML = CLOSE_ICON;
-  close.addEventListener('click', () => dialog.close());
 
+  // like the source, the sheet slides up on open and back down on close
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let closing = false;
+  const closeModal = () => {
+    if (closing || !dialog.open) return;
+    if (reducedMotion.matches) {
+      dialog.close();
+      return;
+    }
+    closing = true;
+    dialog.classList.remove('is-open');
+    const done = (e) => {
+      if (e && (e.target !== dialog || !/transform|translate/.test(e.propertyName))) return;
+      dialog.removeEventListener('transitionend', done);
+      if (dialog.open) dialog.close();
+    };
+    dialog.addEventListener('transitionend', done);
+    setTimeout(() => done(), 450);
+  };
+  close.addEventListener('click', closeModal);
+  // Escape: animate out instead of the instant native close
+  dialog.addEventListener('cancel', (e) => {
+    e.preventDefault();
+    closeModal();
+  });
   // a click on the backdrop (outside the sheet) closes it
   dialog.addEventListener('click', (e) => {
-    if (e.target === dialog) dialog.close();
+    if (e.target === dialog) closeModal();
   });
   dialog.addEventListener('close', () => {
     document.body.classList.remove('modal-open');
@@ -54,6 +78,8 @@ export async function createModal(contentNodes) {
     dialog.showModal();
     content.scrollTop = 0;
     document.body.classList.add('modal-open');
+    // let the off-screen state render first so the slide-up runs
+    requestAnimationFrame(() => requestAnimationFrame(() => dialog.classList.add('is-open')));
   };
   return { dialog, showModal };
 }
