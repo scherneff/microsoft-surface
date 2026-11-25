@@ -401,3 +401,9 @@ main .hero-product .hero-product-cta a:hover {
     letter-spacing: -0.01em;
   }
 }
+
+/* `sans` hero (e.g. Surface Laptop): the promo pill sizes to its text and only wraps when the
+   screen is too narrow to fit it (still clear of the video toggle) */
+.hero-product.sans .hero-product-promo a:any-link {
+  max-width: calc(100% - 120px);
+}

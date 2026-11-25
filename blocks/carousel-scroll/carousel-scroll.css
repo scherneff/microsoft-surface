@@ -231,7 +231,11 @@
 }
 
 @media (width >= 1024px) {
+  /* like the source, the panel stops growing at 1600px (1544px card + gutters) and centres */
   .carousel-scroll-container .carousel-scroll-wrapper {
+    box-sizing: border-box;
+    max-width: 1600px;
+    margin-inline: auto;
     padding: 0 28px;
   }
 
@@ -302,5 +306,46 @@
   .carousel-scroll .carousel-scroll-slide,
   .carousel-scroll .carousel-scroll-indicator {
     transition: none;
+  }
+}
+
+/*
+ * Light sections (e.g. Surface Laptop) space the intro like the source: the card starts 120px
+ * below the intro copy and pins once it is centred in the viewport. The stage is only as tall as
+ * the card (instead of a full viewport with the card centred in it), so the gap above the card no
+ * longer depends on the screen height. Card height = min(width-based ratio, 100svh - 120px).
+ */
+main > .section.light.carousel-scroll-container {
+  padding-top: 120px;
+}
+
+.section.light .default-content-wrapper:has(+ .carousel-scroll-wrapper) > :last-child {
+  margin-bottom: 0;
+}
+
+.section.light .carousel-scroll-wrapper {
+  container-type: inline-size;
+}
+
+.section.light .carousel-scroll {
+  --carousel-scroll-frame-h: min(100cqw * 724 / 374, 100svh - 120px);
+
+  margin-top: 120px;
+}
+
+.section.light .carousel-scroll .carousel-scroll-stage {
+  top: calc((100svh - var(--carousel-scroll-frame-h)) / 2);
+  height: auto;
+}
+
+@media (width >= 768px) {
+  .section.light .carousel-scroll {
+    --carousel-scroll-frame-h: min(100cqw * 3 / 2, 100svh - 120px);
+  }
+}
+
+@media (width >= 1024px) {
+  .section.light .carousel-scroll {
+    --carousel-scroll-frame-h: min(100cqw * 9 / 16, 100svh - 120px);
   }
 }
