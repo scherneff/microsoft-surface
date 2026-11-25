@@ -136,6 +136,11 @@ main > .section > .cards-product-wrapper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  /* three cards (e.g. an accessories row) sit side by side */
+  .cards-product > ul:has(> li:nth-child(3):last-child) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .cards-product .cards-product-card {
     justify-content: space-between;
     height: 100%;
@@ -151,5 +156,135 @@ main > .section > .cards-product-wrapper {
 
   .cards-product .cards-product-card-image {
     aspect-ratio: 569 / 464;
+  }
+}
+
+/*
+ * Accessory row in a light section (e.g. "Explore Surface Laptop accessories"):
+ * borderless image-first tiles with a blue Buy pill; a swipeable row below 1024px.
+ */
+.section.light .cards-product > ul {
+  display: flex;
+  gap: 16px;
+  margin-inline: calc(-1 * var(--content-gutter, 20px));
+  padding-inline: var(--content-gutter, 20px);
+  overflow-x: auto;
+  scroll-padding-inline: var(--content-gutter, 20px);
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.section.light .cards-product .cards-product-card {
+  flex: 0 0 240px;
+  gap: 40px;
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--light-text-color);
+  overflow: visible;
+  scroll-snap-align: start;
+}
+
+.section.light .cards-product .cards-product-card-image {
+  order: -1;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+}
+
+.section.light .cards-product .cards-product-card-image img {
+  object-fit: contain;
+}
+
+.section.light .cards-product .cards-product-card-body {
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0;
+  text-align: start;
+}
+
+.section.light .cards-product .cards-product-card-body h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  text-wrap: pretty;
+}
+
+.section.light .cards-product .cards-product-card-actions {
+  justify-content: flex-start;
+}
+
+.section.light .cards-product .cards-product-card-actions a:any-link {
+  justify-content: center;
+  height: auto;
+  padding: 12px 20px;
+  border-radius: 9999px;
+  background-color: var(--brand-color);
+  color: var(--light-color);
+  line-height: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.section.light .cards-product .cards-product-card-actions a:any-link:hover {
+  background-color: var(--brand-hover-color);
+}
+
+.section.light .cards-product .cards-product-card-actions a:any-link:active {
+  background-color: var(--brand-active-color);
+}
+
+.section.light .cards-product .cards-product-card-actions a::after {
+  content: none;
+}
+
+@media (width >= 768px) {
+  .section.light .cards-product .cards-product-card {
+    flex-basis: 211px;
+  }
+
+  .section.light .cards-product .cards-product-card-image {
+    aspect-ratio: 1 / 1;
+  }
+
+  .section.light .cards-product .cards-product-card-body {
+    align-items: center;
+    padding: 0;
+    text-align: center;
+  }
+
+  .section.light .cards-product .cards-product-card-body h3 {
+    padding-inline: 8px;
+  }
+
+  .section.light .cards-product .cards-product-card-actions {
+    justify-content: center;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.light > .cards-product-wrapper {
+    margin-top: 60px;
+  }
+
+  .section.light .cards-product > ul {
+    display: grid;
+    gap: 40px;
+    margin-inline: 0;
+    padding-inline: 0;
+    overflow-x: visible;
+  }
+
+  .section.light .cards-product .cards-product-card {
+    justify-content: flex-start;
+  }
+
+  .section.light .cards-product .cards-product-card-image {
+    aspect-ratio: 1 / 1;
+  }
+
+  .section.light .cards-product .cards-product-card-body {
+    padding: 0;
+  }
+
+  .section.light .cards-product .cards-product-card-body h3 {
+    padding-inline: 40px;
+    font-size: 24px;
   }
 }

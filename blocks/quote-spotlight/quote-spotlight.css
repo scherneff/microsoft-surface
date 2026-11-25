@@ -1,0 +1,259 @@
+/* full-bleed: drop the section content width and gutters */
+main > .section.quote-spotlight-container {
+  padding: 0;
+}
+
+.quote-spotlight-container .quote-spotlight-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.quote-spotlight {
+  position: relative;
+  min-height: max(650px, 100lvh);
+  overflow: hidden;
+  isolation: isolate;
+  background-color: var(--elevated-color, #1a1a1a);
+  color: #fff;
+}
+
+.quote-spotlight.no-media {
+  min-height: 0;
+}
+
+/* media layer: the mobile (portrait) crop, swapped for the desktop crop in landscape */
+.quote-spotlight .quote-spotlight-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.quote-spotlight .quote-spotlight-media picture,
+.quote-spotlight .quote-spotlight-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+
+.quote-spotlight .quote-spotlight-media.has-mobile .quote-spotlight-media-desktop {
+  display: none;
+}
+
+/* content layer: heading at the top, cards at the bottom */
+.quote-spotlight .quote-spotlight-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  min-height: inherit;
+  margin: 0 auto;
+  padding: 20px var(--content-gutter, 20px);
+}
+
+/* sans headline in normal case (not the uppercase mono display style) */
+.quote-spotlight .quote-spotlight-heading > :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 40px;
+  font-weight: var(--font-weight-regular, 350);
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+.quote-spotlight .quote-spotlight-heading > :last-child {
+  margin-bottom: 0;
+}
+
+/* frosted cards */
+.quote-spotlight .quote-spotlight-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.quote-spotlight .quote-spotlight-quote,
+.quote-spotlight .quote-spotlight-product {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(40px);
+}
+
+.quote-spotlight .quote-spotlight-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+.quote-spotlight .quote-spotlight-quote blockquote {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.quote-spotlight .quote-spotlight-quote figcaption {
+  color: rgb(255 255 255 / 80%);
+  font-size: var(--body-font-size-s, 14px);
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.quote-spotlight .quote-spotlight-quote :is(p, blockquote > *) {
+  margin: 0;
+}
+
+/* product mini-card: thumbnail | name + price | Buy */
+.quote-spotlight .quote-spotlight-product {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  padding: 12px;
+}
+
+.quote-spotlight .quote-spotlight-product-image {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  width: 85px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: rgb(255 255 255 / 20%);
+}
+
+.quote-spotlight .quote-spotlight-product-image picture,
+.quote-spotlight .quote-spotlight-product-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.quote-spotlight .quote-spotlight-product-body {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  min-width: 0;
+  padding-inline-end: 10px;
+}
+
+.quote-spotlight .quote-spotlight-product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.quote-spotlight .quote-spotlight-product-info > * {
+  margin: 0;
+}
+
+.quote-spotlight .quote-spotlight-product-name {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-s, 20px);
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  text-transform: none;
+}
+
+.quote-spotlight .quote-spotlight-product-price {
+  color: rgb(255 255 255 / 80%);
+  font-size: var(--body-font-size-s, 14px);
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+/* Buy sits at the bottom of the card until desktop, where it centres */
+.quote-spotlight .quote-spotlight-product-actions {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  gap: 8px;
+}
+
+@media (orientation: landscape) {
+  .quote-spotlight .quote-spotlight-media.has-mobile .quote-spotlight-media-desktop {
+    display: block;
+  }
+
+  .quote-spotlight .quote-spotlight-media.has-mobile .quote-spotlight-media-mobile {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .quote-spotlight {
+    min-height: max(750px, 100lvh);
+  }
+
+  .quote-spotlight .quote-spotlight-content {
+    padding-block: 60px;
+  }
+
+  .quote-spotlight .quote-spotlight-cards {
+    max-width: 360px;
+  }
+
+  .quote-spotlight .quote-spotlight-product-image {
+    width: 105px;
+  }
+
+  .quote-spotlight .quote-spotlight-product-info {
+    gap: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .quote-spotlight .quote-spotlight-content {
+    padding: 80px 147px;
+  }
+
+  .quote-spotlight .quote-spotlight-heading > :is(h1, h2, h3, h4, h5, h6) {
+    font-size: var(--heading-font-size-l, 48px);
+    line-height: 1.4;
+  }
+
+  .quote-spotlight .quote-spotlight-cards {
+    max-width: 416px;
+  }
+
+  .quote-spotlight .quote-spotlight-quote blockquote {
+    font-size: var(--heading-font-size-s, 20px);
+  }
+
+  .quote-spotlight .quote-spotlight-product {
+    gap: 30px;
+  }
+
+  .quote-spotlight .quote-spotlight-product-info {
+    gap: 10px;
+  }
+
+  .quote-spotlight .quote-spotlight-product-actions {
+    align-self: center;
+  }
+}
+
+@media (width >= 1600px) {
+  .quote-spotlight .quote-spotlight-content {
+    max-width: 1600px;
+  }
+}

@@ -31,11 +31,50 @@ function buildVideo(src) {
   return video;
 }
 
+/**
+ * Optional intro row (first row, first cell holds the wallpaper picture(s), no video link):
+ * a full-screen wallpaper with the section heading, shown first and faded out once the
+ * reader has scrolled a quarter of the way through the pinned block.
+ */
+function buildIntro(row) {
+  const [mediaCell] = row.children;
+  if (!mediaCell || !mediaCell.querySelector('picture')) return null;
+  if ([...row.querySelectorAll('a[href]')].some(isVideoLink)) return null;
+
+  const intro = document.createElement('div');
+  intro.className = 'accordion-media-intro';
+  const [landscape, portrait] = [...row.querySelectorAll('picture')];
+  const picture = landscape.cloneNode(true);
+  const portraitImg = portrait && portrait.querySelector('img');
+  if (portraitImg) {
+    const source = document.createElement('source');
+    source.media = '(orientation: portrait)';
+    source.srcset = portraitImg.src;
+    picture.prepend(source);
+  }
+  const img = picture.querySelector('img');
+  if (img) img.loading = 'lazy';
+  intro.append(picture);
+
+  const heading = row.querySelector('h1, h2, h3, h4, h5, h6');
+  const text = [...row.children].slice(1).map((c) => c.textContent.trim()).join(' ').trim();
+  if (heading || text) {
+    const title = heading ? heading.cloneNode(true) : document.createElement('h3');
+    if (!heading) title.textContent = text;
+    title.className = 'accordion-media-intro-title';
+    intro.append(title);
+  }
+  row.remove();
+  return intro;
+}
+
 export default function decorate(block) {
   const stage = document.createElement('div');
   stage.className = 'accordion-media-stage';
   const list = document.createElement('div');
   list.className = 'accordion-media-items';
+
+  const intro = block.firstElementChild ? buildIntro(block.firstElementChild) : null;
 
   const items = [];
   [...block.children].forEach((row) => {
@@ -151,11 +190,63 @@ export default function decorate(block) {
   });
   stage.append(toggle);
 
+  // labels authored in sentence case get the sans label style;
+  // all-caps labels (e.g. "BUILD.") keep the mono display style
+  const labels = items.map(({ details }) => details.querySelector('.accordion-media-item-title').textContent);
+  if (labels.some((label) => label !== label.toUpperCase())) block.classList.add('sentence-labels');
+
   block.replaceChildren(stage, list);
 
-  const observer = new IntersectionObserver((entries) => {
-    visible = entries.some((e) => e.isIntersecting);
+  let inView = false;
+  let revealed = !intro;
+  const updateVisible = () => {
+    visible = inView && revealed;
     sync();
+  };
+
+  if (intro) {
+    block.classList.add('has-intro');
+    block.append(intro);
+    // the wrapper is the scroll track the pinned block travels through (see CSS)
+    const track = block.parentElement;
+    let focused = false;
+    let ticking = false;
+    const update = () => {
+      ticking = false;
+      const rect = track.getBoundingClientRect();
+      const range = rect.height - window.innerHeight;
+      const progress = range > 0 ? -rect.top / range : 1;
+      const next = focused || progress >= 0.25;
+      if (next !== revealed) {
+        revealed = next;
+        block.classList.toggle('is-revealed', revealed);
+        updateVisible();
+      }
+    };
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(update);
+      }
+    };
+    // keyboard users reaching the items get them straight away
+    list.addEventListener('focusin', () => { focused = true; update(); });
+    list.addEventListener('focusout', (e) => {
+      if (!list.contains(e.relatedTarget)) { focused = false; update(); }
+    });
+    new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) {
+        window.addEventListener('scroll', onScroll, { passive: true });
+        update();
+      } else {
+        window.removeEventListener('scroll', onScroll);
+      }
+    }, { rootMargin: '50% 0px' }).observe(track);
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    inView = entries.some((e) => e.isIntersecting);
+    updateVisible();
   }, { threshold: 0.3 });
   observer.observe(block);
 

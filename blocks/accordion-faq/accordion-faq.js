@@ -75,9 +75,17 @@ export default function decorate(block) {
     body.className = 'accordion-faq-item-body';
     bodyCells.forEach((cell) => body.append(...cell.childNodes));
 
+    // panel (animated grid row 0fr <-> 1fr) > clip (overflow hidden) > body (padding)
+    const panel = document.createElement('div');
+    panel.className = 'accordion-faq-item-panel';
+    const clip = document.createElement('div');
+    clip.className = 'accordion-faq-item-clip';
+    clip.append(body);
+    panel.append(clip);
+
     const details = document.createElement('details');
     details.className = 'accordion-faq-item';
-    details.append(summary, body);
+    details.append(summary, panel);
     list.append(details);
   });
 
@@ -87,11 +95,58 @@ export default function decorate(block) {
   }
 
   const items = () => [...list.querySelectorAll('.accordion-faq-item')];
+
+  // smooth open/close: the native <details> opens first, then its panel row grows from 0fr
+  // to 1fr; closing shrinks the row and only then closes the <details>
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const opening = new WeakSet();
+  const setOpen = (details, open) => {
+    const panel = details.querySelector('.accordion-faq-item-panel');
+    if (open) {
+      if (details.classList.contains('is-open')) return;
+      opening.add(details);
+      details.open = true;
+      // let the closed state render before growing so the transition runs
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        opening.delete(details);
+        if (details.open) details.classList.add('is-open');
+      }));
+      return;
+    }
+    if (!details.open) return;
+    details.classList.remove('is-open');
+    if (reducedMotion.matches || !panel) {
+      details.open = false;
+      return;
+    }
+    const done = (e) => {
+      if (e && (e.target !== panel || e.propertyName !== 'grid-template-rows')) return;
+      panel.removeEventListener('transitionend', done);
+      if (!details.classList.contains('is-open')) details.open = false;
+    };
+    panel.addEventListener('transitionend', done);
+    // safety net if the transition doesn't fire (e.g. hidden tab)
+    setTimeout(() => done(), 400);
+  };
+
+  items().forEach((details) => {
+    details.querySelector('summary').addEventListener('click', (e) => {
+      e.preventDefault();
+      setOpen(details, !details.classList.contains('is-open'));
+    });
+    // opened by the browser (find-in-page, keyboard on some engines): show it fully
+    details.addEventListener('toggle', () => {
+      if (opening.has(details)) return;
+      if (details.open && !details.classList.contains('is-open')) details.classList.add('is-open');
+      if (!details.open) details.classList.remove('is-open');
+    });
+  });
+
   const expand = buildControl('Expand all', 'accordion-faq-expand', buildIcon(PLUS_PATH, '0 0 13 13'), () => {
-    items().forEach((d) => { d.open = true; });
+    items().forEach((d) => setOpen(d, true));
   });
   const collapse = buildControl('Collapse all', 'accordion-faq-collapse', buildIcon(MINUS_PATH, '0 0 13 1'), () => {
-    items().forEach((d) => { d.open = false; });
+    items().forEach((d) => setOpen(d, false));
   });
   const controlledBy = header.querySelector('h1, h2, h3, h4, h5, h6')?.textContent.trim();
   if (controlledBy) {

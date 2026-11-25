@@ -1,0 +1,255 @@
+{
+  "templates": [
+    {
+      "name": "surface-product",
+      "urls": [
+        "https://www.microsoft.com/en-us/surface/devices/surface-laptop"
+      ],
+      "representativeUrl": "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+      "description": "Surface device product page: video hero, scroll story, media tabs, specs, bento, use-case accordion, feature and compare cards, FAQ, footnotes",
+      "blocks": [
+        {
+          "name": "hero-product",
+          "instances": [
+            "#surface-laptop-product-hero > section",
+            "#surface-laptop-image-description > section"
+          ]
+        },
+        {
+          "name": "carousel-scroll",
+          "instances": [
+            "#surface-laptop-scrolling-slide .container-fluid"
+          ]
+        },
+        {
+          "name": "tabs-media",
+          "instances": [
+            "#surface-laptop-screen-sizes-section div:has(> #laptop-tabs)"
+          ]
+        },
+        {
+          "name": "cards-bento",
+          "instances": [
+            "[id=\"Surface Laptop Mega Promo camera\"] > section > div.container:has(video)",
+            "[id=\"surface-laptop-mega-promo\"]:has(video) > section > div.container:has(video)"
+          ]
+        },
+        {
+          "name": "scroll-video",
+          "instances": [
+            "[id=\"surface-laptop-mega-promo\"]:not(:has(video)) div:has(> div.sticky)"
+          ]
+        },
+        {
+          "name": "accordion-media",
+          "instances": [
+            "#surface-laptop-accordion-feature-animations > section"
+          ]
+        },
+        {
+          "name": "quote-spotlight",
+          "instances": [
+            "#surface-laptop-testimonial-spotlight > section"
+          ]
+        },
+        {
+          "name": "table-compare",
+          "instances": [
+            "#Surface-laptop-product-comparison-table table"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "#surface-laptop-product-card-section div.pointer-events-auto"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "#surface-laptop-accordion > section"
+          ]
+        }
+      ],
+      "urlPattern": "/en-us/surface/devices/*",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Product hero",
+          "selector": [
+            "#surface-laptop-product-hero"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s2",
+          "name": "A laptop without limits",
+          "selector": [
+            "#surface-laptop-scrolling-slide"
+          ],
+          "style": "light, dune, centered",
+          "blocks": [
+            "carousel-scroll"
+          ],
+          "defaultContent": [
+            "#surface-laptop-scrolling-slide > section > div.container.text-center"
+          ]
+        },
+        {
+          "id": "s3",
+          "name": "Good things come in threes",
+          "selector": [
+            "#surface-laptop-screen-sizes-section"
+          ],
+          "style": "light, dune, centered",
+          "blocks": [
+            "tabs-media"
+          ],
+          "defaultContent": [
+            "#surface-laptop-screen-sizes-section > section > div > div.container"
+          ]
+        },
+        {
+          "id": "s4",
+          "name": "Power through your day",
+          "selector": [
+            "#surface-laptop-image-description"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "A camera that reads the room",
+          "selector": [
+            "[id=\"Surface Laptop Mega Promo camera\"]"
+          ],
+          "style": "light, centered",
+          "blocks": [
+            "cards-bento"
+          ],
+          "defaultContent": [
+            "[id=\"Surface Laptop Mega Promo camera\"] > section > div:first-child"
+          ]
+        },
+        {
+          "id": "s6",
+          "name": "The eyes have it",
+          "selector": [
+            "[id=\"surface-laptop-mega-promo\"]:not(:has(video))"
+          ],
+          "style": "light, dune, centered",
+          "blocks": [
+            "scroll-video"
+          ],
+          "defaultContent": [
+            "[id=\"surface-laptop-mega-promo\"]:not(:has(video)) > section > div:first-child",
+            "[id=\"surface-laptop-mega-promo\"]:not(:has(video)) > section > div.container"
+          ]
+        },
+        {
+          "id": "s7",
+          "name": "The ultimate Windows device",
+          "selector": [
+            "#surface-laptop-accordion-feature-animations"
+          ],
+          "style": "dark",
+          "blocks": [
+            "accordion-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s8",
+          "name": "Secured from day one",
+          "selector": [
+            "[id=\"surface-laptop-mega-promo\"]:has(video)"
+          ],
+          "style": "light, dune, centered",
+          "blocks": [
+            "cards-bento"
+          ],
+          "defaultContent": [
+            "[id=\"surface-laptop-mega-promo\"]:has(video) > section > div:first-child",
+            "[id=\"surface-laptop-mega-promo\"]:has(video) > section > div.container:last-child"
+          ]
+        },
+        {
+          "id": "s9",
+          "name": "Surface is made for makers",
+          "selector": [
+            "#surface-laptop-testimonial-spotlight"
+          ],
+          "style": null,
+          "blocks": [
+            "quote-spotlight"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s10",
+          "name": "Meet the family",
+          "selector": [
+            "#Surface-laptop-product-comparison-table"
+          ],
+          "style": "light",
+          "blocks": [
+            "table-compare"
+          ],
+          "defaultContent": [
+            "#Surface-laptop-product-comparison-table > section > div.container:first-child",
+            "#Surface-laptop-product-comparison-table > section > div.container.text-center"
+          ]
+        },
+        {
+          "id": "s11",
+          "name": "Explore Surface Laptop accessories",
+          "selector": [
+            "#surface-laptop-product-card-section"
+          ],
+          "style": "light",
+          "blocks": [
+            "cards-product"
+          ],
+          "defaultContent": [
+            "#surface-laptop-product-card-section > section > div > div.container"
+          ]
+        },
+        {
+          "id": "s12",
+          "name": "Surface Laptop FAQs",
+          "selector": [
+            "#surface-laptop-accordion"
+          ],
+          "style": "light, dune",
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s13",
+          "name": "Footnotes",
+          "selector": [
+            "#surface-laptop-footnotes"
+          ],
+          "style": "light, light-grey, footnotes",
+          "blocks": [],
+          "defaultContent": [
+            "#surface-laptop-footnotes ol"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectType": "da"
+  }
+}

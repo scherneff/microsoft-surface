@@ -31,6 +31,42 @@ function buildVideo(src) {
   return video;
 }
 
+/**
+ * Caption spec lists (`li` = <strong>label</strong><br>value<br>detail) become stat tiles:
+ * each `<br>`-separated line is wrapped so it can be styled.
+ * Lists without line breaks are left as-is.
+ */
+function decorateStats(caption) {
+  caption.querySelectorAll(':scope > ul').forEach((ul) => {
+    const items = [...ul.children].filter((li) => li.querySelector(':scope > br'));
+    if (!items.length) return;
+    ul.classList.add('tabs-media-stats');
+    items.forEach((li) => {
+      const lines = [[]];
+      [...li.childNodes].forEach((node) => {
+        if (node.nodeName === 'BR') lines.push([]);
+        else lines[lines.length - 1].push(node);
+      });
+      const parts = lines.filter((nodes) => nodes.some((n) => n.textContent.trim()));
+      li.classList.add('tabs-media-stat');
+      li.replaceChildren(...parts.map((nodes, i) => {
+        const span = document.createElement('span');
+        if (i === 0) span.className = 'tabs-media-stat-label';
+        else if (i === 1) span.className = 'tabs-media-stat-value';
+        else span.className = 'tabs-media-stat-detail';
+        nodes.forEach((n) => {
+          // footnote refs sit flush against the text, as on the source
+          if (n.nodeType === Node.TEXT_NODE && n.nextSibling?.querySelector?.('sup')) {
+            n.textContent = n.textContent.trimEnd();
+          }
+        });
+        span.append(...nodes);
+        return span;
+      }));
+    });
+  });
+}
+
 let tabsMediaId = 0;
 
 export default function decorate(block) {
@@ -110,7 +146,10 @@ export default function decorate(block) {
     contentCells.forEach((cell) => {
       if (cell.textContent.trim()) caption.append(...cell.childNodes);
     });
-    if (caption.childNodes.length) panel.append(caption);
+    if (caption.childNodes.length) {
+      decorateStats(caption);
+      panel.append(caption);
+    }
     stage.append(panel);
 
     const button = document.createElement('button');

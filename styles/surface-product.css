@@ -36,6 +36,8 @@ body.surface-product main {
   --link-hover-color: #fff;
   --light-color: #fff;
   --light-text-color: #000;
+  --dune-color: #f9f7f1;
+  --light-grey-color: #f5f5f7;
   --dark-color: #000;
   --elevated-color: #1a1a1a;
   --footnote-color: #141414;
@@ -352,6 +354,15 @@ body.surface-product main {
   color: var(--light-text-color);
 }
 
+/* light background tints: cream (dune) and light grey */
+:where(body.surface-product) main .section.light.dune {
+  background-color: var(--dune-color, #f9f7f1);
+}
+
+:where(body.surface-product) main .section.light.light-grey {
+  background-color: var(--light-grey-color, #f5f5f7);
+}
+
 /* light sections and CTA sections use sans headlines */
 :where(body.surface-product) main .section.light h2,
 :where(body.surface-product) main .section.cta h2,
@@ -415,6 +426,11 @@ body.surface-product main {
   margin: 0;
 }
 
+/* a footnote with several paragraphs keeps them all in the text column */
+:where(body.surface-product) main .section.footnotes li > :nth-child(n + 2) {
+  grid-column: 2;
+}
+
 :where(body.surface-product) main .section.footnotes a:any-link {
   text-decoration: none;
 }
@@ -454,4 +470,76 @@ body.surface-product main {
   max-width: none;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+/* light product bands (e.g. Surface Laptop): section headlines are sans in normal case,
+   intro copy is a large lead, centered bands get the source's 120px rhythm */
+:where(body.surface-product) main .section.light .default-content-wrapper > h3 {
+  font-family: var(--body-font-family);
+  text-transform: none;
+  letter-spacing: var(--display-letter-spacing);
+}
+
+:where(body.surface-product) main > .section.light.centered {
+  padding: 80px 0;
+}
+
+:where(body.surface-product) main .section.light.centered .default-content-wrapper > :is(h2, h3) {
+  max-width: 706px;
+}
+
+:where(body.surface-product) main .section.light.centered .default-content-wrapper > p:not(:has(picture)) {
+  max-width: 672px;
+  font-size: var(--lead-font-size);
+  line-height: 1.4;
+  letter-spacing: var(--display-letter-spacing);
+}
+
+@media (width >= 1024px) {
+  :where(body.surface-product) main > .section.light.centered {
+    padding: 120px 0;
+  }
+
+  :where(body.surface-product) main .section.light.centered .default-content-wrapper > p:not(:has(picture)) {
+    font-size: var(--heading-font-size-m);
+  }
+}
+
+/* light-band section headlines step down on small screens, like the source (32px) */
+@media (width < 1024px) {
+  :where(body.surface-product) main .section.light .default-content-wrapper > h3 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+}
+
+/* rendering performance: long Surface pages skip style/layout/paint for sections that start
+   below the fold until they near the viewport. Footnotes stay rendered: in-page
+   footnote links jump there, and it keeps them measurable for accessibility tooling. The placeholder height avoids scrollbar jumps;
+   `auto` remembers each section's real size once it has rendered. */
+:where(body.surface-product) main > .section:nth-child(n + 3):not(.footnotes) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto none auto 900px;
+}
+
+/* copy after a scroll-video rises into the space its last frame leaves (the video zooms out
+   to 85%), like the source: (85% media height - one screen) / 2 + gap */
+:where(body.surface-product) main .section .scroll-video-wrapper:has(> .scroll-video:not(.is-static)) + .default-content-wrapper {
+  --scroll-video-ar: 1;
+  --scroll-video-gap: 60px;
+
+  position: relative;
+  margin-top: calc((min(0.85 * 100vw / var(--scroll-video-ar), 0.85 * 100lvh) - 100lvh) / 2 + var(--scroll-video-gap));
+}
+
+@media (orientation: landscape) {
+  :where(body.surface-product) main .section .scroll-video-wrapper:has(> .scroll-video:not(.is-static)) + .default-content-wrapper {
+    --scroll-video-ar: 1.5;
+  }
+}
+
+@media (width >= 1024px) {
+  :where(body.surface-product) main .section .scroll-video-wrapper:has(> .scroll-video:not(.is-static)) + .default-content-wrapper {
+    --scroll-video-gap: 80px;
+  }
 }

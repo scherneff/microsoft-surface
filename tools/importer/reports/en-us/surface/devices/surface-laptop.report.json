@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+  "path": "en-us/surface/devices/surface-laptop",
+  "timestamp": "2026-11-25T04:03:41.558Z",
+  "title": "Surface Laptop 8th Edition (13\", 13.8\", 15\") touchscreen laptop | Microsoft Surface",
+  "template": "surface-product",
+  "blocks": [
+    "hero-product",
+    "hero-product",
+    "carousel-scroll",
+    "tabs-media",
+    "cards-bento",
+    "cards-bento",
+    "scroll-video",
+    "accordion-media",
+    "quote-spotlight",
+    "table-compare",
+    "cards-product",
+    "accordion-faq"
+  ],
+  "importScript": "d67c87fe53e8"
+}

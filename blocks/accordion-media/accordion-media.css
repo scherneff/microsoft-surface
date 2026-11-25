@@ -49,7 +49,7 @@
   object-fit: cover;
 }
 
-/* play / pause toggle: frosted circle (overrides the global blue pill button) */
+/* play / pause toggle: dark circle (overrides the global blue pill button) */
 .accordion-media .accordion-media-toggle {
   position: absolute;
   z-index: 2;
@@ -66,15 +66,10 @@
   padding: 12px;
   border: 0;
   border-radius: 9999px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgb(34 34 34);
   color: #fff;
-  backdrop-filter: blur(48px);
   cursor: pointer;
-  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.accordion-media .accordion-media-toggle:hover {
-  background-color: rgb(255 255 255 / 20%);
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .accordion-media .accordion-media-toggle:focus-visible {
@@ -131,14 +126,20 @@
   margin: -28px 0 -8px;
   padding: 40px 24px 20px 40px;
   font-family: var(--display-font-family);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--font-weight-regular);
-  line-height: 28px;
-  letter-spacing: 0.2px;
+  line-height: 25.2px;
+  letter-spacing: 0.18px;
   text-transform: uppercase;
   list-style: none;
   cursor: pointer;
   transition: margin-inline 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* sentence-case labels: sans, as authored */
+.accordion-media.sentence-labels .accordion-media-item-label {
+  font-family: var(--body-font-family);
+  text-transform: none;
 }
 
 .accordion-media .accordion-media-item-label::-webkit-details-marker {
@@ -228,8 +229,8 @@
   padding: 0 40px 40px;
   font-size: 18px;
   line-height: 25.2px;
-  letter-spacing: 0.2px;
-  text-wrap: balance;
+  letter-spacing: 0.18px;
+  text-wrap: pretty;
 }
 
 .accordion-media .accordion-media-item-body p {
@@ -238,6 +239,14 @@
 
 .accordion-media .accordion-media-item-body a:any-link {
   color: inherit;
+}
+
+.accordion-media .accordion-media-item-body sup {
+  font-size: 0.75em;
+}
+
+.accordion-media .accordion-media-item-body sup a:any-link {
+  text-decoration: underline;
 }
 
 /* playback progress of the active item's video */
@@ -285,9 +294,21 @@
     left: 40px;
   }
 
+  .accordion-media .accordion-media-item-label {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+  }
+
   .accordion-media .accordion-media-item-body {
     font-size: 20px;
     line-height: 28px;
+    letter-spacing: 0.2px;
+    text-wrap: balance;
+  }
+
+  .accordion-media.sentence-labels .accordion-media-item-body {
+    text-wrap: wrap;
   }
 }
 
@@ -296,6 +317,90 @@
   .accordion-media .accordion-media-item-title,
   .accordion-media .accordion-media-item-icon svg,
   .accordion-media .accordion-media-item-icon::before {
+    transition: none;
+  }
+}
+
+/*
+ * Intro (optional first row): a full-screen wallpaper with the section heading. The wrapper
+ * becomes a two-screen scroll track, the block stays pinned in it, and the intro fades out
+ * a quarter of the way through to reveal the items and their videos (like the source).
+ */
+main > .section:has(> .accordion-media-wrapper > .accordion-media.has-intro) {
+  padding: 0;
+}
+
+.accordion-media-container .accordion-media-wrapper:has(> .accordion-media.has-intro) {
+  height: 200vh;
+  height: 200lvh;
+}
+
+.accordion-media.has-intro {
+  position: sticky;
+  top: 0;
+}
+
+.accordion-media .accordion-media-intro {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--content-gutter);
+  background-color: var(--dark-color, #000);
+  text-align: center;
+  transition: opacity 0.7s ease;
+}
+
+.accordion-media .accordion-media-intro picture,
+.accordion-media .accordion-media-intro img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.accordion-media .accordion-media-intro .accordion-media-intro-title {
+  position: relative;
+  margin: 0;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 32px;
+  font-weight: var(--font-weight-regular, 350);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+.accordion-media.has-intro > :not(.accordion-media-intro) {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.7s ease;
+}
+
+.accordion-media.has-intro.is-revealed > :not(.accordion-media-intro) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.accordion-media.has-intro.is-revealed .accordion-media-intro {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (width >= 1024px) {
+  .accordion-media .accordion-media-intro .accordion-media-intro-title {
+    font-size: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion-media .accordion-media-intro,
+  .accordion-media.has-intro > :not(.accordion-media-intro) {
     transition: none;
   }
 }

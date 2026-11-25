@@ -296,3 +296,108 @@ main .hero-product .hero-product-cta a:hover {
     margin-left: 0;
   }
 }
+
+/* image description (no h1, no CTA): full-viewport media, heading top,
+   copy at the bottom (mobile) or top right (desktop) */
+.hero-product.image-description,
+.hero-product.image-description .hero-product-content {
+  min-height: 100lvh;
+}
+
+.hero-product.image-description .hero-product-media::after {
+  background-color: rgb(0 0 0 / 70%);
+}
+
+.hero-product.image-description .hero-product-content {
+  justify-content: space-between;
+  gap: 0;
+  padding: 60px 20px;
+}
+
+.hero-product.image-description .hero-product-heading h3 {
+  max-width: 460px;
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.hero-product.image-description .hero-product-lead {
+  color: var(--text-color);
+  font-size: 18px;
+  text-wrap: wrap;
+}
+
+.hero-product.image-description .hero-product-lead a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+@media (width >= 768px) {
+  .hero-product.image-description .hero-product-content {
+    padding: 60px 28px;
+  }
+
+  .hero-product.image-description .hero-product-lead {
+    max-width: 461px;
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-product.image-description .hero-product-toggle {
+    top: auto;
+    bottom: 40px;
+  }
+
+  .hero-product.image-description .hero-product-media::after {
+    background-color: transparent;
+    background-image: linear-gradient(to top, rgb(0 0 0 / 7%) 0%, rgb(0 0 0 / 70%) 100%);
+  }
+
+  .hero-product.image-description .hero-product-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 80px 147px;
+  }
+
+  .hero-product.image-description .hero-product-heading {
+    flex: 0 1 552px;
+  }
+
+  .hero-product.image-description .hero-product-heading h3 {
+    max-width: none;
+    font-size: var(--display-size-l);
+    letter-spacing: 0.01em;
+    text-wrap: wrap;
+  }
+
+  .hero-product.image-description .hero-product-body {
+    flex-shrink: 0;
+    width: 394px;
+    margin: 8px 40px 0 auto;
+  }
+
+  .hero-product.image-description .hero-product-lead {
+    max-width: none;
+    padding-bottom: 0;
+    font-size: var(--lead-font-size);
+  }
+}
+
+/* `sans` option (e.g. Surface Laptop): the display line is set in Segoe Sans, not the mono face */
+.hero-product.sans .hero-product-heading h2 {
+  font-family: var(--body-font-family);
+  font-size: 48px;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+@media (width >= 1024px) {
+  .hero-product.sans .hero-product-heading h2 {
+    font-size: 96px;
+    letter-spacing: -0.01em;
+  }
+}

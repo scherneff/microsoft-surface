@@ -61,16 +61,23 @@ function buildMedia(block) {
   const picture = block.querySelector('picture');
   if (picture) {
     const img = picture.querySelector('img');
+    // only the page's first hero is the LCP candidate: load it eagerly at high priority;
+    // later instances (e.g. a mid-page video band) stay lazy so they don't compete with it
+    const isLcp = block === document.querySelector('main .hero-product');
     // only same-origin (media bus) images can be re-optimized; external URLs keep their picture
     const sameOrigin = new URL(img.src, window.location.href).origin === window.location.origin;
     const optimized = sameOrigin
-      ? createOptimizedPicture(img.src, img.alt, true, [
+      ? createOptimizedPicture(img.src, img.alt, isLcp, [
         { media: '(min-width: 900px)', width: '2000' },
         { width: '900' },
       ])
       : picture;
     if (sameOrigin) picture.replaceWith(optimized);
-    else img.loading = 'eager';
+    const finalImg = optimized.querySelector('img');
+    if (finalImg) {
+      finalImg.loading = isLcp ? 'eager' : 'lazy';
+      if (isLcp) finalImg.fetchPriority = 'high';
+    }
     media.append(optimized);
   }
 
@@ -93,6 +100,16 @@ function buildMedia(block) {
     observer.observe(block);
   }
   return media;
+}
+
+/* footnote references (a link inside, or made only of, a superscript) are not CTAs */
+function isFootnote(a) {
+  const sup = a.querySelector('sup');
+  return !!a.closest('sup') || (!!sup && a.textContent.trim() === sup.textContent.trim());
+}
+
+function hasCta(el) {
+  return [...el.querySelectorAll('a')].some((a) => !isFootnote(a));
 }
 
 function buildContent(block) {
@@ -135,7 +152,7 @@ function buildContent(block) {
     const body = document.createElement('div');
     body.className = 'hero-product-body';
     const [lead, ...buy] = rest;
-    if (lead.querySelector('a') && buy.length === 0) {
+    if (hasCta(lead) && buy.length === 0) {
       buy.push(lead);
     } else {
       lead.classList.add('hero-product-lead');
@@ -145,7 +162,7 @@ function buildContent(block) {
       const bar = document.createElement('div');
       bar.className = 'hero-product-buybar';
       buy.forEach((el) => {
-        if (el.querySelector('a')) el.classList.add('hero-product-cta');
+        if (hasCta(el)) el.classList.add('hero-product-cta');
         bar.append(el);
       });
       body.append(bar);
@@ -159,4 +176,8 @@ export default function decorate(block) {
   const media = buildMedia(block);
   const content = buildContent(block);
   block.replaceChildren(media, content);
+  // no product name (h1) and no CTA: a full-bleed media + heading/copy "image description"
+  if (!content.querySelector('h1') && !content.querySelector('.hero-product-cta')) {
+    block.classList.add('image-description');
+  }
 }

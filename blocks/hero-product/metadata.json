@@ -15,10 +15,11 @@
       {
         "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
         "screenshot": "migration-work/screenshot.png"
-      }
+      },
+      "/en-us/surface/devices/surface-laptop"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-10-14T17:15:04.757Z"
+    "reuseCount": 2,
+    "lastUsed": "2026-11-25T01:46:34.000Z"
   },
   "options": [],
   "memberVariantIds": [

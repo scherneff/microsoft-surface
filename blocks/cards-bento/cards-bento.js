@@ -15,7 +15,16 @@ function removeLink(a) {
   }
 }
 
-function buildVideo(src) {
+function buildSource(src, media) {
+  const source = document.createElement('source');
+  source.src = src;
+  source.type = `video/${src.split('?')[0].split('.').pop().toLowerCase()}`;
+  if (media) source.media = media;
+  return source;
+}
+
+/* one link: a single video; two links: landscape (desktop) then portrait (mobile) rendition */
+function buildVideo([landscape, portrait]) {
   const video = document.createElement('video');
   video.muted = true;
   video.loop = true;
@@ -24,11 +33,27 @@ function buildVideo(src) {
   video.setAttribute('playsinline', '');
   video.setAttribute('preload', 'none');
   video.setAttribute('aria-hidden', 'true');
-  const source = document.createElement('source');
-  source.src = src;
-  source.type = `video/${src.split('?')[0].split('.').pop()}`;
-  video.append(source);
+  if (portrait) {
+    video.append(
+      buildSource(landscape, '(orientation: landscape)'),
+      buildSource(portrait, 'not (orientation: landscape)'),
+    );
+  } else {
+    video.append(buildSource(landscape));
+  }
   return video;
+}
+
+/* expose intrinsic ratios so a single media tile can size itself like the source */
+function trackRatio(card, el, prop) {
+  const set = (w, h) => { if (w && h) card.style.setProperty(prop, `${w} / ${h}`); };
+  if (el.tagName === 'VIDEO') {
+    el.addEventListener('loadedmetadata', () => set(el.videoWidth, el.videoHeight));
+  } else if (el.complete && el.naturalWidth) {
+    set(el.naturalWidth, el.naturalHeight);
+  } else {
+    el.addEventListener('load', () => set(el.naturalWidth, el.naturalHeight), { once: true });
+  }
 }
 
 function buildToggle(video) {
@@ -67,10 +92,14 @@ function buildMedia(li) {
     if (parent && parent.tagName === 'P' && !parent.textContent.trim()) parent.remove();
   }
 
-  const link = [...li.querySelectorAll('a[href]')].find(isVideoLink);
-  if (link) {
-    const video = buildVideo(link.href);
-    removeLink(link);
+  const poster = media.querySelector('img');
+  if (poster) trackRatio(li, poster, '--cards-bento-poster-ratio');
+
+  const links = [...li.querySelectorAll('a[href]')].filter(isVideoLink);
+  if (links.length) {
+    const video = buildVideo(links.slice(0, 2).map((a) => a.href));
+    links.forEach(removeLink);
+    trackRatio(li, video, '--cards-bento-video-ratio');
     media.append(video, buildToggle(video));
     media.classList.add('has-video');
     if (!reducedMotion.matches) {
@@ -107,5 +136,9 @@ export default function decorate(block) {
     if (media) li.append(media);
     ul.append(li);
   });
+  // a lone tile with no text is a full-width media feature, not a bento grid
+  if (ul.children.length === 1 && !ul.querySelector('.cards-bento-card-body') && ul.querySelector('.cards-bento-card-media')) {
+    ul.firstElementChild.classList.add('is-media-only');
+  }
   block.replaceChildren(ul);
 }

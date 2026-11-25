@@ -1,0 +1,28 @@
+{
+  "variantName": "scroll-video",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-showcase",
+    "imagePattern": "full-bleed-video",
+    "structure": "sticky full-screen video scrubbed by scroll position"
+  },
+  "contentPattern": "One row: cell 1 = poster picture(s) (landscape, optional portrait crop); cell 2 = video link(s) (.fsv frame sequence or .mp4/.webm; landscape, optional portrait).",
+  "options": [],
+  "memberVariantIds": [
+    "scroll-video"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-25T00:00:00.000Z"
+  },
+  "reuseGuidance": "Use for a scroll-controlled product reveal (video that plays forward/backward with the scroll). For autoplaying loops use hero-product or cards-bento; for a still image use default content."
+}

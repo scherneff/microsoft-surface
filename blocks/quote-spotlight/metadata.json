@@ -1,0 +1,28 @@
+{
+  "variantName": "quote-spotlight",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "full-bleed-background",
+    "structure": "background photo + heading + frosted quote card + product mini-card"
+  },
+  "contentPattern": "Row 1 = background image (cell 1 desktop crop, optional cell 2 mobile crop); row 2 = heading (h3); row 3 = quote paragraph(s), last paragraph (or a second cell) = attribution; row 4 = product: cell 1 thumbnail image, cell 2 product name + price + bold Buy link. Rows are recognised by content, so order is flexible and any row may be omitted.",
+  "options": [],
+  "memberVariantIds": [
+    "quote-spotlight"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-25T00:00:00.000Z"
+  },
+  "reuseGuidance": "Use for a single creator/customer testimonial over a full-bleed lifestyle photo, optionally paired with a buyable product. For quotes without a background photo or product, prefer default content or a plain quote block."
+}

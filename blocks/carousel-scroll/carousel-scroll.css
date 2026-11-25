@@ -266,6 +266,38 @@
   }
 }
 
+/* light sections (e.g. Surface Laptop): sans headings, lighter overlay, text pinned to the top */
+.section.light .carousel-scroll .carousel-scroll-slide-media::after {
+  background-image: linear-gradient(to left top, rgb(0 0 0 / 4%) 0%, rgb(0 0 0 / 60%) 100%);
+}
+
+.section.light .carousel-scroll .carousel-scroll-slide-content :is(h1, h2, h3, h4) {
+  font-family: var(--body-font-family);
+  text-transform: none;
+  text-wrap: balance;
+}
+
+.section.light .carousel-scroll .carousel-scroll-toggle,
+.section.light .carousel-scroll .carousel-scroll-toggle:hover,
+.section.light .carousel-scroll .carousel-scroll-toggle:active {
+  background-color: rgb(34 34 34);
+  backdrop-filter: none;
+}
+
+@media (width >= 1024px) {
+  .section.light .carousel-scroll .carousel-scroll-slide {
+    justify-content: flex-start;
+  }
+
+  .section.light .carousel-scroll .carousel-scroll-slide-content {
+    padding: 72px 64px 0;
+  }
+
+  .section.light .carousel-scroll .carousel-scroll-slide-content :is(h1, h2, h3, h4) {
+    font-size: 32px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-scroll .carousel-scroll-slide,
   .carousel-scroll .carousel-scroll-indicator {

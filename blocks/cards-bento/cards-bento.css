@@ -197,3 +197,86 @@
     grid-row: span 2;
   }
 }
+
+/* single media-only tile (e.g. Surface Laptop camera / security): one large looping video,
+   no card chrome; sized by the video's own ratio (desktop 3:2, mobile rendition below landscape).
+   56px from the copy above, and from copy that follows it (collapses with text margins) */
+.cards-bento:has(> ul > .is-media-only) {
+  margin-top: 56px;
+}
+
+.cards-bento-wrapper:not(:last-child) > .cards-bento:has(> ul > .is-media-only) {
+  margin-bottom: 56px;
+}
+
+.cards-bento .cards-bento-card.is-media-only {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: transparent;
+
+  --cards-bento-tile-ratio: var(--cards-bento-video-ratio, var(--cards-bento-poster-ratio, 3 / 2));
+}
+
+.cards-bento .cards-bento-card.is-media-only::after {
+  content: none;
+}
+
+/* a media-only card's one child is .cards-bento-card-media */
+.cards-bento .cards-bento-card.is-media-only > div {
+  flex: none;
+  min-height: 0;
+  aspect-ratio: var(--cards-bento-tile-ratio);
+  border-radius: 20px;
+}
+
+.cards-bento .cards-bento-card.is-media-only .cards-bento-toggle {
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background-color: rgb(34 34 34);
+  backdrop-filter: none;
+  color: var(--light-color);
+  opacity: 1;
+  transform: none;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cards-bento .cards-bento-card.is-media-only .cards-bento-toggle:hover {
+  background-color: rgb(34 34 34 / 90%);
+}
+
+.cards-bento .cards-bento-card.is-media-only .cards-bento-toggle::before {
+  width: 16px;
+  height: 16px;
+}
+
+.cards-bento .cards-bento-card.is-media-only .cards-bento-toggle[data-state='playing']::before {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 7 12'%3E%3Cpath d='M.5 0c.28 0 .5.22.5.5v11a.5.5 0 0 1-1 0V.5C0 .22.22 0 .5 0m6 0c.28 0 .5.22.5.5v11a.5.5 0 0 1-1 0V.5c0-.28.22-.5.5-.5'/%3E%3C/svg%3E");
+}
+
+/* the desktop rendition plays in landscape; the mobile poster's ratio no longer applies */
+@media (orientation: landscape) {
+  .cards-bento .cards-bento-card.is-media-only {
+    --cards-bento-tile-ratio: var(--cards-bento-video-ratio, 3 / 2);
+  }
+}
+
+@media (width >= 768px) and (width < 1024px) {
+  .cards-bento .cards-bento-card.is-media-only {
+    max-width: 462px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-bento .cards-bento-card.is-media-only .cards-bento-toggle {
+    top: 40px;
+    left: 40px;
+  }
+}

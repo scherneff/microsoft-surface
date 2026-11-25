@@ -1,0 +1,28 @@
+{
+  "variantName": "table-compare",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-compare",
+    "imagePattern": "product-cutout",
+    "structure": "product header row (image, name, price, Buy) + labelled spec rows"
+  },
+  "contentPattern": "Row 1 (header) = empty first cell, then one cell per product: image, product name, price, bold Buy link. Each following row = spec label | one value per product. Rows with fewer cells are padded so columns stay aligned; the header is detected by its images/links and may be omitted.",
+  "options": [],
+  "memberVariantIds": [
+    "table-compare"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+        "screenshot": "migration-work/screenshot.png"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-25T00:00:00.000Z"
+  },
+  "reuseGuidance": "Use for side-by-side spec comparison of 2-4 products where rows must line up. Put the section in a light style (section metadata style: light). For marketing-style product tiles without aligned specs use cards-product."
+}

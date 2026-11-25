@@ -1,0 +1,56 @@
+/* scroll-video: full-bleed, the stage stays pinned while the track scrolls past */
+.scroll-video {
+  width: 100vw;
+  margin: 56px calc(50% - 50vw) 0;
+}
+
+.scroll-video .scroll-video-track {
+  position: relative;
+  height: 400vh;
+  height: 400lvh;
+}
+
+.scroll-video .scroll-video-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100lvh;
+  overflow: hidden;
+}
+
+.scroll-video .scroll-video-stage > :is(canvas, video, picture),
+.scroll-video .scroll-video-poster img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scroll-video .scroll-video-poster {
+  z-index: 1;
+  transition: opacity 0.2s ease;
+}
+
+.scroll-video.is-ready .scroll-video-poster {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* no scrubbing (reduced motion, no decoder support): just the poster, one screen tall */
+.scroll-video.is-static .scroll-video-track {
+  height: auto;
+}
+
+.scroll-video.is-static .scroll-video-stage {
+  position: relative;
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+
+@media (orientation: portrait) {
+  .scroll-video.is-static .scroll-video-stage {
+    aspect-ratio: 1;
+  }
+}

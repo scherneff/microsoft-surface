@@ -11,6 +11,9 @@ import {
   loadCSS,
   buildBlock,
   getMetadata,
+  readBlockConfig,
+  toCamelCase,
+  toClassName,
 } from './aem.js';
 
 const CHROME_VARIANTS = ['www', 'bing', 'support'];
@@ -172,6 +175,47 @@ function decorateButtons(main) {
 }
 
 /**
+ * Applies section metadata tables that are still in the markup. Edge Delivery turns them
+ * into section classes / data attributes server-side, so this only runs where raw content
+ * is served (e.g. the local preview of imported pages): `style` values become classes,
+ * other keys become data attributes, and the table is removed.
+ * @param {Element} main The main element (after decorateSections)
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > .section').forEach((section) => {
+    section.querySelectorAll(':scope > div > div.section-metadata').forEach((sectionMeta) => {
+      const meta = readBlockConfig(sectionMeta);
+      Object.keys(meta).forEach((key) => {
+        if (key === 'style') {
+          String(meta.style)
+            .split(',')
+            .map((style) => toClassName(style.trim()))
+            .filter(Boolean)
+            .forEach((style) => section.classList.add(style));
+        } else {
+          section.dataset[toCamelCase(key)] = meta[key];
+        }
+      });
+      sectionMeta.parentElement.remove();
+    });
+  });
+}
+
+/**
+ * Footnotes sections: give each numbered footnote (`[3]` marker) the `footnote-3` id that
+ * in-page references (#footnote-3) point to, so those links land on the right note.
+ * @param {Element} main The main element (after section metadata is applied)
+ */
+function decorateFootnotes(main) {
+  main.querySelectorAll(':scope > .section.footnotes li').forEach((li) => {
+    if (li.id) return;
+    const marker = li.querySelector('a, p, span');
+    const match = marker && marker.textContent.trim().match(/^\[?(\d+)\]?$/);
+    if (match && !main.querySelector(`#footnote-${match[1]}`)) li.id = `footnote-${match[1]}`;
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -180,6 +224,8 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSectionMetadata(main);
+  decorateFootnotes(main);
   decorateBlocks(main);
   decorateButtons(main);
 }
@@ -218,7 +264,8 @@ async function loadEager(doc) {
 
   try {
     /* if desktop (proxy for fast connection) or fonts already loaded, load fonts.css */
-    if (window.innerWidth >= 900 || sessionStorage.getItem('fonts-loaded')) {
+    // matchMedia avoids the forced layout that reading window.innerWidth can trigger
+    if (window.matchMedia('(min-width: 900px)').matches || sessionStorage.getItem('fonts-loaded')) {
       loadFonts();
     }
   } catch (e) {

@@ -179,6 +179,138 @@
   }
 }
 
+/* caption spec tiles (decorateStats): label / large value / detail.
+   Values from source surface-laptop #laptop-tabs panels. */
+.tabs-media .tabs-media-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tabs-media .tabs-media-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 462px;
+  padding: 28px 40px 36px;
+  border-radius: 8px;
+  background-color: var(--elevated-color);
+  text-align: center;
+}
+
+.tabs-media .tabs-media-stat > span {
+  display: block;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+
+.tabs-media .tabs-media-stat-label strong {
+  font-weight: inherit;
+}
+
+.tabs-media .tabs-media-stat > .tabs-media-stat-value {
+  margin-top: 8px;
+  font-size: 28px;
+  line-height: 39.2px;
+}
+
+.tabs-media .tabs-media-stat > .tabs-media-stat-detail {
+  margin-top: 8px;
+}
+
+.tabs-media .tabs-media-stat a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* underline the raised digit itself, not the baseline under it */
+.tabs-media .tabs-media-stat sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+  text-decoration: underline;
+}
+
+/* light sections (e.g. Surface Laptop "Good things come in threes"):
+   white segmented track, dark selected pill, 3:2 contained product shot */
+.section.light .tabs-media .tabs-media-list {
+  display: inline-flex;
+  width: fit-content;
+  background-color: rgb(255 255 255);
+}
+
+.section.light .tabs-media .tabs-media-list .tabs-media-tab {
+  flex: none;
+  border-width: 0;
+  color: var(--light-text-color);
+}
+
+.section.light .tabs-media .tabs-media-list .tabs-media-tab:hover {
+  color: var(--light-text-color);
+}
+
+.section.light .tabs-media .tabs-media-list .tabs-media-tab[aria-selected='true'],
+.section.light .tabs-media .tabs-media-list .tabs-media-tab[aria-selected='true']:hover {
+  background-color: rgb(29 29 31);
+  color: var(--light-color);
+}
+
+.section.light .tabs-media .tabs-media-panel-media {
+  margin-top: 40px;
+  aspect-ratio: 3 / 2;
+  border-radius: 0;
+}
+
+.section.light .tabs-media .tabs-media-panel-media img {
+  object-fit: contain;
+}
+
+.section.light .tabs-media .tabs-media-panel-caption {
+  padding-top: 0;
+}
+
+.section.light .tabs-media .tabs-media-panel-caption > p {
+  margin: 24px 0 0;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.section.light .tabs-media .tabs-media-stat {
+  background-color: var(--light-color);
+}
+
+@media (width >= 1024px) {
+  .tabs-media .tabs-media-stat {
+    width: calc((100% - 16px) / 3);
+  }
+
+  .tabs-media .tabs-media-stat > .tabs-media-stat-value {
+    font-size: 32px;
+    line-height: 44.8px;
+  }
+
+  .section.light .tabs-media .tabs-media-list .tabs-media-tab {
+    width: auto;
+    min-width: 160px;
+  }
+
+  .section.light .tabs-media .tabs-media-panel-media {
+    margin-top: 88px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .tabs-media .tabs-media-panel,
   .tabs-media .tabs-media-list .tabs-media-tab {

@@ -1,0 +1,238 @@
+.table-compare {
+  --table-compare-gap: 20px;
+  --table-compare-label-width: 120px;
+  --table-compare-label-inset: 20px;
+  --table-compare-column-min: 200px;
+  --table-compare-rule: rgb(0 0 0 / 16%);
+  --table-compare-surface: var(--light-color, #fff);
+  --table-compare-swatch-size: 12px;
+
+  margin: 60px 0;
+  color: inherit;
+}
+
+/* narrow screens: the table bleeds to the viewport edges and scrolls sideways,
+   the label column stays pinned */
+.table-compare .table-compare-scroll {
+  margin: 0 calc(-1 * var(--content-gutter, 20px));
+  padding: 0 var(--content-gutter, 20px);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.table-compare .table-compare-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.table-compare .table-compare-scroll:focus-visible {
+  outline: 1px dashed currentcolor;
+  outline-offset: 4px;
+}
+
+.table-compare table {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: calc(var(--table-compare-label-width)
+    + var(--table-compare-columns, 3) * (var(--table-compare-column-min) + var(--table-compare-gap)));
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: var(--body-font-size-m, 16px);
+  line-height: 1.5;
+  text-align: start;
+}
+
+/* the column gap is each cell's end padding; the last column runs to the edge */
+.table-compare :is(th, td) {
+  box-sizing: border-box;
+  padding: 20px var(--table-compare-gap) 20px 0;
+  font-weight: var(--font-weight-regular, 350);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-compare :is(th, td):last-child {
+  padding-right: 0;
+}
+
+.table-compare :is(th, td) > :last-child {
+  margin-bottom: 0;
+}
+
+.table-compare :is(th, td) :is(p, ul) {
+  margin: 0 0 0.5em;
+  line-height: inherit;
+}
+
+.table-compare sup {
+  font-size: var(--body-font-size-xs, 12px);
+}
+
+/* label column */
+.table-compare .table-compare-label,
+.table-compare .table-compare-corner {
+  position: sticky;
+  left: calc(-1 * var(--table-compare-label-inset));
+  z-index: 1;
+  width: calc(var(--table-compare-label-width) + var(--table-compare-gap));
+  padding-left: var(--table-compare-label-inset);
+  background-color: var(--table-compare-surface);
+}
+
+.table-compare .table-compare-product {
+  min-width: calc(var(--table-compare-column-min) + var(--table-compare-gap));
+}
+
+.table-compare .table-compare-product:last-child {
+  min-width: var(--table-compare-column-min);
+}
+
+.table-compare tbody tr {
+  border-top: 1px solid var(--table-compare-rule);
+}
+
+.table-compare tbody tr:last-child {
+  border-bottom: 1px solid var(--table-compare-rule);
+}
+
+/* product header: bottom-aligned square image row, name row, price + Buy row */
+.table-compare .table-compare-images :is(th, td) {
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: bottom;
+}
+
+.table-compare .table-compare-names :is(th, td) {
+  padding-bottom: 10px;
+}
+
+.table-compare .table-compare-info :is(th, td) {
+  padding-top: 0;
+}
+
+.table-compare .table-compare-images + .table-compare-info :is(th, td) {
+  padding-top: 20px;
+}
+
+/* square box; any image shape is contained and sits on the bottom edge */
+.table-compare .table-compare-product-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.table-compare .table-compare-product-image picture,
+.table-compare .table-compare-product-image img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.table-compare .table-compare-product-name {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-s, 20px);
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+.table-compare .table-compare-info th {
+  font-size: var(--body-font-size-s, 14px);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.table-compare .table-compare-info th > * + * {
+  margin-top: 10px;
+}
+
+.table-compare .table-compare-product-price {
+  margin: 0;
+}
+
+.table-compare .table-compare-info th > .table-compare-product-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+/* Colors row: one dot per finish, the pictured finish ringed */
+.table-compare .table-compare-swatches {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.table-compare .table-compare-swatch {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  width: var(--table-compare-swatch-size);
+  height: var(--table-compare-swatch-size);
+  border: 1px solid rgb(0 0 0 / 8%);
+  border-radius: 9999px;
+  background-color: var(--table-compare-swatch);
+}
+
+.table-compare .table-compare-swatch.selected {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px var(--table-compare-surface), 0 0 0 3px currentcolor;
+}
+
+.table-compare .table-compare-swatch-name {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .table-compare {
+    --table-compare-gap: 40px;
+    --table-compare-label-inset: 0px;
+  }
+
+  .table-compare .table-compare-label,
+  .table-compare .table-compare-corner {
+    position: static;
+    background-color: transparent;
+  }
+
+  .table-compare .table-compare-product-name {
+    font-size: var(--heading-font-size-m, 24px);
+  }
+
+  .table-compare .table-compare-info th {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1024px) {
+  .table-compare {
+    --table-compare-label-width: 197px;
+    --table-compare-swatch-size: 16px;
+
+    margin: 100px 0;
+  }
+}
+
+/* the section column has no side padding from here, so there is no gutter to bleed into */
+@media (width >= 1200px) {
+  .table-compare .table-compare-scroll {
+    margin: 0;
+    padding: 0;
+  }
+}
