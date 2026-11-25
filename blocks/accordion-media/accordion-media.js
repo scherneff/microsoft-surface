@@ -157,13 +157,26 @@ export default function decorate(block) {
     toggle.hidden = !items[activeIndex]?.video;
   };
 
+  // the progress line is a linear CSS animation as long as the item's video (smooth, every
+  // frame); it only runs while that video plays and re-syncs to the video's time on resume
+  const restartProgress = (details, at = 0) => {
+    const bar = details.querySelector('.accordion-media-item-progress');
+    if (!bar) return;
+    bar.classList.add('is-restarting');
+    // eslint-disable-next-line no-unused-expressions
+    bar.offsetWidth; // restart the animation, then offset it to the video's time
+    bar.style.setProperty('--accordion-media-delay', `${-at}s`);
+    bar.classList.remove('is-restarting');
+  };
+
   const activate = (index) => {
     activeIndex = index;
     items.forEach(({ details, video }, i) => {
       details.open = i === index;
+      details.classList.remove('is-playing');
       if (i === index && video) video.currentTime = 0;
     });
-    block.style.setProperty('--accordion-media-progress', 0);
+    if (items[index]) restartProgress(items[index].details);
     sync();
   };
 
@@ -174,10 +187,24 @@ export default function decorate(block) {
       if (i !== activeIndex || !details.open) activate(i);
     });
     if (!video) return;
-    video.addEventListener('timeupdate', () => {
-      if (i !== activeIndex || !video.duration) return;
-      block.style.setProperty('--accordion-media-progress', video.currentTime / video.duration);
+    const bar = details.querySelector('.accordion-media-item-progress');
+    const setDuration = () => {
+      if (Number.isFinite(video.duration) && video.duration > 0) {
+        bar.style.setProperty('--accordion-media-duration', `${video.duration}s`);
+      }
+    };
+    video.addEventListener('loadedmetadata', setDuration);
+    video.addEventListener('durationchange', setDuration);
+    video.addEventListener('playing', () => {
+      if (i !== activeIndex) return;
+      setDuration();
+      // restart with a negative delay so the line sits exactly at the video's current time
+      restartProgress(details, video.currentTime);
+      details.classList.add('is-playing');
     });
+    ['pause', 'waiting', 'seeking'].forEach((type) => video.addEventListener(type, () => {
+      details.classList.remove('is-playing');
+    }));
     // when an item's video ends, advance to the next item
     video.addEventListener('ended', () => {
       if (i === activeIndex) activate((i + 1) % items.length);

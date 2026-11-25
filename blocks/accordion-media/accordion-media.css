@@ -268,7 +268,22 @@
   display: block;
   height: 100%;
   background-image: linear-gradient(to right, rgb(5 56 199) 0%, rgb(52 191 251) 100%);
-  translate: calc((var(--accordion-media-progress, 0) - 1) * 100%) 0;
+  translate: -100% 0;
+  animation: accordion-media-progress-fill var(--accordion-media-duration, 6s) linear var(--accordion-media-delay, 0s) 1 both paused;
+}
+
+/* the fill runs only while the item's video plays (synced to its time by the block JS) */
+.accordion-media .accordion-media-item.is-playing .accordion-media-item-progress::before {
+  animation-play-state: running;
+}
+
+.accordion-media .accordion-media-item .accordion-media-item-progress.is-restarting::before {
+  animation: none;
+}
+
+@keyframes accordion-media-progress-fill {
+  from { translate: -100% 0; }
+  to { translate: 0 0; }
 }
 
 @media (width >= 768px) {
