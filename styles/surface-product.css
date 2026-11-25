@@ -396,7 +396,7 @@ body.surface-product main {
 
 /* footnotes: two-column numbered list (marker | text) */
 :where(body.surface-product) main > .section.footnotes {
-  padding: 80px 0;
+  padding: 160px 0;
 }
 
 :where(body.surface-product) main .section.footnotes .default-content-wrapper {
@@ -622,4 +622,71 @@ body.surface-product main {
     padding-right: 179px;
     padding-left: 179px;
   }
+}
+
+/* "Take a closer look" + specs button under the comparison table (centred, like the source) */
+/* stylelint-disable-next-line no-descending-specificity */
+:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper {
+  text-align: center;
+}
+
+:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper > h4 {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-m);
+  line-height: 1.5;
+  letter-spacing: var(--display-letter-spacing);
+  text-transform: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper > h4 + :is(p, .button-container, .button-wrapper) {
+  display: block;
+  margin: 20px 0 0;
+}
+
+@media (width >= 1024px) {
+  :where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper > h4 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+}
+
+/* footnotes card (source): a rounded panel with 32px padding, at most 890px wide and centred in
+   the page column; white on light sections, #141414 on dark ones. 160px band padding everywhere. */
+/* stylelint-disable-next-line no-descending-specificity */
+:where(body.surface-product) main > .section.footnotes > .default-content-wrapper {
+  box-sizing: border-box;
+  max-width: min(890px, 100% - 40px);
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 24px;
+  background-color: var(--footnote-color, #141414);
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+:where(body.surface-product) main > .section.light.footnotes > .default-content-wrapper {
+  background-color: var(--light-color, #fff);
+}
+
+:where(body.surface-product) main .section.footnotes > .default-content-wrapper > :is(ol, ul) {
+  margin-top: 0;
+}
+
+@media (width >= 768px) {
+  :where(body.surface-product) main > .section.footnotes > .default-content-wrapper {
+    max-width: min(890px, 100% - 56px);
+  }
+}
+
+@media (width >= 1024px) {
+  :where(body.surface-product) main > .section.footnotes > .default-content-wrapper {
+    max-width: min(890px, 100% - 294px);
+    padding: 32px;
+  }
+}
+
+/* anything above the list in the footnotes card sits 8px above it (the source card's gap) */
+:where(body.surface-product) main .section.footnotes > .default-content-wrapper > :not(ol, ul):has(+ :is(ol, ul)) {
+  margin-bottom: 8px;
 }

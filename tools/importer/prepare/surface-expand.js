@@ -178,7 +178,40 @@ async function annotateCompareColours(document) {
   return count;
 }
 
+/**
+ * "See more ... specs" buttons open a dialog whose content only exists once opened. Open it,
+ * keep a hidden copy of its heading, intro and spec list next to the button, and close it again,
+ * so the import can turn it into its own (modal) document.
+ */
+async function captureSpecsDialog(document) {
+  const button = [...document.querySelectorAll('button[aria-haspopup="dialog"]')]
+    .find((b) => /specs/i.test(b.textContent));
+  if (!button) return false;
+  button.click();
+  const dialog = await waitFor(() => [...document.querySelectorAll('[role="dialog"], dialog')]
+    .find((d) => d.querySelector('dl dt') && d.getBoundingClientRect().width > 0), 4000);
+  if (!dialog) return false;
+  const copy = document.createElement('div');
+  copy.setAttribute('data-import-specs', '');
+  copy.hidden = true;
+  const heading = dialog.querySelector('h1, h2, h3, h4');
+  const intro = heading?.nextElementSibling?.querySelector('p');
+  if (heading) copy.append(heading.cloneNode(true));
+  if (intro) copy.append(intro.cloneNode(true));
+  copy.append(dialog.querySelector('dl').cloneNode(true));
+  button.dataset.importSpecsTrigger = '';
+  button.after(copy);
+  const close = [...dialog.querySelectorAll('button')].find((b) => /close/i.test(b.getAttribute('aria-label') || ''));
+  if (close) close.click();
+  await sleep(400);
+  return true;
+}
+
 export default async function expandInteractive({ document }) {
+  let specs = false;
+  try { specs = await captureSpecsDialog(document); } catch (e) { /* keep going */ }
+  // eslint-disable-next-line no-console
+  console.log(`[surface-expand] specs dialog captured: ${specs}`);
   let compareColours = 0;
   try { compareColours = await annotateCompareColours(document); } catch (e) { /* keep going */ }
   // eslint-disable-next-line no-console

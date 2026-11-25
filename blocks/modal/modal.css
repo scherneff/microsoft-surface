@@ -1,0 +1,142 @@
+/* modal: full-screen sheet (values from the source "Explore what's inside" dialog) */
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  inset: 100px 0 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: var(--body-font-family, 'Segoe Sans', -apple-system, blinkmacsystemfont, 'Segoe UI', helvetica, arial, sans-serif);
+  font-weight: var(--font-weight-regular, 350);
+  overflow: hidden;
+}
+
+.modal::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.modal .modal-content {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  padding: 60px 20px 160px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.modal .modal-content .section {
+  margin: 0;
+  padding: 0;
+}
+
+.modal .modal-content > .section > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* heading + intro, centred */
+.modal .modal-content > .section > .default-content-wrapper {
+  max-width: 592px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modal .default-content-wrapper :is(h1, h2, h3) {
+  margin: 0;
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: inherit;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.modal .default-content-wrapper p {
+  margin: 28px 0 0;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.modal .modal-content > .section > .default-content-wrapper + div {
+  margin-top: 60px;
+}
+
+/* close: blue circle, bottom centre on small screens, top right from 1024px */
+.modal .modal-close {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 9999px;
+  background-color: var(--brand-color, #0078d4);
+  color: #fff;
+  cursor: pointer;
+  translate: -50% 0;
+  transition: background-color 0.2s ease;
+}
+
+.modal .modal-close:hover {
+  background-color: var(--brand-hover-color, #0585e7);
+}
+
+.modal .modal-close:focus-visible {
+  outline: 2px solid var(--brand-color, #0078d4);
+  outline-offset: 3px;
+}
+
+@media (width >= 768px) {
+  .modal .modal-content {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
+
+@media (width >= 1024px) {
+  .modal {
+    inset: 0;
+  }
+
+  .modal .modal-content {
+    max-width: 1440px;
+    padding: 60px 147px 100px;
+  }
+
+  .modal .default-content-wrapper :is(h1, h2, h3) {
+    font-size: 48px;
+  }
+
+  .modal .default-content-wrapper p {
+    font-size: 24px;
+  }
+
+  .modal .modal-content > .section > .default-content-wrapper + div {
+    margin-top: 80px;
+  }
+
+  .modal .modal-close {
+    inset: 40px 40px auto auto;
+    translate: none;
+  }
+}

@@ -277,7 +277,22 @@ async function loadEager(doc) {
  * Loads everything that doesn't need to be delayed.
  * @param {Element} doc The container element
  */
+/**
+ * Links to a /modals/ page open it in a dialog (blocks/modal) instead of navigating.
+ * @param {Document} doc The document
+ */
+function autolinkModals(doc) {
+  doc.addEventListener('click', async (e) => {
+    const link = e.target.closest('a[href]');
+    if (!link || !link.href.includes('/modals/')) return;
+    e.preventDefault();
+    const { openModal } = await import(`${window.hlx.codeBasePath}/blocks/modal/modal.js`);
+    openModal(link.href);
+  });
+}
+
 async function loadLazy(doc) {
+  autolinkModals(doc);
   loadHeader(doc.querySelector('body > header'));
 
   const main = doc.querySelector('main');

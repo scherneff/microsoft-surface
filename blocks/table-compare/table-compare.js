@@ -185,7 +185,30 @@ function buildCell(tag, cell) {
   return el;
 }
 
+/**
+ * `specs` option: a two-column spec sheet (label | details), rendered as a definition list
+ * like the source's "Explore what's inside" dialog.
+ */
+function decorateSpecs(block) {
+  const dl = document.createElement('dl');
+  dl.className = 'table-compare-spec-list';
+  [...block.children].forEach((row) => {
+    const [label, ...values] = [...row.children];
+    if (!label || !hasText(row)) return;
+    const dt = document.createElement('dt');
+    dt.textContent = label.textContent.trim();
+    const dd = document.createElement('dd');
+    values.forEach((cell) => dd.append(...cellContent(cell)));
+    dl.append(dt, dd);
+  });
+  block.replaceChildren(dl);
+}
+
 export default function decorate(block) {
+  if (block.classList.contains('specs')) {
+    decorateSpecs(block);
+    return;
+  }
   const rows = [...block.children].filter((row) => hasText(row) || row.querySelector('picture, img'));
   if (!rows.length) return;
 

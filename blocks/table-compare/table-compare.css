@@ -278,3 +278,56 @@
     transition: none;
   }
 }
+
+/* `specs` option: spec sheet (source "Explore what's inside" dialog) */
+.table-compare.specs {
+  margin: 0;
+}
+
+.table-compare.specs .table-compare-spec-list {
+  margin: 0;
+}
+
+.table-compare.specs dt {
+  padding: 20px 0 4px;
+  border-top: 1px solid #d1d1d1;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+.table-compare.specs dd {
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.table-compare.specs dd p {
+  margin: 0;
+}
+
+.table-compare.specs dd p + p,
+.table-compare.specs dd :is(ul, ol) {
+  margin: 12px 0 0;
+}
+
+.table-compare.specs dd sup {
+  font-size: 0.75em;
+}
+
+@media (width >= 1024px) {
+  .table-compare.specs .table-compare-spec-list {
+    display: grid;
+    grid-template-columns: minmax(0, 196px) minmax(0, 1fr);
+  }
+
+  .table-compare.specs dt,
+  .table-compare.specs dd {
+    padding: 28px 0;
+    border-top: 1px solid #d1d1d1;
+  }
+
+  .table-compare.specs dt {
+    padding-right: 40px;
+  }
+}

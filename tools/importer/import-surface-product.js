@@ -13,6 +13,7 @@ import cardsProductParser from './parsers/cards-product.js';
 import accordionFaqParser from './parsers/accordion-faq.js';
 import cleanupTransformer from './transformers/surface-cleanup.js';
 import sectionsTransformer from './transformers/surface-sections.js';
+import specsModalTransformer from './transformers/surface-specs-modal.js';
 import expandInteractive from './prepare/surface-expand.js';
 
 const PAGE_TEMPLATE = {
@@ -286,7 +287,7 @@ const fragmentTransformers = [];
 const lateTransformers = [...sectionTransformers, ...fragmentTransformers];
 // Page corrections (surface-page-corrections.js, when it exists) run last.
 const correctionTransformers = [];
-const transformers = [cleanupTransformer, ...lateTransformers, ...correctionTransformers];
+const transformers = [cleanupTransformer, specsModalTransformer, ...lateTransformers, ...correctionTransformers];
 const earlyTransformers = transformers.filter((fn) => !lateTransformers.includes(fn));
 // Catalog selectors (pageInstances, pageCleanup) count the <script> and <hr> elements the importer
 // removes before transform, so a catalog template finds its targets in preprocess.

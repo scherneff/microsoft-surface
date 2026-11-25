@@ -1196,6 +1196,89 @@ var CustomImportScript = (() => {
     }
   }
 
+  // tools/importer/transformers/surface-specs-modal.js
+  function clean7(text) {
+    return (text || "").replace(/\s+/g, " ").trim();
+  }
+  function richText(root, document2) {
+    const clone = root.cloneNode(true);
+    clone.querySelectorAll("sup").forEach((sup) => {
+      const a = sup.querySelector("a[href]");
+      if (!a) {
+        sup.replaceWith(document2.createTextNode(sup.textContent));
+        return;
+      }
+      const link = document2.createElement("a");
+      link.href = a.getAttribute("href");
+      const s = document2.createElement("sup");
+      s.textContent = clean7(a.textContent);
+      link.append(s);
+      sup.replaceWith(link);
+    });
+    clone.querySelectorAll("button, svg, img, script, style").forEach((el) => el.remove());
+    [clone, ...clone.querySelectorAll("*")].forEach((el) => {
+      [...el.attributes].forEach((attr) => {
+        if (attr.name !== "href") el.removeAttribute(attr.name);
+      });
+    });
+    const blocks = [...clone.querySelectorAll("p, ul, ol")].filter((el) => !(el.parentElement && el.parentElement.closest("p, ul, ol")));
+    if (blocks.length) return blocks.filter((el) => clean7(el.textContent));
+    const p = document2.createElement("p");
+    p.append(...clone.childNodes);
+    return clean7(p.textContent) ? [p] : [];
+  }
+  function modalPath(originalURL) {
+    try {
+      const { pathname } = new URL(originalURL);
+      const parts = pathname.replace(/\/$/, "").replace(/\.html?$/, "").split("/");
+      const slug = parts.pop() || "index";
+      return `${parts.join("/")}/modals/${slug}-specs`;
+    } catch (e) {
+      return null;
+    }
+  }
+  function transform3(hookName, element, payload) {
+    if (hookName !== "beforeTransform") return;
+    const { document: document2 } = payload;
+    const params = payload.params || {};
+    const copy = element.querySelector("[data-import-specs]");
+    if (!copy) return;
+    const button = element.querySelector("[data-import-specs-trigger]");
+    const path = modalPath(params.originalURL);
+    const dl = copy.querySelector("dl");
+    if (path && dl && Array.isArray(params.fragments)) {
+      const doc = document2.createElement("div");
+      const heading = copy.querySelector("h1, h2, h3, h4");
+      if (heading) {
+        const h2 = document2.createElement("h2");
+        h2.textContent = clean7(heading.textContent);
+        doc.append(h2);
+      }
+      const intro = copy.querySelector(":scope > p");
+      if (intro) doc.append(...richText(intro, document2));
+      const cells = [];
+      [...dl.children].forEach((el) => {
+        if (el.tagName === "DT") cells.push([clean7(el.textContent), ""]);
+        else if (el.tagName === "DD" && cells.length) cells[cells.length - 1][1] = richText(el, document2);
+      });
+      if (cells.length) {
+        doc.append(WebImporter.Blocks.createBlock(document2, { name: "table-compare (specs)", cells }));
+      }
+      params.fragments.push({ element: doc, path });
+      if (button) {
+        const p = document2.createElement("p");
+        const strong = document2.createElement("strong");
+        const a = document2.createElement("a");
+        a.href = path;
+        a.textContent = clean7(button.textContent);
+        strong.append(a);
+        p.append(strong);
+        button.replaceWith(p);
+      }
+    }
+    copy.remove();
+  }
+
   // tools/importer/prepare/surface-expand.js
   var sleep = (ms) => new Promise((resolve) => {
     setTimeout(resolve, ms);
@@ -1351,8 +1434,38 @@ var CustomImportScript = (() => {
       return count;
     });
   }
+  function captureSpecsDialog(document2) {
+    return __async(this, null, function* () {
+      var _a;
+      const button = [...document2.querySelectorAll('button[aria-haspopup="dialog"]')].find((b) => /specs/i.test(b.textContent));
+      if (!button) return false;
+      button.click();
+      const dialog = yield waitFor(() => [...document2.querySelectorAll('[role="dialog"], dialog')].find((d) => d.querySelector("dl dt") && d.getBoundingClientRect().width > 0), 4e3);
+      if (!dialog) return false;
+      const copy = document2.createElement("div");
+      copy.setAttribute("data-import-specs", "");
+      copy.hidden = true;
+      const heading = dialog.querySelector("h1, h2, h3, h4");
+      const intro = (_a = heading == null ? void 0 : heading.nextElementSibling) == null ? void 0 : _a.querySelector("p");
+      if (heading) copy.append(heading.cloneNode(true));
+      if (intro) copy.append(intro.cloneNode(true));
+      copy.append(dialog.querySelector("dl").cloneNode(true));
+      button.dataset.importSpecsTrigger = "";
+      button.after(copy);
+      const close = [...dialog.querySelectorAll("button")].find((b) => /close/i.test(b.getAttribute("aria-label") || ""));
+      if (close) close.click();
+      yield sleep(400);
+      return true;
+    });
+  }
   function expandInteractive(_0) {
     return __async(this, arguments, function* ({ document: document2 }) {
+      let specs = false;
+      try {
+        specs = yield captureSpecsDialog(document2);
+      } catch (e) {
+      }
+      console.log(`[surface-expand] specs dialog captured: ${specs}`);
       let compareColours = 0;
       try {
         compareColours = yield annotateCompareColours(document2);
@@ -1642,7 +1755,7 @@ var CustomImportScript = (() => {
   var fragmentTransformers = [];
   var lateTransformers = [...sectionTransformers, ...fragmentTransformers];
   var correctionTransformers = [];
-  var transformers = [transform, ...lateTransformers, ...correctionTransformers];
+  var transformers = [transform, transform3, ...lateTransformers, ...correctionTransformers];
   var earlyTransformers = transformers.filter((fn) => !lateTransformers.includes(fn));
   var CATALOG = Boolean(PAGE_TEMPLATE.pageCleanup || PAGE_TEMPLATE.blocks.some((b) => b.pageInstances));
   function executeTransformers(hookName, element, payload, list = transformers) {
