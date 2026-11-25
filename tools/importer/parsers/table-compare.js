@@ -118,11 +118,32 @@ export default function parse(element, { document }) {
     const label = row.querySelector('th');
     if (!label || !clean(label.textContent)) return; // divider rows
     const values = [...row.children].filter((c) => c !== label).map((td) => {
-      const swatches = [...td.querySelectorAll('button[title], [title]')]
-        .map((b) => clean(b.getAttribute('title'))).filter(Boolean);
-      if (swatches.length && !td.querySelector('.rich-text-content')) {
+      const dots = [...td.querySelectorAll('button[aria-label], button[title], [title]')]
+        .filter((b) => clean(b.getAttribute('aria-label') || b.getAttribute('title')));
+      if (dots.length && !td.querySelector('.rich-text-content')) {
+        const name = (b) => clean(b.getAttribute('aria-label') || b.getAttribute('title'));
+        // colour photos recorded by the prepare step: one photo + "Name #code" line per colour
+        if (dots.some((b) => b.getAttribute('data-colour-src'))) {
+          return dots.flatMap((b) => {
+            const out = [];
+            const src = b.getAttribute('data-colour-src');
+            if (src) {
+              const picture = document.createElement('picture');
+              const img = document.createElement('img');
+              img.src = absUrl(src, document);
+              img.alt = b.getAttribute('data-colour-alt') || '';
+              picture.append(img);
+              out.push(picture);
+            }
+            const p = document.createElement('p');
+            const code = b.getAttribute('data-swatch-color');
+            p.textContent = code ? `${name(b)} ${code}` : name(b);
+            out.push(p);
+            return out;
+          });
+        }
         const p = document.createElement('p');
-        p.textContent = swatches.join(', ');
+        p.textContent = dots.map(name).join(', ');
         return [p];
       }
       const rich = td.querySelector('.rich-text-content') || td;

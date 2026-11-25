@@ -288,3 +288,100 @@ main > .section > .cards-product-wrapper {
     font-size: 24px;
   }
 }
+
+/* light accessory row from 1024px: fixed 355px cards in a full-bleed snap row (like the source),
+   so it only scrolls when the three cards don't fit */
+@media (width >= 1024px) {
+  .section.light .cards-product > ul,
+  .section.light .cards-product > ul:has(> li:nth-child(3):last-child) {
+    display: flex;
+    gap: 40px;
+    margin-inline: calc(-1 * var(--cards-product-bleed, 0));
+    padding-inline: var(--cards-product-bleed, 0);
+    overflow-x: auto;
+    scroll-padding-inline: var(--cards-product-bleed, 0);
+  }
+
+  .section.light .cards-product .cards-product-card {
+    flex: 0 0 355px;
+  }
+}
+
+/* carousel controls (shown only when the cards overflow): prev / progress / next */
+.cards-product .cards-product-controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: max-content;
+  margin: 60px auto 0;
+}
+
+.cards-product .cards-product-controls[hidden] {
+  display: none;
+}
+
+.cards-product .cards-product-controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 9999px;
+  background-color: var(--light-grey-color, #f5f5f7);
+  color: #000;
+  cursor: pointer;
+  transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+
+.cards-product .cards-product-controls button:focus-visible {
+  outline: 2px solid var(--brand-color, #0078d4);
+  outline-offset: 2px;
+}
+
+.cards-product .cards-product-controls button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.cards-product .cards-product-controls button:hover:not(:disabled) {
+  background-color: #e6e6e6;
+}
+
+.cards-product .cards-product-prev svg {
+  rotate: 180deg;
+}
+
+.cards-product .cards-product-progress {
+  width: 120px;
+  height: 1px;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: #cacaca;
+}
+
+.cards-product .cards-product-progress-fill {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transform-origin: left;
+  scale: var(--cards-product-progress, 0) 1;
+  transition: scale 0.15s cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+@media (width >= 1024px) {
+  .cards-product .cards-product-controls {
+    margin-top: 80px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards-product .cards-product-progress-fill,
+  .cards-product .cards-product-controls button {
+    transition: none;
+  }
+}

@@ -129,7 +129,14 @@ export default function decorate(block) {
 
     const details = document.createElement('details');
     details.className = 'accordion-media-item';
-    details.append(summary, body, progress);
+    // panel (animated grid row 0fr <-> 1fr) > clip (overflow hidden) > body (padding)
+    const panel = document.createElement('div');
+    panel.className = 'accordion-media-item-panel';
+    const clip = document.createElement('div');
+    clip.className = 'accordion-media-item-clip';
+    clip.append(body);
+    panel.append(clip);
+    details.append(summary, panel, progress);
     list.append(details);
     items.push({ details, media, video });
     row.remove();
@@ -169,10 +176,42 @@ export default function decorate(block) {
     bar.classList.remove('is-restarting');
   };
 
+  // smooth switch, like the source: the new item's <details> opens and its panel row grows,
+  // while the previous one shrinks and only then closes
+  const motionOff = () => reducedMotion.matches;
+  const openItem = (details) => {
+    if (details.classList.contains('is-open')) return;
+    details.open = true;
+    if (motionOff()) {
+      details.classList.add('is-open');
+      return;
+    }
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (details.open) details.classList.add('is-open');
+    }));
+  };
+  const closeItem = (details) => {
+    if (!details.open) return;
+    details.classList.remove('is-open');
+    const panel = details.querySelector('.accordion-media-item-panel');
+    if (motionOff() || !panel) {
+      details.open = false;
+      return;
+    }
+    const done = (e) => {
+      if (e && (e.target !== panel || e.propertyName !== 'grid-template-rows')) return;
+      panel.removeEventListener('transitionend', done);
+      if (!details.classList.contains('is-open')) details.open = false;
+    };
+    panel.addEventListener('transitionend', done);
+    setTimeout(() => done(), 400);
+  };
+
   const activate = (index) => {
     activeIndex = index;
     items.forEach(({ details, video }, i) => {
-      details.open = i === index;
+      if (i === index) openItem(details);
+      else closeItem(details);
       details.classList.remove('is-playing');
       if (i === index && video) video.currentTime = 0;
     });
@@ -185,6 +224,10 @@ export default function decorate(block) {
     details.querySelector('summary').addEventListener('click', (e) => {
       e.preventDefault();
       if (i !== activeIndex || !details.open) activate(i);
+    });
+    // opened by the browser itself (e.g. find-in-page): make it the active item
+    details.addEventListener('toggle', () => {
+      if (details.open && i !== activeIndex) activate(i);
     });
     if (!video) return;
     const bar = details.querySelector('.accordion-media-item-progress');

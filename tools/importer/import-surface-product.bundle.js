@@ -308,20 +308,31 @@ var CustomImportScript = (() => {
   }
   function buildPanel(panel, document2) {
     const content = [];
-    const img = [...panel.querySelectorAll("img")].find((im) => !/^data:/.test(im.getAttribute("src") || ""));
-    if (img) {
+    const pictureFor2 = (img) => {
       const picture2 = document2.createElement("picture");
       const newImg = document2.createElement("img");
       newImg.src = absUrl3(img.getAttribute("src"), document2);
       newImg.alt = img.getAttribute("alt") || "";
       picture2.append(newImg);
-      content.push(picture2);
-    }
-    const shown = [...panel.querySelectorAll("p")].find((p) => /^shown in/i.test(clean(p.textContent)));
-    if (shown) {
+      return picture2;
+    };
+    const shownLine = (text) => {
       const p = document2.createElement("p");
-      p.textContent = clean(shown.textContent);
-      content.push(p);
+      p.textContent = text;
+      return p;
+    };
+    const images = [...panel.querySelectorAll("img")].filter((im) => !/^data:/.test(im.getAttribute("src") || "") && !im.closest("button, li"));
+    const swatches = [...panel.querySelectorAll("button[aria-label]")].filter((b) => /^shown in/i.test(b.getAttribute("aria-label") || ""));
+    if (swatches.length > 1 && images.length >= swatches.length) {
+      swatches.forEach((swatch, i) => {
+        const code = swatch.getAttribute("data-swatch-color");
+        content.push(pictureFor2(images[i]));
+        content.push(shownLine(`${clean(swatch.getAttribute("aria-label"))}${code ? ` ${code}` : ""}`));
+      });
+    } else {
+      if (images[0]) content.push(pictureFor2(images[0]));
+      const shown = [...panel.querySelectorAll("p")].find((p) => /^shown in/i.test(clean(p.textContent)));
+      if (shown) content.push(shownLine(clean(shown.textContent)));
     }
     const items = [...panel.querySelectorAll("ul > li")];
     if (items.length) {
@@ -794,10 +805,30 @@ var CustomImportScript = (() => {
       const label = row.querySelector("th");
       if (!label || !clean4(label.textContent)) return;
       const values = [...row.children].filter((c) => c !== label).map((td) => {
-        const swatches = [...td.querySelectorAll("button[title], [title]")].map((b) => clean4(b.getAttribute("title"))).filter(Boolean);
-        if (swatches.length && !td.querySelector(".rich-text-content")) {
+        const dots = [...td.querySelectorAll("button[aria-label], button[title], [title]")].filter((b) => clean4(b.getAttribute("aria-label") || b.getAttribute("title")));
+        if (dots.length && !td.querySelector(".rich-text-content")) {
+          const name = (b) => clean4(b.getAttribute("aria-label") || b.getAttribute("title"));
+          if (dots.some((b) => b.getAttribute("data-colour-src"))) {
+            return dots.flatMap((b) => {
+              const out = [];
+              const src = b.getAttribute("data-colour-src");
+              if (src) {
+                const picture2 = document2.createElement("picture");
+                const img = document2.createElement("img");
+                img.src = absUrl8(src, document2);
+                img.alt = b.getAttribute("data-colour-alt") || "";
+                picture2.append(img);
+                out.push(picture2);
+              }
+              const p2 = document2.createElement("p");
+              const code = b.getAttribute("data-swatch-color");
+              p2.textContent = code ? `${name(b)} ${code}` : name(b);
+              out.push(p2);
+              return out;
+            });
+          }
           const p = document2.createElement("p");
-          p.textContent = swatches.join(", ");
+          p.textContent = dots.map(name).join(", ");
           return [p];
         }
         const rich = td.querySelector(".rich-text-content") || td;
@@ -1204,6 +1235,13 @@ var CustomImportScript = (() => {
         yield sleep(500);
         if (panel) {
           previous = signature(panel);
+          const view = document2.defaultView;
+          panel.querySelectorAll("button.rounded-full[aria-label]").forEach((swatch) => {
+            const rgb = (view.getComputedStyle(swatch).backgroundColor.match(/\d+(\.\d+)?/g) || []).slice(0, 3);
+            if (rgb.length === 3) {
+              swatch.dataset.swatchColor = `#${rgb.map((v) => Math.round(+v).toString(16).padStart(2, "0")).join("")}`;
+            }
+          });
           const clone = panel.cloneNode(true);
           clone.removeAttribute("id");
           clone.removeAttribute("hidden");
@@ -1275,8 +1313,52 @@ var CustomImportScript = (() => {
     });
     return count;
   }
+  function annotateCompareColours(document2) {
+    return __async(this, null, function* () {
+      var _a;
+      const view = document2.defaultView;
+      let count = 0;
+      for (const table of document2.querySelectorAll("table")) {
+        const rows = [...table.querySelectorAll("tr")];
+        const colourRow = rows.find((r) => {
+          var _a2;
+          return /^colou?rs?$/i.test((((_a2 = r.firstElementChild) == null ? void 0 : _a2.textContent) || "").trim());
+        });
+        const headRow = rows.find((r) => r.querySelector("img"));
+        if (!colourRow || !headRow) continue;
+        for (let c = 1; c < colourRow.children.length; c += 1) {
+          const dots = [...colourRow.children[c].querySelectorAll("button")];
+          const headImg = () => {
+            var _a2;
+            return (_a2 = headRow.children[c]) == null ? void 0 : _a2.querySelector("img");
+          };
+          for (const dot of dots) {
+            const before = (_a = headImg()) == null ? void 0 : _a.getAttribute("src");
+            dot.click();
+            yield waitFor(() => headImg() && (dot === dots[0] || headImg().getAttribute("src") !== before), 1500);
+            const img = headImg();
+            if (img) {
+              dot.dataset.colourSrc = img.getAttribute("src");
+              dot.dataset.colourAlt = img.getAttribute("alt") || "";
+            }
+            const rgb = (view.getComputedStyle(dot).backgroundColor.match(/\d+(\.\d+)?/g) || []).slice(0, 3);
+            if (rgb.length === 3) dot.dataset.swatchColor = `#${rgb.map((v) => Math.round(+v).toString(16).padStart(2, "0")).join("")}`;
+            count += 1;
+          }
+          if (dots[0]) dots[0].click();
+        }
+      }
+      return count;
+    });
+  }
   function expandInteractive(_0) {
     return __async(this, arguments, function* ({ document: document2 }) {
+      let compareColours = 0;
+      try {
+        compareColours = yield annotateCompareColours(document2);
+      } catch (e) {
+      }
+      console.log(`[surface-expand] comparison colours recorded: ${compareColours}`);
       let scrollVideos = 0;
       try {
         scrollVideos = annotateScrollVideos(document2);

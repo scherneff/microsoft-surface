@@ -90,26 +90,92 @@ const SWATCHES = {
   violet: '#a19dc4',
 };
 
-/** "Violet, Platinum, Black" -> swatch list (first finish ringed: the one pictured) */
-function buildSwatches(cell) {
-  const names = cell.textContent.split(/,|\band\b/).map((n) => n.trim()).filter(Boolean);
-  if (!names.length || cell.querySelector('a, img, picture')
-    || !names.every((n) => SWATCHES[n.toLowerCase()])) return false;
-  const list = document.createElement('ul');
-  list.className = 'table-compare-swatches';
-  names.forEach((n, i) => {
-    const item = document.createElement('li');
-    item.className = 'table-compare-swatch';
-    if (i === 0) item.classList.add('selected');
-    item.style.setProperty('--table-compare-swatch', SWATCHES[n.toLowerCase()]);
-    item.title = n;
-    const label = document.createElement('span');
-    label.className = 'table-compare-swatch-name';
-    label.textContent = n;
-    item.append(label);
-    list.append(item);
+const COLOUR_LINE = /^(.+?)(?:\s+(#[0-9a-f]{3,8}))?$/i;
+
+/** a fresh, display-ready copy of a colour photo (media bus images are re-optimized) */
+function colourPicture(picture) {
+  const img = picture.querySelector('img');
+  const url = new URL(img.src, window.location.href);
+  if (url.origin === window.location.origin && !url.pathname.toLowerCase().endsWith('.svg')) {
+    return createOptimizedPicture(img.src, img.alt, false, [{ width: '500' }]);
+  }
+  const copy = picture.cloneNode(true);
+  copy.querySelector('img').decoding = 'async';
+  return copy;
+}
+
+/**
+ * Colors cell -> swatch buttons. Two authoring forms:
+ *   "Violet, Platinum, Black" (names only), or one line per colour, "Violet #a19dc4", each
+ *   optionally preceded by a photo of the product in that colour. With photos, a swatch swaps
+ *   the product photo in the header (fading in, like the source).
+ * The first colour is selected (the one pictured). Unknown names without a code stay text.
+ */
+function buildSwatches(cell, imageCell, productName) {
+  const entries = [];
+  let pendingPicture = null;
+  cellContent(cell).forEach((el) => {
+    if (el.nodeType !== 1) return;
+    const picture = el.tagName === 'PICTURE' ? el : el.querySelector('picture');
+    if (picture && !hasText(el)) {
+      pendingPicture = picture;
+      return;
+    }
+    const lines = el.textContent.split(/,|\band\b/).map((n) => n.trim()).filter(Boolean);
+    lines.forEach((line, i) => {
+      const [, name, code] = line.match(COLOUR_LINE);
+      entries.push({
+        name,
+        color: code || SWATCHES[name.toLowerCase()],
+        picture: i === 0 ? pendingPicture : null,
+      });
+    });
+    pendingPicture = null;
   });
-  cell.replaceChildren(list);
+  if (!entries.length || cell.querySelector('a') || entries.some((e) => !e.color)) return false;
+
+  const group = document.createElement('div');
+  group.className = 'table-compare-swatches';
+  group.setAttribute('role', 'group');
+  group.setAttribute('aria-label', productName ? `${productName} colours` : 'Colours');
+  const buttons = entries.map(({ name, color }, i) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'table-compare-swatch';
+    button.style.setProperty('--table-compare-swatch', color);
+    button.title = name;
+    button.setAttribute('aria-label', name);
+    button.setAttribute('aria-pressed', i === 0);
+    if (i === 0) button.classList.add('selected');
+    group.append(button);
+    return button;
+  });
+
+  const select = (index) => {
+    buttons.forEach((b, i) => {
+      b.setAttribute('aria-pressed', i === index);
+      b.classList.toggle('selected', i === index);
+    });
+    const { picture } = entries[index];
+    const box = imageCell?.querySelector('.table-compare-product-image');
+    if (!picture || !box) return;
+    const next = colourPicture(picture);
+    const img = next.querySelector('img');
+    img.classList.add('table-compare-fade');
+    // two frames: the hidden state must render once, or a cached photo skips the fade
+    const reveal = () => requestAnimationFrame(() => requestAnimationFrame(() => img.classList.add('is-loaded')));
+    if (img.complete && img.naturalWidth) reveal();
+    else {
+      img.addEventListener('load', reveal, { once: true });
+      img.addEventListener('error', reveal, { once: true });
+    }
+    box.replaceChildren(next);
+  };
+  buttons.forEach((b, i) => b.addEventListener('click', () => {
+    if (b.getAttribute('aria-pressed') !== 'true') select(i);
+  }));
+
+  cell.replaceChildren(group);
   return true;
 }
 
@@ -175,7 +241,15 @@ export default function decorate(block) {
     }
     if (/^colou?rs?$/i.test(tr.firstElementChild.textContent.trim())) {
       tr.classList.add('table-compare-colors');
-      [...tr.children].slice(1).forEach(buildSwatches);
+      const imageRow = table.querySelector('thead .table-compare-images');
+      const nameRow = table.querySelector('thead .table-compare-names');
+      [...tr.children].slice(1).forEach((cell, i) => {
+        buildSwatches(
+          cell,
+          imageRow?.children[i + 1],
+          nameRow?.children[i + 1]?.textContent.trim(),
+        );
+      });
     }
     tbody.append(tr);
   });

@@ -67,6 +67,99 @@ function decorateStats(caption) {
   });
 }
 
+/* fallback swatch colours when a "Shown in <colour>" line has no colour code */
+const SWATCH_COLORS = {
+  black: '#515356',
+  dune: '#d3a68c',
+  jade: '#9baa8f',
+  platinum: '#e2e4e4',
+  violet: '#a19dc4',
+  sapphire: '#3a4b75',
+  ocean: '#6c8ea8',
+  sage: '#a9b5a0',
+};
+const SHOWN_IN = /^shown in\s+(.+?)(?:\s+(#[0-9a-f]{3,8}))?\s*$/i;
+
+/** "Shown in Black #000000" -> { name: 'Black', color: '#000000' } (code is optional) */
+function parseShownIn(p) {
+  const match = p.textContent.trim().match(SHOWN_IN);
+  if (!match) return null;
+  const [, name, code] = match;
+  return { name, color: code || SWATCH_COLORS[name.toLowerCase()] || '#d2d2d7' };
+}
+
+function mediaPicture(picture) {
+  const img = picture.querySelector('img');
+  // only same-origin (media bus) images can be re-optimized; external URLs keep their picture
+  const sameOrigin = new URL(img.src, window.location.href).origin === window.location.origin;
+  if (sameOrigin) {
+    const optimized = createOptimizedPicture(img.src, img.alt, false, [
+      { media: '(min-width: 900px)', width: '2000' },
+      { width: '900' },
+    ]);
+    picture.remove();
+    return optimized;
+  }
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  const p = picture.parentElement;
+  if (p && p.tagName === 'P' && !p.textContent.trim() && !p.children.length) {
+    p.replaceWith(picture);
+  }
+  return picture;
+}
+
+/**
+ * Colour variants: several pictures, each followed by a "Shown in <colour> [#code]" line.
+ * The pictures stack in the media box; a pill of swatches switches the picture and the caption.
+ * Returns the swatch pill + caption to place under the media, or null for a single picture.
+ */
+function buildColours(row, media) {
+  const pairs = [];
+  [...row.querySelectorAll('picture')].forEach((picture) => {
+    const holder = picture.closest('p') || picture;
+    let next = holder.nextElementSibling;
+    while (next && !next.textContent.trim() && !next.querySelector('picture')) next = next.nextElementSibling;
+    const colour = next && next.tagName === 'P' && !next.querySelector('picture') ? parseShownIn(next) : null;
+    if (colour) pairs.push({ picture, line: next, ...colour });
+  });
+  if (pairs.length < 2) return null;
+
+  const swatches = document.createElement('div');
+  swatches.className = 'tabs-media-swatches';
+  swatches.setAttribute('role', 'group');
+  swatches.setAttribute('aria-label', 'Colour');
+  const shown = document.createElement('p');
+  shown.className = 'tabs-media-shown';
+  shown.setAttribute('aria-live', 'polite');
+
+  const layers = pairs.map(({ picture }) => {
+    const layer = mediaPicture(picture);
+    layer.classList.add('tabs-media-colour');
+    media.append(layer);
+    return layer;
+  });
+  const buttons = pairs.map(({ name, color, line }) => {
+    line.remove();
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'tabs-media-swatch';
+    button.style.setProperty('--swatch-color', color);
+    button.setAttribute('aria-label', `Shown in ${name}`);
+    swatches.append(button);
+    return button;
+  });
+  const select = (index) => {
+    layers.forEach((layer, i) => layer.classList.toggle('is-active', i === index));
+    buttons.forEach((b, i) => b.setAttribute('aria-pressed', i === index));
+    shown.textContent = `Shown in ${pairs[index].name}`;
+  };
+  buttons.forEach((b, i) => b.addEventListener('click', () => select(i)));
+  select(0);
+  media.classList.add('has-colours');
+  return [swatches, shown];
+}
+
 let tabsMediaId = 0;
 
 export default function decorate(block) {
@@ -114,24 +207,15 @@ export default function decorate(block) {
 
     const media = document.createElement('div');
     media.className = 'tabs-media-panel-media';
-    const picture = row.querySelector('picture');
-    if (picture) {
-      const img = picture.querySelector('img');
-      // only same-origin (media bus) images can be re-optimized; external URLs keep their picture
-      const sameOrigin = new URL(img.src, window.location.href).origin === window.location.origin;
-      if (sameOrigin) {
-        media.append(createOptimizedPicture(img.src, img.alt, false, [
-          { media: '(min-width: 900px)', width: '2000' },
-          { width: '900' },
-        ]));
-        picture.remove();
-      } else {
-        img.loading = 'lazy';
-        img.decoding = 'async';
-        const p = picture.parentElement;
-        media.append(picture);
-        if (p && p.tagName === 'P' && !p.textContent.trim() && !p.children.length) p.remove();
-      }
+    const colourControls = buildColours(row, media);
+    const picture = !colourControls && row.querySelector('picture');
+    if (picture) media.append(mediaPicture(picture));
+    // a single "Shown in <colour> #code" line: hide the colour code
+    if (!colourControls) {
+      row.querySelectorAll('p').forEach((p) => {
+        const colour = parseShownIn(p);
+        if (colour) p.textContent = `Shown in ${colour.name}`;
+      });
     }
     const link = [...row.querySelectorAll('a[href]')].find(isVideoLink);
     if (link) {
@@ -143,6 +227,7 @@ export default function decorate(block) {
     // any remaining authored text (caption) is kept under the media
     const caption = document.createElement('div');
     caption.className = 'tabs-media-panel-caption';
+    if (colourControls) caption.append(...colourControls);
     contentCells.forEach((cell) => {
       if (cell.textContent.trim()) caption.append(...cell.childNodes);
     });

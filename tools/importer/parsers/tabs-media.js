@@ -60,25 +60,41 @@ function appendInline(target, source, document) {
 function buildPanel(panel, document) {
   const content = [];
 
-  // default colour image = first (visible) product image
-  const img = [...panel.querySelectorAll('img')]
-    .find((im) => !/^data:/.test(im.getAttribute('src') || ''));
-  if (img) {
+  const pictureFor = (img) => {
     const picture = document.createElement('picture');
     const newImg = document.createElement('img');
     newImg.src = absUrl(img.getAttribute('src'), document);
     newImg.alt = img.getAttribute('alt') || '';
     picture.append(newImg);
-    content.push(picture);
-  }
-
-  // "Shown in <colour>" caption
-  const shown = [...panel.querySelectorAll('p')]
-    .find((p) => /^shown in/i.test(clean(p.textContent)));
-  if (shown) {
+    return picture;
+  };
+  const shownLine = (text) => {
     const p = document.createElement('p');
-    p.textContent = clean(shown.textContent);
-    content.push(p);
+    p.textContent = text;
+    return p;
+  };
+
+  // product images, one per colour (not the swatch or stat icons)
+  const images = [...panel.querySelectorAll('img')]
+    .filter((im) => !/^data:/.test(im.getAttribute('src') || '') && !im.closest('button, li'));
+  // colour swatches: aria-label "Shown in <colour>", colour recorded by the prepare step
+  const swatches = [...panel.querySelectorAll('button[aria-label]')]
+    .filter((b) => /^shown in/i.test(b.getAttribute('aria-label') || ''));
+
+  if (swatches.length > 1 && images.length >= swatches.length) {
+    // one picture + "Shown in <colour> #code" line per colour, in swatch order
+    swatches.forEach((swatch, i) => {
+      const code = swatch.getAttribute('data-swatch-color');
+      content.push(pictureFor(images[i]));
+      content.push(shownLine(`${clean(swatch.getAttribute('aria-label'))}${code ? ` ${code}` : ''}`));
+    });
+  } else {
+    // default colour image = first (visible) product image
+    if (images[0]) content.push(pictureFor(images[0]));
+    // "Shown in <colour>" caption
+    const shown = [...panel.querySelectorAll('p')]
+      .find((p) => /^shown in/i.test(clean(p.textContent)));
+    if (shown) content.push(shownLine(clean(shown.textContent)));
   }
 
   // spec stats: label / value / detail

@@ -87,7 +87,12 @@ main > .section > .cards-feature-wrapper {
 }
 
 @media (width >= 1024px) {
+  /* like the source, the card row isn't capped by the page column: full width, 140px sides */
   main > .section > .cards-feature-wrapper {
+    box-sizing: border-box;
+    max-width: none;
     margin-bottom: 80px;
+    padding-right: 140px;
+    padding-left: 140px;
   }
 }

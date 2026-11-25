@@ -594,3 +594,32 @@ body.surface-product main {
     text-wrap: wrap;
   }
 }
+
+/* page column from 1024px, like the source: up to 1440px wide (1600px from 1600px) with 147px
+   side padding, so content is 730px wide at 1024px, 1146px at 1440px and 1306px from 1600px.
+   Full-bleed blocks override their own wrapper. */
+@media (width >= 1024px) {
+  :where(body.surface-product) main > .section > div,
+  :where(body.surface-product) main > .section > .default-content-wrapper {
+    box-sizing: border-box;
+    max-width: 1440px;
+    padding-right: 147px;
+    padding-left: 147px;
+  }
+}
+
+@media (width >= 1600px) {
+  :where(body.surface-product) main > .section > div,
+  :where(body.surface-product) main > .section > .default-content-wrapper {
+    max-width: 1600px;
+  }
+}
+
+/* footnotes: an 826px column inside the page column, with 32px more side space (source) */
+@media (width >= 1024px) {
+  :where(body.surface-product) main > .section.footnotes > .default-content-wrapper {
+    max-width: 1184px;
+    padding-right: 179px;
+    padding-left: 179px;
+  }
+}

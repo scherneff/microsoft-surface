@@ -280,3 +280,10 @@
     left: 40px;
   }
 }
+
+/* a single video tile stops at 1146px on very wide screens, like the source */
+@media (width >= 1024px) {
+  .cards-bento .cards-bento-card.is-media-only {
+    max-width: 1146px;
+  }
+}

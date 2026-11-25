@@ -51,6 +51,14 @@ async function expandTabs(document) {
     await sleep(500); // let the swap finish and lazy images get their src
     if (panel) {
       previous = signature(panel);
+      // record each colour swatch's colour (computed on the live page) for the tabs-media parser
+      const view = document.defaultView;
+      panel.querySelectorAll('button.rounded-full[aria-label]').forEach((swatch) => {
+        const rgb = (view.getComputedStyle(swatch).backgroundColor.match(/\d+(\.\d+)?/g) || []).slice(0, 3);
+        if (rgb.length === 3) {
+          swatch.dataset.swatchColor = `#${rgb.map((v) => Math.round(+v).toString(16).padStart(2, '0')).join('')}`;
+        }
+      });
       const clone = panel.cloneNode(true);
       clone.removeAttribute('id');
       clone.removeAttribute('hidden');
@@ -135,7 +143,46 @@ function annotateScrollVideos(document) {
   return count;
 }
 
+/**
+ * Comparison table colour dots swap the product photo in the header. Click each dot and record
+ * the photo it shows (and the dot's colour) on the dot, for the table-compare parser.
+ */
+async function annotateCompareColours(document) {
+  const view = document.defaultView;
+  let count = 0;
+  for (const table of document.querySelectorAll('table')) {
+    const rows = [...table.querySelectorAll('tr')];
+    const colourRow = rows.find((r) => /^colou?rs?$/i.test((r.firstElementChild?.textContent || '').trim()));
+    const headRow = rows.find((r) => r.querySelector('img'));
+    if (!colourRow || !headRow) continue;
+    for (let c = 1; c < colourRow.children.length; c += 1) {
+      const dots = [...colourRow.children[c].querySelectorAll('button')];
+      const headImg = () => headRow.children[c]?.querySelector('img');
+      for (const dot of dots) {
+        const before = headImg()?.getAttribute('src');
+        dot.click();
+        // eslint-disable-next-line no-await-in-loop
+        await waitFor(() => headImg() && (dot === dots[0] || headImg().getAttribute('src') !== before), 1500);
+        const img = headImg();
+        if (img) {
+          dot.dataset.colourSrc = img.getAttribute('src');
+          dot.dataset.colourAlt = img.getAttribute('alt') || '';
+        }
+        const rgb = (view.getComputedStyle(dot).backgroundColor.match(/\d+(\.\d+)?/g) || []).slice(0, 3);
+        if (rgb.length === 3) dot.dataset.swatchColor = `#${rgb.map((v) => Math.round(+v).toString(16).padStart(2, '0')).join('')}`;
+        count += 1;
+      }
+      if (dots[0]) dots[0].click();
+    }
+  }
+  return count;
+}
+
 export default async function expandInteractive({ document }) {
+  let compareColours = 0;
+  try { compareColours = await annotateCompareColours(document); } catch (e) { /* keep going */ }
+  // eslint-disable-next-line no-console
+  console.log(`[surface-expand] comparison colours recorded: ${compareColours}`);
   let scrollVideos = 0;
   try { scrollVideos = annotateScrollVideos(document); } catch (e) { /* keep going */ }
   // eslint-disable-next-line no-console

@@ -209,16 +209,16 @@
 }
 
 /* open item: larger title, slides in, no icon */
-.accordion-media .accordion-media-item[open] .accordion-media-item-label {
+.accordion-media .accordion-media-item.is-open .accordion-media-item-label {
   margin: 0;
 }
 
-.accordion-media .accordion-media-item[open] .accordion-media-item-title {
+.accordion-media .accordion-media-item.is-open .accordion-media-item-title {
   font-size: 24px;
   translate: 0 0;
 }
 
-.accordion-media .accordion-media-item[open] .accordion-media-item-icon {
+.accordion-media .accordion-media-item.is-open .accordion-media-item-icon {
   display: none;
 }
 
@@ -416,6 +416,28 @@ main > .section:has(> .accordion-media-wrapper > .accordion-media.has-intro) {
 @media (prefers-reduced-motion: reduce) {
   .accordion-media .accordion-media-intro,
   .accordion-media.has-intro > :not(.accordion-media-intro) {
+    transition: none;
+  }
+}
+
+/* smooth switch between items, like the source: the panel row animates 0fr <-> 1fr */
+.accordion-media .accordion-media-item-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+.accordion-media .accordion-media-item.is-open .accordion-media-item-panel {
+  grid-template-rows: 1fr;
+}
+
+.accordion-media .accordion-media-item-clip {
+  min-height: 0;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion-media .accordion-media-item-panel {
     transition: none;
   }
 }
