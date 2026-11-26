@@ -67,13 +67,45 @@ function buildSlide(row, index) {
   }
 
   contentCell.className = 'carousel-scroll-slide-content';
+  // headings fade up word by word (source "words-fade-up"); the text itself is unchanged
+  contentCell.querySelectorAll('h1, h2, h3, h4').forEach((heading) => {
+    if (heading.children.length) return;
+    const words = heading.textContent.trim().split(/\s+/);
+    heading.replaceChildren(...words.flatMap((word, i) => {
+      const span = document.createElement('span');
+      span.className = 'carousel-scroll-word';
+      span.style.setProperty('--word-index', i);
+      span.textContent = word;
+      return i ? [document.createTextNode(' '), span] : [span];
+    }));
+  });
   slide.append(media, contentCell);
   return slide;
 }
 
+/**
+ * The new slide's progress row starts in the old state (the dash just left still wide, the new
+ * one narrow) and transitions to the new one, so the dashes appear to resize like the source.
+ */
+function animateIndicators(block, from, to) {
+  const slide = block.querySelectorAll('.carousel-scroll-slide')[to];
+  const row = slide?.querySelector('.carousel-scroll-indicators');
+  if (!row || from === to || !Number.isInteger(from)) return;
+  const dashes = row.querySelectorAll('.carousel-scroll-indicator');
+  row.classList.add('is-switching');
+  dashes[from]?.classList.add('was-active');
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    row.classList.remove('is-switching');
+    dashes[from]?.classList.remove('was-active');
+  }));
+}
+
 function setActive(block, index) {
   if (block.dataset.activeSlide === String(index)) return;
+  const { activeSlide } = block.dataset;
+  const previous = activeSlide === undefined ? null : Number(activeSlide);
   block.dataset.activeSlide = index;
+  animateIndicators(block, previous, index);
   block.querySelectorAll('.carousel-scroll-slide').forEach((slide, i) => {
     const active = i === index;
     slide.classList.toggle('is-active', active);
@@ -155,8 +187,14 @@ export default function decorate(block) {
 
   const update = () => {
     const rect = track.getBoundingClientRect();
+    // like the source: progress runs over the track's scroll range, and each slide takes an
+    // equal share of it, starting slightly (1.5%) late; the text fades in over the 425px before
+    // the track reaches the top of the viewport
     const scrollable = rect.height - window.innerHeight;
-    const progress = scrollable > 0 ? Math.min(Math.max(-rect.top / scrollable, 0), 0.9999) : 0;
+    const raw = scrollable > 0 ? -rect.top / scrollable : 0;
+    const progress = Math.min(Math.max(raw - 0.015, 0), 0.9999);
+    const textIn = reducedMotion.matches ? 1 : Math.min(Math.max((425 - rect.top) / 425, 0), 1);
+    block.style.setProperty('--carousel-scroll-text', textIn.toFixed(3));
     const position = progress * rows.length;
     // fill of the active progress dash (0..1 within the current slide)
     block.style.setProperty('--slide-progress', (position % 1).toFixed(3));
@@ -184,7 +222,17 @@ export default function decorate(block) {
         delete block.dataset.activeSlide;
       }
     });
-  });
+  }, { rootMargin: '0px 0px 200px' });
   observer.observe(track);
+
+  // the first slide's text reveals once the card comes into view (like the source)
+  const inview = new IntersectionObserver((entries) => {
+    if (entries.some((e) => e.isIntersecting)) {
+      block.classList.add('is-inview');
+      inview.disconnect();
+    }
+  }, { threshold: 0.33 });
+  inview.observe(frame);
+
   setActive(block, 0);
 }

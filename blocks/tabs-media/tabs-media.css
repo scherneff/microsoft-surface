@@ -11,6 +11,7 @@
 
 /* segmented control */
 .tabs-media .tabs-media-list {
+  position: relative;
   display: flex;
   width: 100%;
   max-width: 100%;
@@ -377,5 +378,90 @@
 @media (prefers-reduced-motion: reduce) {
   .tabs-media .tabs-media-swatch {
     transition: none;
+  }
+}
+
+/* sliding "selected" pill (light sections, like the source): it sits under the tabs and glides
+   to the picked tab; the selected tab itself turns transparent so the pill shows through */
+.tabs-media .tabs-media-indicator {
+  display: none;
+}
+
+.section.light .tabs-media .tabs-media-list.has-indicator .tabs-media-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  display: block;
+  width: var(--tabs-media-tab-width, 0);
+  height: var(--tabs-media-tab-height, 0);
+  border-radius: 12px;
+  background-color: rgb(29 29 31);
+  pointer-events: none;
+  translate: var(--tabs-media-tab-left, 0) var(--tabs-media-tab-top, 0);
+}
+
+.section.light .tabs-media .tabs-media-list.is-indicator-ready .tabs-media-indicator {
+  transition: translate 0.2s cubic-bezier(0.8, 0, 0.2, 1), width 0.2s cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+.section.light .tabs-media .tabs-media-list.has-indicator .tabs-media-tab {
+  position: relative;
+  z-index: 1;
+}
+
+.section.light .tabs-media .tabs-media-list.has-indicator .tabs-media-tab[aria-selected='true'],
+.section.light .tabs-media .tabs-media-list.has-indicator .tabs-media-tab[aria-selected='true']:hover {
+  background-color: transparent;
+}
+
+/* the active panel's content rises in: 20px, 0.45s, stat tiles staggered by 0.1s (source) */
+.section.light .tabs-media .tabs-media-panel :is(
+  .tabs-media-panel-media,
+  .tabs-media-swatches,
+  .tabs-media-shown,
+  .tabs-media-panel-caption > p,
+  .tabs-media-stat
+) {
+  opacity: 0;
+  translate: 0 20px;
+  transition: opacity 0.45s ease, translate 0.45s ease;
+}
+
+.section.light .tabs-media .tabs-media-panel.is-revealed :is(
+  .tabs-media-panel-media,
+  .tabs-media-swatches,
+  .tabs-media-shown,
+  .tabs-media-panel-caption > p,
+  .tabs-media-stat
+) {
+  opacity: 1;
+  translate: none;
+}
+
+.section.light .tabs-media .tabs-media-panel.is-revealed .tabs-media-stat:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.section.light .tabs-media .tabs-media-panel.is-revealed .tabs-media-stat:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section.light .tabs-media .tabs-media-list .tabs-media-indicator,
+  .section.light .tabs-media .tabs-media-panel :is(
+    .tabs-media-panel-media,
+    .tabs-media-swatches,
+    .tabs-media-shown,
+    .tabs-media-panel-caption > p,
+    .tabs-media-stat
+  ) {
+    opacity: 1;
+    translate: none;
+    transition: none;
+  }
+
+  .section.light .tabs-media .tabs-media-list.has-indicator .tabs-media-indicator {
+    translate: var(--tabs-media-tab-left, 0) var(--tabs-media-tab-top, 0);
   }
 }

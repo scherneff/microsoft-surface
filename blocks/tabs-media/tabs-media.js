@@ -247,6 +247,7 @@ export default function decorate(block) {
     button.setAttribute('aria-selected', i === 0);
     button.tabIndex = i === 0 ? 0 : -1;
     button.addEventListener('click', () => {
+      const changed = button.getAttribute('aria-selected') !== 'true';
       buttons.forEach((b) => {
         const selected = b === button;
         b.setAttribute('aria-selected', selected);
@@ -257,6 +258,10 @@ export default function decorate(block) {
       });
       const video = panel.querySelector('video');
       if (video) video.currentTime = 0;
+      // eslint-disable-next-line no-use-before-define
+      placeIndicator();
+      // eslint-disable-next-line no-use-before-define
+      if (changed) revealPanel(panel);
       syncVideos();
     });
     buttons.push(button);
@@ -284,8 +289,41 @@ export default function decorate(block) {
 
   block.replaceChildren(tablist, stage);
 
+  // sliding "selected" pill under the tabs (shown in light sections, like the source):
+  // it takes the selected tab's box and glides there when another tab is picked
+  const indicator = document.createElement('span');
+  indicator.className = 'tabs-media-indicator';
+  indicator.setAttribute('aria-hidden', 'true');
+  tablist.prepend(indicator);
+  function placeIndicator() {
+    const selected = buttons.find((b) => b.getAttribute('aria-selected') === 'true');
+    if (!selected) return;
+    tablist.style.setProperty('--tabs-media-tab-left', `${selected.offsetLeft}px`);
+    tablist.style.setProperty('--tabs-media-tab-top', `${selected.offsetTop}px`);
+    tablist.style.setProperty('--tabs-media-tab-width', `${selected.offsetWidth}px`);
+    tablist.style.setProperty('--tabs-media-tab-height', `${selected.offsetHeight}px`);
+  }
+  new ResizeObserver(placeIndicator).observe(tablist);
+  placeIndicator();
+  tablist.classList.add('has-indicator');
+  // first placement doesn't animate
+  requestAnimationFrame(() => requestAnimationFrame(() => tablist.classList.add('is-indicator-ready')));
+
+  // the active panel's image, swatches, caption and stat tiles rise in (replayed on every switch)
+  function revealPanel(panel) {
+    panel.classList.remove('is-revealed');
+    // eslint-disable-next-line no-unused-expressions
+    panel.offsetWidth; // restart the transitions
+    panel.classList.add('is-revealed');
+  }
+
+  let revealedOnce = false;
   const observer = new IntersectionObserver((entries) => {
     visible = entries.some((e) => e.isIntersecting);
+    if (visible && !revealedOnce && activePanel()) {
+      revealedOnce = true;
+      revealPanel(activePanel());
+    }
     syncVideos();
   }, { threshold: 0.3 });
   observer.observe(stage);

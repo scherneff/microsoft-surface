@@ -50,20 +50,14 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.4s ease, visibility 0.4s;
-}
-
-.carousel-scroll .carousel-scroll-slide.is-active {
-  opacity: 1;
-  visibility: visible;
 }
 
 .carousel-scroll .carousel-scroll-slide-media {
   position: absolute;
   inset: 0;
   z-index: 0;
+  opacity: 0;
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .carousel-scroll .carousel-scroll-slide-media picture,
@@ -96,6 +90,9 @@
   width: 100%;
   padding: 64px 20px 0;
   box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s;
 }
 
 .carousel-scroll .carousel-scroll-slide-content h1,
@@ -120,6 +117,9 @@
   line-height: 1.4;
   letter-spacing: 0.01em;
   color: var(--text-color);
+  opacity: 0;
+  translate: 0 20px;
+  transition: opacity 0.45s ease 0.28s, translate 0.45s ease 0.28s;
 }
 
 /* progress dashes above the slide text */
@@ -336,6 +336,9 @@ main > .section.light.carousel-scroll-container {
 .section.light .carousel-scroll .carousel-scroll-stage {
   top: calc((100svh - var(--carousel-scroll-frame-h)) / 2);
   height: auto;
+
+  /* the same space below the card, so it un-sticks when the source does */
+  padding-bottom: calc((100svh - var(--carousel-scroll-frame-h)) / 2);
 }
 
 @media (width >= 768px) {
@@ -347,5 +350,89 @@ main > .section.light.carousel-scroll-container {
 @media (width >= 1024px) {
   .section.light .carousel-scroll {
     --carousel-scroll-frame-h: min(100cqw * 9 / 16, 100svh - 120px);
+  }
+}
+
+/*
+ * Motion, like the source: slides stay laid out; their video cross-fades (0.7s) while the card
+ * keeps its full size and edges; the outgoing text hides quickly; the incoming heading settles
+ * from 105% and its copy rises 20px and fades in 0.28s later.
+ */
+.carousel-scroll .carousel-scroll-slide.is-active .carousel-scroll-slide-media {
+  opacity: 1;
+}
+
+.carousel-scroll.is-inview .carousel-scroll-slide.is-active .carousel-scroll-slide-content {
+  opacity: var(--carousel-scroll-text, 1);
+  visibility: visible;
+  transition: none;
+}
+
+.carousel-scroll .carousel-scroll-slide-content :is(h1, h2, h3, h4) {
+  scale: 1.05;
+  transform-origin: left center;
+  transition: scale 0.45s ease;
+}
+
+.carousel-scroll.is-inview .carousel-scroll-slide.is-active .carousel-scroll-slide-content :is(h1, h2, h3, h4) {
+  scale: 1;
+}
+
+.carousel-scroll.is-inview .carousel-scroll-slide.is-active .carousel-scroll-slide-content p {
+  opacity: 1;
+  translate: none;
+}
+
+/* finished slides' dashes are solid; on a change the dashes resize from the previous state */
+.carousel-scroll .carousel-scroll-indicator.is-past {
+  background-color: rgb(255 255 255);
+}
+
+.carousel-scroll .carousel-scroll-indicators.is-switching .carousel-scroll-indicator {
+  transition: none;
+}
+
+.carousel-scroll .carousel-scroll-indicators.is-switching .carousel-scroll-indicator.is-active {
+  width: 30px;
+}
+
+.carousel-scroll .carousel-scroll-indicators.is-switching .carousel-scroll-indicator.was-active {
+  width: 80px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-scroll .carousel-scroll-slide-media,
+  .carousel-scroll .carousel-scroll-slide-content,
+  .carousel-scroll .carousel-scroll-slide-content :is(h1, h2, h3, h4),
+  .carousel-scroll .carousel-scroll-slide-content p {
+    transition: none;
+  }
+}
+
+/* headings fade up word by word: 28px rise, 0.7s, 50ms apart, starting 0.1s after the change */
+.carousel-scroll .carousel-scroll-word {
+  display: inline-block;
+  opacity: 0;
+  translate: 0 0.875em;
+  transition: opacity 0.7s ease, translate 0.7s ease;
+  transition-delay: calc(0.1s + var(--word-index, 0) * 0.05s);
+}
+
+.carousel-scroll.is-inview .carousel-scroll-slide.is-active .carousel-scroll-word {
+  opacity: 1;
+  translate: none;
+}
+
+/* the Surface Laptop scroll story is 270% of the viewport tall (Ultra: 300%) */
+.section.light .carousel-scroll .carousel-scroll-track {
+  height: calc(var(--slide-count, 1) * 90vh);
+  height: calc(var(--slide-count, 1) * 90lvh);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-scroll .carousel-scroll-word {
+    opacity: 1;
+    translate: none;
+    transition: none;
   }
 }
