@@ -22,6 +22,14 @@
   src: local('Courier New');
 }
 
+/* font tokens are also defined page-wide, so anything outside main (e.g. an editor's editable
+   copy of a text) can still use them; the header and footer keep their own fonts */
+body.surface-product {
+  --body-font-family: 'Segoe Sans', segoe-sans-fallback, -apple-system, blinkmacsystemfont, 'Segoe UI', helvetica, arial, sans-serif;
+  --heading-font-family: var(--body-font-family);
+  --display-font-family: 'Aux Mono', aux-mono-fallback, 'Courier New', courier, monospace;
+}
+
 /* tokens */
 body.surface-product main {
   /* fonts */
@@ -454,17 +462,17 @@ body.surface-product main {
   text-align: center;
 }
 
-:where(body.surface-product) main .section.centered .default-content-wrapper > :is(h2, h3, p:not(:has(picture))) {
+:where(body.surface-product) main .section.centered .default-content-wrapper :is(h2, h3, p:not(:has(picture))) {
   max-width: 472px;
   margin-inline: auto;
 }
 
-:where(body.surface-product) main .section.centered .default-content-wrapper > p:has(picture) {
+:where(body.surface-product) main .section.centered .default-content-wrapper p:has(picture) {
   width: 100vw;
   margin: 64px 0 0 calc(50% - 50vw);
 }
 
-:where(body.surface-product) main .section.centered .default-content-wrapper > p:has(picture) img {
+:where(body.surface-product) main .section.centered .default-content-wrapper p:has(picture) img {
   display: block;
   width: 100%;
   max-width: none;
@@ -474,7 +482,7 @@ body.surface-product main {
 
 /* light product bands (e.g. Surface Laptop): section headlines are sans in normal case,
    intro copy is a large lead, centered bands get the source's 120px rhythm */
-:where(body.surface-product) main .section.light .default-content-wrapper > h3 {
+:where(body.surface-product) main .section.light .default-content-wrapper h3 {
   font-family: var(--body-font-family);
   text-transform: none;
   letter-spacing: var(--display-letter-spacing);
@@ -484,11 +492,11 @@ body.surface-product main {
   padding: 80px 0;
 }
 
-:where(body.surface-product) main .section.light.centered .default-content-wrapper > :is(h2, h3) {
+:where(body.surface-product) main .section.light.centered .default-content-wrapper :is(h2, h3) {
   max-width: 706px;
 }
 
-:where(body.surface-product) main .section.light.centered .default-content-wrapper > p:not(:has(picture)) {
+:where(body.surface-product) main .section.light.centered .default-content-wrapper p:not(:has(picture)) {
   max-width: 672px;
   font-size: var(--lead-font-size);
   line-height: 1.4;
@@ -500,14 +508,14 @@ body.surface-product main {
     padding: 120px 0;
   }
 
-  :where(body.surface-product) main .section.light.centered .default-content-wrapper > p:not(:has(picture)) {
+  :where(body.surface-product) main .section.light.centered .default-content-wrapper p:not(:has(picture)) {
     font-size: var(--heading-font-size-m);
   }
 }
 
 /* light-band section headlines step down on small screens, like the source (32px) */
 @media (width < 1024px) {
-  :where(body.surface-product) main .section.light .default-content-wrapper > h3 {
+  :where(body.surface-product) main .section.light .default-content-wrapper h3 {
     font-size: 32px;
     line-height: 1.4;
   }
@@ -545,43 +553,43 @@ body.surface-product main {
 }
 
 /* centred light intros, sized per breakpoint like the source */
-:where(body.surface-product) main .section.light.centered .default-content-wrapper > h3 + p:not(:has(picture)) {
+:where(body.surface-product) main .section.light.centered .default-content-wrapper h3 + p:not(:has(picture)) {
   margin-top: 19px;
 }
 
 @media (width < 1024px) {
-  :where(body.surface-product) main .section.light.centered .default-content-wrapper > p:not(:has(picture)) {
+  :where(body.surface-product) main .section.light.centered .default-content-wrapper p:not(:has(picture)) {
     font-size: 18px;
   }
 }
 
 /* intros above a scroll story or size tabs use a narrow 462px column with a 40px headline on tablets */
 @media (768px <= width < 1024px) {
-  :where(body.surface-product) main .section.light.centered:has(> :is(.carousel-scroll-wrapper, .tabs-media-wrapper)) .default-content-wrapper > h3 {
+  :where(body.surface-product) main .section.light.centered:has(> :is(.carousel-scroll-wrapper, .tabs-media-wrapper)) .default-content-wrapper h3 {
     max-width: 485px;
     font-size: 40px;
   }
 
-  :where(body.surface-product) main .section.light.centered:has(> :is(.carousel-scroll-wrapper, .tabs-media-wrapper)) .default-content-wrapper > p:not(:has(picture)) {
+  :where(body.surface-product) main .section.light.centered:has(> :is(.carousel-scroll-wrapper, .tabs-media-wrapper)) .default-content-wrapper p:not(:has(picture)) {
     max-width: 462px;
     font-size: 20px;
   }
 }
 
 @media (width >= 1024px) {
-  :where(body.surface-product) main .section.light.centered .default-content-wrapper > h3 + p:not(:has(picture)) {
+  :where(body.surface-product) main .section.light.centered .default-content-wrapper h3 + p:not(:has(picture)) {
     margin-top: 18px;
   }
 }
 
-:where(body.surface-product) main .section.light.centered .default-content-wrapper > h3:has(+ p) {
+:where(body.surface-product) main .section.light.centered .default-content-wrapper h3:has(+ p) {
   margin-bottom: 0;
 }
 
 /* size-tabs intro headline ("Good things come in threes"): larger, balanced on phones and a
    narrower column on tablets, so it breaks like the source */
 @media (width < 768px) {
-  :where(body.surface-product) main .section.light.centered:has(> .tabs-media-wrapper) .default-content-wrapper > h3 {
+  :where(body.surface-product) main .section.light.centered:has(> .tabs-media-wrapper) .default-content-wrapper h3 {
     font-size: 48px;
     line-height: 1.4;
     text-wrap: balance;
@@ -589,7 +597,7 @@ body.surface-product main {
 }
 
 @media (768px <= width < 1024px) {
-  :where(body.surface-product) main .section.light.centered:has(> .tabs-media-wrapper) .default-content-wrapper > h3 {
+  :where(body.surface-product) main .section.light.centered:has(> .tabs-media-wrapper) .default-content-wrapper h3 {
     max-width: 464px;
     text-wrap: wrap;
   }
@@ -630,7 +638,7 @@ body.surface-product main {
   text-align: center;
 }
 
-:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper > h4 {
+:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper h4 {
   margin: 0;
   font-family: var(--body-font-family);
   font-size: var(--heading-font-size-m);
@@ -640,13 +648,13 @@ body.surface-product main {
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
-:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper > h4 + :is(p, .button-container, .button-wrapper) {
+:where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper h4 + :is(p, .button-container, .button-wrapper) {
   display: block;
   margin: 20px 0 0;
 }
 
 @media (width >= 1024px) {
-  :where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper > h4 {
+  :where(body.surface-product) main .section .table-compare-wrapper + .default-content-wrapper h4 {
     font-size: 32px;
     line-height: 1.4;
   }
