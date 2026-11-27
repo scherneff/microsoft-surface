@@ -1,10 +1,44 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 
 const VIDEO_RE = /\.(mp4|webm|mov)(\?|#|$)/i;
+// Dynamic Media (OpenAPI) video delivery URL, with or without the /play player suffix, e.g.
+// https://delivery-p1-e2.adobeaemcloud.com/adobe/assets/urn:aaid:aem:<id>/play
+// (image deliveries carry an /as/<name>.<ext> suffix and don't match)
+const DM_VIDEO_RE = /^(.*\/adobe\/assets\/urn:aaid:aem:[^/]+)(?:\/play)?\/?$/i;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+/**
+ * Stream URLs for a Dynamic Media video: the adaptive HLS manifest, the original MP4 (for
+ * browsers without native HLS) and the poster thumbnail. A token on the URL is passed through.
+ * @returns {object|null} { hls, mp4, poster(width, height) } or null for other URLs
+ */
+function dynamicMediaVideo(href) {
+  let url;
+  try {
+    url = new URL(href, window.location.href);
+  } catch (e) {
+    return null;
+  }
+  const match = url.pathname.match(DM_VIDEO_RE);
+  if (!match) return null;
+  const base = `${url.origin}${match[1]}`;
+  const auth = new URLSearchParams();
+  ['token', 'expiryTime'].forEach((key) => {
+    if (url.searchParams.has(key)) auth.set(key, url.searchParams.get(key));
+  });
+  const query = auth.toString();
+  const withQuery = (path, sep = '?') => `${base}${path}${query ? `${sep}${query}` : ''}`;
+  return {
+    hls: withQuery('/manifest.m3u8'),
+    mp4: withQuery('/original/as/video.mp4'),
+    poster: (width, height) => withQuery(`/as/thumbnail.jpeg?width=${width}&height=${height}`, '&'),
+  };
+}
+
 function isVideoLink(a) {
-  return VIDEO_RE.test(a.href) || VIDEO_RE.test(a.textContent.trim());
+  return VIDEO_RE.test(a.href)
+    || VIDEO_RE.test(a.textContent.trim())
+    || !!dynamicMediaVideo(a.href);
 }
 
 function removeLink(a) {
@@ -24,10 +58,20 @@ function buildVideo(src) {
   video.setAttribute('playsinline', '');
   video.setAttribute('preload', 'metadata');
   video.setAttribute('aria-hidden', 'true');
-  const source = document.createElement('source');
-  source.src = src;
-  source.type = `video/${src.split('?')[0].split('.').pop()}`;
-  video.append(source);
+  const addSource = (url, type) => {
+    const source = document.createElement('source');
+    source.src = url;
+    source.type = type;
+    video.append(source);
+  };
+  const dm = dynamicMediaVideo(src);
+  if (dm) {
+    // adaptive stream where the browser plays HLS natively, the original MP4 everywhere else
+    addSource(dm.hls, 'application/vnd.apple.mpegurl');
+    addSource(dm.mp4, 'video/mp4');
+  } else {
+    addSource(src, `video/${src.split('?')[0].split('.').pop()}`);
+  }
   return video;
 }
 
@@ -87,7 +131,13 @@ function buildMedia(block) {
   const [desktop, mobile] = links.map((a) => a.href);
   links.forEach(removeLink);
   const isDesktop = window.matchMedia('(min-width: 900px)').matches;
-  const video = buildVideo(!isDesktop && mobile ? mobile : desktop);
+  const src = !isDesktop && mobile ? mobile : desktop;
+  const video = buildVideo(src);
+  // a Dynamic Media video without an authored poster uses the asset's thumbnail
+  const dm = dynamicMediaVideo(src);
+  if (dm && !picture) {
+    video.poster = isDesktop ? dm.poster(1920, 1080) : dm.poster(1080, 1920);
+  }
   media.append(video, buildToggle(video));
 
   if (!reducedMotion.matches) {
